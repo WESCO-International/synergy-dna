@@ -1,9 +1,10 @@
 {
   "tokenSetOrder": [
     "global",
-    "light-theme",
-    "dark-theme",
+    "light",
+    "dark",
     "semantic",
+    "Components",
     "Components/buttons",
     "Components/form/form",
     "Components/form/text-field",
@@ -14,16 +15,13 @@
     "Patterns/header",
     "Patterns/footer",
     "Patterns/modal",
-    "Brands/Rosalind/dark-theme",
-    "Brands/WKND/semantic",
-    "Brands/WKND/Components/button",
-    "Brands/WKND/Patterns/header",
-    "Brands/WKND/Patterns/footer",
-    "Brands/Vader/semantic",
-    "Brands/Vader/Components/button",
-    "Brands/Vader/Patterns/header",
-    "Brands/Vader/Patterns/footer",
-    "Brands/WKND/Patterns/modal",
-    "Brands/Vader/Patterns/modal"
+    "Brands/EECOL/light-theme",
+    "Brands/Wesco/light-theme",
+    "Brands/WireXpress/light-theme",
+    "Brands/WireXpress/dark-theme",
+    "Brands/WPD/light-theme",
+    "Brands/WPD/dark-theme",
+    "Brands/Wesco/dark-theme",
+    "Brands/EECOL/dark-theme"
   ]
 }

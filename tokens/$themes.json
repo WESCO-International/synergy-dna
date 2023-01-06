@@ -16,23 +16,44 @@
     "$figmaStyleReferences": {}
   },
   {
+    "id": "e2acbb884ca3a5a06c19f2d5bebf281dc1726196",
+    "name": "SDS",
+    "selectedTokenSets": {
+      "global": "source",
+      "light": "enabled",
+      "semantic": "enabled",
+      "Components": "enabled",
+      "Components/buttons": "enabled",
+      "Components/form/form": "enabled",
+      "Components/form/text-field": "enabled",
+      "Components/form/select": "enabled",
+      "Patterns/modal": "enabled",
+      "Patterns/footer": "enabled",
+      "Patterns/header": "enabled",
+      "Components/form/radio": "enabled",
+      "Components/form/checkbox": "enabled",
+      "Components/form/switch": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
     "id": "d9f2cce4dc0eb4e39ef88b252536812858475d5c",
     "name": "EECOL",
     "selectedTokenSets": {
       "global": "source",
-      "semantic": "source",
-      "Components": "source",
-      "Components/buttons": "source",
-      "Components/form/form": "source",
-      "Components/form/text-field": "source",
-      "Components/form/select": "source",
-      "Components/form/switch": "source",
-      "Components/form/checkbox": "source",
-      "Components/form/radio": "source",
-      "Patterns/header": "source",
-      "Patterns/footer": "source",
-      "Patterns/modal": "source",
-      "Brands/EECOL/light-theme": "enabled"
+      "semantic": "enabled",
+      "Components": "enabled",
+      "Components/buttons": "enabled",
+      "Components/form/form": "enabled",
+      "Components/form/text-field": "enabled",
+      "Components/form/select": "enabled",
+      "Components/form/switch": "enabled",
+      "Components/form/checkbox": "enabled",
+      "Components/form/radio": "enabled",
+      "Patterns/header": "enabled",
+      "Patterns/footer": "enabled",
+      "Patterns/modal": "enabled",
+      "light": "enabled"
     },
     "$figmaStyleReferences": {}
   }

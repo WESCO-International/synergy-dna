@@ -15,13 +15,15 @@
     "Patterns/header",
     "Patterns/footer",
     "Patterns/modal",
-    "Brands/EECOL/light-theme",
+    "Brands/Wesco/Patterns/header",
+    "Brands/Wesco/Patterns/footer",
     "Brands/Wesco/light-theme",
+    "Brands/Wesco/dark-theme",
+    "Brands/Wesco/semantic",
+    "Brands/Wesco/Components/button",
     "Brands/WireXpress/light-theme",
     "Brands/WireXpress/dark-theme",
     "Brands/WPD/light-theme",
-    "Brands/WPD/dark-theme",
-    "Brands/Wesco/dark-theme",
-    "Brands/EECOL/dark-theme"
+    "Brands/WPD/dark-theme"
   ]
 }

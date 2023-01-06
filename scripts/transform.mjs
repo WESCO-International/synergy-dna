@@ -63,7 +63,7 @@ function getStyleDictionaryConfig(theme, files) {
         buildPath: `dist/${theme}/`,
         prefix: 'sds',
         files: [{
-          destination: `${theme}.css`,
+          destination: `theme.css`,
           format: 'css/variables',
           options: {
             outputReferences: true,
@@ -77,7 +77,7 @@ function getStyleDictionaryConfig(theme, files) {
         buildPath: `dist/${theme}/`,
         prefix: 'sds',
         files: [{
-          destination: 'tokens.scss',
+          destination: 'theme.scss',
           format: 'scss/variables',
           options: {
             outputReferences: true,
@@ -91,7 +91,7 @@ function getStyleDictionaryConfig(theme, files) {
         prefix: 'token',
         files: [
           {
-            destination: `${theme}.json`,
+            destination: `theme.json`,
             format: 'json/nested',
           },
         ],

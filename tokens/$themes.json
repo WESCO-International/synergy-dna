@@ -3,10 +3,7 @@
     "id": "01b096b064db197d647817606a167f699670ff31",
     "name": "Wesco",
     "selectedTokenSets": {
-      "global": "source",
-      "Brands/Wesco/Components/button": "disabled",
-      "Brands/Wesco/semantic": "disabled",
-      "Brands/EECOL/semantic": "disabled"
+      "global": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -14,10 +11,7 @@
     "id": "5087ff3b74352a00e2ffc4bd9d2b048fc3877ec3",
     "name": "WireXpress",
     "selectedTokenSets": {
-      "global": "source",
-      "Brands/Wesco/Components/button": "disabled",
-      "Brands/Wesco/semantic": "disabled",
-      "Brands/EECOL/semantic": "disabled"
+      "global": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -38,8 +32,7 @@
       "Patterns/header": "enabled",
       "Components/form/radio": "enabled",
       "Components/form/checkbox": "enabled",
-      "Components/form/switch": "enabled",
-      "Brands/EECOL/semantic": "disabled"
+      "Components/form/switch": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -60,7 +53,6 @@
       "Patterns/header": "enabled",
       "Patterns/footer": "enabled",
       "Patterns/modal": "enabled",
-      "Brands/EECOL/semantic": "enabled",
       "light": "enabled"
     },
     "$figmaStyleReferences": {}

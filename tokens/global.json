@@ -960,19 +960,19 @@
         },
         "eecol": {
           "primary": {
-            "base": {
+            "light": {
               "value": "#0099d8",
               "type": "color"
             },
-            "dark": {
+            "base": {
               "value": "#0670a0",
               "type": "color"
             },
-            "darker": {
+            "dark": {
               "value": "#092a42",
               "type": "color"
             },
-            "darkest": {
+            "darker": {
               "value": "#012139",
               "type": "color"
             }

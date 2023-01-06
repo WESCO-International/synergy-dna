@@ -235,15 +235,15 @@
           "type": "color"
         },
         "light": {
-          "value": "{global.color.static.indigo.400}",
+          "value": "{global.color.brand.eecol.primary.light}",
           "type": "color"
         },
         "dark": {
-          "value": "{global.color.static.indigo.700}",
+          "value": "{global.color.brand.eecol.primary.dark}",
           "type": "color"
         },
         "darker": {
-          "value": "{global.color.static.indigo.800}",
+          "value": "{global.color.brand.eecol.primary.darker}",
           "type": "color"
         }
       },
@@ -271,11 +271,15 @@
           "type": "color"
         },
         "layer-1": {
-          "value": "{global.color.static.gray.200}",
+          "value": "#f4f6f5",
           "type": "color"
         },
         "layer-2": {
-          "value": "{global.color.static.gray.400}",
+          "value": "{global.color.brand.eecol.primary.darker}",
+          "type": "color"
+        },
+        "layer-3": {
+          "value": "{global.color.brand.eecol.primary.base}",
           "type": "color"
         },
         "disabled": {
@@ -290,7 +294,11 @@
       "foreground": {
         "on-base": {
           "default": {
-            "value": "{theme.color.gray.800}",
+            "value": "#646464",
+            "type": "color"
+          },
+          "header": {
+            "value": "{global.color.brand.eecol.primary.darker}",
             "type": "color"
           },
           "subtle": {
@@ -307,6 +315,10 @@
             "value": "{theme.color.gray.800}",
             "type": "color"
           },
+          "header": {
+            "value": "#646464",
+            "type": "color"
+          },
           "subtle": {
             "value": "{theme.color.gray.600}",
             "type": "color"
@@ -319,6 +331,28 @@
         "on-layer-2": {
           "default": {
             "value": "{theme.color.gray.800}",
+            "type": "color"
+          },
+          "header": {
+            "value": "{global.color.static.white}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{theme.color.gray.600}",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{theme.color.gray.500}",
+            "type": "color"
+          }
+        },
+        "on-layer-3": {
+          "default": {
+            "value": "{global.color.static.white}",
+            "type": "color"
+          },
+          "header": {
+            "value": "{global.color.static.white}",
             "type": "color"
           },
           "subtle": {

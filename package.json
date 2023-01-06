@@ -5,7 +5,6 @@
   "main": "index.js",
   "repository": "https://github.com/WESCO-International/synergy-dna",
   "license": "MIT",
-  "private": true,
   "author": "Wesco",
   "scripts": {
     "semantic-release": "semantic-release",
@@ -20,5 +19,8 @@
     "cz-conventional-changelog": "3.3.0",
     "token-transformer": "0.0.28",
     "style-dictionary": "3.7.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

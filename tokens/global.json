@@ -977,6 +977,20 @@
               "type": "color"
             }
           }
+        },
+        "SDS": {
+          "primary": {
+            "base": {
+              "value": "#800080",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "base": {
+              "value": "#b83280",
+              "type": "color"
+            }
+          }
         }
       }
     },

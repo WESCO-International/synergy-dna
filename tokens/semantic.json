@@ -231,7 +231,7 @@
     "color": {
       "primary": {
         "base": {
-          "value": "{global.color.static.indigo.600}",
+          "value": "{global.color.brand.eecol.primary.base}",
           "type": "color"
         },
         "light": {

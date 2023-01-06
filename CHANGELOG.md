@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/WESCO-International/synergy-dna/compare/v1.0.3...v1.0.4) (2023-01-06)
+
+
+### Bug Fixes
+
+* int SDS Tokens ([c9a5520](https://github.com/WESCO-International/synergy-dna/commit/c9a55203e7fcf12baaa19c613701a9658c85e8ca))
+
 ## [1.0.3](https://github.com/WESCO-International/synergy-dna/compare/v1.0.2...v1.0.3) (2023-01-06)
 
 

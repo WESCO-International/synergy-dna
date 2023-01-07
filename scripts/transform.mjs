@@ -104,8 +104,9 @@ async function transformTokens() {
   const tokenThemesBuffer = await fs.readFile('./tokens/$themes.json');
   const themesJson = JSON.parse(tokenThemesBuffer.toString());
 
-  themesJson.forEach((theme) => {
+  themesJson.forEach(async (theme) => {
     const sourceSets = [];
+    const { name: themeName } = theme;
     const sets = Object.keys(theme.selectedTokenSets).filter((set) => {
       const type = theme.selectedTokenSets[set];
       if (type === 'disabled') {
@@ -119,15 +120,30 @@ async function transformTokens() {
       return true;
     });
 
-    const tokenTransformerArgs = ['token-transformer', '--throwErrorWhenNotResolved', '--expandTypography=false', '--expandShadow=true', 'tokens', `./tokens/${theme.name}.json`, sets.join(','), sourceSets.join(',')];
+    const transformerArgs = ['token-transformer', '--throwErrorWhenNotResolved', '--expandTypography=false', '--expandShadow=true', 'tokens', `./tokens/${theme.name}.json`, sets.join(','), sourceSets.join(',')];
+	console.log( [ 'npx', ...transformerArgs ].join( ' ' ) );
 
-    spawnSync('npx', tokenTransformerArgs);
+    const transformResult = spawnSync('npx', transformerArgs);
+    if ( transformResult.status > 0 ) {
+        console.error('Error: Unable to transform figma tokens');
+	} 
 
-    const sd = StyleDictionary.extend(getStyleDictionaryConfig(theme.name, [`./tokens/${theme.name}.json`]));
-    sd.buildAllPlatforms();
+    try {
+        const themeSDTokensPath = `./tokens/${themeName}.json`;
 
-    // Cleanup build
-    fs.unlink(`./tokens/${theme.name}.json`);
+        // Verify theme exists
+        await fs.access(themeSDTokensPath);
+
+        // Convert tokens to variable files
+        const sd = StyleDictionary.extend(getStyleDictionaryConfig(themeName, [themeSDTokensPath]));
+        sd.buildAllPlatforms();
+
+        // Cleanup build
+        fs.unlink(`./tokens/${themeName}.json`);
+    }catch(err){
+        console.log(`No tokens for ${themeName}`)
+    }
+
   });
 }
 

@@ -501,7 +501,7 @@
       },
       "link": {
         "base": {
-          "value": "{global.color.static.indigo.750}",
+          "value": "{global.color.static.indigo.700}",
           "type": "color"
         },
         "hover": {

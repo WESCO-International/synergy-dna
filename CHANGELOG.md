@@ -1,3 +1,11 @@
+## [1.0.6](https://github.com/WESCO-International/synergy-dna/compare/v1.0.5...v1.0.6) (2023-01-07)
+
+
+### Bug Fixes
+
+* broken reference ([4b55aad](https://github.com/WESCO-International/synergy-dna/commit/4b55aadd9248920901aa89e1f51541da5ef1bc48))
+* improve transform error handling ([cf822f3](https://github.com/WESCO-International/synergy-dna/commit/cf822f3819ad3129422707d0dbc3794b812f979a))
+
 ## [1.0.5](https://github.com/WESCO-International/synergy-dna/compare/v1.0.4...v1.0.5) (2023-01-06)
 
 

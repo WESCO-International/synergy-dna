@@ -50,7 +50,7 @@
         "primary": {
           "default": {
             "background-color": {
-              "value": "{semantic.color.primary.base}",
+              "value": "{global.color.brand.eecol.primary.darkest}",
               "type": "color"
             },
             "foreground-color": {
@@ -64,7 +64,7 @@
           },
           "hover": {
             "background-color": {
-              "value": "{semantic.color.primary.dark}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "foreground-color": {
@@ -78,7 +78,7 @@
           },
           "down": {
             "background-color": {
-              "value": "{semantic.color.primary.darker}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "foreground-color": {
@@ -92,7 +92,7 @@
           },
           "key-focus": {
             "background-color": {
-              "value": "{semantic.color.primary.base}",
+              "value": "{global.color.brand.eecol.primary.darkest}",
               "type": "color"
             },
             "foreground-color": {
@@ -100,7 +100,7 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.border.focus}",
+              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             }
           },
@@ -122,63 +122,63 @@
         "secondary": {
           "default": {
             "background-color": {
-              "value": "{semantic.color.transparent}",
+              "value": "{global.color.static.white}",
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.secondary.base}",
+              "value": "{global.color.brand.eecol.primary.darkest}",
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.secondary.base}",
+              "value": "{global.color.brand.eecol.primary.darkest}",
               "type": "color"
             }
           },
           "hover": {
             "background-color": {
-              "value": "{semantic.color.secondary.base}",
+              "value": "{global.color.static.white}",
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.foreground.on-secondary.default}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.secondary.base}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             }
           },
           "down": {
             "background-color": {
-              "value": "{semantic.color.secondary.darker}",
+              "value": "{global.color.static.white}",
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.foreground.on-secondary.default}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.secondary.base}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             }
           },
           "key-focus": {
             "background-color": {
-              "value": "{semantic.color.transparent}",
+              "value": "{global.color.static.white}",
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.secondary.base}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.border.focus}",
+              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             }
           },
           "disabled": {
             "background-color": {
-              "value": "{semantic.color.background.disabled}",
+              "value": "{global.color.static.white}",
               "type": "color"
             },
             "foreground-color": {
@@ -186,7 +186,7 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.border.disabled}",
+              "value": "{semantic.color.foreground.on-disabled.default}",
               "type": "color"
             }
           }
@@ -198,7 +198,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.primary.base}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "border-color": {
@@ -212,7 +212,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.primary.dark}",
+              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             },
             "border-color": {
@@ -226,7 +226,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.primary.darker}",
+              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             },
             "border-color": {
@@ -240,11 +240,11 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.primary.base}",
+              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.border.focus}",
+              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             }
           },
@@ -254,7 +254,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.foreground.on-disabled.subtle}",
+              "value": "{semantic.color.foreground.on-disabled.default}",
               "type": "color"
             },
             "border-color": {

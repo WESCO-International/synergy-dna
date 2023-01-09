@@ -352,7 +352,7 @@
         },
         "on-disabled": {
           "default": {
-            "value": "{theme.color.gray.400}",
+            "value": "#646464",
             "type": "color"
           },
           "subtle": {

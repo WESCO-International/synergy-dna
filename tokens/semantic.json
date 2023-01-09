@@ -24,31 +24,31 @@
     },
     "font-family": {
       "display": {
-        "value": "Source Sans Pro",
+        "value": "Nunito, sans-serif",
         "type": "fontFamilies"
       },
       "heading": {
-        "value": "Source Sans Pro",
+        "value": "Nunito, sans-serif",
         "type": "fontFamilies"
       },
       "eyebrow": {
-        "value": "Source Sans Pro",
+        "value": "Nunito, sans-serif",
         "type": "fontFamilies"
       },
       "subtitle": {
-        "value": "Source Sans Pro",
+        "value": "Nunito, sans-serif",
         "type": "fontFamilies"
       },
       "caption": {
-        "value": "Source Sans Pro",
+        "value": "Nunito, sans-serif",
         "type": "fontFamilies"
       },
       "mono": {
-        "value": "Source Sans Pro",
+        "value": "Source Code Pro, Courier New",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Source Sans Pro",
+        "value": "arial",
         "type": "fontFamilies"
       }
     },
@@ -67,23 +67,23 @@
           "type": "fontSizes"
         },
         "heading-1": {
-          "value": "40",
-          "type": "fontSizes"
-        },
-        "heading-2": {
-          "value": "36",
-          "type": "fontSizes"
-        },
-        "heading-3": {
           "value": "32",
           "type": "fontSizes"
         },
-        "heading-4": {
+        "heading-2": {
           "value": "26",
           "type": "fontSizes"
         },
+        "heading-3": {
+          "value": "20",
+          "type": "fontSizes"
+        },
+        "heading-4": {
+          "value": "16",
+          "type": "fontSizes"
+        },
         "heading-5": {
-          "value": "24",
+          "value": "13",
           "type": "fontSizes"
         },
         "subtitle": {
@@ -109,23 +109,23 @@
           "type": "fontSizes"
         },
         "heading-1": {
-          "value": "32",
-          "type": "fontSizes"
-        },
-        "heading-2": {
           "value": "26",
           "type": "fontSizes"
         },
-        "heading-3": {
-          "value": "24",
-          "type": "fontSizes"
-        },
-        "heading-4": {
+        "heading-2": {
           "value": "22",
           "type": "fontSizes"
         },
-        "heading-5": {
+        "heading-3": {
           "value": "18",
+          "type": "fontSizes"
+        },
+        "heading-4": {
+          "value": "15",
+          "type": "fontSizes"
+        },
+        "heading-5": {
+          "value": "12",
           "type": "fontSizes"
         },
         "subtitle": {
@@ -175,7 +175,7 @@
       },
       "section": {
         "max-width": {
-          "value": "{global.breakpoints.400}",
+          "value": "{global.breakpoints.500}",
           "type": "sizing"
         }
       },
@@ -223,7 +223,7 @@
       },
       "default-content-wrapper": {
         "margin-bottom": {
-          "value": "{global.size.900}",
+          "value": "{global.size.300}",
           "type": "sizing"
         }
       }
@@ -231,19 +231,19 @@
     "color": {
       "primary": {
         "base": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.static.indigo.600}",
           "type": "color"
         },
         "light": {
-          "value": "{global.color.brand.eecol.primary.light}",
+          "value": "{global.color.static.indigo.400}",
           "type": "color"
         },
         "dark": {
-          "value": "{global.color.brand.eecol.primary.dark}",
+          "value": "{global.color.static.indigo.700}",
           "type": "color"
         },
         "darker": {
-          "value": "{global.color.brand.eecol.primary.darker}",
+          "value": "{global.color.static.indigo.800}",
           "type": "color"
         }
       },
@@ -271,19 +271,15 @@
           "type": "color"
         },
         "layer-1": {
-          "value": "#f4f6f5",
+          "value": "#F4F6F5",
           "type": "color"
         },
         "layer-2": {
-          "value": "{global.color.brand.eecol.primary.darker}",
-          "type": "color"
-        },
-        "layer-3": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.eecol.primary.darkest}",
           "type": "color"
         },
         "disabled": {
-          "value": "{theme.color.gray.300}",
+          "value": "#D1D3D5",
           "type": "color"
         },
         "input": {
@@ -294,11 +290,7 @@
       "foreground": {
         "on-base": {
           "default": {
-            "value": "#646464",
-            "type": "color"
-          },
-          "header": {
-            "value": "{global.color.brand.eecol.primary.darker}",
+            "value": "{theme.color.gray.800}",
             "type": "color"
           },
           "subtle": {
@@ -315,10 +307,6 @@
             "value": "{theme.color.gray.800}",
             "type": "color"
           },
-          "header": {
-            "value": "#646464",
-            "type": "color"
-          },
           "subtle": {
             "value": "{theme.color.gray.600}",
             "type": "color"
@@ -330,29 +318,7 @@
         },
         "on-layer-2": {
           "default": {
-            "value": "{theme.color.gray.800}",
-            "type": "color"
-          },
-          "header": {
-            "value": "{global.color.static.white}",
-            "type": "color"
-          },
-          "subtle": {
-            "value": "{theme.color.gray.600}",
-            "type": "color"
-          },
-          "muted": {
-            "value": "{theme.color.gray.500}",
-            "type": "color"
-          }
-        },
-        "on-layer-3": {
-          "default": {
-            "value": "{global.color.static.white}",
-            "type": "color"
-          },
-          "header": {
-            "value": "{global.color.static.white}",
+            "value": "#ffffff",
             "type": "color"
           },
           "subtle": {
@@ -386,7 +352,7 @@
         },
         "on-disabled": {
           "default": {
-            "value": "{theme.color.gray.400}",
+            "value": "#646464",
             "type": "color"
           },
           "subtle": {
@@ -401,75 +367,27 @@
           }
         }
       },
-      "positive": {
+      "sucess": {
         "default": {
-          "value": "{global.color.static.green.600}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{global.color.static.green.500}",
-          "type": "color"
-        },
-        "down": {
-          "value": "{global.color.static.green.400}",
-          "type": "color"
-        },
-        "key-focus": {
-          "value": "{global.color.static.green.500}",
+          "value": "#2D7966",
           "type": "color"
         }
       },
-      "negative": {
+      "error": {
         "default": {
-          "value": "{global.color.static.red.600}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{global.color.static.red.500}",
-          "type": "color"
-        },
-        "down": {
-          "value": "{global.color.static.red.400}",
-          "type": "color"
-        },
-        "key-focus": {
-          "value": "{global.color.static.red.500}",
+          "value": "#B91817",
           "type": "color"
         }
       },
-      "notice": {
+      "warning": {
         "default": {
-          "value": "{global.color.static.orange.600}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{global.color.static.orange.500}",
-          "type": "color"
-        },
-        "down": {
-          "value": "{global.color.static.orange.400}",
-          "type": "color"
-        },
-        "key-focus": {
-          "value": "{global.color.static.orange.500}",
+          "value": "#EAAA00",
           "type": "color"
         }
       },
       "informative": {
         "default": {
-          "value": "{global.color.static.blue.600}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{global.color.static.blue.500}",
-          "type": "color"
-        },
-        "down": {
-          "value": "{global.color.static.blue.400}",
-          "type": "color"
-        },
-        "key-focus": {
-          "value": "{global.color.static.blue.500}",
+          "value": "#035F98",
           "type": "color"
         }
       },
@@ -479,7 +397,7 @@
       },
       "border": {
         "base": {
-          "value": "{theme.color.gray.200}",
+          "value": "#B4BDC1",
           "type": "color"
         },
         "hover": {
@@ -501,11 +419,11 @@
       },
       "link": {
         "base": {
-          "value": "{global.color.static.indigo.700}",
+          "value": "{global.color.brand.eecol.primary.dark}",
           "type": "color"
         },
         "hover": {
-          "value": "{global.color.static.indigo.800}",
+          "value": "{global.color.brand.eecol.primary.base}",
           "type": "color"
         }
       },
@@ -593,16 +511,32 @@
       },
       "gap": {
         "component": {
-          "sm": {
+          "xs": {
             "value": "{global.space.100}",
             "type": "spacing"
           },
-          "md": {
+          "sm": {
             "value": "{global.space.150}",
             "type": "spacing"
           },
-          "lg": {
+          "md": {
             "value": "{global.space.200}",
+            "type": "spacing"
+          },
+          "lg": {
+            "value": "{global.space.300}",
+            "type": "spacing"
+          },
+          "xl": {
+            "value": "{global.space.450}",
+            "type": "spacing"
+          },
+          "xxl": {
+            "value": "{global.space.600}",
+            "type": "spacing"
+          },
+          "xxxl": {
+            "value": "{global.space.700}",
             "type": "spacing"
           }
         }
@@ -610,21 +544,21 @@
       "section": {
         "desktop": {
           "padding-x": {
-            "value": "{global.space.400}",
+            "value": "{global.space.300}",
             "type": "spacing"
           },
           "padding-y": {
-            "value": "{global.space.1200}",
+            "value": "{global.space.300}",
             "type": "spacing"
           }
         },
         "mobile": {
           "padding-x": {
-            "value": "{global.space.250}",
+            "value": "{global.space.150}",
             "type": "spacing"
           },
           "padding-y": {
-            "value": "{global.space.600}",
+            "value": "{global.space.150}",
             "type": "spacing"
           }
         }
@@ -650,7 +584,7 @@
         },
         "heading": {
           "margin-bottom": {
-            "value": "{semantic.spacing.around.component.md}",
+            "value": "{semantic.spacing.around.component.lg}",
             "type": "spacing"
           }
         },
@@ -678,6 +612,10 @@
         "type": "lineHeights"
       },
       "subtitle": {
+        "value": "100%",
+        "type": "lineHeights"
+      },
+      "button": {
         "value": "100%",
         "type": "lineHeights"
       },
@@ -767,10 +705,6 @@
         "bold": {
           "value": "{semantic.font-weight.extra-bold}",
           "type": "fontWeights"
-        },
-        "semi-bold": {
-          "value": "{semantic.font-weight.body.semi-bold}",
-          "type": "fontWeights"
         }
       },
       "heading": {
@@ -780,10 +714,6 @@
         },
         "bold": {
           "value": "{semantic.font-weight.extra-bold}",
-          "type": "fontWeights"
-        },
-        "semi-bold": {
-          "value": "{semantic.font-weight.body.semi-bold}",
           "type": "fontWeights"
         }
       },
@@ -897,7 +827,7 @@
         "heading-1": {
           "value": {
             "fontFamily": "{semantic.font-family.heading}",
-            "fontWeight": "{semantic.font-weight.heading.semi-bold}",
+            "fontWeight": "{semantic.font-weight.heading.bold}",
             "lineHeight": "{semantic.line-height.heading}",
             "fontSize": "{semantic.font-size.desktop.heading-1}",
             "paragraphSpacing": "{semantic.paragraph-spacing.heading}",
@@ -910,7 +840,7 @@
         "heading-2": {
           "value": {
             "fontFamily": "{semantic.font-family.heading}",
-            "fontWeight": "{semantic.font-weight.heading.semi-bold}",
+            "fontWeight": "{semantic.font-weight.heading.bold}",
             "lineHeight": "{semantic.line-height.heading}",
             "fontSize": "{semantic.font-size.desktop.heading-2}",
             "paragraphSpacing": "{semantic.paragraph-spacing.heading}",
@@ -923,7 +853,7 @@
         "heading-3": {
           "value": {
             "fontFamily": "{semantic.font-family.heading}",
-            "fontWeight": "{semantic.font-weight.heading.semi-bold}",
+            "fontWeight": "{semantic.font-weight.heading.bold}",
             "lineHeight": "{semantic.line-height.heading}",
             "fontSize": "{semantic.font-size.desktop.heading-3}",
             "paragraphSpacing": "{semantic.paragraph-spacing.heading}",
@@ -936,7 +866,7 @@
         "heading-4": {
           "value": {
             "fontFamily": "{semantic.font-family.heading}",
-            "fontWeight": "{semantic.font-weight.heading.semi-bold}",
+            "fontWeight": "{semantic.font-weight.heading.bold}",
             "lineHeight": "{semantic.line-height.heading}",
             "fontSize": "{semantic.font-size.desktop.heading-4}",
             "paragraphSpacing": "{semantic.paragraph-spacing.heading}",
@@ -949,7 +879,7 @@
         "heading-5": {
           "value": {
             "fontFamily": "{semantic.font-family.heading}",
-            "fontWeight": "{semantic.font-weight.heading.semi-bold}",
+            "fontWeight": "{semantic.font-weight.heading.bold}",
             "lineHeight": "{semantic.line-height.heading}",
             "fontSize": "{semantic.font-size.desktop.heading-5}",
             "paragraphSpacing": "{semantic.paragraph-spacing.heading}",
@@ -1029,7 +959,7 @@
         "heading-1": {
           "value": {
             "fontFamily": "{semantic.font-family.heading}",
-            "fontWeight": "{semantic.font-weight.heading.semi-bold}",
+            "fontWeight": "{semantic.font-weight.heading.bold}",
             "lineHeight": "{semantic.line-height.heading}",
             "fontSize": "{semantic.font-size.mobile.heading-1}",
             "paragraphSpacing": "{semantic.paragraph-spacing.heading}",
@@ -1042,7 +972,7 @@
         "heading-2": {
           "value": {
             "fontFamily": "{semantic.font-family.heading}",
-            "fontWeight": "{semantic.font-weight.heading.semi-bold}",
+            "fontWeight": "{semantic.font-weight.heading.bold}",
             "lineHeight": "{semantic.line-height.heading}",
             "fontSize": "{semantic.font-size.mobile.heading-2}",
             "paragraphSpacing": "{semantic.paragraph-spacing.heading}",
@@ -1055,7 +985,7 @@
         "heading-3": {
           "value": {
             "fontFamily": "{semantic.font-family.heading}",
-            "fontWeight": "{semantic.font-weight.heading.semi-bold}",
+            "fontWeight": "{semantic.font-weight.heading.bold}",
             "lineHeight": "{semantic.line-height.heading}",
             "fontSize": "{semantic.font-size.mobile.heading-3}",
             "paragraphSpacing": "{semantic.paragraph-spacing.heading}",
@@ -1068,7 +998,7 @@
         "heading-4": {
           "value": {
             "fontFamily": "{semantic.font-family.heading}",
-            "fontWeight": "{semantic.font-weight.heading.semi-bold}",
+            "fontWeight": "{semantic.font-weight.heading.bold}",
             "lineHeight": "{semantic.line-height.heading}",
             "fontSize": "{semantic.font-size.mobile.heading-4}",
             "paragraphSpacing": "{semantic.paragraph-spacing.heading}",
@@ -1081,7 +1011,7 @@
         "heading-5": {
           "value": {
             "fontFamily": "{semantic.font-family.heading}",
-            "fontWeight": "{semantic.font-weight.heading.semi-bold}",
+            "fontWeight": "{semantic.font-weight.heading.bold}",
             "lineHeight": "{semantic.line-height.heading}",
             "fontSize": "{semantic.font-size.mobile.heading-5}",
             "paragraphSpacing": "{semantic.paragraph-spacing.heading}",

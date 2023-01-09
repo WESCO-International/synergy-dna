@@ -3,25 +3,25 @@
     "button": {
       "font-size": {
         "label": {
-          "value": "{global.font-size.md}",
+          "value": "{global.font-size.lg}",
           "type": "fontSizes"
         }
       },
       "font-family": {
         "label": {
-          "value": "Nunito, sans-serif",
+          "value": "Source Sans Pro",
           "type": "fontFamilies"
         }
       },
       "line-height": {
         "label": {
-          "value": "{semantic.line-height.body}",
+          "value": "{semantic.line-height.button}",
           "type": "lineHeights"
         }
       },
       "font-weight": {
         "label": {
-          "value": "{semantic.font-weight.normal}",
+          "value": "{semantic.font-weight.body.bold}",
           "type": "fontWeights"
         }
       },
@@ -50,7 +50,7 @@
         "primary": {
           "default": {
             "background-color": {
-              "value": "{semantic.color.primary.base}",
+              "value": "{global.color.brand.eecol.primary.darkest}",
               "type": "color"
             },
             "foreground-color": {
@@ -64,7 +64,7 @@
           },
           "hover": {
             "background-color": {
-              "value": "{semantic.color.primary.dark}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "foreground-color": {
@@ -78,7 +78,7 @@
           },
           "down": {
             "background-color": {
-              "value": "{semantic.color.primary.darker}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "foreground-color": {
@@ -92,7 +92,7 @@
           },
           "key-focus": {
             "background-color": {
-              "value": "{semantic.color.primary.base}",
+              "value": "{global.color.brand.eecol.primary.darkest}",
               "type": "color"
             },
             "foreground-color": {
@@ -100,7 +100,7 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.border.focus}",
+              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             }
           },
@@ -122,63 +122,63 @@
         "secondary": {
           "default": {
             "background-color": {
-              "value": "{semantic.color.transparent}",
+              "value": "{global.color.static.white}",
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.secondary.base}",
+              "value": "{global.color.brand.eecol.primary.darkest}",
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.secondary.base}",
+              "value": "{global.color.brand.eecol.primary.darkest}",
               "type": "color"
             }
           },
           "hover": {
             "background-color": {
-              "value": "{semantic.color.secondary.base}",
+              "value": "{global.color.static.white}",
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.foreground.on-secondary.default}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.secondary.base}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             }
           },
           "down": {
             "background-color": {
-              "value": "{semantic.color.secondary.darker}",
+              "value": "{global.color.static.white}",
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.foreground.on-secondary.default}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.secondary.base}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             }
           },
           "key-focus": {
             "background-color": {
-              "value": "{semantic.color.transparent}",
+              "value": "{global.color.static.white}",
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.secondary.base}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.border.focus}",
+              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             }
           },
           "disabled": {
             "background-color": {
-              "value": "{semantic.color.background.disabled}",
+              "value": "{global.color.static.white}",
               "type": "color"
             },
             "foreground-color": {
@@ -186,7 +186,7 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.border.disabled}",
+              "value": "{semantic.color.foreground.on-disabled.default}",
               "type": "color"
             }
           }
@@ -198,7 +198,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.primary.base}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "border-color": {
@@ -212,7 +212,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.primary.dark}",
+              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             },
             "border-color": {
@@ -226,7 +226,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.primary.darker}",
+              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             },
             "border-color": {
@@ -240,11 +240,11 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.primary.base}",
+              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.border.focus}",
+              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             }
           },
@@ -254,7 +254,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{semantic.color.foreground.on-disabled.subtle}",
+              "value": "{semantic.color.foreground.on-disabled.default}",
               "type": "color"
             },
             "border-color": {
@@ -289,11 +289,11 @@
         },
         "secondary": {
           "default": {
-            "value": "{semantic.border-width.sm}",
+            "value": "{semantic.border-width.md}",
             "type": "borderWidth"
           },
           "hover": {
-            "value": "{semantic.border-width.none}",
+            "value": "{semantic.border-width.md}",
             "type": "borderWidth"
           },
           "down": {
@@ -305,7 +305,7 @@
             "type": "borderWidth"
           },
           "disabled": {
-            "value": "{semantic.border-width.none}",
+            "value": "{semantic.border-width.md}",
             "type": "borderWidth"
           }
         },
@@ -346,20 +346,6 @@
           "type": "borderRadius"
         }
       },
-      "spacing": {
-        "padding-x": {
-          "value": "{semantic.spacing.around.component.lg}",
-          "type": "spacing"
-        },
-        "padding-y": {
-          "value": "{semantic.spacing.around.component.md}",
-          "type": "spacing"
-        },
-        "gap": {
-          "value": "{semantic.spacing.gap.component.md}",
-          "type": "spacing"
-        }
-      },
       "paragraph-spacing": {
         "label": {
           "value": "0",
@@ -374,8 +360,44 @@
       },
       "text-case": {
         "label": {
-          "value": "none",
+          "value": "uppercase",
           "type": "textCase"
+        }
+      },
+      "spacing": {
+        "default": {
+          "padding-x": {
+            "value": "{semantic.spacing.around.component.md}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{semantic.spacing.around.component.xs}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{semantic.spacing.gap.component.sm}",
+            "type": "spacing"
+          }
+        },
+        "hug": {
+          "padding-x": {
+            "value": "{semantic.spacing.around.component.md}",
+            "type": "spacing"
+          },
+          "padding-y": {
+            "value": "{semantic.spacing.around.component.xs}",
+            "type": "spacing"
+          },
+          "gap": {
+            "value": "{semantic.spacing.gap.component.sm}",
+            "type": "spacing"
+          }
+        }
+      },
+      "sizing": {
+        "height": {
+          "value": "{global.size.550}",
+          "type": "sizing"
         }
       }
     }

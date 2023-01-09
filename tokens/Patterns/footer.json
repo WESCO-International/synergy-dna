@@ -4,7 +4,7 @@
       "color": {
         "background": {
           "base": {
-            "value": "{global.color.static.slate.850}",
+            "value": "{global.color.brand.eecol.primary.darkest}",
             "type": "color"
           }
         },
@@ -16,7 +16,7 @@
         },
         "seperator": {
           "on-base": {
-            "value": "{global.color.static.slate.800}",
+            "value": "#646464",
             "type": "color"
           }
         }

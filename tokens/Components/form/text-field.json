@@ -54,7 +54,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{semantic.color.positive.default}",
+            "value": "{semantic.color.sucess.default}",
             "type": "color"
           }
         },
@@ -68,7 +68,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{semantic.color.negative.default}",
+            "value": "{semantic.color.error.default}",
             "type": "color"
           }
         },
@@ -127,7 +127,7 @@
           "type": "spacing"
         },
         "space-between": {
-          "value": "{semantic.spacing.gap.component.sm}",
+          "value": "{semantic.spacing.gap.component.xs}",
           "type": "spacing"
         }
       },

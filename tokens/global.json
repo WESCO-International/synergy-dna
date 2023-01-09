@@ -63,7 +63,7 @@
       },
       "lg": {
         "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} * {global.font-size._scale}, 0)"
+        "value": "roundTo({global.font-size._base} * {global.font-size._scale} * .95, 0)"
       },
       "xl": {
         "type": "fontSizes",
@@ -1055,6 +1055,10 @@
       },
       "500": {
         "value": "40",
+        "type": "sizing"
+      },
+      "550": {
+        "value": "44",
         "type": "sizing"
       },
       "600": {

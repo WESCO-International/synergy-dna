@@ -1,3 +1,12 @@
+## [1.0.7](https://github.com/WESCO-International/synergy-dna/compare/v1.0.6...v1.0.7) (2023-01-09)
+
+
+### Bug Fixes
+
+* Buttons updates ([578cbf1](https://github.com/WESCO-International/synergy-dna/commit/578cbf1e0cd3b935c03b3bf9fa80b2f3dd4b9866))
+* global button addition ([fe985ad](https://github.com/WESCO-International/synergy-dna/commit/fe985ada7f44e0fc1b72617c654807e497d986b8))
+* Global, button and color changes ([f99ac91](https://github.com/WESCO-International/synergy-dna/commit/f99ac91f8f7fe6a3d336bb9e3c8cdc94efc09a61))
+
 ## [1.0.6](https://github.com/WESCO-International/synergy-dna/compare/v1.0.5...v1.0.6) (2023-01-07)
 
 

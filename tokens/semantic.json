@@ -24,31 +24,31 @@
     },
     "font-family": {
       "display": {
-        "value": "Nunito, sans-serif",
+        "value": "Source Sans Pro",
         "type": "fontFamilies"
       },
       "heading": {
-        "value": "Nunito, sans-serif",
+        "value": "Source Sans Pro",
         "type": "fontFamilies"
       },
       "eyebrow": {
-        "value": "Nunito, sans-serif",
+        "value": "Source Sans Pro",
         "type": "fontFamilies"
       },
       "subtitle": {
-        "value": "Nunito, sans-serif",
+        "value": "Source Sans Pro",
         "type": "fontFamilies"
       },
       "caption": {
-        "value": "Nunito, sans-serif",
+        "value": "Source Sans Pro",
         "type": "fontFamilies"
       },
       "mono": {
-        "value": "Source Code Pro, Courier New",
+        "value": "Source Sans Pro",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "arial",
+        "value": "Source Sans Pro",
         "type": "fontFamilies"
       }
     },
@@ -290,7 +290,11 @@
       "foreground": {
         "on-base": {
           "default": {
-            "value": "{theme.color.gray.800}",
+            "value": "#646464",
+            "type": "color"
+          },
+          "heading": {
+            "value": "{global.color.brand.eecol.primary.darkest}",
             "type": "color"
           },
           "subtle": {
@@ -304,7 +308,11 @@
         },
         "on-layer-1": {
           "default": {
-            "value": "{theme.color.gray.800}",
+            "value": "#646464",
+            "type": "color"
+          },
+          "heading": {
+            "value": "{global.color.brand.eecol.primary.darkest}",
             "type": "color"
           },
           "subtle": {
@@ -318,6 +326,10 @@
         },
         "on-layer-2": {
           "default": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "heading": {
             "value": "#ffffff",
             "type": "color"
           },
@@ -397,7 +409,7 @@
       },
       "border": {
         "base": {
-          "value": "#B4BDC1",
+          "value": "{global.color.static.stone.450}",
           "type": "color"
         },
         "hover": {
@@ -409,7 +421,7 @@
           "type": "color"
         },
         "focus": {
-          "value": "{semantic.color.secondary.light}",
+          "value": "{global.color.brand.eecol.primary.base}",
           "type": "color"
         },
         "disabled": {

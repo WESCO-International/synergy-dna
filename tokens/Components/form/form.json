@@ -7,7 +7,7 @@
           "type": "fontSizes"
         },
         "help": {
-          "value": "{global.font-size.xs}",
+          "value": "{global.font-size.sm}",
           "type": "fontSizes"
         }
       },
@@ -23,11 +23,11 @@
       },
       "line-height": {
         "label": {
-          "value": "150%",
+          "value": "125%",
           "type": "lineHeights"
         },
         "help": {
-          "value": "150%",
+          "value": "125%",
           "type": "lineHeights"
         }
       },
@@ -106,36 +106,88 @@
       "spacing": {
         "label": {
           "padding-bottom": {
-            "value": "{global.space.50}",
+            "value": "{global.space.35}",
             "type": "spacing"
           },
           "padding-right": {
-            "value": "{semantic.spacing.around.component.xl}",
+            "value": "{semantic.spacing.around.component.md}",
             "type": "spacing",
             "description": "Padding of component label, like the label on a checkbox"
           }
         },
         "help": {
           "padding-top": {
-            "value": "{global.space.100}",
+            "value": "{global.space.35}",
             "type": "spacing"
           }
         },
         "group": {
           "margin-bottom": {
-            "value": "{global.space.200}",
+            "value": "{global.space.300}",
             "type": "spacing"
           }
         }
       },
       "color": {
-        "label": {
-          "value": "{theme.color.gray.800}",
-          "type": "color"
+        "tyography": {
+          "label": {
+            "default": {
+              "value": "{global.color.static.stone.450}",
+              "type": "color"
+            }
+          },
+          "help": {
+            "default": {
+              "value": "{global.color.static.stone.450}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "default": {
+              "value": "{semantic.color.error.default}",
+              "type": "color"
+            }
+          }
         },
-        "help": {
-          "value": "{theme.color.gray.800}",
-          "type": "color"
+        "border": {
+          "default": {
+            "value": "{global.color.static.stone.450}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{global.color.static.stone.450}",
+            "type": "color"
+          },
+          "disable": {
+            "value": "#B4BDC1",
+            "type": "color"
+          },
+          "error": {
+            "value": "{semantic.color.error.default}",
+            "type": "color"
+          },
+          "key-focus": {
+            "value": "{global.color.brand.eecol.primary.base}",
+            "type": "color"
+          },
+          "sucess": {
+            "value": "{semantic.color.sucess.default}",
+            "type": "color"
+          }
+        }
+      },
+      "border-width": {
+        "default": {
+          "value": "{global.border-width.100}",
+          "type": "borderWidth"
+        },
+        "hover": {
+          "value": "{global.border-width.100}",
+          "type": "borderWidth"
+        },
+        "key-focus": {
+          "value": "{global.border-width.200}",
+          "type": "borderWidth"
         }
       }
     }

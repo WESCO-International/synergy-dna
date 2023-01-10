@@ -123,6 +123,10 @@
             "value": "#666",
             "type": "color"
           },
+          "450": {
+            "value": "#646464",
+            "type": "color"
+          },
           "500": {
             "value": "#555",
             "type": "color"
@@ -1149,6 +1153,10 @@
     "space": {
       "25": {
         "value": "{global.space.base} * .25",
+        "type": "spacing"
+      },
+      "35": {
+        "value": "{global.space.base} * .50",
         "type": "spacing"
       },
       "50": {

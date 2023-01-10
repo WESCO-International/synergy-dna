@@ -7,7 +7,7 @@
           "type": "fontSizes"
         },
         "help": {
-          "value": "{global.font-size.xs}",
+          "value": "{global.font-size.sm}",
           "type": "fontSizes"
         }
       },
@@ -23,11 +23,11 @@
       },
       "line-height": {
         "label": {
-          "value": "150%",
+          "value": "125%",
           "type": "lineHeights"
         },
         "help": {
-          "value": "150%",
+          "value": "125%",
           "type": "lineHeights"
         }
       },
@@ -170,6 +170,20 @@
             "value": "{semantic.color.sucess.default}",
             "type": "color"
           }
+        }
+      },
+      "border-width": {
+        "default": {
+          "value": "{global.border-width.100}",
+          "type": "borderWidth"
+        },
+        "hover": {
+          "value": "{global.border-width.100}",
+          "type": "borderWidth"
+        },
+        "on-focus": {
+          "value": "{global.border-width.200}",
+          "type": "borderWidth"
         }
       }
     }

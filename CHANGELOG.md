@@ -1,3 +1,12 @@
+## [1.0.8](https://github.com/WESCO-International/synergy-dna/compare/v1.0.7...v1.0.8) (2023-01-10)
+
+
+### Bug Fixes
+
+* eecol theme ([ef159ce](https://github.com/WESCO-International/synergy-dna/commit/ef159ce8cdb9a6a96ef19fbf0449aee4146b1152))
+* global buttons and forms ([b139d2d](https://github.com/WESCO-International/synergy-dna/commit/b139d2d65a746e4d3b7edafc2f6ab7cded8c3511))
+* global form tokens ([5ba5cd0](https://github.com/WESCO-International/synergy-dna/commit/5ba5cd01b99a942ce97c309d9bffc26296ecf6ad))
+
 ## [1.0.7](https://github.com/WESCO-International/synergy-dna/compare/v1.0.6...v1.0.7) (2023-01-09)
 
 

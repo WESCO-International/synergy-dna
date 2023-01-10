@@ -421,7 +421,7 @@
           "type": "color"
         },
         "focus": {
-          "value": "{semantic.color.secondary.light}",
+          "value": "{global.color.brand.eecol.primary.base}",
           "type": "color"
         },
         "disabled": {

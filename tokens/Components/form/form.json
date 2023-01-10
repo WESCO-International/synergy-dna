@@ -131,19 +131,19 @@
       "color": {
         "tyography": {
           "label": {
-            "label": {
+            "default": {
               "value": "{global.color.static.stone.450}",
               "type": "color"
-            },
-            "on-foucs": {
+            }
+          },
+          "help": {
+            "default": {
               "value": "{global.color.static.stone.450}",
               "type": "color"
-            },
-            "help": {
-              "value": "{global.color.static.stone.450}",
-              "type": "color"
-            },
-            "error": {
+            }
+          },
+          "error": {
+            "default": {
               "value": "{semantic.color.error.default}",
               "type": "color"
             }
@@ -156,6 +156,10 @@
           },
           "hover": {
             "value": "{global.color.static.stone.450}",
+            "type": "color"
+          },
+          "disable": {
+            "value": "#B4BDC1",
             "type": "color"
           },
           "error": {
@@ -181,7 +185,7 @@
           "value": "{global.border-width.100}",
           "type": "borderWidth"
         },
-        "on-focus": {
+        "key-focus": {
           "value": "{global.border-width.200}",
           "type": "borderWidth"
         }

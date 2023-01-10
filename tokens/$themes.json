@@ -20,19 +20,19 @@
     "name": "EECOL",
     "selectedTokenSets": {
       "global": "source",
-      "semantic": "source",
-      "Components": "source",
-      "Components/buttons": "source",
-      "Components/form/form": "source",
-      "Components/form/text-field": "source",
-      "Components/form/select": "source",
-      "Components/form/switch": "source",
-      "Components/form/checkbox": "source",
-      "Components/form/radio": "source",
-      "Patterns/header": "source",
-      "Patterns/footer": "source",
-      "Patterns/modal": "source",
-      "Brands/EECOL/light-theme": "enabled"
+      "semantic": "enabled",
+      "Components": "enabled",
+      "Components/buttons": "enabled",
+      "Components/form/form": "enabled",
+      "Components/form/text-field": "enabled",
+      "Components/form/select": "enabled",
+      "Components/form/switch": "enabled",
+      "Components/form/checkbox": "enabled",
+      "Components/form/radio": "enabled",
+      "Patterns/header": "enabled",
+      "Patterns/footer": "enabled",
+      "Patterns/modal": "enabled",
+      "light": "enabled"
     },
     "$figmaStyleReferences": {}
   }

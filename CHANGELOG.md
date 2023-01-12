@@ -1,3 +1,14 @@
+## [1.0.18](https://github.com/wesco-international/synergy-dna/compare/v1.0.17...v1.0.18) (2023-01-12)
+
+
+### Bug Fixes
+
+* fixes and added XpressConnect brand colors ([ae17b55](https://github.com/wesco-international/synergy-dna/commit/ae17b55665e1b28ace1349142310563838f35344))
+* gap and sizing token update ([dc019d2](https://github.com/wesco-international/synergy-dna/commit/dc019d202678963ca6f1db1249d6b71d7ed8ac49))
+* global fixes for colors ([82ccb77](https://github.com/wesco-international/synergy-dna/commit/82ccb77fbe81d62877f4e63d74f04050b775f6b0))
+* Global style changes ([c37b493](https://github.com/wesco-international/synergy-dna/commit/c37b493aff185f95525d22b79964346bbd6683b3))
+* updated XpressConnect colors ([0348298](https://github.com/wesco-international/synergy-dna/commit/034829800c666729898e388b4ed82fb4e4cf80a6))
+
 ## [1.0.17](https://github.com/wesco-international/synergy-dna/compare/v1.0.16...v1.0.17) (2023-01-12)
 
 

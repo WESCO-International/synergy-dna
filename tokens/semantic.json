@@ -511,12 +511,40 @@
             "value": "{global.space.250}",
             "type": "spacing"
           },
-          "xxl": {
+          "2xl": {
             "value": "{global.space.300}",
             "type": "spacing"
           },
-          "xxxl": {
+          "3xl": {
             "value": "{global.space.400}",
+            "type": "spacing"
+          },
+          "4xl": {
+            "value": "{global.space.500}",
+            "type": "spacing"
+          },
+          "5xl": {
+            "value": "{global.space.600}",
+            "type": "spacing"
+          },
+          "6xl": {
+            "value": "{global.space.700}",
+            "type": "spacing"
+          },
+          "7xl": {
+            "value": "{global.space.800}",
+            "type": "spacing"
+          },
+          "8xl": {
+            "value": "{global.space.900}",
+            "type": "spacing"
+          },
+          "9xl": {
+            "value": "{global.space.1000}",
+            "type": "spacing"
+          },
+          "10xl": {
+            "value": "{global.space.1200}",
             "type": "spacing"
           }
         }

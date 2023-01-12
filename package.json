@@ -1,11 +1,22 @@
 {
-  "name": "@dylandepass/synergy-dna",
+  "name": "@WESCO-International/synergy-dna",
   "version": "1.0.8",
   "description": "Wesco Multibrand Design System (SDS)",
   "main": "index.js",
-  "repository": "https://github.com/WESCO-International/synergy-dna",
   "license": "MIT",
   "author": "Wesco",
+  "publishConfig": {
+    "@WESCO-International:registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesco-international/synergy-dna.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wesco-international/synergy-dna/issues"
+  },
+  "homepage": "https://github.com/wesco-international/synergy-dna#readme",
   "scripts": {
     "semantic-release": "semantic-release",
     "commit": "git-cz",
@@ -19,8 +30,5 @@
     "cz-conventional-changelog": "3.3.0",
     "token-transformer": "0.0.28",
     "style-dictionary": "3.7.1"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }

@@ -965,13 +965,11 @@
             "base": {
               "value": "#f28b00",
               "type": "color"
-            },
-            "dark": {
+            }
+          },
+          "secondary": {
+            "base": {
               "value": "#db6b30",
-              "type": "color"
-            },
-            "darker": {
-              "value": "#898c8d",
               "type": "color"
             }
           }

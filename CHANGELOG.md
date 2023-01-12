@@ -1,3 +1,13 @@
+## [1.0.17](https://github.com/wesco-international/synergy-dna/compare/v1.0.16...v1.0.17) (2023-01-12)
+
+
+### Bug Fixes
+
+* .npmrc auth token ([0915890](https://github.com/wesco-international/synergy-dna/commit/09158909f9f9cae02cdc29a5a1b6e70af9addd5f))
+* update .npmrc ([edb527e](https://github.com/wesco-international/synergy-dna/commit/edb527eb4f2e3e8f8779b117f390399b5926836d))
+* update .npmrc with lowercase token ([086b3b8](https://github.com/wesco-international/synergy-dna/commit/086b3b82729b9499e18988111942eb6a38c3323d))
+* updating yaml with env variables ([8ced6b3](https://github.com/wesco-international/synergy-dna/commit/8ced6b32947a6444c860414006f39c07a0328be5))
+
 ## [1.0.16](https://github.com/wesco-international/synergy-dna/compare/v1.0.15...v1.0.16) (2023-01-12)
 
 

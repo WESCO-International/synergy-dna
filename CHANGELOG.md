@@ -1,3 +1,91 @@
+## [1.0.18](https://github.com/wesco-international/synergy-dna/compare/v1.0.17...v1.0.18) (2023-01-12)
+
+
+### Bug Fixes
+
+* fixes and added XpressConnect brand colors ([ae17b55](https://github.com/wesco-international/synergy-dna/commit/ae17b55665e1b28ace1349142310563838f35344))
+* gap and sizing token update ([dc019d2](https://github.com/wesco-international/synergy-dna/commit/dc019d202678963ca6f1db1249d6b71d7ed8ac49))
+* global fixes for colors ([82ccb77](https://github.com/wesco-international/synergy-dna/commit/82ccb77fbe81d62877f4e63d74f04050b775f6b0))
+* Global style changes ([c37b493](https://github.com/wesco-international/synergy-dna/commit/c37b493aff185f95525d22b79964346bbd6683b3))
+* updated XpressConnect colors ([0348298](https://github.com/wesco-international/synergy-dna/commit/034829800c666729898e388b4ed82fb4e4cf80a6))
+
+## [1.0.17](https://github.com/wesco-international/synergy-dna/compare/v1.0.16...v1.0.17) (2023-01-12)
+
+
+### Bug Fixes
+
+* .npmrc auth token ([0915890](https://github.com/wesco-international/synergy-dna/commit/09158909f9f9cae02cdc29a5a1b6e70af9addd5f))
+* update .npmrc ([edb527e](https://github.com/wesco-international/synergy-dna/commit/edb527eb4f2e3e8f8779b117f390399b5926836d))
+* update .npmrc with lowercase token ([086b3b8](https://github.com/wesco-international/synergy-dna/commit/086b3b82729b9499e18988111942eb6a38c3323d))
+* updating yaml with env variables ([8ced6b3](https://github.com/wesco-international/synergy-dna/commit/8ced6b32947a6444c860414006f39c07a0328be5))
+
+## [1.0.16](https://github.com/wesco-international/synergy-dna/compare/v1.0.15...v1.0.16) (2023-01-12)
+
+
+### Bug Fixes
+
+* .npmrc update using GitHub token ([92818ac](https://github.com/wesco-international/synergy-dna/commit/92818ac94cdc43ec072ed3a6b5cbf7c00dc0ed27))
+
+## [1.0.15](https://github.com/wesco-international/synergy-dna/compare/v1.0.14...v1.0.15) (2023-01-12)
+
+
+### Bug Fixes
+
+* 3515235 ([ae9f813](https://github.com/wesco-international/synergy-dna/commit/ae9f8132e772dd184612510c473f3876bf8cb1c6))
+* 6666 ([54a2e23](https://github.com/wesco-international/synergy-dna/commit/54a2e238d3dd6c2a58912a59f92bb01e3dcdfc8a))
+* delete npmrc ([36560e5](https://github.com/wesco-international/synergy-dna/commit/36560e5964df4f7a5513039e3ff8b232de7bc186))
+* e ([9472819](https://github.com/wesco-international/synergy-dna/commit/94728194ffbe43153386a43f3396296e96b86da6))
+* Merge pull request [#22](https://github.com/wesco-international/synergy-dna/issues/22) from WESCO-International/github-packages ([5fb4440](https://github.com/wesco-international/synergy-dna/commit/5fb4440b013246522261679e573b1f2dcf181c61))
+* Merge pull request [#23](https://github.com/wesco-international/synergy-dna/issues/23) from WESCO-International/github-packages ([3965a33](https://github.com/wesco-international/synergy-dna/commit/3965a33a1f11826f717d5ea940fb588a79be8aeb))
+* Merge pull request [#24](https://github.com/wesco-international/synergy-dna/issues/24) from WESCO-International/github-packages ([7be44cf](https://github.com/wesco-international/synergy-dna/commit/7be44cfc971fdfefbd74185ebae722aa70c5c0bf))
+* Merge pull request [#25](https://github.com/wesco-international/synergy-dna/issues/25) from WESCO-International/github-packages ([2c66667](https://github.com/wesco-international/synergy-dna/commit/2c66667b87834f91f7c61c1115a00e4c5c05c70d))
+* npm publish ([962dea8](https://github.com/wesco-international/synergy-dna/commit/962dea855d14f52bc4f0ef57851d751b4c6f7988))
+* update semantic-release ([b0c10ff](https://github.com/wesco-international/synergy-dna/commit/b0c10ffb0d0cc7a87c6b8822d18751b8a56ab638))
+
+## [1.0.14](https://github.com/wesco-international/synergy-dna/compare/v1.0.13...v1.0.14) (2023-01-12)
+
+
+### Bug Fixes
+
+* 5555 ([19d0899](https://github.com/wesco-international/synergy-dna/commit/19d08998506f8b23f388d680343dd2b9391a23cc))
+* Merge pull request [#21](https://github.com/wesco-international/synergy-dna/issues/21) from WESCO-International/github-packages ([9884466](https://github.com/wesco-international/synergy-dna/commit/988446692863066e36a66c5c7076fba04f642cac))
+
+## [1.0.13](https://github.com/wesco-international/synergy-dna/compare/v1.0.12...v1.0.13) (2023-01-12)
+
+
+### Bug Fixes
+
+* 1123 ([c732f3c](https://github.com/wesco-international/synergy-dna/commit/c732f3ccd8101f5b524bc5c3dbf6be19a4651e3d))
+
+## [1.0.12](https://github.com/wesco-international/synergy-dna/compare/v1.0.11...v1.0.12) (2023-01-12)
+
+
+### Bug Fixes
+
+* 1111 ([538452a](https://github.com/wesco-international/synergy-dna/commit/538452a9cde929cbd5cb8578764c2c204c6e4f13))
+
+## [1.0.11](https://github.com/wesco-international/synergy-dna/compare/v1.0.10...v1.0.11) (2023-01-12)
+
+
+### Bug Fixes
+
+*  more ([41528a8](https://github.com/wesco-international/synergy-dna/commit/41528a8e3bc1236ff759a191b64255e74b4e9b68))
+
+## [1.0.10](https://github.com/wesco-international/synergy-dna/compare/v1.0.9...v1.0.10) (2023-01-12)
+
+
+### Bug Fixes
+
+* dADsd ([ecbcf04](https://github.com/wesco-international/synergy-dna/commit/ecbcf04388734a58a440d8bc3e29868f9b7afd65))
+* maybe ([f0803aa](https://github.com/wesco-international/synergy-dna/commit/f0803aa11c2dfaeb466deec2528c80a657ae944f))
+
+## [1.0.9](https://github.com/wesco-international/synergy-dna/compare/v1.0.8...v1.0.9) (2023-01-12)
+
+
+### Bug Fixes
+
+* let's see if this works ([666dd1c](https://github.com/wesco-international/synergy-dna/commit/666dd1c3602d7c50e471da7f1c52d1470dd360ac))
+
 ## [1.0.8](https://github.com/WESCO-International/synergy-dna/compare/v1.0.7...v1.0.8) (2023-01-10)
 
 

@@ -231,11 +231,11 @@
     "color": {
       "primary": {
         "base": {
-          "value": "{global.color.brand.eecol.primary.dark}",
+          "value": "{global.color.brand.XpressConnect.secondary.base}",
           "type": "color"
         },
         "light": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.XpressConnect.primary.base}",
           "type": "color"
         },
         "dark": {
@@ -275,7 +275,7 @@
           "type": "color"
         },
         "layer-2": {
-          "value": "{global.color.brand.eecol.primary.darkest}",
+          "value": "{global.color.brand.XpressConnect.secondary.base}",
           "type": "color"
         },
         "disabled": {
@@ -421,7 +421,7 @@
           "type": "color"
         },
         "focus": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.XpressConnect.primary.base}",
           "type": "color"
         },
         "disabled": {
@@ -431,11 +431,11 @@
       },
       "link": {
         "base": {
-          "value": "{global.color.brand.eecol.primary.dark}",
+          "value": "{global.color.brand.XpressConnect.secondary.base}",
           "type": "color"
         },
         "hover": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.XpressConnect.primary.base}",
           "type": "color"
         }
       },

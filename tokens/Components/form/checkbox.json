@@ -78,7 +78,7 @@
         }
       },
       "border-radius": {
-        "value": "{semantic.border-radius.default}",
+        "value": "{semantic.border-radius.sm}",
         "type": "borderRadius"
       },
       "border-width": {
@@ -113,7 +113,7 @@
       },
       "font-family": {
         "label": {
-          "value": "Nunito, sans-serif",
+          "value": "{semantic.font-family.body}",
           "type": "fontFamilies"
         }
       },

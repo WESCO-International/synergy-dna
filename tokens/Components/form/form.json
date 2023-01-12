@@ -132,13 +132,13 @@
         "tyography": {
           "label": {
             "default": {
-              "value": "{global.color.static.stone.450}",
+              "value": "{global.color.static.gray.800}",
               "type": "color"
             }
           },
           "help": {
             "default": {
-              "value": "{global.color.static.stone.450}",
+              "value": "{global.color.static.gray.800}",
               "type": "color"
             }
           },
@@ -151,15 +151,15 @@
         },
         "border": {
           "default": {
-            "value": "{global.color.static.stone.450}",
+            "value": "{global.color.static.gray.800}",
             "type": "color"
           },
           "hover": {
-            "value": "{global.color.static.stone.450}",
+            "value": "{global.color.static.gray.800}",
             "type": "color"
           },
           "disable": {
-            "value": "#B4BDC1",
+            "value": "{global.color.static.gray.400}",
             "type": "color"
           },
           "error": {
@@ -171,7 +171,7 @@
             "type": "color"
           },
           "sucess": {
-            "value": "{semantic.color.sucess.default}",
+            "value": "{semantic.color.success.default}",
             "type": "color"
           }
         }

@@ -334,15 +334,15 @@
       },
       "border-radius": {
         "primary": {
-          "value": "{semantic.border-radius.default}",
+          "value": "{semantic.border-radius.md}",
           "type": "borderRadius"
         },
         "secondary": {
-          "value": "{semantic.border-radius.default}",
+          "value": "{semantic.border-radius.md}",
           "type": "borderRadius"
         },
         "quiet": {
-          "value": "{semantic.border-radius.default}",
+          "value": "{semantic.border-radius.md}",
           "type": "borderRadius"
         }
       },

@@ -1,3 +1,11 @@
+## [1.0.20](https://github.com/wesco-international/synergy-dna/compare/v1.0.19...v1.0.20) (2023-01-12)
+
+
+### Bug Fixes
+
+* remove npm publish ([4c9008f](https://github.com/wesco-international/synergy-dna/commit/4c9008fe7dd97cc545d7aeb71da5b402ec01682c))
+* update version ([6954d00](https://github.com/wesco-international/synergy-dna/commit/6954d00e2cd3020a8c950e074a8de0a3d470ebad))
+
 ## [1.0.19](https://github.com/wesco-international/synergy-dna/compare/v1.0.18...v1.0.19) (2023-01-12)
 
 

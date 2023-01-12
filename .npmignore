@@ -21,3 +21,5 @@ test
 test-results.xml
 scripts/
 tokens/
+node_modules
+**/node_modules

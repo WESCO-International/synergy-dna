@@ -20,6 +20,7 @@ jobs:
           node-version: "18.13.0"
           registry-url: https://npm.pkg.github.com/
           scope: '@WESCO-International' 
+      - run:  cat .npmrc
       - name: GIT PREPARE REPOSITORY
         run: git checkout ${{ github.event.release.target_commitish }} && git pull # Checkout and pull the release target branch
       - name: GIT USER CONFIG

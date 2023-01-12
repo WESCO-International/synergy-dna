@@ -3,9 +3,7 @@
     "id": "01b096b064db197d647817606a167f699670ff31",
     "name": "Wesco",
     "selectedTokenSets": {
-      "global": "source",
-      "Brands/XpressConnect/semantic": "disabled",
-      "Brands/XpressConnect/light": "disabled"
+      "global": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -13,9 +11,7 @@
     "id": "5087ff3b74352a00e2ffc4bd9d2b048fc3877ec3",
     "name": "WireXpress",
     "selectedTokenSets": {
-      "global": "source",
-      "Brands/XpressConnect/semantic": "disabled",
-      "Brands/XpressConnect/light": "disabled"
+      "global": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -36,9 +32,7 @@
       "Patterns/header": "enabled",
       "Patterns/footer": "enabled",
       "Patterns/modal": "enabled",
-      "light": "enabled",
-      "Brands/XpressConnect/semantic": "disabled",
-      "Brands/XpressConnect/light": "disabled"
+      "light": "enabled"
     },
     "$figmaStyleReferences": {}
   }

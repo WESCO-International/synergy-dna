@@ -18,7 +18,7 @@
         },
         "checked": {
           "background-color": {
-            "value": "{semantic.color.primary.base}",
+            "value": "{global.color.brand.eecol.primary.base}",
             "type": "color"
           },
           "foreground-color": {
@@ -107,13 +107,13 @@
       },
       "font-size": {
         "label": {
-          "value": "{global.font-size.sm}",
+          "value": "{global.font-size.md}",
           "type": "fontSizes"
         }
       },
       "font-family": {
         "label": {
-          "value": "Nunito, sans-serif",
+          "value": "{semantic.font-family.body}",
           "type": "fontFamilies"
         }
       },

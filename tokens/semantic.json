@@ -231,19 +231,19 @@
     "color": {
       "primary": {
         "base": {
-          "value": "{global.color.static.indigo.600}",
+          "value": "{global.color.brand.eecol.primary.dark}",
           "type": "color"
         },
         "light": {
-          "value": "{global.color.static.indigo.400}",
+          "value": "{global.color.brand.eecol.primary.base}",
           "type": "color"
         },
         "dark": {
-          "value": "{global.color.static.indigo.700}",
+          "value": "{global.color.brand.eecol.primary.darker}",
           "type": "color"
         },
         "darker": {
-          "value": "{global.color.static.indigo.800}",
+          "value": "{global.color.brand.eecol.primary.darkest}",
           "type": "color"
         }
       },
@@ -290,7 +290,7 @@
       "foreground": {
         "on-base": {
           "default": {
-            "value": "#646464",
+            "value": "{global.color.static.gray.800}",
             "type": "color"
           },
           "heading": {
@@ -308,7 +308,7 @@
         },
         "on-layer-1": {
           "default": {
-            "value": "#646464",
+            "value": "{global.color.static.gray.800}",
             "type": "color"
           },
           "heading": {
@@ -326,7 +326,7 @@
         },
         "on-layer-2": {
           "default": {
-            "value": "#ffffff",
+            "value": "{global.color.static.white}",
             "type": "color"
           },
           "heading": {
@@ -364,7 +364,7 @@
         },
         "on-disabled": {
           "default": {
-            "value": "#646464",
+            "value": "{global.color.static.gray.800}",
             "type": "color"
           },
           "subtle": {
@@ -379,7 +379,7 @@
           }
         }
       },
-      "sucess": {
+      "success": {
         "default": {
           "value": "#2D7966",
           "type": "color"
@@ -409,15 +409,15 @@
       },
       "border": {
         "base": {
-          "value": "{global.color.static.stone.450}",
+          "value": "{global.color.static.gray.800}",
           "type": "color"
         },
         "hover": {
-          "value": "{semantic.color.primary.base}",
+          "value": "{global.color.static.gray.800}",
           "type": "color"
         },
         "down": {
-          "value": "{semantic.color.primary.base}",
+          "value": "{global.color.static.gray.800}",
           "type": "color"
         },
         "focus": {
@@ -457,7 +457,11 @@
       }
     },
     "border-radius": {
-      "default": {
+      "sm": {
+        "value": "{global.radii.50}",
+        "type": "borderRadius"
+      },
+      "md": {
         "value": "{global.radii.100}",
         "type": "borderRadius"
       },

@@ -78,35 +78,35 @@
             "type": "color"
           },
           "200": {
-            "value": "#edf2f7",
+            "value": "#dee0df",
             "type": "color"
           },
           "300": {
-            "value": "#e2e8f0",
+            "value": "#c9cac9",
             "type": "color"
           },
           "400": {
-            "value": "#cbd5e0",
+            "value": "#b3b5b4",
             "type": "color"
           },
           "500": {
-            "value": "#a0aec0",
+            "value": "#9fa09f",
             "type": "color"
           },
           "600": {
-            "value": "#718096",
+            "value": "#8b8b8b",
             "type": "color"
           },
           "700": {
-            "value": "#4a5568",
+            "value": "#777777",
             "type": "color"
           },
           "800": {
-            "value": "#2d3748",
+            "value": "#646464",
             "type": "color"
           },
           "900": {
-            "value": "#1a202c",
+            "value": "#696969",
             "type": "color"
           }
         },
@@ -959,6 +959,22 @@
               "type": "color"
             }
           }
+        },
+        "XpressConnect": {
+          "primary": {
+            "base": {
+              "value": "#f28b00",
+              "type": "color"
+            },
+            "dark": {
+              "value": "#db6b30",
+              "type": "color"
+            },
+            "darker": {
+              "value": "#898c8d",
+              "type": "color"
+            }
+          }
         }
       }
     },
@@ -1245,6 +1261,10 @@
         "value": "0",
         "type": "borderRadius"
       },
+      "50": {
+        "value": "2",
+        "type": "borderRadius"
+      },
       "100": {
         "value": "4",
         "type": "borderRadius"
@@ -1255,6 +1275,10 @@
       },
       "300": {
         "value": "8",
+        "type": "borderRadius"
+      },
+      "400": {
+        "value": "16",
         "type": "borderRadius"
       },
       "round": {

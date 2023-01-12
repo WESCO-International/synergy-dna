@@ -2,7 +2,7 @@ name: Semantic Release
 on:
   push:
     branches:
-      - 'main'
+      - "main"
 
 jobs:
   build:
@@ -10,10 +10,21 @@ jobs:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
       - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          fetch-depth: 0 # Pulls all history and tags for lerna to detect what packages changed
+          token: ${{ secrets.GITHUB_TOKEN }} # This token is available by default
       - name: Use Node.js 18.13.0
         uses: actions/setup-node@v3
         with:
-          node-version: '18.13.0'
+          node-version: "18.13.0"
+          registry-url: https://npm.pkg.github.com/
+      - name: GIT PREPARE REPOSITORY
+        run: git checkout ${{ github.event.release.target_commitish }} && git pull # Checkout and pull the release target branch
+      - name: GIT USER CONFIG
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com # Config user name and email for lerna publish commit
       - run: npm install
       - run: npm run build
       - run: npm run semantic-release

@@ -15,12 +15,12 @@
     "Patterns/header",
     "Patterns/footer",
     "Patterns/modal",
+    "Brands/XpressConnect/light",
+    "Brands/XpressConnect/semantic",
     "Brands/Wesco/light-theme",
-    "Brands/WireXpress/light-theme",
-    "Brands/WireXpress/dark-theme",
+    "Brands/Wesco/dark-theme",
     "Brands/WPD/light-theme",
     "Brands/WPD/dark-theme",
-    "Brands/Wesco/dark-theme",
     "Brands/EECOL/dark-theme"
   ]
 }

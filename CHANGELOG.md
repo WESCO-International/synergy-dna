@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/wesco-international/synergy-dna/compare/v1.0.15...v1.0.16) (2023-01-12)
+
+
+### Bug Fixes
+
+* .npmrc update using GitHub token ([92818ac](https://github.com/wesco-international/synergy-dna/commit/92818ac94cdc43ec072ed3a6b5cbf7c00dc0ed27))
+
 ## [1.0.15](https://github.com/wesco-international/synergy-dna/compare/v1.0.14...v1.0.15) (2023-01-12)
 
 

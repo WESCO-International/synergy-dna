@@ -1,3 +1,13 @@
+## [1.0.22](https://github.com/wesco-international/synergy-dna/compare/v1.0.21...v1.0.22) (2023-01-13)
+
+
+### Bug Fixes
+
+* checkin initial design system css ([413c68b](https://github.com/wesco-international/synergy-dna/commit/413c68b0e2fa5934019b2852f1287696a57a877d))
+* ignore docs on npm release ([47fd2e0](https://github.com/wesco-international/synergy-dna/commit/47fd2e07347c6132e6188dcb193dcd31c86620cd))
+* setup github release ([8ea4eb9](https://github.com/wesco-international/synergy-dna/commit/8ea4eb9661c60bcc6cdcf0c26437a2bd72d52eb6))
+* unbanish styles directory ([c358d4f](https://github.com/wesco-international/synergy-dna/commit/c358d4fdee2271ded111242df1fcef62722e4982))
+
 ## [1.0.21](https://github.com/wesco-international/synergy-dna/compare/v1.0.20...v1.0.21) (2023-01-13)
 
 

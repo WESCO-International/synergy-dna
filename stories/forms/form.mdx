@@ -1,0 +1,22 @@
+import { Meta, Story } from '@storybook/blocks';
+import * as TextFieldStories from './textfield.stories';
+
+<Meta title="Synergy Design System/Forms/Docs"/>
+
+# Forms
+
+HTML Forms are widely used in websites and web applications to collect information from users. 
+
+Forms are composed of multiple elements which can accept input, such as checkboxes, text fields, and radio buttons. The information can either be submitted to the server or used in the client-side script. 
+
+In Franklin, HTML Forms can be authored in a spreadsheet or manually created by developers using javascript. The [Franklin Forms Service](https://www.hlx.live/developer/forms) can be used to persist form data in a spreadsheet.
+
+## TextField
+
+Text fields allow users to enter free form text data such as names, email addresses and other text.
+
+<Story of={TextFieldStories.Default}/>
+
+### Required
+
+<Story of={TextFieldStories.Required}/>

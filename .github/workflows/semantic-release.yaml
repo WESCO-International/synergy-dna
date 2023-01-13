@@ -60,7 +60,7 @@ jobs:
 
     - name: commit
       run: |
-        git merge origin/main -m "Merge remote-tracking branch 'origin/main'"
+        git pull origin main
         git add .
         git commit -m "chore: Storybook Update"
         git push origin main

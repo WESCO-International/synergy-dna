@@ -1,3 +1,27 @@
+## [1.0.24](https://github.com/wesco-international/synergy-dna/compare/v1.0.23...v1.0.24) (2023-01-13)
+
+
+### Bug Fixes
+
+* update workflow to not use git-auto-commit-action ([770a7c9](https://github.com/wesco-international/synergy-dna/commit/770a7c9a4e0036201d0998854396529b6689e891))
+
+## [1.0.23](https://github.com/wesco-international/synergy-dna/compare/v1.0.22...v1.0.23) (2023-01-13)
+
+
+### Bug Fixes
+
+* update build storybook/release workflow ([0e4f5b6](https://github.com/wesco-international/synergy-dna/commit/0e4f5b60714285b6e6a4e57d2ca0e4cce05fc2bb))
+
+## [1.0.22](https://github.com/wesco-international/synergy-dna/compare/v1.0.21...v1.0.22) (2023-01-13)
+
+
+### Bug Fixes
+
+* checkin initial design system css ([413c68b](https://github.com/wesco-international/synergy-dna/commit/413c68b0e2fa5934019b2852f1287696a57a877d))
+* ignore docs on npm release ([47fd2e0](https://github.com/wesco-international/synergy-dna/commit/47fd2e07347c6132e6188dcb193dcd31c86620cd))
+* setup github release ([8ea4eb9](https://github.com/wesco-international/synergy-dna/commit/8ea4eb9661c60bcc6cdcf0c26437a2bd72d52eb6))
+* unbanish styles directory ([c358d4f](https://github.com/wesco-international/synergy-dna/commit/c358d4fdee2271ded111242df1fcef62722e4982))
+
 ## [1.0.21](https://github.com/wesco-international/synergy-dna/compare/v1.0.20...v1.0.21) (2023-01-13)
 
 

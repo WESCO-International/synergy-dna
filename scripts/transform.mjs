@@ -60,7 +60,7 @@ function getStyleDictionaryConfig(theme, files) {
     platforms: {
       css: {
         transformGroup: 'css',
-        buildPath: `brands/${theme}/`,
+        buildPath: `dist/${theme}/`,
         prefix: 'sds',
         files: [{
           destination: `theme.css`,
@@ -74,7 +74,7 @@ function getStyleDictionaryConfig(theme, files) {
       },
       scss: {
         transformGroup: 'scss',
-        buildPath: `brands/${theme}/`,
+        buildPath: `dist/${theme}/`,
         prefix: 'sds',
         files: [{
           destination: 'theme.scss',
@@ -87,7 +87,7 @@ function getStyleDictionaryConfig(theme, files) {
       },
       'web/js': {
         transformGroup: 'tokens-json',
-        buildPath: `brands/${theme}/`,
+        buildPath: `dist/${theme}/`,
         prefix: 'token',
         files: [
           {

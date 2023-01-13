@@ -4,40 +4,24 @@ export default {
   title: 'Synergy Design System/Forms/Switch',
 };
 
-const Template = ({ content }) => content;
-
-export const Default = Template.bind({});
-Default.parameters = {
-  title: 'Default',
-};
-Default.args = {
-  content: /* html */`
-            <form>  
+export const Switch = {
+  args: {
+    label: 'Wifi Settings',
+    value: 'Airplane Mode',
+    help: 'A clever desciption of this field',
+    required: false,
+    disabled: false
+  },
+  render: ({ label, required, disabled, help, value,...args }) => {
+    return /* html */`<form>
               <div class="group">
-                <label>Wifi Settings</label>
+                <label for="wifi">${label}</label>
                 <div>
-                  <input type="checkbox" id="switch" class="switch">
-                  <label for="switch">Airplane Mode</label>
+                  <input type="checkbox" id="wifi" class="switch" ${required ? 'required' : ''} ${disabled ? 'disabled' : ''}>
+                  <label for="wifi">${value}</label>
                 </div>
-                <span>A clever desciption of this field</span>
+                <span>${help}</span>
               </div>
-            </form>`,
-};
-
-export const Required = Template.bind({});
-Required.parameters = {
-  title: 'Required',
-};
-Required.args = {
-  content: /* html */`
-            <form>  
-              <div class="group">
-                <label>Wifi Settings</label>
-                <div>
-                  <input type="checkbox" id="switch" class="switch" required>
-                  <label for="switch">Airplane Mode</label>
-                </div>
-                <span>A clever desciption of this field</span>
-              </div>
-            </form>`,
+            </form>`;
+  },
 };

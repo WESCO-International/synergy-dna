@@ -1,3 +1,11 @@
+## [1.0.35](https://github.com/wesco-international/synergy-dna/compare/v1.0.34...v1.0.35) (2023-01-13)
+
+
+### Bug Fixes
+
+* attempt to fix deploy to storybook ([9b850f7](https://github.com/wesco-international/synergy-dna/commit/9b850f7433eb23b3b509e63ccdd88e58ebdf7d85))
+* use checkout to switch branch ([251accb](https://github.com/wesco-international/synergy-dna/commit/251accbce3ba3bbed29340933fb5b6ccf7c9140f))
+
 ## [1.0.34](https://github.com/wesco-international/synergy-dna/compare/v1.0.33...v1.0.34) (2023-01-13)
 
 

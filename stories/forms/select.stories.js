@@ -1,22 +1,23 @@
 import docs from './form.mdx';
 
 export default {
-  title: 'Synergy Design System/Forms/Select',
+  title: 'Synergy Design System/Forms',
 };
 
-const Template = ({ content }) => content;
-
-export const Default = Template.bind({});
-Default.parameters = {
-  title: 'Default',
-};
-Default.args = {
-  content: /* html */`
-            <form>  
+export const Select = {
+  args: {
+    label: 'Favorite Car Manufacturer',
+    value: 'Airplane Mode',
+    help: 'A clever desciption of this field',
+    required: false,
+    disabled: false
+  },
+  render: ({ label, required, disabled, help, value,...args }) => {
+    return /* html */`<form>
               <div class="group">
-                <label>Favorite Car Manufacturer</label>
+                <label for="car">${label}</label>
                 <div class="select">
-                  <select id="car">
+                  <select id="car" ${required ? 'required' : ''}  ${disabled ? 'disabled' : ''}>
                     <option value="" disabled selected hidden>Select car:</option>
                     <option value="1">Audi</option>
                     <option value="2">BMW</option>
@@ -32,38 +33,8 @@ Default.args = {
                     <option value="12">Volvo</option>
                   </select>
                 </div>
-                <span>A clever desciption of this field</span>
+                <span>${help}</span>
               </div>
-            </form>`,
-};
-
-export const Required = Template.bind({});
-Required.parameters = {
-  title: 'Required',
-};
-Required.args = {
-  content: /* html */`
-            <form>  
-              <div class="group">
-                <label for="car">Favorite Car Manufacturer</label>
-                <div class="select">
-                  <select id="car" required>
-                    <option value="" disabled selected hidden>Select car:</option>
-                    <option value="1">Audi</option>
-                    <option value="2">BMW</option>
-                    <option value="3">Citroen</option>
-                    <option value="4">Ford</option>
-                    <option value="5">Honda</option>
-                    <option value="6">Jaguar</option>
-                    <option value="7">Land Rover</option>
-                    <option value="8">Mercedes</option>
-                    <option value="9">Mini</option>
-                    <option value="10">Nissan</option>
-                    <option value="11">Toyota</option>
-                    <option value="12">Volvo</option>
-                  </select>
-                </div>
-                <span>A clever desciption of this field</span>
-              </div>
-            </form>`,
+            </form>`;
+  },
 };

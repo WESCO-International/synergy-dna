@@ -1,39 +1,22 @@
 export default {
-  title: 'Synergy Design System/Forms/Text Field',
+  title: 'Synergy Design System/Forms',
 };
 
-export const Default = {
-  title: 'Default',
+export const TextField = {
   args: {
-    label: 'Hello'
+    label: 'First Name',
+    help: 'A clever desciption of this field',
+    required: false,
+    disabled: false
   },
-  render: ({ label, ...args }) => {
+  render: ({ label, required, disabled, help, ...args }) => {
     // You can either use a function to create DOM elements or use a plain html string!
     // return `<div>${label}</div>`;
     return /* html */`<form>
               <div class="group">
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Placeholder"/>
-                <span>A clever desciption of this field</span>
-              </div>
-            </form>`;
-  },
-};
-
-export const Required = {
-  title: 'Required',
-  args: {
-    label: 'Hello',
-    required: true
-  },
-  render: ({ label, required, ...args }) => {
-    // You can either use a function to create DOM elements or use a plain html string!
-    // return `<div>${label}</div>`;
-    return /* html */`<form>
-              <div class="group">
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Placeholder" ${required ? 'required' : ''}/>
-                <span>${label}</span>
+                <label for="name">${label}</label>
+                <input type="text" id="name" placeholder="Placeholder" ${required ? 'required' : ''} ${disabled ? 'disabled' : ''}/>
+                <span>${help}</span>
               </div>
             </form>`;
   },

@@ -1,37 +1,22 @@
 import docs from './form.mdx';
 
 export default {
-  title: 'Synergy Design System/Forms/Text Area',
+  title: 'Synergy Design System/Forms',
 };
 
-const Template = ({ content }) => content;
-
-export const Default = Template.bind({});
-Default.parameters = {
-  title: 'Default',
-};
-Default.args = {
-  content: /* html */`
-            <form>
+export const TextArea = {
+  args: {
+    label: 'First Name',
+    help: 'A clever desciption of this field',
+    required: false
+  },
+  render: ({ label, required, disabled, help, ...args }) => {
+    return /* html */`<form>
               <div class="group">
-                <label for="description">Description</label>
-                <textarea type="text" id="description" placeholder="Placeholder"></textarea>
-                <span>A clever desciption of this field</span>
+                <label for="name">${label}</label>
+                <textarea type="text" id="name" placeholder="Placeholder" ${required ? 'required' : ''}  ${disabled ? 'disabled' : ''}></textarea>
+                <span>${help}</span>
               </div>
-            </form>`,
-};
-
-export const Required = Template.bind({});
-Required.parameters = {
-  title: 'Required',
-};
-Required.args = {
-  content: /* html */`
-            <form>
-              <div class="group">
-                <label for="description">Description</label>
-                <textarea type="text" id="description" placeholder="Placeholder" required></textarea>
-                <span>A clever desciption of this field</span>
-              </div>
-            </form>`,
+            </form>`;
+  },
 };

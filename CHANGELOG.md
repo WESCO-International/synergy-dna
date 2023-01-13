@@ -1,3 +1,11 @@
+## [1.0.26](https://github.com/wesco-international/synergy-dna/compare/v1.0.25...v1.0.26) (2023-01-13)
+
+
+### Bug Fixes
+
+* add semantic label to storybook build commit message ([b069f83](https://github.com/wesco-international/synergy-dna/commit/b069f839a697b0ead91456417d8d3b1f4b18c5c8))
+* update form stories ([5420de4](https://github.com/wesco-international/synergy-dna/commit/5420de4340c89c7cf629d6d9162da5c894b326ab))
+
 ## [1.0.25](https://github.com/wesco-international/synergy-dna/compare/v1.0.24...v1.0.25) (2023-01-13)
 
 

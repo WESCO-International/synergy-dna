@@ -1,3 +1,25 @@
+## [1.0.32](https://github.com/wesco-international/synergy-dna/compare/v1.0.31...v1.0.32) (2023-01-13)
+
+
+### Bug Fixes
+
+* add semantic-release/github back in ([928cea9](https://github.com/wesco-international/synergy-dna/commit/928cea9bb5aafe2b602ceeb8e8a3c64f365b8e2e))
+* updating permissions for semantic release ([aa82454](https://github.com/wesco-international/synergy-dna/commit/aa8245494de6a5f273fa234bb0850b44883ad1ee))
+
+## [1.0.31](https://github.com/wesco-international/synergy-dna/compare/v1.0.30...v1.0.31) (2023-01-13)
+
+
+### Bug Fixes
+
+* remove Rosalind name ([d04f72b](https://github.com/wesco-international/synergy-dna/commit/d04f72bdeedd7f031d6e4a1220d514272856a192))
+
+## [1.0.30](https://github.com/wesco-international/synergy-dna/compare/v1.0.29...v1.0.30) (2023-01-13)
+
+
+### Bug Fixes
+
+* pull instead of merge ([8b00848](https://github.com/wesco-international/synergy-dna/commit/8b00848b152afe5a2d9ff2ea43431e94c53fd35c))
+
 ## [1.0.29](https://github.com/wesco-international/synergy-dna/compare/v1.0.28...v1.0.29) (2023-01-13)
 
 

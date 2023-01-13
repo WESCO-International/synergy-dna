@@ -18,8 +18,13 @@ jobs:
     - run: npm run build-storybook
       env:
         CI: true
-    - uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        # Optional. Commit message for the created commit.
-        # Defaults to "Apply automatic changes"
-        commit_message: Design System Build
+    - name: setup git config
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "<>"
+
+    - name: commit
+      run: |
+        git add *
+        git commit -m "Storybook Update"
+        git push origin main

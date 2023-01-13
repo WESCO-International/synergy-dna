@@ -1,3 +1,10 @@
+## [1.0.24](https://github.com/wesco-international/synergy-dna/compare/v1.0.23...v1.0.24) (2023-01-13)
+
+
+### Bug Fixes
+
+* update workflow to not use git-auto-commit-action ([770a7c9](https://github.com/wesco-international/synergy-dna/commit/770a7c9a4e0036201d0998854396529b6689e891))
+
 ## [1.0.23](https://github.com/wesco-international/synergy-dna/compare/v1.0.22...v1.0.23) (2023-01-13)
 
 

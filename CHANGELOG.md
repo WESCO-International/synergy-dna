@@ -1,3 +1,10 @@
+## [1.0.23](https://github.com/wesco-international/synergy-dna/compare/v1.0.22...v1.0.23) (2023-01-13)
+
+
+### Bug Fixes
+
+* update build storybook/release workflow ([0e4f5b6](https://github.com/wesco-international/synergy-dna/commit/0e4f5b60714285b6e6a4e57d2ca0e4cce05fc2bb))
+
 ## [1.0.22](https://github.com/wesco-international/synergy-dna/compare/v1.0.21...v1.0.22) (2023-01-13)
 
 

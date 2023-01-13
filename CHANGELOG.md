@@ -1,3 +1,12 @@
+## [1.0.21](https://github.com/wesco-international/synergy-dna/compare/v1.0.20...v1.0.21) (2023-01-13)
+
+
+### Bug Fixes
+
+* add initial static storybook ([59179a0](https://github.com/wesco-international/synergy-dna/commit/59179a0253bbc4470d45105e4b2f14b8676c3cb7))
+* add storybook build step ([16fcb9e](https://github.com/wesco-international/synergy-dna/commit/16fcb9ed5cd396c37fc094c3f7bc979e9a8173b7))
+* initial storybook ([156ef20](https://github.com/wesco-international/synergy-dna/commit/156ef201817378a9ee6f00fab50cffffdf8b7ccb))
+
 ## [1.0.20](https://github.com/wesco-international/synergy-dna/compare/v1.0.19...v1.0.20) (2023-01-12)
 
 

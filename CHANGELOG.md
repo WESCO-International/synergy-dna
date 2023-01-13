@@ -1,3 +1,10 @@
+## [1.0.34](https://github.com/wesco-international/synergy-dna/compare/v1.0.33...v1.0.34) (2023-01-13)
+
+
+### Bug Fixes
+
+* attempt to build to storybook branch ([09ce9b8](https://github.com/wesco-international/synergy-dna/commit/09ce9b89bb216585b3f89d44b70837f9a0305fe8))
+
 ## [1.0.33](https://github.com/wesco-international/synergy-dna/compare/v1.0.32...v1.0.33) (2023-01-13)
 
 

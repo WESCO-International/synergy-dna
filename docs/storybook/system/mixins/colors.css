@@ -1,0 +1,28 @@
+@define-mixin color-combination $type {
+    background-color: var(--sds-semantic-color-background-$(type));
+    color: var(--sds-semantic-color-foreground-on-$(type)-default);
+
+    & :--heading {
+        color: var(--sds-semantic-color-foreground-on-$(type)-heading);
+    }
+
+    & .subtle {
+        color: var(--sds-semantic-color-foreground-on-$(type)-subtle);
+    }
+
+    & .muted {
+        color: var(--sds-semantic-color-foreground-on-$(type)-muted);
+    }
+}
+
+@define-mixin background-base {
+    @mixin color-combination base;
+}
+
+@define-mixin background-layer-1 {
+    @mixin color-combination layer-1;
+}
+
+@define-mixin background-layer-2 {
+    @mixin color-combination layer-2;
+}

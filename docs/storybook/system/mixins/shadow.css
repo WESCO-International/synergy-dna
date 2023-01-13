@@ -1,0 +1,45 @@
+@define-mixin drop-shadow $size{
+	border-radius: var(--sds-semantic-border-radius-default);
+	box-shadow:
+		var(--sds-semantic-drop-shadow-$(size)-0-x)
+		var(--sds-semantic-drop-shadow-$(size)-0-y)
+		var(--sds-semantic-drop-shadow-$(size)-0-blur)
+		var(--sds-semantic-drop-shadow-$(size)-0-spread)
+		var(--sds-semantic-drop-shadow-$(size)-0-color),
+		var(--sds-semantic-drop-shadow-$(size)-1-x)
+		var(--sds-semantic-drop-shadow-$(size)-1-y)
+		var(--sds-semantic-drop-shadow-$(size)-1-blur)
+		var(--sds-semantic-drop-shadow-$(size)-1-spread)
+		var(--sds-semantic-drop-shadow-$(size)-1-color)
+}
+
+@define-mixin inner-shadow $size{
+	border-radius: var(--sds-semantic-border-radius-default);
+	box-shadow:
+		inset
+		var(--sds-semantic-inner-shadow-$(size)-0-x)
+		var(--sds-semantic-inner-shadow-$(size)-0-y)
+		var(--sds-semantic-inner-shadow-$(size)-0-blur)
+		var(--sds-semantic-inner-shadow-$(size)-0-spread)
+		var(--sds-semantic-inner-shadow-$(size)-0-color)
+}
+
+@define-mixin shadow-sm {
+	@mixin drop-shadow sm;
+}
+
+@define-mixin shadow-md {
+	@mixin drop-shadow md;
+}
+
+@define-mixin shadow-lg {
+	@mixin drop-shadow lg;
+}
+
+@define-mixin shadow-xl {
+	@mixin drop-shadow xl;
+}
+
+@define-mixin inner-shadow-sm {
+	@mixin inner-shadow sm;
+}

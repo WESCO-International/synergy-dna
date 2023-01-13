@@ -1,0 +1,57 @@
+.hide {
+	display: none;
+}
+
+.show {
+	display: inherit;
+}
+
+@media (--sds-screen-sm) {
+	.sm-hide {
+		display: none;
+	}
+
+	.sm-show {
+		display: inherit;
+	}
+}
+
+@media (--sds-screen-md) {
+	.md-hide {
+		display: none;
+	}
+
+	.md-show {
+		display: inherit;
+	}
+}
+
+@media (--sds-screen-lg) {
+	.lg-hide {
+		display: none;
+	}
+
+	.lg-show {
+		display: inherit;
+	}
+}
+
+@media (--sds-screen-xl) {
+	.xl-hide {
+		display: none;
+	}
+
+	.xl-show {
+		display: inherit;
+	}
+}
+
+@media (--sds-screen-xxl) {
+	.xxl-hide {
+		display: none;
+	}
+
+	.xxl-show {
+		display: inherit;
+	}
+}

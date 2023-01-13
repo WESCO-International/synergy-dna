@@ -1,0 +1,34 @@
+import { Meta, Story } from '@storybook/blocks';
+import * as TypographyStories from './typography.stories';
+
+<Meta title="Synergy Design System/Typography/Docs"/>
+
+# Typography
+
+Typography is an integral part of web design, playing an important role in conveying a company’s message, setting the tone and enhancing the overall user experience. 
+
+Typography is an important tool for guiding users through website design, helping to channel their attention to the most important elements on the page. The right typography choices can help to make a website appear easier to read, friendlier and more professional. 
+
+It can also help to create a visual brand identity, with the right typefaces being associated with a particular brand or look and feel. When employed correctly, typography may be almost invisible to the user, yet its impact remains essential, helping to effectively communicate a website's content and create an impressive, aesthetically pleasing design for users to enjoy.
+
+Rosalind uses a Fluid Typography system (Responsive Type). Fluid typography refers to the practice of using a type system that scale in size according to the size of the user's screen or device. 
+
+The type system in Rosalind uses relative font sizes with a base font size of `16px`.
+
+### Example
+
+```css
+.css {
+  background-color: #fff;
+}
+```
+
+```html
+<div>
+  <h1 class="display1">Display 1</h1>
+  <h1 class="display2">Display 2</h1>
+  <h1 class="display3">Display 3</h1>
+</div>
+```
+
+<Story of={TypographyStories.Display}/>

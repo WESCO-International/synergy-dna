@@ -1,3 +1,10 @@
+## [1.0.29](https://github.com/wesco-international/synergy-dna/compare/v1.0.28...v1.0.29) (2023-01-13)
+
+
+### Bug Fixes
+
+* move to single workflow script ([bd39ee3](https://github.com/wesco-international/synergy-dna/commit/bd39ee3b97f9302dfb34b1a6e87889eda01c9721))
+
 ## [1.0.28](https://github.com/wesco-international/synergy-dna/compare/v1.0.27...v1.0.28) (2023-01-13)
 
 

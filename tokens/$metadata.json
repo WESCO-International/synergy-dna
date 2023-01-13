@@ -6,6 +6,8 @@
     "semantic",
     "Components",
     "Components/buttons",
+    "Brands/XpressConnect/Components/buttons",
+    "Brands/Wesco/Components/buttons",
     "Components/form/form",
     "Components/form/text-field",
     "Components/form/select",

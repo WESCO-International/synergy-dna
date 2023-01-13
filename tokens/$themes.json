@@ -16,7 +16,9 @@
       "Patterns/header": "enabled",
       "Patterns/footer": "enabled",
       "Patterns/modal": "enabled",
-      "light": "enabled"
+      "light": "enabled",
+      "Brands/XpressConnect/Components/buttons": "disabled",
+      "Brands/Wesco/Components/buttons": "disabled"
     },
     "$figmaStyleReferences": {
       "pattern.modal.color.overlay": "S:7f276fbceefc24f45cc8d9dd2d2b8fc89252ce79,",
@@ -445,7 +447,9 @@
       "Brands/Wesco/semantic": "enabled",
       "Brands/Wesco/light": "enabled",
       "Brands/Wesco/dark": "enabled",
-      "light": "enabled"
+      "light": "enabled",
+      "Brands/XpressConnect/Components/buttons": "disabled",
+      "Brands/Wesco/Components/buttons": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -458,7 +462,9 @@
       "Brands/XpressConnect/semantic": "enabled",
       "Brands/XpressConnect/Patterns/header": "enabled",
       "Brands/XpressConnect/Patterns/footer": "enabled",
-      "Brands/XpressConnect/light": "enabled"
+      "Brands/XpressConnect/light": "enabled",
+      "Brands/XpressConnect/Components/buttons": "disabled",
+      "Brands/Wesco/Components/buttons": "disabled"
     },
     "$figmaStyleReferences": {}
   }

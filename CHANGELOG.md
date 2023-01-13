@@ -1,3 +1,10 @@
+## [1.0.38](https://github.com/wesco-international/synergy-dna/compare/v1.0.37...v1.0.38) (2023-01-13)
+
+
+### Bug Fixes
+
+* reset storybook branch instead of trying to pull ([e62fb84](https://github.com/wesco-international/synergy-dna/commit/e62fb847945c71f7de854aecd919d1454c49db61))
+
 ## [1.0.37](https://github.com/wesco-international/synergy-dna/compare/v1.0.36...v1.0.37) (2023-01-13)
 
 

@@ -4,7 +4,7 @@ name: Semantic Release
 on:
   push:
     branches:
-      - "storybook7"
+      - "main"
 
 jobs:
   release:

@@ -16,5 +16,3 @@ notes.md
 .vercel
 out
 *.css.map
-dist
-styles/

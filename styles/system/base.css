@@ -1,0 +1,83 @@
+@import "./mixins";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	&::before,
+	&::after {
+		box-sizing: border-box;
+	}
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+}
+
+body {
+	@mixin body-font;
+	@mixin background-base;
+
+	text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	display: none;
+}
+
+body.appear {
+	display: unset;
+}
+
+.layer-1 {
+	@mixin background-layer-1;
+}
+
+.layer-2 {
+	@mixin background-layer-2;
+}
+
+hr {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	border: 0;
+	border-bottom: 1px solid var(--sds-semantic-color-seperator-on-base);
+}
+
+.default-content-wrapper {
+	text-align: center;
+	margin-bottom: var(--sds-semantic-size-default-content-wrapper-margin-bottom);
+}
+
+pre,
+kbd,
+samp {
+	font-family: var(--sds-semantic-font-family-mono);
+}
+
+a,
+button {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a {
+	background-color: transparent;
+	color: var(--sds-semantic-color-link-base);
+
+	&:hover {
+		color: var(--sds-semantic-color-link-hover);
+	}
+}
+
+img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}

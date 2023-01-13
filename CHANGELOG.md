@@ -1,3 +1,12 @@
+## [1.0.41](https://github.com/wesco-international/synergy-dna/compare/v1.0.40...v1.0.41) (2023-01-13)
+
+
+### Bug Fixes
+
+* revert to main ([0797a95](https://github.com/wesco-international/synergy-dna/commit/0797a95e6286924041731ef49dc230f97895b4a2))
+* try to just run on this branch ([6ebe81b](https://github.com/wesco-international/synergy-dna/commit/6ebe81b89429a9db882c42c10529cef415c5ec37))
+* typo.. ([6a12fc0](https://github.com/wesco-international/synergy-dna/commit/6a12fc0bd812d6d2806594e0105f5e10ba8797eb))
+
 ## [1.0.40](https://github.com/wesco-international/synergy-dna/compare/v1.0.39...v1.0.40) (2023-01-13)
 
 

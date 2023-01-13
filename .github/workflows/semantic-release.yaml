@@ -64,6 +64,7 @@ jobs:
         git config user.email github-actions[bot]@users.noreply.github.com # Config user name and email for lerna publish commit
     - name: commit
       run: |
+        git pull origin master
         git add .
         git commit -m "chore: Storybook Update"
         git push origin storybook

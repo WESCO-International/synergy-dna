@@ -23,16 +23,16 @@ function onError(err) {
 }
 
 function buildSystem() {
-  return src('./styles/system/index.css')
+  return src('./system/index.css')
     .pipe(plumber({ errorHandler: onError }))
     .pipe(postcss())
     .pipe(header(generatedHeader))
     .pipe(rename('system.css'))
-    .pipe(dest('./styles'));
+    .pipe(dest('./dist'));
 }
 
 function startWatching() {
-  watch(['./styles/system/**/*.css'], undefined, series(buildSystem));
+  watch(['./system/**/*.css'], undefined, series(buildSystem));
 }
 
 exports.dev = series(

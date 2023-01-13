@@ -1,3 +1,10 @@
+## [1.0.27](https://github.com/wesco-international/synergy-dna/compare/v1.0.26...v1.0.27) (2023-01-13)
+
+
+### Bug Fixes
+
+* add merge step to storybook workflow ([51a04a4](https://github.com/wesco-international/synergy-dna/commit/51a04a41d36251a798e9edee3e115622ee5251fe))
+
 ## [1.0.26](https://github.com/wesco-international/synergy-dna/compare/v1.0.25...v1.0.26) (2023-01-13)
 
 

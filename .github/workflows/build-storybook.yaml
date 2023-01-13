@@ -25,6 +25,6 @@ jobs:
 
     - name: commit
       run: |
-        git add *
+        git add .
         git commit -m "Storybook Update"
         git push origin main

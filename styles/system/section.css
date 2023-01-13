@@ -1,0 +1,80 @@
+.section {
+	margin: auto;
+	width: 100%;
+	padding: var(--sds-semantic-spacing-section-mobile-padding-y) var(--sds-semantic-spacing-section-mobile-padding-x);
+	max-width: var(--sds-semantic-size-section-max-width);
+
+	&[data-section-status="loading"],
+	&[data-section-status="initialized"] {
+		display: none;
+	}
+
+	&:first-of-type {
+		padding-top: 20px;
+		position: relative;
+	}
+
+	&.secondary-background {
+		background-color: var(--sds-semantic-color-background-layer-1);
+	}
+
+	/* TODO: Finish Fluid */
+	&.fluid {
+		max-width: var(--hlx-max-width-limit);
+	}
+
+	&.full-width {
+		width: 100%;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	&.extra-padding {
+		@mixin padding xxxl;
+	}
+
+	&.left-align {
+		& .default-content-wrapper {
+			& p {
+				text-align: left;
+			}
+		}
+	}
+
+	&.full-width-section {
+		width: 100%;
+		max-width: 100%;
+		margin: 0;
+
+		& > div:not(.default-content-wrapper) {
+			max-width: var(--sds-semantic-size-section-max-width);
+			margin: auto;
+		}
+
+		@media (--sds-screen-lg) {
+			padding: var(--sds-semantic-spacing-section-desktop-padding-y) var(--sds-semantic-spacing-section-desktop-padding-x);
+		}
+	}
+
+	@media (--sds-screen-sm) {
+		padding: var(--sds-semantic-spacing-section-desktop-padding-y) var(--sds-semantic-spacing-section-desktop-padding-x);
+	}
+
+	@media (--sds-screen-md) {
+		&:not(.full-width) > div {
+			max-width: var(--sds-semantic-size-section-max-width);
+			margin: auto;
+		}
+	}
+}
+
+.default-content-wrapper {
+	max-width: var(--sds-semantic-size-section-max-width);
+	margin-left: auto;
+	margin-right: auto;
+
+	& p {
+		max-width: 110ch;
+	}
+}

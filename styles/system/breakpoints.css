@@ -1,0 +1,6 @@
+@custom-media --sds-screen-xs (max-width: 400px);
+@custom-media --sds-screen-sm (min-width: 576px);
+@custom-media --sds-screen-md (min-width: 768px);
+@custom-media --sds-screen-lg (min-width: 992px);
+@custom-media --sds-screen-xl (min-width: 1200px);
+@custom-media --sds-screen-xxl (min-width: 1440px);

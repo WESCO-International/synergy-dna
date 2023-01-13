@@ -7,7 +7,7 @@ on:
       - "main"
 
 jobs:
-  build:
+  release:
     env:
       NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     permissions:

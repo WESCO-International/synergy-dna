@@ -1,3 +1,10 @@
+## [1.0.40](https://github.com/wesco-international/synergy-dna/compare/v1.0.39...v1.0.40) (2023-01-13)
+
+
+### Bug Fixes
+
+* add back pull ([73984dd](https://github.com/wesco-international/synergy-dna/commit/73984dd53ead2b3d8074e718c51061ecab0f9573))
+
 ## [1.0.39](https://github.com/wesco-international/synergy-dna/compare/v1.0.38...v1.0.39) (2023-01-13)
 
 

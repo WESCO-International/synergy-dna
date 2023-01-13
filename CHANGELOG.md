@@ -1,3 +1,10 @@
+## [1.0.36](https://github.com/wesco-international/synergy-dna/compare/v1.0.35...v1.0.36) (2023-01-13)
+
+
+### Bug Fixes
+
+* remove static storybook ([5ebe331](https://github.com/wesco-international/synergy-dna/commit/5ebe3317586898060cf57bbc6d8c1ce15373a0cd))
+
 ## [1.0.35](https://github.com/wesco-international/synergy-dna/compare/v1.0.34...v1.0.35) (2023-01-13)
 
 

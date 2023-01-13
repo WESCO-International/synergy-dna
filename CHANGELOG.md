@@ -1,3 +1,10 @@
+## [1.0.28](https://github.com/wesco-international/synergy-dna/compare/v1.0.27...v1.0.28) (2023-01-13)
+
+
+### Bug Fixes
+
+* try and run jobs in sequence ([51cdb66](https://github.com/wesco-international/synergy-dna/commit/51cdb66f22e4d5aae7afb57972daaafffa703f89))
+
 ## [1.0.27](https://github.com/wesco-international/synergy-dna/compare/v1.0.26...v1.0.27) (2023-01-13)
 
 

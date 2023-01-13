@@ -1,3 +1,10 @@
+## [1.0.31](https://github.com/wesco-international/synergy-dna/compare/v1.0.30...v1.0.31) (2023-01-13)
+
+
+### Bug Fixes
+
+* remove Rosalind name ([d04f72b](https://github.com/wesco-international/synergy-dna/commit/d04f72bdeedd7f031d6e4a1220d514272856a192))
+
 ## [1.0.30](https://github.com/wesco-international/synergy-dna/compare/v1.0.29...v1.0.30) (2023-01-13)
 
 

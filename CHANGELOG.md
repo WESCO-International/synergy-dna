@@ -1,3 +1,10 @@
+## [1.0.39](https://github.com/wesco-international/synergy-dna/compare/v1.0.38...v1.0.39) (2023-01-13)
+
+
+### Bug Fixes
+
+* add fetch-depth ([d0cd7a4](https://github.com/wesco-international/synergy-dna/commit/d0cd7a4ecc8d8fc0c28cd08cb703060c54241bbb))
+
 ## [1.0.38](https://github.com/wesco-international/synergy-dna/compare/v1.0.37...v1.0.38) (2023-01-13)
 
 

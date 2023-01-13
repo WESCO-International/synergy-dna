@@ -1,3 +1,30 @@
+## [1.0.35](https://github.com/wesco-international/synergy-dna/compare/v1.0.34...v1.0.35) (2023-01-13)
+
+
+### Bug Fixes
+
+* attempt to fix deploy to storybook ([9b850f7](https://github.com/wesco-international/synergy-dna/commit/9b850f7433eb23b3b509e63ccdd88e58ebdf7d85))
+* use checkout to switch branch ([251accb](https://github.com/wesco-international/synergy-dna/commit/251accbce3ba3bbed29340933fb5b6ccf7c9140f))
+
+## [1.0.34](https://github.com/wesco-international/synergy-dna/compare/v1.0.33...v1.0.34) (2023-01-13)
+
+
+### Bug Fixes
+
+* attempt to build to storybook branch ([09ce9b8](https://github.com/wesco-international/synergy-dna/commit/09ce9b89bb216585b3f89d44b70837f9a0305fe8))
+
+## [1.0.33](https://github.com/wesco-international/synergy-dna/compare/v1.0.32...v1.0.33) (2023-01-13)
+
+
+### Bug Fixes
+
+* boris test ([bc37a60](https://github.com/wesco-international/synergy-dna/commit/bc37a60a5f53f5b1d88e98bf87671d0823ab09fa))
+* branch protection test ([1308c5e](https://github.com/wesco-international/synergy-dna/commit/1308c5e2d2a71d319b101abee2466273b1d8ece8))
+* Merge pull request [#48](https://github.com/wesco-international/synergy-dna/issues/48) from WESCO-International/boris-testing ([736936c](https://github.com/wesco-international/synergy-dna/commit/736936c649f719cc7a942a8632cfca79ec0b8cff))
+* Merge pull request [#49](https://github.com/wesco-international/synergy-dna/issues/49) from WESCO-International/boris-testing ([1cf8966](https://github.com/wesco-international/synergy-dna/commit/1cf89665e792b7002a777d2d92f05fb29ea85649))
+* move build into dist ([1aecb11](https://github.com/wesco-international/synergy-dna/commit/1aecb11b1dd5a6b8e62660095537c1886a8348ca))
+* story updates ([5ec1683](https://github.com/wesco-international/synergy-dna/commit/5ec1683bdf16f692eeb2bae700925644cc8bff34))
+
 ## [1.0.32](https://github.com/wesco-international/synergy-dna/compare/v1.0.31...v1.0.32) (2023-01-13)
 
 

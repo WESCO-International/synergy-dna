@@ -38,32 +38,8 @@ jobs:
       - run: npm install          
       - run: npm run build
       - run: npm run semantic-release
+      - run: npm run deploy-storybook -- --ci --out=docs/storybook --branch=storybook
         env:
+          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-  storybook:
-    needs: release
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-      with:
-        ref: storybook
-        fetch-depth: 0
-    - run: git rebase main storybook
-    - name: Use Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-    - run: npm i
-    - run: npm run build-storybook
-      env:
-        CI: true
-    - name: setup git config
-      run: |
-        git config user.name GitHub-Actions[bot]
-        git config user.email github-actions[bot]@users.noreply.github.com # Config user name and email for lerna publish commit
-    - name: commit
-      run: |
-        git add .
-        git commit -m "chore: Storybook Update"
-        git push origin storybook

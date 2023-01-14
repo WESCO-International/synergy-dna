@@ -1,3 +1,10 @@
+## [1.0.44](https://github.com/wesco-international/synergy-dna/compare/v1.0.43...v1.0.44) (2023-01-14)
+
+
+### Bug Fixes
+
+* add back issues:read permissions ([16ce4ab](https://github.com/wesco-international/synergy-dna/commit/16ce4ab20987e46a7759a896ecbaa7ec80e96f56))
+
 ## [1.0.43](https://github.com/wesco-international/synergy-dna/compare/v1.0.42...v1.0.43) (2023-01-14)
 
 

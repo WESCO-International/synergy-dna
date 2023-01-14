@@ -1,3 +1,10 @@
+## [1.0.42](https://github.com/wesco-international/synergy-dna/compare/v1.0.41...v1.0.42) (2023-01-14)
+
+
+### Bug Fixes
+
+* attempt to rebase main onto storybook ([5f238d2](https://github.com/wesco-international/synergy-dna/commit/5f238d20b6cf090480c55cd214da0def0bd9746b))
+
 ## [1.0.41](https://github.com/wesco-international/synergy-dna/compare/v1.0.40...v1.0.41) (2023-01-13)
 
 

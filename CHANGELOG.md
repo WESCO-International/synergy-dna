@@ -1,3 +1,12 @@
+## [1.0.43](https://github.com/wesco-international/synergy-dna/compare/v1.0.42...v1.0.43) (2023-01-14)
+
+
+### Bug Fixes
+
+* remove GH_TOKEN ([0c564ed](https://github.com/wesco-international/synergy-dna/commit/0c564ed1bfac3964c2170a12a7a1b725eac93f23))
+* roll back to deploying storybook to main ([1e1549b](https://github.com/wesco-international/synergy-dna/commit/1e1549ba187b3fc222aa1fbed1c84510e79873ef))
+* try storybook-deployer ([43aa2c7](https://github.com/wesco-international/synergy-dna/commit/43aa2c7c6ad6576462fe952dcf9e3ddaa4ce7b30))
+
 ## [1.0.42](https://github.com/wesco-international/synergy-dna/compare/v1.0.41...v1.0.42) (2023-01-14)
 
 

@@ -23,7 +23,6 @@
     "build": "node scripts/transform.mjs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build -o docs/storybook",
-    "deploy-storybook": "storybook-to-ghpages",
     "postcss:dev": "gulp dev",
     "postcss:build": "gulp build"
   },
@@ -38,7 +37,6 @@
     "@storybook/blocks": "^7.0.0-beta.25",
     "@storybook/html": "^7.0.0-beta.25",
     "@storybook/html-webpack5": "^7.0.0-beta.25",
-    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.13",
     "cssnano": "5.1.14",
     "cz-conventional-changelog": "3.3.0",

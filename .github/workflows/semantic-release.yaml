@@ -49,7 +49,7 @@ jobs:
       with:
         ref: storybook
         fetch-depth: 0
-    - run: git reset --hard origin/main
+    - run: git rebase main storybook
     - name: Use Node.js
       uses: actions/setup-node@v3
       with:
@@ -64,7 +64,6 @@ jobs:
         git config user.email github-actions[bot]@users.noreply.github.com # Config user name and email for lerna publish commit
     - name: commit
       run: |
-        git pull origin main
         git add .
         git commit -m "chore: Storybook Update"
         git push origin storybook

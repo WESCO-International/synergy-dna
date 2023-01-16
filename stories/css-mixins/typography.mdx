@@ -1,0 +1,53 @@
+import { Meta, Story } from '@storybook/blocks';
+import theme from '../../dist/EECOL/theme.json';
+import { TokenList } from '../util';
+
+<Meta title="Synergy Design System/Developer Docs/Mixins/Typography"/>
+
+# Typography Mixins
+
+Synergy provides the following mixins to work with typography.
+
+## Font Mixins
+
+The font mixins below declare the `font-size`, `font-family`, `font-weight` and `line-height` styles but make not adjustments for text color.
+
+Each typography mixin accepts and optional `weight` parameter that supports the values `regular`, `bold` and `semi-bold`.
+
+If no weight is provided than the default is `regular.`
+
+> The `semi-bold` option is currently only supported on text with the `body-font` mixin.
+
+```css
+@mixin h1 {weight};
+
+@mixin h2 {weight};
+
+@mixin h3 {weight};
+
+@mixin h4 {weight};
+
+@mixin h5 {weight};
+
+@mixin subtitle {weight};
+
+@mixin eyebrow {weight};
+
+@mixin body-text {weight};
+
+@mixin caption {weight};
+
+@mixin source-code {weight};
+```
+
+## Typography Weight Mixins
+
+There may be a situation where you need to set the font weight on some text directly. Ideally, the correct token is used and not a hardcoded weight value.
+
+The `font-weight` mixin will set the correct weight given it's semantic name.
+
+```css
+@mixin font-weight {type}
+```
+
+Where `{type}` can be one of `thin`, `extra-light`, `light`, `normal`, `medium`, `semi-bold`, `bold`, `extra-bold`, `black`.

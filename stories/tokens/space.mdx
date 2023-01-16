@@ -1,0 +1,46 @@
+import { Meta, Story } from '@storybook/blocks';
+import { TokenList, TokenRow } from '../util';
+import theme from '../../dist/EECOL/theme.json';
+
+<Meta title="Synergy Design System/Developer Docs/Tokens/Space"/>
+
+# Spacing
+
+> The Synergy Design System provides CSS that is pre-configured to utilize the tokens below. They should not be used for any purpose other than the element or semantic meaning they where created for.
+
+## Section Spacing Tokens
+
+<div className="table token margin-top">
+  <div>
+    <div>Token</div>
+    <div>Value</div>
+    <div>Copy</div>
+  </div>
+  <TokenList tokens={theme.semantic.spacing.section} prefix="--sds-semantic-spacing-section"></TokenList>
+</div>
+
+# Space
+
+> The Synergy Design System provides CSS that is pre-configured to utilize the tokens below. They should not be used for any purpose other than the element or semantic meaning they where created for.
+
+## Space Around Components Tokens
+
+<div className="table token margin-top">
+  <div>
+    <div>Token</div>
+    <div>Value</div>
+    <div>Copy</div>
+  </div>
+  <TokenList tokens={theme.semantic.spacing.around.component} prefix="--sds-semantic-spacing-around-component"></TokenList>
+</div>
+
+## Gap/Gutter Tokens
+
+<div className="table token margin-top">
+  <div>
+    <div>Token</div>
+    <div>Value</div>
+    <div>Copy</div>
+  </div>
+  <TokenList tokens={theme.semantic.spacing.gap.component} prefix="--sds-semantic-spacing-gap-component"></TokenList>
+</div>

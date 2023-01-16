@@ -61,6 +61,26 @@ h5,
 	@mixin h5;
 }
 
+.caption {
+	@mixin caption;
+
+	&.bold, & b {
+		font-weight: var(--sds-semantic-font-weight-caption-bold);
+	}
+}
+
+:--display {
+	&.bold, & b {
+		font-weight: var(--sds-semantic-font-weight-display-bold);
+	}
+}
+
+:--heading {
+	&.bold, & .bold, & b {
+		font-weight: var(--sds-semantic-font-weight-heading-bold);
+	}
+}
+
 :--subtitle {
 	@mixin subtitle;
 }
@@ -70,7 +90,7 @@ h5,
 }
 
 p {
-	@mixin body-font;
+	@mixin body;
 
 	margin-bottom: var(--sds-semantic-spacing-typography-body-margin-bottom);
 
@@ -96,14 +116,8 @@ strong {
 	}
 }
 
-.caption {
-	@mixin caption-font;
-}
-
 blockquote,
 .blockquote {
-	@mixin body-font;
-
 	padding: 20px;
 	border-left: 10px solid var(--sds-semantic-color-primary-base);
 	color: var(--sds-semantic-color-foreground-on-base-subtle);

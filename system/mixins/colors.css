@@ -1,5 +1,13 @@
-@define-mixin color-combination $type {
+@define-mixin background-color $type {
     background-color: var(--sds-semantic-color-background-$(type));
+}
+
+@define-mixin foreground-color $type, $style {
+    color: var(--sds-semantic-color-foreground-on-$(type)-$(style));
+}
+
+@define-mixin color-combination $type {
+    @mixin background-color $type;
     color: var(--sds-semantic-color-foreground-on-$(type)-default);
 
     & :--heading {
@@ -15,14 +23,14 @@
     }
 }
 
-@define-mixin background-base {
+@define-mixin layer-base {
     @mixin color-combination base;
 }
 
-@define-mixin background-layer-1 {
+@define-mixin layer-1 {
     @mixin color-combination layer-1;
 }
 
-@define-mixin background-layer-2 {
+@define-mixin layer-2 {
     @mixin color-combination layer-2;
 }

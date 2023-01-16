@@ -116,7 +116,7 @@
 	text-transform: var(--sds-semantic-text-case-eyebrow);
 }
 
-@define-mixin body-font $weight: regular {
+@define-mixin body-text $weight: regular {
 	font-size: var(--sds-semantic-font-size-body);
 	font-family: var(--sds-semantic-font-family-body);
 	font-weight: var(--sds-semantic-font-weight-body-$(weight));
@@ -124,7 +124,7 @@
 	text-transform: var(--sds-semantic-text-case-body);
 }
 
-@define-mixin caption-font $weight: regular {
+@define-mixin caption $weight: regular {
 	font-size: var(--sds-semantic-font-size-caption);
 	font-family: var(--sds-semantic-font-family-caption);
 	font-weight: var(--sds-semantic-font-weight-caption-$(weight));

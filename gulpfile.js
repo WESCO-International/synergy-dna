@@ -31,12 +31,22 @@ function buildSystem() {
     .pipe(dest('./dist'));
 }
 
+function buildStorybookCss() {
+  return src('.storybook/story.post.css')
+    .pipe(plumber({ errorHandler: onError }))
+    .pipe(postcss())
+    .pipe(header(generatedHeader))
+    .pipe(rename('story.css'))
+    .pipe(dest('.storybook/'));
+}
+
 function startWatching() {
-  watch(['./system/**/*.css'], undefined, series(buildSystem));
+  watch(['./system/**/*.css', '.storybook/*.post.css'], undefined, series(buildSystem, buildStorybookCss));
 }
 
 exports.dev = series(
   buildSystem,
+  buildStorybookCss,
   startWatching,
 );
 

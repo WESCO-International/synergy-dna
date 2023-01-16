@@ -1,0 +1,74 @@
+@import "../system/mixins";
+
+@define-mixin border {
+    border: 1px solid hsla(203, 50%, 30%, 0.2);
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 10%) 0 1px 3px 0;
+}
+
+code {
+    width: auto;
+}
+
+.story {
+    @mixin border;
+    padding: 20px;
+    margin: 25px 0 40px;
+}
+
+.table {
+    @mixin border;
+    
+    & > div {
+        @mixin padding md;
+        display: grid;
+        grid-template-rows: 20px;
+        grid-auto-columns: minmax(0, 1fr);
+        grid-auto-flow: column;
+        border-bottom: 1px solid hsla(203, 50%, 30%, 0.2);
+        border-right: 1px solid hsla(203, 50%, 30%, 0.2);
+        align-items: center;
+
+        &:first-of-type {
+            @mixin h3;
+            margin-bottom: 0;
+        }
+
+        &:nth-child(odd):not(:first-of-type){
+            @mixin background-layer-1;
+        }
+    }
+
+    &.token {
+        & > div {
+            grid-template-columns: 1fr 250px 100px;
+
+        }
+    }
+
+    &.margin-top {
+        @mixin margin-top lg;
+    }
+}
+
+.space {
+    display: flex;
+    flex-direction: row;
+    @mixin margin-bottom lg;
+
+    & > div:first-of-type {
+        @mixin h4;
+        width: 40px;
+    }
+
+    & span {
+        background-color:var(--sds-semantic-color-primary-base);
+        height:20px;
+        display: inline-block;
+    }
+}
+
+.button.small {
+    height: 30px;
+    font-size: 14px;
+}

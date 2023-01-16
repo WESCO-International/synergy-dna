@@ -1,0 +1,78 @@
+import { Meta, Story } from '@storybook/blocks';
+import theme from '../../dist/EECOL/theme.json';
+import { TokenList } from '../util';
+
+<Meta title="Synergy Design System/Developer Docs/Mixins/Color"/>
+
+# Color Mixins
+
+Synergy provides the following mixins to work with colors.
+
+## Background Color Mixins
+
+The Synergy Design System supplies three primary background color types: `base`, `layer-1`, and `layer-2`. The `background-color` mixin can be utilized to select one of these color types and avoid having to work with the tokens directly.
+
+```css
+@mixin background-color {type};
+```
+
+<div className="table margin-top">
+    <div>
+        <div>Parameter</div>
+        <div>Options</div>
+    </div>
+    <div>
+        <div>type</div>
+        <div>`base` `layer-1` `layer-2`</div>
+    </div>
+</div>
+
+
+## Foreground Color Mixins
+
+Each background color may require a different foreground color for typography and icons. In addition, there are different levels of foreground color including `default`, `subtle` and `muted`.
+
+To this end, the `foreground-color` mixin can be used to select the correct foreground color given the layer type it sits on.
+
+```css
+@mixin foreground-color {type}, {style};
+```
+
+<div className="table margin-top">
+    <div>
+        <div>Parameter</div>
+        <div>Options</div>
+        <div>Default</div>
+    </div>
+    <div>
+        <div>type</div>
+        <div>`base` `layer-1` `layer-2`</div>
+        <div>`base`</div>
+    </div>
+    <div>
+        <div>style</div>
+        <div>`default` `subtle` `muted`</div>
+        <div>`default`</div>
+    </div>
+</div>
+
+## Border Color Mixin
+
+Synergy defines a base border color.
+
+```css
+@mixin border-color {state};
+```
+
+<div className="table margin-top">
+    <div>
+        <div>Parameter</div>
+        <div>Options</div>
+        <div>Default</div>
+    </div>
+    <div>
+        <div>state</div>
+        <div>`base` `hover` `down` `focus` `disabled`</div>
+        <div>`default`</div>
+    </div>
+</div>

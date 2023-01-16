@@ -1,0 +1,123 @@
+import { Meta, Story } from '@storybook/blocks';
+import theme from '../../dist/EECOL/theme.json';
+import { TokenList } from '../util';
+
+<Meta title="Synergy Design System/Developer Docs/Mixins/Spacing"/>
+
+# Spacing Mixins
+
+Synergy provides the following mixins to work with paddings, margin and gutters.
+
+## Padding Mixins
+
+Each mixins includes a required `size` parameter that is used to determine this size of the padding to use.
+
+The sizing options are `xs`, `sm`, `md`,  `lg`,  `xl`,  `2xl`,  `3xl`,  `4xl`,  `5xl`,  `6xl`,  `7xl`,  `8xl`,  `9xl`, `10xl` and they map to spacing tokens defined in the [Space Around Components Tokens](/docs/synergy-design-system-developer-docs-tokens-space--docs#space-around-components-tokens).
+
+### Mixins
+
+Set the padding on all sides (padding-top, padding-right, padding-bottom, padding-left).
+
+```css
+@mixin padding {size};
+```
+
+Set the padding of an individual side.
+
+```css
+@mixin padding-top {size};
+
+@mixin padding-bottom {size};
+
+@mixin padding-left {size};
+
+@mixin padding-right {size};
+```
+
+Set the vertical or horizontal padding.
+
+```css
+@mixin padding-vertical {size};
+
+@mixin padding-horizontal {size};
+```
+
+#### Padding by breakpoint
+
+Setting the padding based on a breakpoint is also supported.
+
+The example below uses the `sm` breakpoint but Synergy also supports all the breakpoints available including `xs`, `sm`, `md`, `lg`, `xl`, `xxl`. Just replace `sm` with the breakpoint you want to set the padding for.
+
+```css
+@mixin padding-sm {size};
+
+@mixin padding-sm-top {size};
+
+@mixin padding-sm-bottom {size};
+
+@mixin padding-sm-left {size};
+
+@mixin padding-sm-right {size};
+
+@mixin padding-sm-vertical {size};
+
+@mixin padding-sm-horizontal {size};
+```
+
+## Margin Mixins
+
+Synergy provides the following mixins to work with margins.
+
+Each mixins includes a required `size` parameter that is used to determine this size of the padding to use.
+
+The sizing options are `xs`, `sm`, `md`,  `lg`,  `xl`,  `2xl`,  `3xl`,  `4xl`,  `5xl`,  `6xl`,  `7xl`,  `8xl`,  `9xl`, `10xl` and they map to spacing tokens defined in the [Space Around Components Tokens](/docs/synergy-design-system-developer-docs-tokens-space--docs#space-around-components-tokens).
+
+### Mixins
+
+Set the margin on all sides (margin-top, margin-right, margin-bottom, padding-left).
+
+```css
+@mixin margin {size};
+```
+
+Set the margin of an individual side.
+
+```css
+@mixin margin-top {size};
+
+@mixin margin-bottom {size};
+
+@mixin margin-left {size};
+
+@mixin margin-right {size};
+```
+
+Set the vertical or horizontal margin.
+
+```css
+@mixin margin-vertical {size};
+
+@mixin margin-horizontal {size};
+```
+
+#### Margin by breakpoint
+
+Setting the margin based on a breakpoint is also supported.
+
+The example below uses the `sm` breakpoint but Synergy also supports all the breakpoints available including `xs`, `sm`, `md`, `lg`, `xl`, `xxl`. Just replace `sm` with the breakpoint you want to set the margin for.
+
+```css
+@mixin margin-sm {size};
+
+@mixin margin-sm-top {size};
+
+@mixin margin-sm-bottom {size};
+
+@mixin margin-sm-left {size};
+
+@mixin margin-sm-right {size};
+
+@mixin margin-sm-vertical {size};
+
+@mixin margin-sm-horizontal {size};
+```

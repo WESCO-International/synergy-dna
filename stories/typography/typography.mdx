@@ -5,13 +5,7 @@ import * as TypographyStories from './typography.stories.js';
 
 # Typography
 
-Typography is an integral part of web design, playing an important role in conveying a company’s message, setting the tone and enhancing the overall user experience. 
-
-Typography is an important tool for guiding users through website design, helping to channel their attention to the most important elements on the page. The right typography choices can help to make a website appear easier to read, friendlier and more professional. 
-
-It can also help to create a visual brand identity, with the right typefaces being associated with a particular brand or look and feel. When employed correctly, typography may be almost invisible to the user, yet its impact remains essential, helping to effectively communicate a website's content and create an impressive, aesthetically pleasing design for users to enjoy.
-
-Synnergy uses a Fluid Typography system (Responsive Type). Fluid typography refers to the practice of using a type system that scale in size according to the size of the user's screen or device. 
+Synergy uses a Fluid Typography system (Responsive Type). Fluid typography refers to the practice of using a type system that scale in size according to the size of the user's screen or device. 
 
 The type system uses relative font sizes (REM) with a base font size of `16px`.
 
@@ -32,25 +26,6 @@ TODO: Design team to Document headings.
     <h3>h3. This is a medium header</h3>
     <h4>h4. This is a moderate header</h4>
     <h5>h5. This is a small header</h5>
-</div>
-```
-
-### CSS Utility Classes
-
-Keeping the correct semantic ordering of headings on a page is important for accessibility. The sequencing of headings impacts the navigation of the content when accessed through a screen reader. Incorrect ordering of headings can cause difficulties in comprehending the text for those using a screen reader.
-
-For example you should never have an `h1` followed by an `h3` and skip `h2`.
-
-There are situations though where you want the semantic ordering of headings to be correct but visually you may want the text to be a different size. For these cases, Synergy provides some CCS Utility classes that allow you to render in a different size.
-
-### Demo
-<Story of={TypographyStories.CSSUtility}/>
-
-#### Code Example
-```html
-<div>
-  <h1>This is an h1</h1>
-  <h2 class="h4">This is an h2, with the size of an h4</h2>
 </div>
 ```
 

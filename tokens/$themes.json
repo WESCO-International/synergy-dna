@@ -17,8 +17,9 @@
       "Patterns/footer": "enabled",
       "Patterns/modal": "enabled",
       "light": "enabled",
-      "Brands/XpressConnect/Components/buttons": "disabled",
-      "Brands/Wesco/Components/buttons": "disabled"
+      "Brands/SDS": "disabled",
+      "Brands/SDS/Components/buttons": "disabled",
+      "Brands/SDS/semantic": "disabled"
     },
     "$figmaStyleReferences": {
       "pattern.modal.color.overlay": "S:7f276fbceefc24f45cc8d9dd2d2b8fc89252ce79,",
@@ -446,10 +447,10 @@
       "Brands/Wesco/Patterns/footer": "enabled",
       "Brands/Wesco/semantic": "enabled",
       "Brands/Wesco/light": "enabled",
-      "Brands/Wesco/dark": "enabled",
       "light": "enabled",
-      "Brands/XpressConnect/Components/buttons": "disabled",
-      "Brands/Wesco/Components/buttons": "disabled"
+      "Brands/SDS": "disabled",
+      "Brands/SDS/Components/buttons": "disabled",
+      "Brands/SDS/semantic": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -463,8 +464,9 @@
       "Brands/XpressConnect/Patterns/header": "enabled",
       "Brands/XpressConnect/Patterns/footer": "enabled",
       "Brands/XpressConnect/light": "enabled",
-      "Brands/XpressConnect/Components/buttons": "disabled",
-      "Brands/Wesco/Components/buttons": "disabled"
+      "Brands/SDS": "disabled",
+      "Brands/SDS/Components/buttons": "disabled",
+      "Brands/SDS/semantic": "disabled"
     },
     "$figmaStyleReferences": {}
   }

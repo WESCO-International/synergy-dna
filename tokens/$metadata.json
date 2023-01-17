@@ -6,6 +6,7 @@
     "semantic",
     "Components",
     "Components/buttons",
+    "Brands/SDS/Components/buttons",
     "Brands/XpressConnect/Components/buttons",
     "Brands/Wesco/Components/buttons",
     "Components/form/form",
@@ -24,10 +25,11 @@
     "Brands/Wesco/Patterns/header",
     "Brands/Wesco/Patterns/footer",
     "Brands/Wesco/semantic",
+    "Brands/SDS/semantic",
     "Brands/Wesco/light",
-    "Brands/Wesco/dark",
     "Brands/WPD/light-theme",
     "Brands/WPD/dark-theme",
-    "Brands/EECOL/dark-theme"
+    "Brands/EECOL/dark-theme",
+    "Brands/SDS"
   ]
 }

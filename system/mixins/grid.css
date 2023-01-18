@@ -2,6 +2,78 @@
 
 /* CSS GRID */
 
+/* CSS Grid Autoflow Column */
+
+@define-mixin grid-auto-flow-column {
+	grid-auto-flow: column;
+}
+
+@define-mixin grid-sm-auto-flow-column {
+	@media (--sds-screen-sm) {
+		grid-auto-flow: column;
+	}
+}
+
+@define-mixin grid-md-auto-flow-column {
+	@media (--sds-screen-md) {
+		grid-auto-flow: column;
+	}
+}
+
+@define-mixin grid-lg-auto-flow-column {
+	@media (--sds-screen-lg) {
+		grid-auto-flow: column;
+	}
+}
+
+@define-mixin grid-xl-auto-flow-column {
+	@media (--sds-screen-xl) {
+		grid-auto-flow: column;
+	}
+}
+
+@define-mixin grid-xxl-auto-flow-column {
+	@media (--sds-screen-xxl) {
+		grid-auto-flow: column;
+	}
+}
+
+/* CSS Grid Autoflow Row */
+
+@define-mixin grid-auto-flow-row {
+	grid-auto-flow: row;
+}
+
+@define-mixin grid-sm-auto-flow-row {
+	@media (--sds-screen-sm) {
+		grid-auto-flow: row;
+	}
+}
+
+@define-mixin grid-md-auto-flow-row {
+	@media (--sds-screen-md) {
+		grid-auto-flow: row;
+	}
+}
+
+@define-mixin grid-lg-auto-flow-row {
+	@media (--sds-screen-lg) {
+		grid-auto-flow: row;
+	}
+}
+
+@define-mixin grid-xl-auto-flow-row {
+	@media (--sds-screen-xl) {
+		grid-auto-flow: row;
+	}
+}
+
+@define-mixin grid-xxl-auto-flow-row {
+	@media (--sds-screen-xxl) {
+		grid-auto-flow: row;
+	}
+}
+
 /* Cols */
 @define-mixin grid-cols $cols {
 	display: grid;
@@ -75,37 +147,37 @@
 
 /* Span Row */
 
-@define-mixin grid-row-span $cols {
-	grid-row: span $(cols)/span $(cols) !important;
+@define-mixin grid-row-span $rows {
+	grid-row: span $(rows)/span $(rows) !important;
 }
 
-@define-mixin grid-sm-row-span $cols {
+@define-mixin grid-sm-row-span $rows {
 	@media (--sds-screen-sm) {
-		grid-row: span $(cols)/span $(cols) !important;
+		grid-row: span $(rows)/span $(rows) !important;
 	}
 }
 
-@define-mixin grid-md-row-span $cols {
+@define-mixin grid-md-row-span $rows {
 	@media (--sds-screen-md) {
-		grid-row: span $(cols)/span $(cols) !important;
+		grid-row: span $(rows)/span $(rows) !important;
 	}
 }
 
-@define-mixin grid-lg-row-span $cols {
+@define-mixin grid-lg-row-span $rows {
 	@media (--sds-screen-lg) {
-		grid-row: span $(cols)/span $(cols) !important;
+		grid-row: span $(rows)/span $(rows) !important;
 	}
 }
 
-@define-mixin grid-xl-row-span $cols {
+@define-mixin grid-xl-row-span $rows {
 	@media (--sds-screen-xl) {
-		grid-row: span $(cols)/span $(cols) !important;
+		grid-row: span $(rows)/span $(rows) !important;
 	}
 }
 
-@define-mixin grid-xxl-row-span $cols {
+@define-mixin grid-xxl-row-span $rows {
 	@media (--sds-screen-xxl) {
-		grid-row: span $(cols)/span $(cols) !important;
+		grid-row: span $(rows)/span $(rows) !important;
 	}
 }
 

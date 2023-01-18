@@ -16,10 +16,7 @@
       "Patterns/header": "enabled",
       "Patterns/footer": "enabled",
       "Patterns/modal": "enabled",
-      "light": "enabled",
-      "Brands/SDS": "disabled",
-      "Brands/SDS/Components/buttons": "disabled",
-      "Brands/SDS/semantic": "disabled"
+      "light": "enabled"
     },
     "$figmaStyleReferences": {
       "pattern.modal.color.overlay": "S:7f276fbceefc24f45cc8d9dd2d2b8fc89252ce79,",
@@ -447,10 +444,7 @@
       "Brands/Wesco/Patterns/footer": "enabled",
       "Brands/Wesco/semantic": "enabled",
       "Brands/Wesco/light": "enabled",
-      "light": "enabled",
-      "Brands/SDS": "disabled",
-      "Brands/SDS/Components/buttons": "disabled",
-      "Brands/SDS/semantic": "disabled"
+      "light": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -463,10 +457,30 @@
       "Brands/XpressConnect/semantic": "enabled",
       "Brands/XpressConnect/Patterns/header": "enabled",
       "Brands/XpressConnect/Patterns/footer": "enabled",
-      "Brands/XpressConnect/light": "enabled",
-      "Brands/SDS": "disabled",
-      "Brands/SDS/Components/buttons": "disabled",
-      "Brands/SDS/semantic": "disabled"
+      "Brands/XpressConnect/light": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "b99766d6390c3c36e7538ba7e715f3f21cda035f",
+    "name": "SDS",
+    "selectedTokenSets": {
+      "global": "source",
+      "light": "enabled",
+      "semantic": "enabled",
+      "Components": "enabled",
+      "Components/buttons": "enabled",
+      "Brands/SDS/Components/buttons": "enabled",
+      "Components/form/form": "enabled",
+      "Components/form/text-field": "enabled",
+      "Components/form/select": "enabled",
+      "Components/form/switch": "enabled",
+      "Components/form/checkbox": "enabled",
+      "Components/form/radio": "enabled",
+      "Patterns/header": "enabled",
+      "Patterns/footer": "enabled",
+      "Patterns/modal": "enabled",
+      "Brands/SDS/semantic": "enabled"
     },
     "$figmaStyleReferences": {}
   }

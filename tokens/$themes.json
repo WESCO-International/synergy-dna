@@ -449,29 +449,6 @@
     "$figmaStyleReferences": {}
   },
   {
-    "id": "b99766d6390c3c36e7538ba7e715f3f21cda035f",
-    "name": "SDS",
-    "selectedTokenSets": {
-      "global": "source",
-      "light": "enabled",
-      "semantic": "enabled",
-      "Components": "enabled",
-      "Components/buttons": "enabled",
-      "Brands/SDS/Components/buttons": "enabled",
-      "Components/form/form": "enabled",
-      "Components/form/text-field": "enabled",
-      "Components/form/select": "enabled",
-      "Components/form/switch": "enabled",
-      "Components/form/checkbox": "enabled",
-      "Components/form/radio": "enabled",
-      "Patterns/header": "enabled",
-      "Patterns/footer": "enabled",
-      "Patterns/modal": "enabled",
-      "Brands/SDS/semantic": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
     "id": "5087ff3b74352a00e2ffc4bd9d2b048fc3877ec3",
     "name": "XpressConnect",
     "selectedTokenSets": {
@@ -493,6 +470,27 @@
       "Patterns/header": "enabled",
       "Patterns/footer": "enabled",
       "Brands/XpressConnect/Components/buttons": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "b99766d6390c3c36e7538ba7e715f3f21cda035f",
+    "name": "SDS",
+    "selectedTokenSets": {
+      "global": "source",
+      "light": "enabled",
+      "Components": "enabled",
+      "Brands/SDS/Components/buttons": "enabled",
+      "Components/form/form": "enabled",
+      "Components/form/text-field": "enabled",
+      "Components/form/select": "enabled",
+      "Components/form/switch": "enabled",
+      "Components/form/checkbox": "enabled",
+      "Components/form/radio": "enabled",
+      "Patterns/header": "enabled",
+      "Patterns/footer": "enabled",
+      "Patterns/modal": "enabled",
+      "Brands/SDS/semantic": "enabled"
     },
     "$figmaStyleReferences": {}
   }

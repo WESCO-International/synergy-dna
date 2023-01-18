@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/wesco-international/synergy-dna/compare/v1.1.2...v1.1.3) (2023-01-18)
+
+
+### Bug Fixes
+
+* small doc updates ([6f0f315](https://github.com/wesco-international/synergy-dna/commit/6f0f315055f2f3872ec23b48fa511cac2c7930f8))
+
 ## [1.1.2](https://github.com/wesco-international/synergy-dna/compare/v1.1.1...v1.1.2) (2023-01-18)
 
 

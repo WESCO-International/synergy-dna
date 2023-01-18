@@ -50,7 +50,7 @@
         "primary": {
           "default": {
             "background-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{semantic.color.primary.base}",
               "type": "color"
             },
             "foreground-color": {
@@ -64,7 +64,7 @@
           },
           "hover": {
             "background-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{semantic.color.primary.light}",
               "type": "color"
             },
             "foreground-color": {

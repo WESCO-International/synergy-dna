@@ -9,30 +9,10 @@ import { TokenList } from '../util';
 
 Synergy defines spacing values that can be used across all components and patterns and helps in maintain consistency within the design system. These tokens can be used to define padding, margins, gutters, and other spacing elements that are applied consistently.
 
+> Due to size considerations, CSS Utility classes do not encompass spacings and gaps. It is advisable to use the mixins or tokens directly.
+
 ### Spacing
 <Story of={SpacingStories.Spacing}/>
 
-#### Spacing Tokens
-
-<div className="table token">
-  <div>
-    <div>Token</div>
-    <div>Value</div>
-    <div>Copy</div>
-  </div>
-  <TokenList tokens={theme.semantic.spacing.around.component} prefix="--sds-semantic-spacing-around-component"></TokenList>
-</div>
-
 ### Gaps
 <Story of={SpacingStories.Gaps}/>
-
-#### Spacing Tokens
-
-<div className="table token">
-  <div>
-    <div>Token</div>
-    <div>Value</div>
-    <div>Copy</div>
-  </div>
-  <TokenList tokens={theme.semantic.spacing.gap.component} prefix="--sds-semantic-spacing-gap-component"></TokenList>
-</div>

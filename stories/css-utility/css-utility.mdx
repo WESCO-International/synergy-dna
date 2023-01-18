@@ -1,12 +1,12 @@
 import { Meta, Story } from '@storybook/blocks';
 import theme from '../../dist/EECOL/theme.json';
 
-<Meta title="Synergy Design System/Developer Docs/Intro to Mixins"/>
+<Meta title="Synergy Design System/Developer Docs/Mixins/Docs"/>
 
-# CSS Mixins
-CSS Mixins offer an alternative approach to working with the Synergy Design System. They are an integral part of the systems construction, but they are not a requirement to utilize the system.
+# CSS Utility Classes
+CSS Utility classes are a powerful and straightforward way to style elements on a web page. This approach to styling has gained popularity with the rise in popularity of CSS frameworks like [TailwindCSS](https://tailwindcss.com/).
 
-The goal is to speed up development when working with the system and to avoid having to remember each token name in the system. To address this issue, there are two solutions offered: CSS Utility classes and Mixins.
+Utility classes can be a useful tool for minimizing the total number of distinct style definitions on a website, while providing an additional layer of abstraction on top of the design system tokens.
 
 ## What are CSS Mixins?
 Mixins are a reusable piece of code which can be leveraged throughout a website’s CSS. Mixins allow developers to manage code more efficiently and ensure their code is DRY (Don't Repeat Yourself) by separating complex style declarations into small manageable functions, and eliminate unnecessary redundancy while maximizing code maintainability.
@@ -95,83 +95,16 @@ Alternativly, you could use the padding mixin and achive the same result without
 }
 ```
 
-### Only include what you need
-PostCSS only includes mixins the transpiled mixin in the final CSS if they are actually used within that file. So there is no performance or size impact to your css files when you import `/mixins`.
-
 ## How to use css mixins
 
 The documentation for Mixins within PostCSS can be found [here](https://github.com/postcss/postcss-mixins/blob/main/README.md).
 
 ### Creating mixins 
 
-The `@define-mixin` keyword is used to create a mixin.
-
-```css
-@define-mixin padding-horizontal $size {
-	padding-left: var(--sds-semantic-spacing-around-component-$(size));
-	padding-right: var(--sds-semantic-spacing-around-component-$(size));
-}
-```
-
-#### Mixin Parameters
-Mixins can have optional parameters that can be used within the body of the mixin. The example above accepts a `size` parameter that can then be references inside the mixing using `$(size)`.
-
-Mulitple parameters are also supported by seperating each parameter with a comma.
-
-```css
-@define-mixin button-style $type, $state: default {
-	color: var(--sds-component-button-color-$(type)-$(state)-foreground-color);
-	background-color: var(--sds-component-button-color-$(type)-$(state)-background-color);
-	border-width: var(--sds-component-button-border-width-$(type)-$(state));
-}
-```
-
-#### Default Parameter values
-Mixin paramters can also define default values using colon.
-
-```css
-@define-mixin padding-horizontal $size: lg {
-	padding-left: var(--sds-semantic-spacing-around-component-$(size));
-	padding-right: var(--sds-semantic-spacing-around-component-$(size));
-}
-```
-
-In the example above if no size is provided the `lg` size will be used.
-
 
 ### Using mixins
-
-Mixins will only work in files that are pre-processed by PostCSS (*.post.css). If you want to use the mixins provided by Synergy you will need to import them into your PostCSS file. The path is relative so it will need to be updated based on the location of your file in the project.
-
-```css
-@import "./mixins";
-```
-
-The `@mixin` keyword allow you to use a mixin.
-
-```css
-    .button {
-        @mixin padding-horizontal md;
-    }
-```
-
-If the mixin supports mulitple parameters than each parameter should be seperated by a comma. In the example below we are using the `button-style` mixin and passing in `primary` and `default` as parameters.
-
-```css
-    .button {
-        @mixin button-style primary, default;
-    }
-```
-
-> In order to use the mixins created by Synergy you will need to import them into your PostCSS file.
 
 
 ## Best practices for css mixins 
 
-* Utilizing descriptive names for your mixins so that you can easily understand their purpose when using them again in the future. 
-* Try to maintaining consistency in naming conventions.
-* Designing mixins to be as versatile as possible, so that they can be used across multiple pages of your application.
-* Avoid including unnecessary styles that do not contribute to intended purpose of the mixin.
-
 ## Conclusion 
-CSS Mixins are a powerful tool that can drastically reduce development time and create a cohesive look for WESCO sites. They allow developers to quickly and easily modify and update style elements across an entire codebase, and provide an elegant way of ensuring consistency. Mixins are easy to understand, use, and maintain, and the time saving benefits that they provide make them a excellent choice for building design systems.

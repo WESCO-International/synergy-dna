@@ -12,9 +12,9 @@ module.exports = {
     }],
     ["@semantic-release/github", {
       "assets": [
-        { "path": "styles/system.css", "label": "SDS Stylesheet", "name": "system.css" },
-        { "path": "brands/EECOL/theme.css", "label": "EECOL Theme (CSS)", "name": "eecol.css" },
-        { "path": "brands/EECOL/theme.scss", "label": "EECOL Theme (SCSS)", "name": "eecol.scss" },
+        { "path": "dist/system.css", "label": "SDS Stylesheet", "name": "system.css" },
+        { "path": "dist/EECOL/theme.css", "label": "EECOL Theme (CSS)", "name": "eecol.css" },
+        { "path": "dist/EECOL/theme.scss", "label": "EECOL Theme (SCSS)", "name": "eecol.scss" },
       ]
     }]
   ],

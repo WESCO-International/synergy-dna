@@ -294,7 +294,7 @@
             "type": "color"
           },
           "heading": {
-            "value": "{global.color.brand.eecol.primary.darkest}",
+            "value": "{global.color.brand.XpressConnect.primary.base}",
             "type": "color"
           },
           "subtle": {
@@ -312,7 +312,7 @@
             "type": "color"
           },
           "heading": {
-            "value": "{global.color.brand.eecol.primary.darkest}",
+            "value": "{global.color.brand.XpressConnect.primary.base}",
             "type": "color"
           },
           "subtle": {

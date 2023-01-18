@@ -421,7 +421,7 @@
           "type": "color"
         },
         "focus": {
-          "value": "{global.color.brand.wesco.secondary.base}",
+          "value": "{global.color.brand.SDS.primary.base}",
           "type": "color"
         },
         "disabled": {
@@ -431,11 +431,11 @@
       },
       "link": {
         "base": {
-          "value": "{global.color.brand.wesco.primary.base}",
+          "value": "{global.color.brand.SDS.primary.base}",
           "type": "color"
         },
         "hover": {
-          "value": "{global.color.brand.wesco.secondary.base}",
+          "value": "{global.color.brand.SDS.secondary.base}",
           "type": "color"
         }
       },

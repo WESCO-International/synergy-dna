@@ -90,7 +90,7 @@ h5,
 }
 
 p {
-	@mixin body;
+	@mixin body-text;
 
 	margin-bottom: var(--sds-semantic-spacing-typography-body-margin-bottom);
 

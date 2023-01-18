@@ -1,7 +1,5 @@
 import { Meta, Story } from '@storybook/blocks';
-import * as TextFieldStories from './textfield.stories';
-import { TokenList } from '../util';
-import theme from '../../dist/EECOL/theme.json';
+import * as FormStories from './form.stories';
 
 <Meta title="Synergy Design System/Forms/Docs"/>
 
@@ -17,15 +15,34 @@ In Franklin, HTML Forms can be authored in a spreadsheet or manually created by 
 
 Text fields allow users to enter free form text data such as names, email addresses and other text.
 
-<Story of={TextFieldStories.TextField}/>
+<Story of={FormStories.TextField}/>
 
-#### TextField Tokens
+## TextArea
 
-<div className="table token">
-  <div>
-    <div>Token</div>
-    <div>Value</div>
-    <div>Copy</div>
-  </div>
-  <TokenList tokens={theme.component['text-field']} prefix="--sds-component-text-field"></TokenList>
-</div>
+Text areas are a type of text input whereby users can enter multiple lines of text into the same field. Text areas also provide built-in features like scroll bars or resizing, which allow flexibility when writing a long form text.
+
+<Story of={FormStories.TextArea}/>
+
+## Select
+
+The select input in an HTML form provides a user with a dropdown list of predefined options to choose from.
+
+<Story of={FormStories.Select}/>
+
+## Checkbox
+
+Checkboxes allow a user to select one or more options from a set of predefined choices.
+
+<Story of={FormStories.Checkbox}/>
+
+## Switch
+
+Switch elements or toggles show an on and off state that users can interact with. They are a useful way to turn on and off features or as a way to choose between two or more options. 
+
+<Story of={FormStories.Switch}/>
+
+## Radio
+
+Radio buttons are used in HTML forms to give users the ability to select one predetermined item from a predefined list of options. 
+
+<Story of={FormStories.Radio}/>

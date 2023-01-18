@@ -44,10 +44,6 @@ textarea {
 	@mixin base-text-field text-field;
 }
 
-select {
-	@mixin base-text-field select;
-}
-
 /* Checkbox */
 input[type="checkbox"],
 input[type="radio"] {
@@ -149,6 +145,17 @@ input[type="radio"] {
 			border-width: 0 2px 2px 0;
 			transform: rotate(45deg);
 		}
+
+		&:disabled + label::before {
+			border-color: var(--sds-component-checkbox-color-disabled-border-color);
+			background-color: var(--sds-component-checkbox-color-disabled-background-color);
+			color: var(--sds-component-checkbox-color-disabled-foreground-color);
+		}
+
+		&:disabled + label::after {
+			border-color: var(--sds-component-checkbox-color-disabled-border-color);
+			background-color: var(--sds-component-checkbox-color-disabled-background-color);
+		}
 	}
 
 	&.switch {
@@ -197,6 +204,15 @@ input[type="radio"] {
 
 			background-color: var(--sds-component-switch-color-checked-foreground-color);
 		}
+
+		&:disabled + label::before {
+			border-color: var(--sds-component-switch-color-disabled-border-color);
+			background-color: var(--sds-component-switch-color-disabled-background-color);
+		}
+
+		&:disabled + label::after {
+			background-color: var(--sds-component-switch-color-disabled-foreground-color);
+		}
 	}
 }
 
@@ -236,10 +252,21 @@ input[type="radio"] {
 		opacity: 1;
 		background-color: var(--sds-component-radio-color-checked-foreground-color);
 	}
+
+	&:disabled + label::after {
+		border-color: var(--sds-component-checkbox-color-disabled-border-color);
+		background-color: var(--sds-component-checkbox-color-disabled-background-color);
+	}
+
+	/* Checked radio check */
+	&:disabled:checked + label::after {
+		background-color: var(--sds-component-radio-color-disabled-foreground-color);
+	}
 }
 
 select {
 	appearance: none;
+	@mixin base-text-field select;
 }
 
 .select {
@@ -259,5 +286,10 @@ select {
 		height: 20px;
 		width: 20px;
 		pointer-events: none;
+	}
+
+	&:has(select:optional:disabled)::after,
+	&:has(select:disabled)::after {
+		background-color: var(--sds-component-select-color-disabled-foreground-color);
 	}
 }

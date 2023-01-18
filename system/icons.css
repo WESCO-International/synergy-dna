@@ -1,3 +1,17 @@
-.icon-check-circle {
-	color: var(--sds-semantic-color-positive-default);
+@import "./mixins";
+
+.icon-sm {
+    @mixin icon sm;
+}
+
+.icon-md {
+    @mixin icon md;
+}
+
+.icon-lg {
+    @mixin icon lg;
+}
+
+.icon-xl {
+    @mixin icon xl;
 }

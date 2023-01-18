@@ -34,7 +34,7 @@
 	}
 
 	&:disabled {
-		@mixin form-element disabled;
+		@mixin form-element $type, disabled;
 	}
 
 	&::placeholder {
@@ -43,6 +43,10 @@
 
 	&:optional {
 		@mixin form-element $type, default;
+	}
+
+	&:optional:disabled {
+		@mixin form-element $type, disabled;
 	}
 
 	&:required:focus:valid {

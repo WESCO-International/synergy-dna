@@ -98,6 +98,46 @@ code {
     gap: var(--sds-semantic-spacing-gap-component-lg);
 }
 
+.grid-demo {
+    & > div {
+        @mixin grid-cols 12;
+        @mixin gap xs;
+        @mixin grid-auto-flow-row;
+        @mixin grid-md-auto-flow-column;
+
+        & > div {
+            @mixin padding lg;
+        }
+
+        & .nav {
+            @mixin layer-2;
+            @mixin grid-col-span 12;
+            @mixin grid-md-col-span 2;
+            @mixin grid-md-row-span 5;
+        }
+
+        & .heading {
+            @mixin layer-1;
+            @mixin grid-col-span 12;
+            @mixin grid-md-col-span 8;
+            @mixin grid-md-row-span 2;
+        }
+
+        & .content {
+            @mixin layer-1;
+            @mixin grid-col-span 12;
+            @mixin grid-md-col-span 8;
+        }
+
+        & .sidebar {
+            @mixin layer-2;
+            @mixin grid-col-span 12;
+            @mixin grid-md-col-span 2;
+            @mixin grid-md-row-span 5;
+        }
+    }
+}
+
 .grid-demo-1 {
     & > div {
         @mixin grid-cols 12;
@@ -163,6 +203,45 @@ code {
 }
 
 .grid-demo-5 {
+    & > div {
+        display: grid;
+        @mixin grid-cols 4;
+        @mixin gap 2xl;
+        & > div {
+            @mixin layer-1;
+            text-align: center;
+        }
+    }
+}
+
+
+.grid-demo-6 {
+    & > div {
+        display: grid;
+        @mixin grid-cols 4;
+        @mixin gap-x 2xl;
+        & > div {
+            @mixin layer-1;
+            text-align: center;
+        }
+    }
+}
+
+
+.grid-demo-7 {
+    & > div {
+        display: grid;
+        @mixin grid-cols 4;
+        @mixin gap-y 2xl;
+        & > div {
+            @mixin layer-1;
+            text-align: center;
+        }
+    }
+}
+
+
+.grid-demo-8 {
     & > div {
         display: grid;
         @mixin grid-cols 1;

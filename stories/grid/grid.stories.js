@@ -2,10 +2,23 @@ export default {
   title: 'Synergy Design System/Grid',
 };
 
+export const Demo = {
+  render: ({ label, ...args }) => {
+    return /* html */`<div class="story grid-demo">
+      <div>
+        <div class="nav">Nav</div>
+        <div class="heading">Heading</div>
+        <div class="content">Content</div>
+        <div class="content">Content</div>
+        <div class="content">Content</div>
+        <div class="sidebar">Sidebar</div>
+      </div>
+    </div>
+    `;
+  }
+};
+
 export const TwelveColumns = {
-  args: {
-    columns: 12,
-  },
   render: ({ label, ...args }) => {
     return /* html */`<div class="story grid-demo-1">
       <div>
@@ -70,9 +83,64 @@ export const SpanRows = {
   }
 };
 
-export const ResponsiveColumns = {
+export const Gap = {
   render: ({ label, ...args }) => {
     return /* html */`<div class="story grid-demo-5">
+      <div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+      </div>
+    </div>
+    `;
+  }
+};
+
+export const GapX = {
+  render: ({ label, ...args }) => {
+    return /* html */`<div class="story grid-demo-6">
+      <div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+      </div>
+    </div>
+    `;
+  }
+};
+
+
+export const GapY = {
+  render: ({ label, ...args }) => {
+    return /* html */`<div class="story grid-demo-7">
+      <div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+          <div>col</div>
+      </div>
+    </div>
+    `;
+  }
+};
+
+export const ResponsiveColumns = {
+  render: ({ label, ...args }) => {
+    return /* html */`<div class="story grid-demo-8">
       <div>
           <div>col</div>
           <div>col</div>

@@ -7,6 +7,8 @@ import * as GridStories from '../grid/grid.stories';
 
 Synergy DNA provides helper mixins to simplify working with responsive CSS Grids.
 
+<Story of={GridStories.Demo}/>
+
 ## Creating grids
 
 The `grid-cols` mixin can be used to create a CSS grid with the provided number of columns. 
@@ -23,6 +25,29 @@ The `grid-cols` mixin can be used to create a CSS grid with the provided number 
     <div>
         <div>columns</div>
         <div>The number of columns you want in the grid</div>
+    </div>
+</div>
+
+### Responsive Grids
+
+The `grid-cols` can be adjusted by breakpoint using the responsive versions of the `grid-cols` mixins.
+
+```css
+@mixin grid-{breakpoint}-cols {columns};
+```
+
+<div className="table margin-bottom">
+    <div>
+        <div>Parameter</div>
+        <div>Options</div>
+    </div>
+    <div>
+        <div>breakpoint</div>
+        <div>`sm` `md` `lg` `xl` `xxl`</div>
+    </div>
+    <div>
+        <div>columns</div>
+        <div>The number of columns to span</div>
     </div>
 </div>
 
@@ -74,6 +99,40 @@ The `grid-cols` mixin can be used to create a CSS grid with the provided number 
 }
 ```
 
+### Example with 8 responsive columns
+
+The demo below shows how to implement as responsive grid that is 8 columns on large screens, 4 columns on medium screens, 2 columns on small screens and 1 column for everything else.
+
+<Story of={GridStories.ResponsiveColumns}/>
+
+```html
+<div class="grid-demo-responsive">
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+</div>
+```
+
+```css
+.grid-demo-responsive {
+    display: grid;
+    @mixin grid-cols 1;
+    @mixin grid-sm-cols 2;
+    @mixin grid-md-cols 4;
+    @mixin grid-lg-cols 8;
+    @mixin gap xs;
+    & > div {
+        @mixin layer-1;
+        text-align: center;
+    }
+}
+```
+
 ## Grid Column Span
 
 The `grid-col-span` mixin can be used to span grid columns.
@@ -111,7 +170,7 @@ The `grid-col-span` mixin can be used to span grid columns.
 The column span can be adjusted by breakpoint using the responsive versions of the column span mixins.
 
 ```css
-@mixin grid-{breakpoint}-cols {columns};
+@mixin grid-{breakpoint}-col-span {columns};
 ```
 
 <div className="table margin-bottom">
@@ -131,7 +190,7 @@ The column span can be adjusted by breakpoint using the responsive versions of t
 
 ## Grid Row Span
 
-The `grid-col-span` mixin can be used to span grid row.
+The `grid-row-span` mixin can be used to span grid row.
 
 <Story of={GridStories.SpanRows}/>
 
@@ -166,7 +225,7 @@ The `grid-col-span` mixin can be used to span grid row.
 The column span can be adjusted by breakpoint using the responsive versions of the row span mixins.
 
 ```css
-@mixin grid-{breakpoint}-cols {columns};
+@mixin grid-{breakpoint}-row-span {rows};
 ```
 
 <div className="table margin-bottom">
@@ -179,35 +238,169 @@ The column span can be adjusted by breakpoint using the responsive versions of t
         <div>`sm` `md` `lg` `xl` `xxl`</div>
     </div>
     <div>
-        <div>columns</div>
-        <div>The number of columns to span</div>
+        <div>rows</div>
+        <div>The number of rows to span</div>
     </div>
 </div>
 
-## Gutter
+## Gap
 
-The `gutter` mixin can be used to add spacing between grid columns;
+The `gap` mixin can be used to add uniform spacing between grid columns and rows.
 
-<Story of={GridStories.SpanColumns}/>
+<Story of={GridStories.Gap}/>
 
 ```html
 <div class="grid-demo-5">
-    <div>col (span 3)</div>
-    <div>col (span 9)</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
 </div>
 ```
 
 ```css
 .grid-demo-5 {
     display: grid;
-    @mixin grid-cols 12;
+    @mixin grid-cols 4;
+    @mixin gap 2xl;
 
     & > div {
-        @mixin grid-col-span 9;
-
-        &:first-of-type {
-            @mixin grid-col-span 3;
-        }
+        @mixin layer-1;
+        text-align: center;
     }
 }
 ```
+### Responsive Gap
+
+The `gap` can be adjusted by breakpoint using the responsive versions of the `gap` mixins.
+
+```css
+@mixin gap-{breakpoint} {size};
+```
+
+<div className="table margin-bottom">
+    <div>
+        <div>Parameter</div>
+        <div>Options</div>
+    </div>
+    <div>
+        <div>breakpoint</div>
+        <div>`sm` `md` `lg` `xl` `xxl`</div>
+    </div>
+    <div>
+        <div>size</div>
+        <div>The gap size, one of `sm` `md` `lg` `xl` `xxl`</div>
+    </div>
+</div>
+
+## Gap X
+
+The `gap-x` mixin can be used to add spacing between grid columns.
+
+<Story of={GridStories.GapX}/>
+
+```html
+<div class="grid-demo-6">
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+</div>
+```
+
+```css
+.grid-demo-6 {
+    display: grid;
+    @mixin grid-cols 4;
+    @mixin gap-x 2xl;
+    
+    & > div {
+        @mixin layer-1;
+        text-align: center;
+    }
+}
+```
+### Responsive Gap X
+
+The `gap-x` can be adjusted by breakpoint using the responsive versions of the `gap-x` mixins.
+
+```css
+@mixin gap-{breakpoint}-x {size};
+```
+
+<div className="table margin-bottom">
+    <div>
+        <div>Parameter</div>
+        <div>Options</div>
+    </div>
+    <div>
+        <div>breakpoint</div>
+        <div>`sm` `md` `lg` `xl` `xxl`</div>
+    </div>
+    <div>
+        <div>size</div>
+        <div>The gap size, one of `sm` `md` `lg` `xl` `xxl`</div>
+    </div>
+</div>
+
+## Gap Y
+
+The `gap-y` mixin can be used to add spacing between grid rows.
+
+<Story of={GridStories.GapY}/>
+
+```html
+<div class="grid-demo-7">
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+    <div>col</div>
+</div>
+```
+
+```css
+.grid-demo-7 {
+    display: grid;
+    @mixin grid-cols 4;
+    @mixin gap-y 2xl;
+    
+    & > div {
+        @mixin layer-1;
+        text-align: center;
+    }
+}
+```
+### Responsive Gap Y
+
+The `gap-y` can be adjusted by breakpoint using the responsive versions of the `gap-y` mixins.
+
+```css
+@mixin gap-{breakpoint}-y {size};
+```
+
+<div className="table margin-bottom">
+    <div>
+        <div>Parameter</div>
+        <div>Options</div>
+    </div>
+    <div>
+        <div>breakpoint</div>
+        <div>`sm` `md` `lg` `xl` `xxl`</div>
+    </div>
+    <div>
+        <div>size</div>
+        <div>The gap size, one of `sm` `md` `lg` `xl` `xxl`</div>
+    </div>
+</div>

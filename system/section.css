@@ -64,7 +64,6 @@
 	@media (--sds-screen-md) {
 		&:not(.full-width) > div {
 			max-width: var(--sds-semantic-size-section-max-width);
-			margin: auto;
 		}
 	}
 }

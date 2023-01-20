@@ -1,5 +1,5 @@
 export default {
-  title: 'Synergy Design System/Forms',
+  title: 'Synergy Design System/Demo/Forms',
 };
 
 export const TextField = {

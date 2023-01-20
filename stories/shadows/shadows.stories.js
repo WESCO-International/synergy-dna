@@ -1,5 +1,5 @@
 export default {
-  title: 'Synergy Design System/Shadows',
+  title: 'Synergy Design System/Demo/Shadows',
 };
 
 export const Small = {

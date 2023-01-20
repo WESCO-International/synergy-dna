@@ -2,13 +2,13 @@ import { Meta, Story } from '@storybook/blocks';
 import { TokenList, TokenRow } from '../util';
 import theme from '../../dist/EECOL/theme.json';
 
-<Meta title="Synergy Design System/Developer Docs/Tokens/Shadow"/>
+<Meta title="Synergy Design System/Developer Docs/Tokens/Icon"/>
 
-# Shadows
+# Sizes
 
 > The Synergy Design System provides CSS & mixins that is pre-configured to utilize the tokens below. They should not be used for any purpose other than the element or semantic meaning they where created for.
 
-## Drop Shadow Tokens
+## Icon Size Tokens
 
 <div className="table token margin-top">
   <div>
@@ -16,16 +16,5 @@ import theme from '../../dist/EECOL/theme.json';
     <div>Value</div>
     <div>Copy</div>
   </div>
-  <TokenList tokens={theme.semantic['drop-shadow']} prefix="--sds-semantic-drop-shadow"></TokenList>
-</div>
-
-## Inner Shadow Tokens
-
-<div className="table token margin-top">
-  <div>
-    <div>Token</div>
-    <div>Value</div>
-    <div>Copy</div>
-  </div>
-  <TokenList tokens={theme.semantic['inner-shadow']} prefix="--sds-semantic-inner-shadow"></TokenList>
+  <TokenList tokens={theme.semantic.size.icon} prefix="--sds-semantic-size-icon"></TokenList>
 </div>

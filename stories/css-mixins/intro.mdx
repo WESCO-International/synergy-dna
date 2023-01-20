@@ -1,7 +1,7 @@
 import { Meta, Story } from '@storybook/blocks';
 import theme from '../../dist/EECOL/theme.json';
 
-<Meta title="Synergy Design System/Developer Docs/Intro to Mixins"/>
+<Meta title="Synergy Design System/Developer Docs/Mixins/Introduction"/>
 
 # CSS Mixins
 CSS Mixins offer an alternative approach to working with the Synergy Design System. They are an integral part of the systems construction, but they are not a requirement to utilize the system.
@@ -15,6 +15,28 @@ Having all the core patterns of the design system codified in mixins helps creat
 
 ## Advantage of using CSS Mixins
 Below are a list of some benefits to using CSS Mixins.
+
+### Improved code efficiency and readability
+CSS Mixins promote uniformity between styles while reducing the amount of code you have to write and eliminating the need to memorize token names.
+
+#### Example
+Let say we have a design for a card that requires large padding around it.
+
+In pure CSS we would require the name of the large padding token to do this.
+
+```css 
+.card {
+    padding: var(--sds-semantic-spacing-around-component-lg);
+}
+```
+
+Alternativly, you could use the padding mixin and achive the same result without having to remember the token name.
+
+```css 
+.card {
+    @mixin padding lg;
+}
+```
 
 ### Increased code modularity
 CSS Mixins allow you to break down complex code into small chunks that can be reused and referenced throughout your project, making development and maintenance easier. 
@@ -72,28 +94,6 @@ input[type="text"] {
 In reality, we have tokens that not only map to the `default` and `hover` state but also to the `focus`, `active`, `required` and `disabled` states. With that in mind you can see how modularity in mixins makes development and maintenance easier. 
 
 The implmentation of [buttons](https://github.com/WESCO-International/synergy-dna/blob/main/system/components.css#L1) in Synergy is a great example of how CSS Mixins promote modularity and improve code maintenance.
-
-### Improved code efficiency and readability
-CSS Mixins promote uniformity between styles while reducing the amount of code you have to write and eliminating the need to memorize token names.
-
-#### Example
-Let say we have a design for a card that requires large padding around it.
-
-In pure CSS we would require the name of the large padding token to do this.
-
-```css 
-.card {
-    padding: var(--sds-semantic-spacing-around-component-lg);
-}
-```
-
-Alternativly, you could use the padding mixin and achive the same result without having to remember the token name.
-
-```css 
-.card {
-    @mixin padding lg;
-}
-```
 
 ### Only include what you need
 PostCSS only includes mixins the transpiled mixin in the final CSS if they are actually used within that file. So there is no performance or size impact to your css files when you import `/mixins`.

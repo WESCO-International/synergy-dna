@@ -4,35 +4,35 @@
 
 /* CSS Grid Autoflow Column */
 
-@define-mixin grid-auto-flow-column {
+@define-mixin grid-auto-flow-col {
 	grid-auto-flow: column;
 }
 
-@define-mixin grid-sm-auto-flow-column {
+@define-mixin grid-sm-auto-flow-col {
 	@media (--sds-screen-sm) {
 		grid-auto-flow: column;
 	}
 }
 
-@define-mixin grid-md-auto-flow-column {
+@define-mixin grid-md-auto-flow-col {
 	@media (--sds-screen-md) {
 		grid-auto-flow: column;
 	}
 }
 
-@define-mixin grid-lg-auto-flow-column {
+@define-mixin grid-lg-auto-flow-col {
 	@media (--sds-screen-lg) {
 		grid-auto-flow: column;
 	}
 }
 
-@define-mixin grid-xl-auto-flow-column {
+@define-mixin grid-xl-auto-flow-col {
 	@media (--sds-screen-xl) {
 		grid-auto-flow: column;
 	}
 }
 
-@define-mixin grid-xxl-auto-flow-column {
+@define-mixin grid-xxl-auto-flow-col {
 	@media (--sds-screen-xxl) {
 		grid-auto-flow: column;
 	}

@@ -12,6 +12,23 @@ body {
 
 code {
     width: auto;
+    font-family: ui-monospace,Menlo,Monaco,"Roboto Mono","Oxygen Mono","Ubuntu Monospace","Source Code Pro","Droid Sans Mono","Courier New",monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    vertical-align: baseline;
+    color: inherit;
+    line-height: 1;
+    margin: 0 2px;
+    padding: 3px 5px;
+    white-space: nowrap;
+    border-radius: 3px;
+    font-size: 13px;
+    border: 1px solid #ECF4F9;
+    color: rgba(46,52,56,0.9);
+    background-color: #F7FAFC;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .story {
@@ -26,7 +43,7 @@ code {
     & > div {
         @mixin padding md;
         display: grid;
-        grid-template-rows: 35px;
+        grid-template-rows: auto;
         grid-auto-columns: minmax(0, 1fr);
         grid-auto-flow: column;
         border-bottom: 1px solid hsla(203, 50%, 30%, 0.2);
@@ -103,7 +120,7 @@ code {
         @mixin grid-cols 12;
         @mixin gap xs;
         @mixin grid-auto-flow-row;
-        @mixin grid-md-auto-flow-column;
+        @mixin grid-md-auto-flow-col;
 
         & > div {
             @mixin padding lg;
@@ -138,7 +155,7 @@ code {
     }
 }
 
-.grid-demo-1 {
+.grid-demo-12-column {
     & > div {
         @mixin grid-cols 12;
         @mixin gap xs;
@@ -150,7 +167,7 @@ code {
     }
 }
 
-.grid-demo-2 {
+.grid-demo-2-column {
     & > div {
         @mixin grid-cols 2;
         @mixin gap xs;
@@ -162,7 +179,7 @@ code {
     }
 }
 
-.grid-demo-3 {
+.grid-demo-span-columns {
     & > div {
         display: grid;
         @mixin grid-cols 12;
@@ -182,7 +199,7 @@ code {
     }
 }
 
-.grid-demo-4 {
+.grid-demo-span-rows {
     & > div {
         display: grid;
         @mixin grid-cols 12;
@@ -202,7 +219,7 @@ code {
     }
 }
 
-.grid-demo-5 {
+.grid-demo-gap {
     & > div {
         display: grid;
         @mixin grid-cols 4;
@@ -215,7 +232,7 @@ code {
 }
 
 
-.grid-demo-6 {
+.grid-demo-gap-x {
     & > div {
         display: grid;
         @mixin grid-cols 4;
@@ -228,7 +245,7 @@ code {
 }
 
 
-.grid-demo-7 {
+.grid-demo-gap-y {
     & > div {
         display: grid;
         @mixin grid-cols 4;
@@ -241,7 +258,7 @@ code {
 }
 
 
-.grid-demo-8 {
+.grid-demo-responsive {
     & > div {
         display: grid;
         @mixin grid-cols 1;

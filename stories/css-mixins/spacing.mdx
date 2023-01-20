@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/blocks';
 import theme from '../../dist/EECOL/theme.json';
-import { TokenList } from '../util';
+import { TokenList, Code } from '../util';
 
 <Meta title="Synergy Design System/Developer Docs/Mixins/Spacing"/>
 
@@ -11,8 +11,6 @@ Synergy provides the following mixins to work with paddings, margin and gutters.
 ## Padding Mixins
 
 Each mixins includes a required `size` parameter that is used to determine this size of the padding to use.
-
-The sizing options are `xs`, `sm`, `md`,  `lg`,  `xl`,  `2xl`,  `3xl`,  `4xl`,  `5xl`,  `6xl`,  `7xl`,  `8xl`,  `9xl`, `10xl` and they map to spacing tokens defined in the [Space Around Components Tokens](/docs/synergy-design-system-developer-docs-tokens-space--docs#space-around-components-tokens).
 
 ### Mixins
 
@@ -41,36 +39,61 @@ Set the vertical or horizontal padding.
 
 @mixin padding-horizontal {size};
 ```
+#### Size Parameter
+
+<div className="table margin-top">
+    <div>
+        <div>Parameter</div>
+        <div>Options</div>
+    </div>
+    <div>
+        <div>`size`</div>
+        <div>{ Object.entries(theme.semantic.spacing.around['component']).map(([k, v]) => <Code k={k} value={v} url="/?path=/docs/synergy-design-system-developer-docs-tokens-space--docs#space-around-components-tokens"/>) }</div>
+    </div>
+</div>
 
 #### Padding by breakpoint
 
 Setting the padding based on a breakpoint is also supported.
 
-The example below uses the `sm` breakpoint but Synergy also supports all the breakpoints available including `xs`, `sm`, `md`, `lg`, `xl`, `xxl`. Just replace `sm` with the breakpoint you want to set the padding for.
-
 ```css
-@mixin padding-sm {size};
+@mixin padding-{breakpoint} {size};
 
-@mixin padding-sm-top {size};
+@mixin padding-{breakpoint}-top {size};
 
-@mixin padding-sm-bottom {size};
+@mixin padding-{breakpoint}-bottom {size};
 
-@mixin padding-sm-left {size};
+@mixin padding-{breakpoint}-left {size};
 
-@mixin padding-sm-right {size};
+@mixin padding-{breakpoint}-right {size};
 
-@mixin padding-sm-vertical {size};
+@mixin padding-{breakpoint}-vertical {size};
 
-@mixin padding-sm-horizontal {size};
+@mixin padding-{breakpoint}-horizontal {size};
 ```
+
+#### Parameters
+
+<div className="table margin-top">
+    <div>
+        <div>Parameter</div>
+        <div>Options</div>
+    </div>
+    <div>
+        <div>`breakpoint`</div>
+        <div>{ Object.entries(theme.semantic.size.breakpoints).map(([k, v]) => <Code k={k} value={v} url="/?path=/docs/synergy-design-system-developer-docs-tokens-size--docs#breakpoint-tokens"/>) }</div>
+    </div>
+    <div>
+        <div>`size`</div>
+        <div>{ Object.entries(theme.semantic.spacing.around['component']).map(([k, v]) => <Code k={k} value={v} url="/?path=/docs/synergy-design-system-developer-docs-tokens-space--docs#space-around-components-tokens"/>) }</div>
+    </div>
+</div>
 
 ## Margin Mixins
 
 Synergy provides the following mixins to work with margins.
 
 Each mixins includes a required `size` parameter that is used to determine this size of the padding to use.
-
-The sizing options are `xs`, `sm`, `md`,  `lg`,  `xl`,  `2xl`,  `3xl`,  `4xl`,  `5xl`,  `6xl`,  `7xl`,  `8xl`,  `9xl`, `10xl` and they map to spacing tokens defined in the [Space Around Components Tokens](/docs/synergy-design-system-developer-docs-tokens-space--docs#space-around-components-tokens).
 
 ### Mixins
 
@@ -100,24 +123,52 @@ Set the vertical or horizontal margin.
 @mixin margin-horizontal {size};
 ```
 
+#### Size Parameter
+
+<div className="table margin-top">
+    <div>
+        <div>Parameter</div>
+        <div>Options</div>
+    </div>
+    <div>
+        <div>`size`</div>
+        <div>{ Object.entries(theme.semantic.spacing.around['component']).map(([k, v]) => <Code k={k} value={v} url="/?path=/docs/synergy-design-system-developer-docs-tokens-space--docs#space-around-components-tokens"/>) }</div>
+    </div>
+</div>
+
 #### Margin by breakpoint
 
 Setting the margin based on a breakpoint is also supported.
 
-The example below uses the `sm` breakpoint but Synergy also supports all the breakpoints available including `xs`, `sm`, `md`, `lg`, `xl`, `xxl`. Just replace `sm` with the breakpoint you want to set the margin for.
-
 ```css
-@mixin margin-sm {size};
+@mixin margin-{breakpoint} {size};
 
-@mixin margin-sm-top {size};
+@mixin margin-{breakpoint}-top {size};
 
-@mixin margin-sm-bottom {size};
+@mixin margin-{breakpoint}-bottom {size};
 
-@mixin margin-sm-left {size};
+@mixin margin-{breakpoint}-left {size};
 
-@mixin margin-sm-right {size};
+@mixin margin-{breakpoint}-right {size};
 
-@mixin margin-sm-vertical {size};
+@mixin margin-{breakpoint}-vertical {size};
 
-@mixin margin-sm-horizontal {size};
+@mixin margin-{breakpoint}-horizontal {size};
 ```
+
+#### Parameters
+
+<div className="table margin-top">
+    <div>
+        <div>Parameter</div>
+        <div>Options</div>
+    </div>
+    <div>
+        <div>`breakpoint`</div>
+        <div>{ Object.entries(theme.semantic.size.breakpoints).map(([k, v]) => <Code k={k} value={v} url="/?path=/docs/synergy-design-system-developer-docs-tokens-size--docs#breakpoint-tokens"/>) }</div>
+    </div>
+    <div>
+        <div>`size`</div>
+        <div>{ Object.entries(theme.semantic.spacing.around['component']).map(([k, v]) => <Code k={k} value={v} url="/?path=/docs/synergy-design-system-developer-docs-tokens-space--docs#space-around-components-tokens"/>) }</div>
+    </div>
+</div>

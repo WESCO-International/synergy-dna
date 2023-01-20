@@ -1,5 +1,5 @@
 export default {
-  title: 'Synergy Design System/Typography',
+  title: 'Synergy Design System/Demo/Typography',
 };
 
 export const Demo = {

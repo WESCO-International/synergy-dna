@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/blocks';
 import theme from '../../dist/EECOL/theme.json';
-import { TokenList } from '../util';
+import { TokenList, Code } from '../util';
 
 <Meta title="Synergy Design System/Developer Docs/Mixins/Color"/>
 
@@ -22,8 +22,8 @@ The Synergy Design System supplies three primary background color types: `base`,
         <div>Options</div>
     </div>
     <div>
-        <div>type</div>
-        <div>`base` `layer-1` `layer-2`</div>
+        <div>`type`</div>
+        <div>{ Object.entries(theme.semantic.color.background).map(([k, v]) => <Code k={k} value={v} url="/?path=/docs/synergy-design-system-developer-docs-tokens-color--docs#background-color-tokens"/>) }</div>
     </div>
 </div>
 
@@ -45,34 +45,13 @@ To this end, the `foreground-color` mixin can be used to select the correct fore
         <div>Default</div>
     </div>
     <div>
-        <div>type</div>
-        <div>`base` `layer-1` `layer-2`</div>
+        <div>`type`</div>
+        <div>{ Object.entries(theme.semantic.color.foreground).map(([k, v]) => <Code k={k} value={v} url="/?path=/docs/synergy-design-system-developer-docs-tokens-color--docs#foreground-color-tokens"/>) }</div>
         <div>`base`</div>
     </div>
     <div>
-        <div>style</div>
-        <div>`default` `subtle` `muted`</div>
-        <div>`default`</div>
-    </div>
-</div>
-
-## Border Color Mixin
-
-Synergy defines a base border color.
-
-```css
-@mixin border-color {state};
-```
-
-<div className="table margin-top">
-    <div>
-        <div>Parameter</div>
-        <div>Options</div>
-        <div>Default</div>
-    </div>
-    <div>
-        <div>state</div>
-        <div>`base` `hover` `down` `focus` `disabled`</div>
+        <div>`style`</div>
+        <div>{ Object.entries(theme.semantic.color.foreground['on-layer-1']).map(([k, v]) => <Code k={k} value={v} url="/?path=/docs/synergy-design-system-developer-docs-tokens-color--docs#foreground-color-tokens"/>) }</div>
         <div>`default`</div>
     </div>
 </div>

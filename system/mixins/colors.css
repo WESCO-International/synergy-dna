@@ -3,7 +3,7 @@
 }
 
 @define-mixin foreground-color $type, $style {
-    color: var(--sds-semantic-color-foreground-on-$(type)-$(style));
+    color: var(--sds-semantic-color-foreground-$(type)-$(style));
 }
 
 @define-mixin color-combination $type {

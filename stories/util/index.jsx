@@ -49,3 +49,9 @@ export function TokenRow({k, value, prefix}) {
       </div>
   ) 
 }
+
+export function Code({k, value, url}) {
+  return(
+      <code title={value}><a href={url}>{k}</a></code>
+  ) 
+}

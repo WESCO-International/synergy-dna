@@ -51,6 +51,9 @@ export function TokenRow({k, value, prefix}) {
 }
 
 export function Code({k, value, url}) {
+  if((window.location.href.includes('github.io'))) {
+    url = `synergy-dna/docs/storybook${url}`;
+  }
   return(
       <code title={value}><a href={url}>{k}</a></code>
   ) 

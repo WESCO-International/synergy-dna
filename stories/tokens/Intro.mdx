@@ -2,4 +2,20 @@ import { Meta, Story } from '@storybook/blocks';
 
 <Meta title="Synergy Design System/Developer Docs/Tokens/Introduction"/>
 
-# Introduction to tokens
+# Introduction to Design Tokens
+
+## What are Design Tokens?
+
+Design tokens are all the values needed to construct and maintain a design system — spacing, color, typography, object styles, animation, etc. — represented as data. These can represent anything defined by design: a color as a RGB value, an opacity as a number, an animation ease as Bezier coordinates. They’re used in place of hard-coded values in order to ensure flexibility and unity across all product experiences.
+
+## Why use Design Tokens?
+
+Using design tokens Wesco can guarantee consistency, improve maintainability, and enable designers to rapidly develop and deploy solutions without conflicts created by highly-specific hard-coded values. Additionally, tokens allow us to build and reuse components in our designs more quickly and reliably, making changes easier for designers to manage over time. 
+
+With the help of design tokens, designers & developers can quickly scale and design templates and components faster, allowing them to keep pace with rapidly evolving customer expectations.
+
+## Design token format
+
+The design tokens in the Synergy Design System all follow a similar naming pattern.
+
+`--{namespace}-{component | category}-{property}-{attribute}-(state optional)`

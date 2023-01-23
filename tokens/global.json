@@ -929,11 +929,11 @@
         "wesco": {
           "primary": {
             "base": {
-              "value": "#1D252D",
+              "value": "#4F758B",
               "type": "color"
             },
             "dark": {
-              "value": "1D252D",
+              "value": "#1D252D",
               "type": "color"
             },
             "darker": {

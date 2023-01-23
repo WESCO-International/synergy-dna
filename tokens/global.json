@@ -931,11 +931,35 @@
             "base": {
               "value": "#1D252D",
               "type": "color"
+            },
+            "dark": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darkest": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
             }
           },
           "secondary": {
             "base": {
               "value": "#00AA13",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darkest": {
+              "value": "{global.color.static.transparent.white.50}",
               "type": "color"
             }
           }
@@ -965,11 +989,35 @@
             "base": {
               "value": "#f28b00",
               "type": "color"
+            },
+            "dark": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darkest": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
             }
           },
           "secondary": {
             "base": {
               "value": "#db6b30",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darkest": {
+              "value": "{global.color.static.transparent.white.50}",
               "type": "color"
             }
           }

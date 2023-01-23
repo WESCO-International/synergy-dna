@@ -249,19 +249,19 @@
       },
       "secondary": {
         "base": {
-          "value": "{global.color.static.purple.600}",
+          "value": "global.color.static.transparent.white.50",
           "type": "color"
         },
         "light": {
-          "value": "{global.color.static.purple.400}",
+          "value": "global.color.static.transparent.white.50",
           "type": "color"
         },
         "dark": {
-          "value": "{global.color.static.purple.700}",
+          "value": "global.color.static.transparent.white.50",
           "type": "color"
         },
         "darker": {
-          "value": "{global.color.static.purple.800}",
+          "value": "global.color.static.transparent.white.50",
           "type": "color"
         }
       },

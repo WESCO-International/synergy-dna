@@ -1,3 +1,5 @@
+@import './mixins';
+
 @define-mixin button-style $type, $state: default {
 	color: var(--sds-component-button-color-$(type)-$(state)-foreground-color);
 	background-color: var(--sds-component-button-color-$(type)-$(state)-background-color);
@@ -79,8 +81,7 @@
 
 .button .icon,
 .button .icon svg {
-	width: var(--sds-semantic-size-icon-md-width);
-	height: var(--sds-semantic-size-icon-md-height);
+	@mixin icon md;
 }
 
 .button.primary {

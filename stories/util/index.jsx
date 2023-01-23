@@ -58,3 +58,7 @@ export function Code({k, value, url}) {
       <code title={value}><a href={url}>{k}</a></code>
   ) 
 }
+
+export const SystemName = "Synergy Design System";
+
+export function SystemNameLabel() { return SystemName };

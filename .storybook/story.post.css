@@ -93,6 +93,10 @@ code {
     }
 }
 
+.systemLabel {
+    font-size: 14px !important;
+}
+
 .button.small {
     height: 30px;
     font-size: 14px;

@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/wesco-international/synergy-dna/compare/v1.1.5...v1.1.6) (2023-01-20)
+
+
+### Bug Fixes
+
+* add section mixin, other bug fixes ([aadb4e4](https://github.com/wesco-international/synergy-dna/commit/aadb4e4837e739dfdbabdab61c1fbad0c7479fbf))
+
 ## [1.1.5](https://github.com/wesco-international/synergy-dna/compare/v1.1.4...v1.1.5) (2023-01-20)
 
 

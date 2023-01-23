@@ -238,12 +238,12 @@
     },
     "color": {
       "primary": {
-        "base": {
-          "value": "{global.color.brand.eecol.primary.dark}",
-          "type": "color"
-        },
         "light": {
           "value": "{global.color.brand.eecol.primary.base}",
+          "type": "color"
+        },
+        "base": {
+          "value": "{global.color.brand.eecol.primary.dark}",
           "type": "color"
         },
         "dark": {

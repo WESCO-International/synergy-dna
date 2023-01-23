@@ -1,8 +1,10 @@
+@import "./mixins";
+
 .section {
+	@mixin max-section-width;
 	margin: auto;
 	width: 100%;
 	padding: var(--sds-semantic-spacing-section-mobile-padding-y) var(--sds-semantic-spacing-section-mobile-padding-x);
-	max-width: var(--sds-semantic-size-section-max-width);
 
 	&[data-section-status="loading"],
 	&[data-section-status="initialized"] {
@@ -15,7 +17,7 @@
 	}
 
 	&.secondary-background {
-		background-color: var(--sds-semantic-color-background-layer-1);
+		@mixin background-color layer-1;
 	}
 
 	/* TODO: Finish Fluid */
@@ -48,7 +50,7 @@
 		margin: 0;
 
 		& > div:not(.default-content-wrapper) {
-			max-width: var(--sds-semantic-size-section-max-width);
+			@mixin max-section-width;
 			margin: auto;
 		}
 
@@ -63,13 +65,13 @@
 
 	@media (--sds-screen-md) {
 		&:not(.full-width) > div {
-			max-width: var(--sds-semantic-size-section-max-width);
+			@mixin max-section-width;
 		}
 	}
 }
 
 .default-content-wrapper {
-	max-width: var(--sds-semantic-size-section-max-width);
+	@mixin max-section-width;
 	margin-left: auto;
 	margin-right: auto;
 

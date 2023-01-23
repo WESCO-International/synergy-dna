@@ -933,7 +933,7 @@
               "type": "color"
             },
             "dark": {
-              "value": "{global.color.static.transparent.white.50}",
+              "value": "1D252D",
               "type": "color"
             },
             "darker": {
@@ -991,7 +991,7 @@
               "type": "color"
             },
             "dark": {
-              "value": "{global.color.static.transparent.white.50}",
+              "value": "#db6b30",
               "type": "color"
             },
             "darker": {
@@ -1005,7 +1005,7 @@
           },
           "secondary": {
             "base": {
-              "value": "#db6b30",
+              "value": "{global.color.static.transparent.white.50}",
               "type": "color"
             },
             "dark": {

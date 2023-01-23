@@ -227,6 +227,26 @@
             "value": "{global.size.500}",
             "type": "sizing"
           }
+        },
+        "xs": {
+          "width": {
+            "value": "{global.size.150}",
+            "type": "sizing"
+          },
+          "height": {
+            "value": "{global.size.150}",
+            "type": "sizing"
+          }
+        },
+        "xxs": {
+          "width": {
+            "value": "{global.size.100}",
+            "type": "sizing"
+          },
+          "height": {
+            "value": "{global.size.100}",
+            "type": "sizing"
+          }
         }
       },
       "default-content-wrapper": {

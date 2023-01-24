@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/wesco-international/synergy-dna/compare/v1.1.7...v1.1.8) (2023-01-24)
+
+
+### Bug Fixes
+
+* secondary buttons from word ([5c099d7](https://github.com/wesco-international/synergy-dna/commit/5c099d7948e0e1ac829d6533fedb4927010638f7))
+
 ## [1.1.7](https://github.com/wesco-international/synergy-dna/compare/v1.1.6...v1.1.7) (2023-01-23)
 
 

@@ -405,7 +405,6 @@
       "component.form.typography.label": "S:cccc2a01a171ede424e391bfabf1be87bc282b57,",
       "component.form.typography.help": "S:91ea047bead5bafe3d56097e8efc9eb2ebb5f3ef,",
       "component.button.typography.label": "S:5df161fb8eecfa24a5813b336736d07811579c69,",
-      "semantic.typography.body": "S:caef9b7f49a3c695e30ee50f8269d306e31e53b5,",
       "semantic.typography.caption": "S:893dcc27852d4a8e32e143a96ce7654095456ddd,",
       "semantic.typography.source-code": "S:c102277cbe922f81222eafc5a9c855a985db21ab,",
       "semantic.typography.desktop.display-1": "S:9eb3aad5a1ae81df9fa5801c7c4ee09711be5c6b,",
@@ -432,7 +431,8 @@
       "semantic.drop-shadow.md": "S:60663ad4c235c396277d1b6ee55bca75e95482e5,",
       "semantic.drop-shadow.lg": "S:98b70d04da23499f0c7007df8d38e06b687937af,",
       "semantic.drop-shadow.xl": "S:b03714e9cbf641481c7ccea4a348bfaf17e7524b,",
-      "semantic.inner-shadow.sm": "S:062c3593452fa6a4fcb1063a25554c11454034e6,"
+      "semantic.inner-shadow.sm": "S:062c3593452fa6a4fcb1063a25554c11454034e6,",
+      "semantic.typography.body large": "S:caef9b7f49a3c695e30ee50f8269d306e31e53b5,"
     }
   }
 ]

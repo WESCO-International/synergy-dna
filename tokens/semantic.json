@@ -160,6 +160,10 @@
     },
     "size": {
       "breakpoints": {
+        "screen-xs": {
+          "value": "{global.breakpoints.50}",
+          "type": "sizing"
+        },
         "screen-sm": {
           "value": "{global.breakpoints.100}",
           "type": "sizing"
@@ -176,8 +180,16 @@
           "value": "{global.breakpoints.400}",
           "type": "sizing"
         },
-        "screen-xxl": {
+        "screen-2xl": {
           "value": "{global.breakpoints.500}",
+          "type": "sizing"
+        },
+        "screen-3xl": {
+          "value": "{global.breakpoints.600}",
+          "type": "sizing"
+        },
+        "screen-4xl": {
+          "value": "{global.breakpoints.700}",
           "type": "sizing"
         }
       },

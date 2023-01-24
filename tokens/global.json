@@ -1076,11 +1076,11 @@
         "type": "sizing"
       },
       "300": {
-        "value": "992",
+        "value": "1024",
         "type": "sizing"
       },
       "400": {
-        "value": "1200",
+        "value": "1280",
         "type": "sizing"
       },
       "500": {
@@ -1089,6 +1089,10 @@
       },
       "600": {
         "value": "1640",
+        "type": "sizing"
+      },
+      "700": {
+        "value": "1920",
         "type": "sizing"
       }
     },

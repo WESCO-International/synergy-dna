@@ -49,23 +49,35 @@
 }
 
 .button {
+	&:not(:has(em)) {
+		padding: var(--sds-component-button-spacing-default-padding-y) var(--sds-component-button-spacing-default-padding-x);
+	}
+
 	display: flex;
 	justify-content: center;
 	font-family: var(--sds-component-button-font-family-label);
 	font-size: var(--sds-component-button-font-size-label);
-	padding: var(--sds-component-button-spacing-default-padding-y) var(--sds-component-button-spacing-default-padding-x);
 	height: var(--sds-component-button-sizing-height);
+	gap: var(--sds-component-button-spacing-default-gap);
 	line-height: 100%;
 	font-weight: 700;
 	border-style: solid;
 	align-items: center;
-	gap: var(--sds-component-button-spacing-default-gap);
 	font-style: initial;
 	user-select: none;
 	transition-property: color, background-color, border-color, fill, stroke, opacity;
 	transition-duration: 0.2s;
 	outline: none;
 }
+
+.button em {
+	display: flex;
+	gap: var(--sds-component-button-spacing-default-gap);
+	padding: var(--sds-component-button-spacing-default-padding-y) var(--sds-component-button-spacing-default-padding-x);
+	align-items: center;
+	font-style: normal;
+}
+
 
 /* TODO: Support small and large buttons */
 

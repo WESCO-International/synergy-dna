@@ -153,6 +153,10 @@
         "value": "{global.font-size.xs}",
         "type": "fontSizes"
       },
+      "body xsmall": {
+        "value": "{global.font-size.xxs}",
+        "type": "fontSizes"
+      },
       "caption": {
         "value": "{global.font-size.sm}",
         "type": "fontSizes"
@@ -949,6 +953,19 @@
           "fontWeight": "{semantic.font-weight.body.regular}",
           "lineHeight": "{semantic.line-height.body}",
           "fontSize": "{semantic.font-size.body small}",
+          "paragraphSpacing": "{semantic.paragraph-spacing.body}",
+          "letterSpacing": "{semantic.letter-spacing.default}",
+          "textDecoration": "{semantic.text-decoration.body}",
+          "textCase": "{semantic.text-case.body}"
+        },
+        "type": "typography"
+      },
+      "body xsmall": {
+        "value": {
+          "fontFamily": "{semantic.font-family.body}",
+          "fontWeight": "{semantic.font-weight.body.regular}",
+          "lineHeight": "{semantic.line-height.body}",
+          "fontSize": "{semantic.font-size.body xsmall}",
           "paragraphSpacing": "{semantic.paragraph-spacing.body}",
           "letterSpacing": "{semantic.letter-spacing.default}",
           "textDecoration": "{semantic.text-decoration.body}",

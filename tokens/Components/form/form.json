@@ -248,6 +248,10 @@
         "key-focus": {
           "value": "{global.border-width.200}",
           "type": "borderWidth"
+        },
+        "error": {
+          "value": "{global.border-width.200}",
+          "type": "borderWidth"
         }
       },
       "default": {
@@ -281,7 +285,7 @@
       "input-error": {
         "value": {
           "color": "{component.form.color.border.error}",
-          "width": "{component.form.border-width.key-focus}",
+          "width": "{component.form.border-width.error}",
           "style": "solid"
         },
         "type": "border"

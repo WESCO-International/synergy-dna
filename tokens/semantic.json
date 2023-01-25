@@ -696,11 +696,11 @@
         },
         "mobile": {
           "padding-x": {
-            "value": "{global.space.150}",
+            "value": "{global.space.200}",
             "type": "spacing"
           },
           "padding-y": {
-            "value": "{global.space.150}",
+            "value": "{global.space.200}",
             "type": "spacing"
           }
         }

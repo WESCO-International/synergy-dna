@@ -192,6 +192,16 @@
             "default": {
               "value": "{global.color.static.gray.800}",
               "type": "color"
+            },
+            "focus": {
+              "value": "{global.color.static.black}",
+              "type": "color"
+            }
+          },
+          "required": {
+            "default": {
+              "value": "{global.color.brand.eecol.primary.base}",
+              "type": "color"
             }
           }
         },
@@ -267,7 +277,7 @@
       "input-error": {
         "value": {
           "color": "{component.form.color.border.error}",
-          "width": "{component.form.border-width.default}",
+          "width": "{component.form.border-width.key-focus}",
           "style": "solid"
         },
         "type": "border"

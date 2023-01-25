@@ -4,7 +4,7 @@
       "color": {
         "default": {
           "background-color": {
-            "value": "{semantic.color.background.input}",
+            "value": "{semantic.color.background.base}",
             "type": "color"
           },
           "foreground-color": {
@@ -18,7 +18,7 @@
         },
         "hover": {
           "background-color": {
-            "value": "{semantic.color.background.input}",
+            "value": "{semantic.color.background.base}",
             "type": "color"
           },
           "foreground-color": {
@@ -46,7 +46,7 @@
         },
         "success": {
           "background-color": {
-            "value": "{semantic.color.background.input}",
+            "value": "{semantic.color.background.base}",
             "type": "color"
           },
           "foreground-color": {

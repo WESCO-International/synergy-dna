@@ -50,6 +50,10 @@
       "body": {
         "value": "Source Sans Pro",
         "type": "fontFamilies"
+      },
+      "icon": {
+        "value": "Font Awesome 6 Pro",
+        "type": "fontFamilies"
       }
     },
     "font-size": {
@@ -503,7 +507,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{theme.color.gray.400}",
+          "value": "{global.color.static.gray.400}",
           "type": "color"
         }
       },
@@ -892,6 +896,12 @@
         }
       },
       "source-code": {
+        "regular": {
+          "value": "400",
+          "type": "fontWeights"
+        }
+      },
+      "icon": {
         "regular": {
           "value": "400",
           "type": "fontWeights"

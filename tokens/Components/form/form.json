@@ -99,7 +99,7 @@
       },
       "sizing": {
         "input-min-width": {
-          "value": "{global.size.1200}",
+          "value": "{global.size.3300}",
           "type": "sizing"
         }
       },

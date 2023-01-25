@@ -1237,6 +1237,10 @@
         "value": "256",
         "type": "sizing"
       },
+      "3300": {
+        "value": "275",
+        "type": "sizing"
+      },
       "3400": {
         "value": "288",
         "type": "sizing"

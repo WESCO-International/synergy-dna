@@ -1,3 +1,18 @@
+## [1.1.9](https://github.com/wesco-international/synergy-dna/compare/v1.1.8...v1.1.9) (2023-01-25)
+
+
+### Bug Fixes
+
+* Adding button themes ([cbb15f2](https://github.com/wesco-international/synergy-dna/commit/cbb15f29b70310d51be64c053843f2c902a7ff11))
+* another update ([bfe1226](https://github.com/wesco-international/synergy-dna/commit/bfe1226c0edcc05982a62d91ee3d3e2197d54037))
+* body text changes ([b5896d0](https://github.com/wesco-international/synergy-dna/commit/b5896d0389930a668c00bc29b6e33ad37f6a0c3e))
+* breadkpoint update ([4bdc82f](https://github.com/wesco-international/synergy-dna/commit/4bdc82fbc8cce2226b1c38c04333839870f8c99d))
+* button tokens for other brands ([86df965](https://github.com/wesco-international/synergy-dna/commit/86df9650f08b695bf8997a105354a7be3b8ca072))
+* color ([800d3e1](https://github.com/wesco-international/synergy-dna/commit/800d3e199bf662564e21f5dd350399c77eb1ea9b))
+* font change ([d41f01a](https://github.com/wesco-international/synergy-dna/commit/d41f01ad7bd683f68f3311ff8d4a990d19ec1587))
+* global style theme update ([f19a9c4](https://github.com/wesco-international/synergy-dna/commit/f19a9c44729107676b54abb8f77577be4a8c8832))
+* token update 1000 ([d0a0679](https://github.com/wesco-international/synergy-dna/commit/d0a06790bcba55b9be9dd3280683d910df98ecc3))
+
 ## [1.1.8](https://github.com/wesco-international/synergy-dna/compare/v1.1.7...v1.1.8) (2023-01-24)
 
 

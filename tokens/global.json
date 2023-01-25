@@ -51,11 +51,11 @@
       },
       "xs": {
         "type": "fontSizes",
-        "value": "12"
+        "value": "roundTo({global.font-size._base} / {global.font-size._scale}^1.5, 0)"
       },
       "sm": {
         "type": "fontSizes",
-        "value": "14"
+        "value": "roundTo({global.font-size._base} / {global.font-size._scale}^.6, 0)"
       },
       "md": {
         "value": "{global.font-size._base}*{global.font-size._scale}^0",
@@ -929,13 +929,37 @@
         "wesco": {
           "primary": {
             "base": {
+              "value": "#4F758B",
+              "type": "color"
+            },
+            "dark": {
               "value": "#1D252D",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darkest": {
+              "value": "{global.color.static.transparent.white.50}",
               "type": "color"
             }
           },
           "secondary": {
             "base": {
               "value": "#00AA13",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darkest": {
+              "value": "{global.color.static.transparent.white.50}",
               "type": "color"
             }
           }
@@ -965,11 +989,73 @@
             "base": {
               "value": "#f28b00",
               "type": "color"
+            },
+            "dark": {
+              "value": "#db6b30",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darkest": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
             }
           },
           "secondary": {
             "base": {
-              "value": "#db6b30",
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            },
+            "darkest": {
+              "value": "{global.color.static.transparent.white.50}",
+              "type": "color"
+            }
+          }
+        },
+        "SDS": {
+          "primary": {
+            "base": {
+              "value": "#800080",
+              "type": "color"
+            },
+            "dark": {
+              "value": "#5A015A",
+              "type": "color"
+            },
+            "darker": {
+              "value": "#360036",
+              "type": "color"
+            },
+            "darkest": {
+              "value": "#1F001F",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "base": {
+              "value": "#00B7B1",
+              "type": "color"
+            },
+            "dark": {
+              "value": "#00958C",
+              "type": "color"
+            },
+            "darker": {
+              "value": "#00695E",
+              "type": "color"
+            },
+            "darkest": {
+              "value": "#004D40",
               "type": "color"
             }
           }
@@ -977,6 +1063,10 @@
       }
     },
     "breakpoints": {
+      "50": {
+        "value": "375",
+        "type": "sizing"
+      },
       "100": {
         "value": "576",
         "type": "sizing"
@@ -986,11 +1076,11 @@
         "type": "sizing"
       },
       "300": {
-        "value": "992",
+        "value": "1024",
         "type": "sizing"
       },
       "400": {
-        "value": "1200",
+        "value": "1280",
         "type": "sizing"
       },
       "500": {
@@ -999,6 +1089,10 @@
       },
       "600": {
         "value": "1640",
+        "type": "sizing"
+      },
+      "700": {
+        "value": "1920",
         "type": "sizing"
       }
     },
@@ -1143,6 +1237,10 @@
         "value": "256",
         "type": "sizing"
       },
+      "3300": {
+        "value": "275",
+        "type": "sizing"
+      },
       "3400": {
         "value": "288",
         "type": "sizing"
@@ -1257,6 +1355,10 @@
     "radii": {
       "0": {
         "value": "0",
+        "type": "borderRadius"
+      },
+      "25": {
+        "value": "1",
         "type": "borderRadius"
       },
       "50": {

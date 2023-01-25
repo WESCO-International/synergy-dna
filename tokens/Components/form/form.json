@@ -6,6 +6,10 @@
           "value": "{global.font-size.sm}",
           "type": "fontSizes"
         },
+        "placeholder": {
+          "value": "{global.font-size.sm}",
+          "type": "fontSizes"
+        },
         "help": {
           "value": "{global.font-size.sm}",
           "type": "fontSizes"
@@ -13,6 +17,10 @@
       },
       "font-family": {
         "label": {
+          "value": "{semantic.font-family.body}",
+          "type": "fontFamilies"
+        },
+        "placeholder": {
           "value": "{semantic.font-family.body}",
           "type": "fontFamilies"
         },
@@ -26,6 +34,10 @@
           "value": "125%",
           "type": "lineHeights"
         },
+        "placeholder": {
+          "value": "125%",
+          "type": "lineHeights"
+        },
         "help": {
           "value": "125%",
           "type": "lineHeights"
@@ -33,6 +45,10 @@
       },
       "font-weight": {
         "label": {
+          "value": "{semantic.font-weight.body.semi-bold}",
+          "type": "fontWeights"
+        },
+        "placeholder": {
           "value": "{semantic.font-weight.medium}",
           "type": "fontWeights"
         },
@@ -46,6 +62,10 @@
           "value": "{semantic.text-case.none}",
           "type": "textCase"
         },
+        "placeholder": {
+          "value": "{semantic.text-case.none}",
+          "type": "textCase"
+        },
         "help": {
           "value": "{semantic.text-case.none}",
           "type": "textCase"
@@ -53,6 +73,10 @@
       },
       "letter-spacing": {
         "label": {
+          "value": "{semantic.letter-spacing.default}",
+          "type": "letterSpacing"
+        },
+        "placeholder": {
           "value": "{semantic.letter-spacing.default}",
           "type": "letterSpacing"
         },
@@ -74,6 +98,18 @@
           },
           "type": "typography"
         },
+        "placeholder": {
+          "value": {
+            "fontFamily": "{component.form.font-family.placeholder}",
+            "fontWeight": "{component.form.font-weight.placeholder}",
+            "lineHeight": "{component.form.line-height.placeholder}",
+            "fontSize": "{component.form.font-size.placeholder}",
+            "letterSpacing": "{component.form.letter-spacing.placeholder}",
+            "textDecoration": "{component.form.text-decoration.placeholder}",
+            "textCase": "{component.form.text-case.placeholder}"
+          },
+          "type": "typography"
+        },
         "help": {
           "value": {
             "fontFamily": "{component.form.font-family.help}",
@@ -92,6 +128,10 @@
           "value": "{semantic.text-decoration.none}",
           "type": "textDecoration"
         },
+        "placeholder": {
+          "value": "{semantic.text-decoration.none}",
+          "type": "textDecoration"
+        },
         "help": {
           "value": "{semantic.text-decoration.none}",
           "type": "textDecoration"
@@ -99,7 +139,7 @@
       },
       "sizing": {
         "input-min-width": {
-          "value": "{global.size.1200}",
+          "value": "{global.size.3300}",
           "type": "sizing"
         }
       },
@@ -147,11 +187,31 @@
               "value": "{semantic.color.error.default}",
               "type": "color"
             }
+          },
+          "placeholder": {
+            "default": {
+              "value": "{global.color.static.gray.800}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{global.color.static.black}",
+              "type": "color"
+            },
+            "disable": {
+              "value": "{global.color.static.gray.800}",
+              "type": "color"
+            }
+          },
+          "required": {
+            "default": {
+              "value": "{global.color.brand.eecol.primary.base}",
+              "type": "color"
+            }
           }
         },
         "border": {
           "default": {
-            "value": "{global.color.static.gray.800}",
+            "value": "{global.color.static.gray.600}",
             "type": "color"
           },
           "hover": {
@@ -188,7 +248,63 @@
         "key-focus": {
           "value": "{global.border-width.200}",
           "type": "borderWidth"
+        },
+        "error": {
+          "value": "{global.border-width.200}",
+          "type": "borderWidth"
         }
+      },
+      "default": {
+        "value": "{semantic.border-radius.sm}",
+        "type": "borderRadius"
+      },
+      "input-default": {
+        "value": {
+          "color": "{component.form.color.border.default}",
+          "width": "{component.form.border-width.default}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "input-hover": {
+        "value": {
+          "color": "{component.form.color.border.hover}",
+          "width": "{component.form.border-width.hover}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "input-disabled": {
+        "value": {
+          "color": "{component.form.color.border.disable}",
+          "width": "{component.form.border-width.default}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "input-error": {
+        "value": {
+          "color": "{component.form.color.border.error}",
+          "width": "{component.form.border-width.error}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "input-focus": {
+        "value": {
+          "color": "{component.form.color.border.key-focus}",
+          "width": "{component.form.border-width.default}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "input-sucess": {
+        "value": {
+          "color": "{component.form.color.border.sucess}",
+          "width": "{component.form.border-width.default}",
+          "style": "solid"
+        },
+        "type": "border"
       }
     }
   }

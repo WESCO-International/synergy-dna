@@ -50,7 +50,7 @@
         "primary": {
           "default": {
             "background-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{global.color.brand.SDS.primary.base}",
               "type": "color"
             },
             "foreground-color": {
@@ -64,7 +64,7 @@
           },
           "hover": {
             "background-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{global.color.brand.SDS.secondary.base}",
               "type": "color"
             },
             "foreground-color": {
@@ -78,7 +78,7 @@
           },
           "down": {
             "background-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{global.color.brand.SDS.primary.dark}",
               "type": "color"
             },
             "foreground-color": {
@@ -92,7 +92,7 @@
           },
           "key-focus": {
             "background-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{global.color.brand.SDS.secondary.base}",
               "type": "color"
             },
             "foreground-color": {
@@ -100,7 +100,7 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{global.color.brand.SDS.secondary.base}",
               "type": "color"
             }
           },
@@ -126,11 +126,11 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{global.color.brand.SDS.primary.base}",
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{global.color.brand.SDS.primary.base}",
               "type": "color"
             }
           },
@@ -140,11 +140,11 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{global.color.brand.SDS.primary.dark}",
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{global.color.brand.SDS.primary.dark}",
               "type": "color"
             }
           },
@@ -154,11 +154,11 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{global.color.brand.SDS.primary.dark}",
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{global.color.brand.SDS.primary.dark}",
               "type": "color"
             }
           },
@@ -168,11 +168,11 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{global.color.brand.SDS.primary.dark}",
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{global.color.brand.SDS.secondary.base}",
               "type": "color"
             }
           },
@@ -198,7 +198,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{global.color.brand.SDS.primary.dark}",
               "type": "color"
             },
             "border-color": {
@@ -212,7 +212,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{global.color.brand.SDS.primary.base}",
               "type": "color"
             },
             "border-color": {
@@ -226,7 +226,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{global.color.brand.SDS.primary.base}",
               "type": "color"
             },
             "border-color": {
@@ -240,11 +240,11 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{global.color.brand.SDS.primary.base}",
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{global.color.brand.SDS.primary.base}",
               "type": "color"
             }
           },

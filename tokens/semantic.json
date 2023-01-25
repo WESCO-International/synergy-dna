@@ -536,6 +536,10 @@
     },
     "border-radius": {
       "sm": {
+        "value": "{global.radii.25}",
+        "type": "borderRadius"
+      },
+      "xs": {
         "value": "{global.radii.50}",
         "type": "borderRadius"
       },

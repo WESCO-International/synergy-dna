@@ -4,15 +4,15 @@
       "color": {
         "default": {
           "background-color": {
-            "value": "{semantic.color.background.input}",
+            "value": "{semantic.color.background.base}",
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.foreground.on-input.default}",
+            "value": "{semantic.color.primary.base}",
             "type": "color"
           },
           "border-color": {
-            "value": "{semantic.color.border.base}",
+            "value": "{component.form.color.border.default}",
             "type": "color"
           }
         },
@@ -26,7 +26,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{semantic.color.border.hover}",
+            "value": "{component.form.color.border.default}",
             "type": "color"
           }
         },
@@ -95,8 +95,20 @@
           "type": "color"
         }
       },
-      "border-radius": {
-        "value": "{semantic.border-radius.md}",
+      "default": {
+        "value": "{semantic.border-radius.sm}",
+        "type": "borderRadius"
+      },
+      "none": {
+        "value": "{semantic.border-radius.none}",
+        "type": "borderRadius"
+      },
+      "small": {
+        "value": "{semantic.border-radius.sm}",
+        "type": "borderRadius"
+      },
+      "round": {
+        "value": "{semantic.border-radius.round}",
         "type": "borderRadius"
       },
       "border-width": {

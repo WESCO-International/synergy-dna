@@ -1357,6 +1357,10 @@
         "value": "0",
         "type": "borderRadius"
       },
+      "25": {
+        "value": "1",
+        "type": "borderRadius"
+      },
       "50": {
         "value": "2",
         "type": "borderRadius"

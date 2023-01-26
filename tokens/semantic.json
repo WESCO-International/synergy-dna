@@ -142,24 +142,24 @@
         }
       },
       "body": {
-        "md": {
-          "value": "{global.font-size.md}",
-          "type": "fontSizes"
-        },
-        "lg": {
-          "value": "{global.font-size.lg}",
-          "type": "fontSizes"
-        },
-        "sm": {
-          "value": "{global.font-size.sm}",
+        "xxs": {
+          "value": "{global.font-size.xxs}",
           "type": "fontSizes"
         },
         "xs": {
           "value": "{global.font-size.xs}",
           "type": "fontSizes"
         },
-        "xxs": {
-          "value": "{global.font-size.xxs}",
+        "sm": {
+          "value": "{global.font-size.sm}",
+          "type": "fontSizes"
+        },
+        "md": {
+          "value": "{global.font-size.md}",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{global.font-size.lg}",
           "type": "fontSizes"
         }
       },

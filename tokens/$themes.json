@@ -432,10 +432,9 @@
       "semantic.drop-shadow.lg": "S:75e1a1410dcf6d9b0f85d71e3c8c6f817a9fabf7,",
       "semantic.drop-shadow.xl": "S:9b3f14b67b9e0471c992d2afd2ec0cc5a7f09bac,",
       "semantic.inner-shadow.sm": "S:0b5e68c6112abd70238f3c54184f1330a85d52e3,",
-      "semantic.typography.breadcrumb": "S:37e562a9f69edaa1cbd0c6ce23ab3189836a5537,",
-      "semantic.typography.body.lg": "S:2c70b8761799b9ab027f0b876c832b5226d947d1,",
-      "semantic.typography.body.md": "S:13d5316fb238adf4786d6d3f679800d29211be72,",
-      "semantic.typography.body.sm": "S:47792d00f6d8f7c7cd2d686885ba693d0b58e26b,"
+      "semantic.typography.body.xs": "S:47792d00f6d8f7c7cd2d686885ba693d0b58e26b,",
+      "semantic.typography.body.sm": "S:13d5316fb238adf4786d6d3f679800d29211be72,",
+      "semantic.typography.body.base": "S:2c70b8761799b9ab027f0b876c832b5226d947d1,"
     }
   }
 ]

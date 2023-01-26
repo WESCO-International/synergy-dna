@@ -78,7 +78,7 @@
         }
       },
       "border-radius": {
-        "value": "{semantic.border-radius.sm}",
+        "value": "{component.form.border-radius.default}",
         "type": "borderRadius"
       },
       "border-width": {

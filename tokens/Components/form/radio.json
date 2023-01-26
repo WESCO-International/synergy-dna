@@ -78,7 +78,7 @@
         }
       },
       "border-radius": {
-        "value": "{semantic.border-radius.md}",
+        "value": "{semantic.border-radius.round}",
         "type": "borderRadius"
       },
       "border-width": {

@@ -867,7 +867,7 @@
       },
       "heading": {
         "regular": {
-          "value": "{semantic.font-weight.bold}",
+          "value": "{semantic.font-weight.body.semi-bold}",
           "type": "fontWeights"
         },
         "bold": {

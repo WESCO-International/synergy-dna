@@ -9,7 +9,7 @@
       },
       "font-family": {
         "label": {
-          "value": "Source Sans Pro",
+          "value": "{semantic.font-family.body}",
           "type": "fontFamilies"
         }
       },
@@ -21,7 +21,7 @@
       },
       "font-weight": {
         "label": {
-          "value": "{semantic.font-weight.body.bold}",
+          "value": "{semantic.font-weight.body.regular}",
           "type": "fontWeights"
         }
       },

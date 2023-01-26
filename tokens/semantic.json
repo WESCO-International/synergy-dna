@@ -24,31 +24,31 @@
     },
     "font-family": {
       "display": {
-        "value": "Source Sans Pro",
+        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "heading": {
-        "value": "Source Sans Pro",
+        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "eyebrow": {
-        "value": "Source Sans Pro",
+        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "subtitle": {
-        "value": "Source Sans Pro",
+        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "caption": {
-        "value": "Source Sans Pro",
+        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "mono": {
-        "value": "Source Sans Pro",
+        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Source Sans Pro",
+        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "icon": {
@@ -853,11 +853,11 @@
       },
       "display": {
         "regular": {
-          "value": "{semantic.font-weight.bold}",
+          "value": "{semantic.font-weight.normal}",
           "type": "fontWeights"
         },
         "bold": {
-          "value": "{semantic.font-weight.extra-bold}",
+          "value": "{semantic.font-weight.bold}",
           "type": "fontWeights"
         },
         "semi-bold": {
@@ -867,11 +867,11 @@
       },
       "heading": {
         "regular": {
-          "value": "{semantic.font-weight.body.semi-bold}",
+          "value": "{semantic.font-weight.normal}",
           "type": "fontWeights"
         },
         "bold": {
-          "value": "{semantic.font-weight.extra-bold}",
+          "value": "{semantic.font-weight.body.bold}",
           "type": "fontWeights"
         },
         "semi-bold": {
@@ -881,7 +881,7 @@
       },
       "eyebrow": {
         "regular": {
-          "value": "{semantic.font-weight.display.regular}",
+          "value": "{semantic.font-weight.normal}",
           "type": "fontWeights"
         },
         "bold": {
@@ -901,13 +901,13 @@
       },
       "source-code": {
         "regular": {
-          "value": "400",
+          "value": "{semantic.font-weight.normal}",
           "type": "fontWeights"
         }
       },
       "icon": {
         "regular": {
-          "value": "400",
+          "value": "{semantic.font-weight.normal}",
           "type": "fontWeights"
         }
       }

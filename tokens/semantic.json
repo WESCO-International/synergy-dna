@@ -71,23 +71,23 @@
           "type": "fontSizes"
         },
         "heading-1": {
-          "value": "40",
+          "value": "{global.font-size.4xl}",
           "type": "fontSizes"
         },
         "heading-2": {
-          "value": "26",
+          "value": "{global.font-size.3xl}",
           "type": "fontSizes"
         },
         "heading-3": {
-          "value": "20",
+          "value": "{global.font-size.2xl}",
           "type": "fontSizes"
         },
         "heading-4": {
-          "value": "16",
+          "value": "{global.font-size.xl}",
           "type": "fontSizes"
         },
         "heading-5": {
-          "value": "13",
+          "value": "{global.font-size.lg}",
           "type": "fontSizes"
         },
         "subtitle": {
@@ -493,19 +493,19 @@
       },
       "border": {
         "base": {
-          "value": "{global.color.static.gray.800}",
+          "value": "{global.color.static.gray.200}",
           "type": "color"
         },
         "hover": {
-          "value": "{global.color.static.gray.800}",
+          "value": "{global.color.static.gray.200}",
           "type": "color"
         },
         "down": {
-          "value": "{global.color.static.gray.800}",
+          "value": "{global.color.static.gray.200}",
           "type": "color"
         },
-        "focus": {
-          "value": "{global.color.brand.eecol.primary.base}",
+        "key-focus": {
+          "value": "{global.color.brand.eecol.primary.darker}",
           "type": "color"
         },
         "disabled": {

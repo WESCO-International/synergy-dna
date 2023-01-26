@@ -9,6 +9,30 @@
         "type": "fontSizes",
         "value": "1.2"
       },
+      "xxs": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} / {global.font-size._scale}^3, 0)"
+      },
+      "xs": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} / {global.font-size._scale}^1.5, 0)"
+      },
+      "sm": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} / {global.font-size._scale}^.6, 0)"
+      },
+      "md": {
+        "value": "{global.font-size._base}*{global.font-size._scale}^0",
+        "type": "fontSizes"
+      },
+      "lg": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} * {global.font-size._scale} * .95, 0)"
+      },
+      "xl": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^2)"
+      },
       "2xl": {
         "type": "fontSizes",
         "value": "roundTo({global.font-size._base} * {global.font-size._scale}^3, 0)"
@@ -44,30 +68,6 @@
       "10xl": {
         "type": "fontSizes",
         "value": "roundTo({global.font-size.9xl} * {global.font-size._scale}, 0)"
-      },
-      "xxs": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} / {global.font-size._scale}^3, 0)"
-      },
-      "xs": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} / {global.font-size._scale}^1.5, 0)"
-      },
-      "sm": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} / {global.font-size._scale}^.6, 0)"
-      },
-      "md": {
-        "value": "{global.font-size._base}*{global.font-size._scale}^0",
-        "type": "fontSizes"
-      },
-      "lg": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} * {global.font-size._scale} * .95, 0)"
-      },
-      "xl": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^2)"
       }
     },
     "color": {

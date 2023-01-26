@@ -206,7 +206,6 @@
       "semantic.color.border.base": "S:af862b7a89ea446ec02509dfb47ec77952847f4f,",
       "semantic.color.border.hover": "S:ae529351820f4f7c263c7aaabcd9d5561db9d47e,",
       "semantic.color.border.down": "S:96aee2455990bfdd34b73c77e926d67a6f8234c7,",
-      "semantic.color.border.focus": "S:eb78dbecb5d2260b6f913f62d0d0ef789377cd55,",
       "semantic.color.border.disabled": "S:6eb53ecfccc723c9ce009abdc07bfa30a49ba218,",
       "semantic.color.link.base": "S:748366d6da68d9202a54071bcc1dfe7d3101ce72,",
       "semantic.color.link.hover": "S:a77aa60fa480dd489f07bff1a44d0681694be24a,",
@@ -434,7 +433,8 @@
       "semantic.inner-shadow.sm": "S:0b5e68c6112abd70238f3c54184f1330a85d52e3,",
       "semantic.typography.body.xs": "S:47792d00f6d8f7c7cd2d686885ba693d0b58e26b,",
       "semantic.typography.body.sm": "S:13d5316fb238adf4786d6d3f679800d29211be72,",
-      "semantic.typography.body.base": "S:2c70b8761799b9ab027f0b876c832b5226d947d1,"
+      "semantic.typography.body.base": "S:2c70b8761799b9ab027f0b876c832b5226d947d1,",
+      "semantic.color.border.key-focus": "S:eb78dbecb5d2260b6f913f62d0d0ef789377cd55,"
     }
   }
 ]

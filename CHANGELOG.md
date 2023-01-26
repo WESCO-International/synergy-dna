@@ -1,3 +1,11 @@
+## [1.1.10](https://github.com/wesco-international/synergy-dna/compare/v1.1.9...v1.1.10) (2023-01-26)
+
+
+### Bug Fixes
+
+* font size body ([cca82b5](https://github.com/wesco-international/synergy-dna/commit/cca82b50645f6d5b96b4b2e35653098a1e456d0c))
+* font update ([3f7bea0](https://github.com/wesco-international/synergy-dna/commit/3f7bea0a3cf699109f3955097a58bc0027958768))
+
 ## [1.1.9](https://github.com/wesco-international/synergy-dna/compare/v1.1.8...v1.1.9) (2023-01-25)
 
 

@@ -40,7 +40,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{semantic.color.border.focus}",
+            "value": "{semantic.color.border.key-focus}",
             "type": "color"
           }
         },
@@ -95,20 +95,8 @@
           "type": "color"
         }
       },
-      "default": {
-        "value": "{semantic.border-radius.sm}",
-        "type": "borderRadius"
-      },
-      "none": {
-        "value": "{semantic.border-radius.none}",
-        "type": "borderRadius"
-      },
-      "small": {
-        "value": "{semantic.border-radius.sm}",
-        "type": "borderRadius"
-      },
-      "round": {
-        "value": "{semantic.border-radius.round}",
+      "border-radius": {
+        "value": "{component.form.border-radius.default}",
         "type": "borderRadius"
       },
       "border-width": {

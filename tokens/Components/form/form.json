@@ -193,18 +193,12 @@
               "value": "{global.color.static.gray.800}",
               "type": "color"
             },
-            "focus": {
+            "key-focus": {
               "value": "{global.color.static.black}",
               "type": "color"
             },
             "disable": {
               "value": "{global.color.static.gray.800}",
-              "type": "color"
-            }
-          },
-          "required": {
-            "default": {
-              "value": "{global.color.brand.eecol.primary.base}",
               "type": "color"
             }
           }
@@ -254,57 +248,11 @@
           "type": "borderWidth"
         }
       },
-      "default": {
-        "value": "{semantic.border-radius.sm}",
-        "type": "borderRadius"
-      },
-      "input-default": {
-        "value": {
-          "color": "{component.form.color.border.default}",
-          "width": "{component.form.border-width.default}",
-          "style": "solid"
-        },
-        "type": "border"
-      },
-      "input-hover": {
-        "value": {
-          "color": "{component.form.color.border.hover}",
-          "width": "{component.form.border-width.hover}",
-          "style": "solid"
-        },
-        "type": "border"
-      },
-      "input-disabled": {
-        "value": {
-          "color": "{component.form.color.border.disable}",
-          "width": "{component.form.border-width.default}",
-          "style": "solid"
-        },
-        "type": "border"
-      },
-      "input-error": {
-        "value": {
-          "color": "{component.form.color.border.error}",
-          "width": "{component.form.border-width.error}",
-          "style": "solid"
-        },
-        "type": "border"
-      },
-      "input-focus": {
-        "value": {
-          "color": "{component.form.color.border.key-focus}",
-          "width": "{component.form.border-width.default}",
-          "style": "solid"
-        },
-        "type": "border"
-      },
-      "input-sucess": {
-        "value": {
-          "color": "{component.form.color.border.sucess}",
-          "width": "{component.form.border-width.default}",
-          "style": "solid"
-        },
-        "type": "border"
+      "border-radius": {
+        "default": {
+          "value": "{semantic.border-radius.xs}",
+          "type": "borderRadius"
+        }
       }
     }
   }

@@ -9,42 +9,6 @@
         "type": "fontSizes",
         "value": "1.2"
       },
-      "2xl": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^3, 0)"
-      },
-      "3xl": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^4)"
-      },
-      "4xl": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^5, 0)"
-      },
-      "5xl": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^6, 0)"
-      },
-      "6xl": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^7, 0)"
-      },
-      "7xl": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^8, 0)"
-      },
-      "8xl": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^9, 0)"
-      },
-      "9xl": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^10, 0)"
-      },
-      "10xl": {
-        "type": "fontSizes",
-        "value": "roundTo({global.font-size.9xl} * {global.font-size._scale}, 0)"
-      },
       "xxs": {
         "type": "fontSizes",
         "value": "roundTo({global.font-size._base} / {global.font-size._scale}^3, 0)"
@@ -67,7 +31,43 @@
       },
       "xl": {
         "type": "fontSizes",
-        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^2)"
+        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^2.3)"
+      },
+      "2xl": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^2.7, 0)"
+      },
+      "3xl": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^3.8)"
+      },
+      "4xl": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^4.5, 0)"
+      },
+      "5xl": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^5, 0)"
+      },
+      "6xl": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^7, 0)"
+      },
+      "7xl": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^8, 0)"
+      },
+      "8xl": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^9, 0)"
+      },
+      "9xl": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size._base} * {global.font-size._scale}^10, 0)"
+      },
+      "10xl": {
+        "type": "fontSizes",
+        "value": "roundTo({global.font-size.9xl} * {global.font-size._scale}, 0)"
       }
     },
     "color": {

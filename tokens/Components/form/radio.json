@@ -54,7 +54,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{semantic.color.border.focus}",
+            "value": "{semantic.color.border.key-focus}",
             "type": "color"
           }
         },
@@ -78,7 +78,7 @@
         }
       },
       "border-radius": {
-        "value": "{semantic.border-radius.md}",
+        "value": "{semantic.border-radius.round}",
         "type": "borderRadius"
       },
       "border-width": {

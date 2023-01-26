@@ -95,13 +95,13 @@
           "type": "color"
         }
       },
-      "border-radius": {
-        "value": "{semantic.border-radius.md}",
-        "type": "borderRadius"
-      },
       "border-width": {
         "default": {
           "value": "{semantic.border-width.sm}",
+          "type": "borderWidth"
+        },
+        "error": {
+          "value": "{semantic.border-width.md}",
           "type": "borderWidth"
         },
         "hover": {
@@ -197,6 +197,10 @@
           "value": "0",
           "type": "paragraphSpacing"
         }
+      },
+      "border-radius": {
+        "value": "{component.form.border-radius.default}",
+        "type": "borderRadius"
       }
     }
   }

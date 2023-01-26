@@ -141,25 +141,27 @@
           "type": "fontSizes"
         }
       },
-      "body larger": {
-        "value": "{global.font-size.md}",
-        "type": "fontSizes"
-      },
-      "body x-larger": {
-        "value": "{global.font-size.lg}",
-        "type": "fontSizes"
-      },
-      "body medium": {
-        "value": "{global.font-size.sm}",
-        "type": "fontSizes"
-      },
-      "body small": {
-        "value": "{global.font-size.xs}",
-        "type": "fontSizes"
-      },
-      "body xsmall": {
-        "value": "{global.font-size.xxs}",
-        "type": "fontSizes"
+      "body": {
+        "md": {
+          "value": "{global.font-size.md}",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "{global.font-size.lg}",
+          "type": "fontSizes"
+        },
+        "med": {
+          "value": "{global.font-size.sm}",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "{global.font-size.xs}",
+          "type": "fontSizes"
+        },
+        "xs": {
+          "value": "{global.font-size.xxs}",
+          "type": "fontSizes"
+        }
       },
       "caption": {
         "value": "{global.font-size.sm}",
@@ -915,7 +917,7 @@
             "fontFamily": "{semantic.font-family.body}",
             "fontWeight": "{semantic.font-weight.body.regular}",
             "lineHeight": "{semantic.line-height.body}",
-            "fontSize": "{semantic.font-size.body larger}",
+            "fontSize": "{semantic.font-size.body.md}",
             "paragraphSpacing": "{semantic.paragraph-spacing.body}",
             "letterSpacing": "{semantic.letter-spacing.default}",
             "textDecoration": "{semantic.text-decoration.body}",
@@ -928,7 +930,7 @@
             "fontFamily": "{semantic.font-family.body}",
             "fontWeight": "{semantic.font-weight.body.regular}",
             "lineHeight": "{semantic.line-height.body}",
-            "fontSize": "{semantic.font-size.body x-larger}",
+            "fontSize": "{semantic.font-size.body.xl}",
             "paragraphSpacing": "{semantic.paragraph-spacing.body}",
             "letterSpacing": "{semantic.letter-spacing.default}",
             "textDecoration": "{semantic.text-decoration.body}",
@@ -941,7 +943,7 @@
             "fontFamily": "{semantic.font-family.body}",
             "fontWeight": "{semantic.font-weight.body.regular}",
             "lineHeight": "{semantic.line-height.body}",
-            "fontSize": "{semantic.font-size.body medium}",
+            "fontSize": "{semantic.font-size.body.med}",
             "paragraphSpacing": "{semantic.paragraph-spacing.body}",
             "letterSpacing": "{semantic.letter-spacing.default}",
             "textDecoration": "{semantic.text-decoration.body}",
@@ -954,7 +956,7 @@
             "fontFamily": "{semantic.font-family.body}",
             "fontWeight": "{semantic.font-weight.body.regular}",
             "lineHeight": "{semantic.line-height.body}",
-            "fontSize": "{semantic.font-size.body small}",
+            "fontSize": "{semantic.font-size.body.sm}",
             "paragraphSpacing": "{semantic.paragraph-spacing.body}",
             "letterSpacing": "{semantic.letter-spacing.default}",
             "textDecoration": "{semantic.text-decoration.body}",
@@ -967,7 +969,7 @@
             "fontFamily": "{semantic.font-family.body}",
             "fontWeight": "{semantic.font-weight.body.regular}",
             "lineHeight": "{semantic.line-height.body}",
-            "fontSize": "{semantic.font-size.body xsmall}",
+            "fontSize": "{semantic.font-size.body.xs}",
             "paragraphSpacing": "{semantic.paragraph-spacing.body}",
             "letterSpacing": "{semantic.letter-spacing.default}",
             "textDecoration": "{semantic.text-decoration.body}",
@@ -981,7 +983,7 @@
           "fontFamily": "{semantic.font-family.body}",
           "fontWeight": "{semantic.font-weight.body.regular}",
           "lineHeight": "{semantic.line-height.body}",
-          "fontSize": "{semantic.font-size.body medium}",
+          "fontSize": "{semantic.font-size.body.med}",
           "paragraphSpacing": "{semantic.paragraph-spacing.body}",
           "letterSpacing": "{semantic.letter-spacing.default}",
           "textDecoration": "{semantic.text-decoration.underline}",

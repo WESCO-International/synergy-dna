@@ -822,7 +822,7 @@
           "fontFamily": "{semantic.font-family.body}",
           "fontWeight": "{semantic.font-weight.body.regular}",
           "lineHeight": "{semantic.line-height.body}",
-          "fontSize": "{semantic.font-size.body larger}",
+          "fontSize": "{semantic.font-size.body.md}",
           "paragraphSpacing": "{semantic.paragraph-spacing.body}",
           "letterSpacing": "{semantic.letter-spacing.default}",
           "textDecoration": "{semantic.text-decoration.body}",

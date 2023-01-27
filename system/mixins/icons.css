@@ -1,4 +1,4 @@
 @define-mixin icon $size {
-	width: var(--sds-semantic-size-icon-$(size)-width);
-	height: var(--sds-semantic-size-icon-$(size)-height);
+  width: var(--sds-semantic-size-icon-$(size)-width);
+  height: var(--sds-semantic-size-icon-$(size)-height);
 }

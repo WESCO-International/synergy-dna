@@ -1,17 +1,17 @@
 @import "./mixins";
 
 .icon-sm {
-    @mixin icon sm;
+  @mixin icon sm;
 }
 
 .icon-md {
-    @mixin icon md;
+  @mixin icon md;
 }
 
 .icon-lg {
-    @mixin icon lg;
+  @mixin icon lg;
 }
 
 .icon-xl {
-    @mixin icon xl;
+  @mixin icon xl;
 }

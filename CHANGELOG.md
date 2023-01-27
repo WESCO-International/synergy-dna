@@ -1,3 +1,13 @@
+## [1.1.15](https://github.com/wesco-international/synergy-dna/compare/v1.1.14...v1.1.15) (2023-01-27)
+
+
+### Bug Fixes
+
+* add other input types ([bee9b57](https://github.com/wesco-international/synergy-dna/commit/bee9b5723dccfbc6c0861617a1d5073415ba06b6))
+* add size parameter to body-text mixin ([1940036](https://github.com/wesco-international/synergy-dna/commit/19400360a268b152975265d366856c2b77a187d8))
+* revert heading line heights ([6a3da6a](https://github.com/wesco-international/synergy-dna/commit/6a3da6afebae6788f53cd1fb3d4495ed9dd96e8e))
+* stories for new body font sizes ([4e56195](https://github.com/wesco-international/synergy-dna/commit/4e5619518b3482c729f6ec712aa1dd4c958f6929))
+
 ## [1.1.14](https://github.com/wesco-international/synergy-dna/compare/v1.1.13...v1.1.14) (2023-01-27)
 
 

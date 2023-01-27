@@ -1,3 +1,11 @@
+## [1.1.16](https://github.com/wesco-international/synergy-dna/compare/v1.1.15...v1.1.16) (2023-01-27)
+
+
+### Bug Fixes
+
+* commit build artifacts ([1ca3913](https://github.com/wesco-international/synergy-dna/commit/1ca3913dc9f2279b0389353c1cc068c64e03460e))
+* update commit workflow, move to correct position ([ded6912](https://github.com/wesco-international/synergy-dna/commit/ded69123ca1831941aab7b77f7d67d851aef5f5d))
+
 ## [1.1.15](https://github.com/wesco-international/synergy-dna/compare/v1.1.14...v1.1.15) (2023-01-27)
 
 

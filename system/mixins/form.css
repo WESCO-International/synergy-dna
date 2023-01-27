@@ -35,10 +35,21 @@
 
   &:disabled {
     @mixin form-element $type, disabled;
+
+    &::placeholder {
+      color: var(--sds-component-form-color-foreground-color-placeholder-disable);
+    }
   }
 
   &::placeholder {
-    color: var(--sds-component-text-field-color-placeholder);
+    color: var(--sds-component-form-color-foreground-color-placeholder-default);
+    font-family: var(--sds-component-form-font-family-placeholder);
+    line-height: var(--sds-component-form-line-height-placeholder);
+    font-size: var(--sds-component-form-font-size-placeholder);
+    font-weight: var(--sds-component-form-font-weight-placeholder);
+    text-transform: var(--sds-component-form-text-case-placeholder);
+    letter-spacing: var(--sds-component-form-letter-spacing-placeholder);
+    text-decoration: var(--sds-component-form-text-decoration-placeholder);
   }
 
   &:optional {
@@ -47,6 +58,10 @@
 
   &:optional:disabled {
     @mixin form-element $type, disabled;
+
+    &::placeholder {
+      color: var(--sds-component-form-color-foreground-color-placeholder-disable);
+    }
   }
 
   &:required:focus:valid {

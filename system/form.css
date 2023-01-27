@@ -8,7 +8,7 @@ form .group {
 }
 
 form .group label {
-  color: var(--sds-component-form-color-label);
+  color: var(--sds-component-form-color-foreground-color-label-default);
   font-family: var(--sds-component-form-font-family-label);
   font-size: var(--sds-component-form-font-size-label);
   font-weight: var(--sds-component-form-font-weight-label);
@@ -24,11 +24,11 @@ form .group:has(input:required) > label::after,
 form .group:has(textarea:required) > label::after,
 form .group:has(select:required) > label::after {
   content:' *';
-  color: var(--sds-semantic-color-error-default);
+  color: var(--sds-component-form-color-foreground-color-error-default);
 }
 
 form .group span {
-  color: var(--sds-component-form-color-help);
+  color: var(--sds-component-form-color-foreground-color-help-default);
   font-family: var(--sds-component-form-font-family-help);
   font-size: var(--sds-component-form-font-size-help);
   font-weight: var(--sds-component-form-font-weight-help);
@@ -39,12 +39,7 @@ form .group span {
   padding-top: var(--sds-component-form-spacing-help-padding-top);
 }
 
-input[type='text'],
-input[type='number'],
-input[type='email'],
-input[type='password'],
-input[type='tel'],
-input[type='url'],
+input,
 textarea {
   @mixin base-text-field text-field;
 }

@@ -1,3 +1,10 @@
+## [1.1.23](https://github.com/wesco-international/synergy-dna/compare/v1.1.22...v1.1.23) (2023-01-27)
+
+
+### Bug Fixes
+
+* add postcss build step before release ([2c443f9](https://github.com/wesco-international/synergy-dna/commit/2c443f9581c003989d137e4a0caca6f1e107f40c))
+
 ## [1.1.22](https://github.com/wesco-international/synergy-dna/compare/v1.1.21...v1.1.22) (2023-01-27)
 
 

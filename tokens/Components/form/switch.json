@@ -107,7 +107,7 @@
       },
       "font-size": {
         "label": {
-          "value": "{global.font-size.md}",
+          "value": "{global.font-size.xs}",
           "type": "fontSizes"
         }
       },
@@ -158,7 +158,7 @@
       },
       "text-case": {
         "label": {
-          "value": "none",
+          "value": "uppercase",
           "type": "textCase"
         }
       },

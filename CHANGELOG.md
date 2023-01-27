@@ -1,3 +1,19 @@
+## [1.1.14](https://github.com/wesco-international/synergy-dna/compare/v1.1.13...v1.1.14) (2023-01-27)
+
+
+### Bug Fixes
+
+* font size and heading update ([1c94969](https://github.com/wesco-international/synergy-dna/commit/1c94969c9452dd446650d7e903de0ffd3d54575d))
+* font size in heading ([c709737](https://github.com/wesco-international/synergy-dna/commit/c709737ec63c87c6c121299f1001d1a8771404f0))
+* font updates ([f3122e4](https://github.com/wesco-international/synergy-dna/commit/f3122e49d03c457624db7476def3c0fa3dfc6f32))
+* font updates ([dac3958](https://github.com/wesco-international/synergy-dna/commit/dac3958f67784d1fe3b8ab37d67a0577bcb50dc0))
+* font weight ([8379497](https://github.com/wesco-international/synergy-dna/commit/83794976e7c0d1c216e30deda4532c2ce4aeb0a0))
+* font-size update ([2d770e6](https://github.com/wesco-international/synergy-dna/commit/2d770e6eb0eddc58e11a3507ea2399c187d565ce))
+* global updates ([f76f6d5](https://github.com/wesco-international/synergy-dna/commit/f76f6d5aca1136f2f845a32c3d0ed2fa72df50c7))
+* line height ([92773cc](https://github.com/wesco-international/synergy-dna/commit/92773ccbb2855e5d98b3b7dde2a87fc0a2703cfa))
+* update of fonts ([5f76eb5](https://github.com/wesco-international/synergy-dna/commit/5f76eb57946b8eed1ac684a88cd67aafa59c096f))
+* updates ([0b95c7a](https://github.com/wesco-international/synergy-dna/commit/0b95c7a764506da41063c5d15ac67d6da89fabec))
+
 ## [1.1.13](https://github.com/wesco-international/synergy-dna/compare/v1.1.12...v1.1.13) (2023-01-26)
 
 

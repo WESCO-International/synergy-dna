@@ -169,7 +169,7 @@
         }
       },
       "color": {
-        "tyography": {
+        "foreground-color": {
           "label": {
             "default": {
               "value": "{global.color.static.gray.800}",
@@ -191,10 +191,6 @@
           "placeholder": {
             "default": {
               "value": "{global.color.static.gray.800}",
-              "type": "color"
-            },
-            "key-focus": {
-              "value": "{global.color.static.black}",
               "type": "color"
             },
             "disable": {

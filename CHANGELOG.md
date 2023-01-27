@@ -1,3 +1,12 @@
+## [1.1.21](https://github.com/wesco-international/synergy-dna/compare/v1.1.20...v1.1.21) (2023-01-27)
+
+
+### Bug Fixes
+
+* added XPC theme ([4d79106](https://github.com/wesco-international/synergy-dna/commit/4d79106fad9bb490a84fb928d93f49649a57686f))
+* form typography update ([914b64d](https://github.com/wesco-international/synergy-dna/commit/914b64d367366410cc653e5a9468987fcbc5f929))
+* global ([79d8a61](https://github.com/wesco-international/synergy-dna/commit/79d8a61a9be17f056612199c84df10a97a87249a))
+
 ## [1.1.20](https://github.com/wesco-international/synergy-dna/compare/v1.1.19...v1.1.20) (2023-01-27)
 
 

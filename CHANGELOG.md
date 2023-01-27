@@ -1,3 +1,10 @@
+## [1.1.17](https://github.com/wesco-international/synergy-dna/compare/v1.1.16...v1.1.17) (2023-01-27)
+
+
+### Bug Fixes
+
+* don't pull main before committing storybook ([5c7e862](https://github.com/wesco-international/synergy-dna/commit/5c7e862cf4ec87f0252e6248302b6ebd4cca998f))
+
 ## [1.1.16](https://github.com/wesco-international/synergy-dna/compare/v1.1.15...v1.1.16) (2023-01-27)
 
 

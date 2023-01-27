@@ -1,3 +1,10 @@
+## [1.1.18](https://github.com/wesco-international/synergy-dna/compare/v1.1.17...v1.1.18) (2023-01-27)
+
+
+### Bug Fixes
+
+* indentation and styllint ([92e8811](https://github.com/wesco-international/synergy-dna/commit/92e8811283d518baceaa3656ec2e743472383f67))
+
 ## [1.1.17](https://github.com/wesco-international/synergy-dna/compare/v1.1.16...v1.1.17) (2023-01-27)
 
 

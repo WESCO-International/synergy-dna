@@ -1,3 +1,10 @@
+## [1.1.22](https://github.com/wesco-international/synergy-dna/compare/v1.1.21...v1.1.22) (2023-01-27)
+
+
+### Bug Fixes
+
+* use new form tokens ([75e4880](https://github.com/wesco-international/synergy-dna/commit/75e4880d35d08a5b36eba10d2ce6899c17f4609c))
+
 ## [1.1.21](https://github.com/wesco-international/synergy-dna/compare/v1.1.20...v1.1.21) (2023-01-27)
 
 

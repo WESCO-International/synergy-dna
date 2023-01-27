@@ -13,7 +13,7 @@ Synergy provides the following mixins to work with typography.
 
 The mixins below allow you to easily customize type in CSS for any element on the page.
 
-> The `semi-bold` option is currently only supported on text with the `body-font` mixin.
+> The `semi-bold` weight option and the `size` parameter are currently only supported on text with the `body-text` mixin.
 
 > The font mixins below declare the `font-size`, `font-family`, `font-weight` and `line-height` styles but make not adjustments for text color.
 
@@ -32,7 +32,7 @@ The mixins below allow you to easily customize type in CSS for any element on th
 
 @mixin eyebrow {weight};
 
-@mixin body-text {weight};
+@mixin body-text {weight} {size};
 
 @mixin caption {weight};
 
@@ -47,6 +47,11 @@ The mixins below allow you to easily customize type in CSS for any element on th
     </div>
     <div>
         <div>`weight`</div>
+        <div>`regular` `bold` `semi-bold`</div>
+        <div>`regular`</div>
+    </div>
+    <div>
+        <div>`size`</div>
         <div>`regular` `bold` `semi-bold`</div>
         <div>`regular`</div>
     </div>

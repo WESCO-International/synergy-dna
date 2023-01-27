@@ -116,8 +116,8 @@
 	text-transform: var(--sds-semantic-text-case-eyebrow);
 }
 
-@define-mixin body-text $weight: regular {
-	font-size: var(--sds-semantic-font-size-body);
+@define-mixin body-text $weight: regular, $size: md {
+	font-size: var(--sds-semantic-font-size-body-$(size));
 	font-family: var(--sds-semantic-font-family-body);
 	font-weight: var(--sds-semantic-font-weight-body-$(weight));
 	line-height: var(--sds-semantic-line-height-body);

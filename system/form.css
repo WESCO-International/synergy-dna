@@ -40,6 +40,11 @@ form .group span {
 }
 
 input[type="text"],
+input[type='number'],
+input[type='email'],
+input[type='password'],
+input[type='tel'],
+input[type='url'],
 textarea {
 	@mixin base-text-field text-field;
 }

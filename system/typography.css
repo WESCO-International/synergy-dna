@@ -1,4 +1,4 @@
-@import "./mixins";
+@import './mixins';
 
 @custom-selector :--heading h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5;
 @custom-selector :--display .display1, .display2, .display3;

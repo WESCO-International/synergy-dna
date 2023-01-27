@@ -1,4 +1,4 @@
-@import "./mixins";
+@import './mixins';
 
 .section {
   @mixin max-section-width;
@@ -7,8 +7,8 @@
   width: 100%;
   padding: var(--sds-semantic-spacing-section-mobile-padding-y) var(--sds-semantic-spacing-section-mobile-padding-x);
 
-  &[data-section-status="loading"],
-  &[data-section-status="initialized"] {
+  &[data-section-status='loading'],
+  &[data-section-status='initialized'] {
     display: none;
   }
 

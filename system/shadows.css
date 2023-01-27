@@ -1,4 +1,4 @@
-@import "./mixins";
+@import './mixins';
 
 .shadow-sm {
   @mixin drop-shadow sm;

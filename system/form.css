@@ -1,4 +1,4 @@
-@import "./mixins";
+@import './mixins';
 
 form .group {
   display: flex;
@@ -23,7 +23,7 @@ form .group label {
 form .group:has(input:required) > label::after,
 form .group:has(textarea:required) > label::after,
 form .group:has(select:required) > label::after {
-  content:" *";
+  content:' *';
   color: var(--sds-semantic-color-error-default);
 }
 
@@ -39,7 +39,7 @@ form .group span {
   padding-top: var(--sds-component-form-spacing-help-padding-top);
 }
 
-input[type="text"],
+input[type='text'],
 input[type='number'],
 input[type='email'],
 input[type='password'],
@@ -50,8 +50,8 @@ textarea {
 }
 
 /* Checkbox */
-input[type="checkbox"],
-input[type="radio"] {
+input[type='checkbox'],
+input[type='radio'] {
   opacity: 0;
   appearance: none;
   outline: none;
@@ -61,7 +61,7 @@ input[type="radio"] {
 
   /* Default */
   & + label::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     top: 0;
@@ -107,11 +107,11 @@ input[type="radio"] {
   }
 }
 
-[type="checkbox"] {
+[type='checkbox'] {
   &:not(.switch) {
     /* Default checkbox state */
     & + label::before {
-      content: "";
+      content: '';
       width: var(--sds-component-checkbox-sizing-background-width);
       height: var(--sds-component-checkbox-sizing-background-height);
       border-radius: var(--sds-component-checkbox-border-radius);
@@ -124,7 +124,7 @@ input[type="radio"] {
 
     /* Checkbox Checked (Background) */
     &:checked + label::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       top: 0;
@@ -139,7 +139,7 @@ input[type="radio"] {
 
     /* Checkbox Checked (Check Shape) */
     &:checked + label::after {
-      content: "";
+      content: '';
       position: absolute;
       left: 8px;
       top: 4px;
@@ -175,7 +175,7 @@ input[type="radio"] {
 
     /* Default switch state */
     & + label::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       top: 0;
@@ -186,7 +186,7 @@ input[type="radio"] {
 
     /* Default switch toggle */
     & + label::after {
-      content: "";
+      content: '';
       display: block;
       position: absolute;
       left: 3px;
@@ -221,7 +221,7 @@ input[type="radio"] {
   }
 }
 
-input[type="radio"] {
+input[type='radio'] {
   appearance: none;
   position: relative;
 
@@ -234,7 +234,7 @@ input[type="radio"] {
 
   /* Default radio check */
   & + label::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 5px;
     top: 5px;
@@ -278,10 +278,10 @@ select {
   position: relative;
 
   &::after {
-    content: "";
+    content: '';
     background-color: var(--sds-component-text-field-color-default-foreground-color);
     mask-position: center;
-    mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%20width%3D%2218%22%3E%0A%20%20%3Crect%20id%3D%22Canvas%22%20fill%3D%22currentColor%22%20opacity%3D%220%22%20width%3D%2218%22%20height%3D%2218%22%20%2F%3E%3Cpath%20class%3D%22fill%22%20d%3D%22M4%2C7.01a1%2C1%2C0%2C0%2C1%2C1.7055-.7055l3.289%2C3.286%2C3.289-3.286a1%2C1%2C0%2C0%2C1%2C1.437%2C1.3865l-.0245.0245L9.7%2C11.7075a1%2C1%2C0%2C0%2C1-1.4125%2C0L4.293%2C7.716A.9945.9945%2C0%2C0%2C1%2C4%2C7.01Z%22%20%2F%3E%0A%3C%2Fsvg%3E");
+    mask-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%20width%3D%2218%22%3E%0A%20%20%3Crect%20id%3D%22Canvas%22%20fill%3D%22currentColor%22%20opacity%3D%220%22%20width%3D%2218%22%20height%3D%2218%22%20%2F%3E%3Cpath%20class%3D%22fill%22%20d%3D%22M4%2C7.01a1%2C1%2C0%2C0%2C1%2C1.7055-.7055l3.289%2C3.286%2C3.289-3.286a1%2C1%2C0%2C0%2C1%2C1.437%2C1.3865l-.0245.0245L9.7%2C11.7075a1%2C1%2C0%2C0%2C1-1.4125%2C0L4.293%2C7.716A.9945.9945%2C0%2C0%2C1%2C4%2C7.01Z%22%20%2F%3E%0A%3C%2Fsvg%3E');
     mask-repeat: no-repeat;
     mask-size: cover;
     display: inline-block;

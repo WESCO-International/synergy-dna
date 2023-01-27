@@ -1,3 +1,10 @@
+## [1.1.20](https://github.com/wesco-international/synergy-dna/compare/v1.1.19...v1.1.20) (2023-01-27)
+
+
+### Bug Fixes
+
+* use single quotes ([1596feb](https://github.com/wesco-international/synergy-dna/commit/1596febde4e12565572aeb61ba4bc2056992b029))
+
 ## [1.1.19](https://github.com/wesco-international/synergy-dna/compare/v1.1.18...v1.1.19) (2023-01-27)
 
 

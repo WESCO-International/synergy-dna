@@ -37,6 +37,7 @@ jobs:
           git config user.email github-actions[bot]@users.noreply.github.com # Config user name and email for lerna publish commit
       - run: npm install          
       - run: npm run build
+      - run: npm run postcss:build
       - run: npm run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

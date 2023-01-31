@@ -776,7 +776,7 @@
         "heading-3": 24,
         "heading-4": 18,
         "heading-5": 16,
-        "subtitle": 24,
+        "subtitle": 16,
         "eyebrow": 14
       },
       "body": {
@@ -1334,7 +1334,7 @@
           "fontFamily": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
           "fontWeight": 700,
           "lineHeight": "100%",
-          "fontSize": 24,
+          "fontSize": 16,
           "paragraphSpacing": 0,
           "letterSpacing": 0,
           "textDecoration": "none",

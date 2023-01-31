@@ -369,6 +369,10 @@
         "input": {
           "value": "{semantic.color.transparent}",
           "type": "color"
+        },
+        "modal": {
+          "value": "{global.color.static.transparent.black.400}",
+          "type": "color"
         }
       },
       "foreground": {

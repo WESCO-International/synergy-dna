@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 27 Jan 2023 21:12:52 GMT
+ * Generated on Tue, 31 Jan 2023 13:59:42 GMT
  */
 
 :root {
@@ -662,13 +662,13 @@
   --sds-component-switch-sizing-toggle-width: 14px;
   --sds-component-switch-sizing-background-height: 20px;
   --sds-component-switch-sizing-background-width: 38px;
-  --sds-component-switch-text-case-label: none;
+  --sds-component-switch-text-case-label: uppercase;
   --sds-component-switch-text-decoration-label: none;
   --sds-component-switch-letter-spacing-label: 0%;
   --sds-component-switch-font-weight-label: 400;
   --sds-component-switch-line-height-label: 150%;
   --sds-component-switch-font-family-label: Source Sans Pro, Source Sans Pro-fallback, sans-serif;
-  --sds-component-switch-font-size-label: 1rem;
+  --sds-component-switch-font-size-label: 0.75rem;
   --sds-component-switch-spacing-space-between: 8px;
   --sds-component-switch-border-width-disabled: 1px;
   --sds-component-switch-border-width-key-focus: 2px;

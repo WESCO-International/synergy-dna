@@ -241,7 +241,7 @@
         "space-between": "8px"
       },
       "font-size": {
-        "label": "1rem"
+        "label": "0.75rem"
       },
       "font-family": {
         "label": "Source Sans Pro, Source Sans Pro-fallback, sans-serif"
@@ -260,18 +260,18 @@
           "fontFamily": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
           "fontWeight": 400,
           "lineHeight": "150%",
-          "fontSize": 16,
+          "fontSize": 12,
           "letterSpacing": "0%",
           "paragraphSpacing": "",
           "textDecoration": "none",
-          "textCase": "none"
+          "textCase": "uppercase"
         }
       },
       "text-decoration": {
         "label": "none"
       },
       "text-case": {
-        "label": "none"
+        "label": "uppercase"
       },
       "sizing": {
         "background": {

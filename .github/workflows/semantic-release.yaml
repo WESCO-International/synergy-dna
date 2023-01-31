@@ -21,7 +21,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0 # Pulls all history and tags for lerna to detect what packages changed
-          token: ${{ secrets.GITHUB_TOKEN }} # This token is available by default
+          token: ${{ secrets.GH_PAT }} # This token is available by default
       - name: Use Node.js 18.13.0
         uses: actions/setup-node@v3
         with:

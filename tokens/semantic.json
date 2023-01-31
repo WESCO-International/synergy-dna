@@ -133,7 +133,7 @@
           "type": "fontSizes"
         },
         "subtitle": {
-          "value": "{global.font-size.xl}",
+          "value": "{global.font-size.md}",
           "type": "fontSizes"
         },
         "eyebrow": {

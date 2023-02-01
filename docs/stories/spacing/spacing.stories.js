@@ -1,7 +1,7 @@
 import theme from '@sds-theme/EECOL/theme.json';
 
 export default {
-  title: 'Synergy Design System/Demo/Spacing',
+  title: 'Synergy Design System/Atoms/Spacing',
 };
 
 export const Spacing = {

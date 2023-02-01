@@ -10,19 +10,37 @@
         }
       },
       "size": {
-        "logo": {
-          "width": {
-            "value": "{global.size.400}",
-            "type": "sizing"
+        "mobile": {
+          "logo": {
+            "width": {
+              "value": "{global.size.400}",
+              "type": "sizing"
+            },
+            "height": {
+              "value": "{global.size.400}",
+              "type": "sizing"
+            }
           },
           "height": {
-            "value": "{global.size.400}",
+            "value": "{global.size.900}",
             "type": "sizing"
           }
         },
-        "height": {
-          "value": "{global.size.900}",
-          "type": "sizing"
+        "desktop": {
+          "height": {
+            "value": "{global.size.900}",
+            "type": "sizing"
+          },
+          "logo": {
+            "width": {
+              "value": "{global.size.400}",
+              "type": "sizing"
+            },
+            "height": {
+              "value": "{global.size.400}",
+              "type": "sizing"
+            }
+          }
         }
       },
       "logo": {

@@ -139,7 +139,7 @@
       },
       "sizing": {
         "input-min-width": {
-          "value": "{global.size.3300}",
+          "value": "{global.size.1000}",
           "type": "sizing"
         }
       },
@@ -164,6 +164,12 @@
         "group": {
           "margin-bottom": {
             "value": "{global.space.300}",
+            "type": "spacing"
+          }
+        },
+        "error": {
+          "padding-top": {
+            "value": "{global.space.35}",
             "type": "spacing"
           }
         }

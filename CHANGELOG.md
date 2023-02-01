@@ -1,3 +1,13 @@
+## [1.1.25](https://github.com/wesco-international/synergy-dna/compare/v1.1.24...v1.1.25) (2023-02-01)
+
+
+### Bug Fixes
+
+* add list-style-position inside ([af70045](https://github.com/wesco-international/synergy-dna/commit/af70045458129fcedbd6b38e1597fe5ac6264279))
+* remove deploy to docs folder ([8c015d1](https://github.com/wesco-international/synergy-dna/commit/8c015d197bbcc7864cb65488d43487166e00f2f8))
+* remove storybook build ([a3fdd5f](https://github.com/wesco-international/synergy-dna/commit/a3fdd5f01899f7350d3d96bc7756a640cc0b22af))
+* storybook update ([4b7392b](https://github.com/wesco-international/synergy-dna/commit/4b7392b4e202b4bbe76077e923d77b16e4f3c038))
+
 ## [1.1.24](https://github.com/wesco-international/synergy-dna/compare/v1.1.23...v1.1.24) (2023-01-31)
 
 

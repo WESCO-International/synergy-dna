@@ -33,5 +33,5 @@ module.exports = {
   "docs": {
     "autodocs": "tag"
   },
-  "staticDirs": ['./', '../dist'],
+  "staticDirs": ['./', {from: '../dist', to: './dist'}],
 }

@@ -1,4 +1,4 @@
-import{t as i}from"./theme-b3801c18.js";const r={title:"Synergy Design System/Demo/Spacing"},n={title:"Spacing",render:()=>Object.entries(i.semantic.spacing.around.component).map(([t,e])=>`<div class='space'>
+import{t as i}from"./theme-b3801c18.js";const r={title:"Synergy Design System/Atoms/Spacing"},n={title:"Spacing",render:()=>Object.entries(i.semantic.spacing.around.component).map(([t,e])=>`<div class='space'>
         <div>${t} (${e})</div>
         <div><span style="width:${e}"/></div>
       </div>`).join(" ")},s={title:"Gaps",render:()=>Object.entries(i.semantic.spacing.gap.component).map(([t,e])=>`<div class='space'>
@@ -23,4 +23,4 @@ import{t as i}from"./theme-b3801c18.js";const r={title:"Synergy Design System/De
     return options;
   }
 }`,...s.parameters?.docs?.source}}};const p=["Spacing","Gaps"];export{s as Gaps,n as Spacing,p as __namedExportsOrder,r as default};
-//# sourceMappingURL=spacing.stories-9716b8f0.js.map
+//# sourceMappingURL=spacing.stories-9f146add.js.map

@@ -22,13 +22,13 @@
             }
           },
           "height": {
-            "value": "{global.size.900}",
+            "value": "{global.size.1800}",
             "type": "sizing"
           }
         },
         "desktop": {
           "height": {
-            "value": "{global.size.900}",
+            "value": "{global.size.2000}",
             "type": "sizing"
           },
           "logo": {

@@ -7,7 +7,7 @@
           "type": "fontSizes"
         },
         "placeholder": {
-          "value": "{global.font-size.sm}",
+          "value": "{global.font-size._base}",
           "type": "fontSizes"
         },
         "help": {
@@ -141,12 +141,16 @@
         "input-min-width": {
           "value": "{global.size.1000}",
           "type": "sizing"
+        },
+        "input-min-height": {
+          "value": "{global.size.550}",
+          "type": "sizing"
         }
       },
       "spacing": {
         "label": {
           "padding-bottom": {
-            "value": "{global.space.35}",
+            "value": "{semantic.spacing.around.component.xs}",
             "type": "spacing"
           },
           "padding-right": {
@@ -157,20 +161,39 @@
         },
         "help": {
           "padding-top": {
-            "value": "{global.space.35}",
+            "value": "{semantic.spacing.around.component.xs}",
             "type": "spacing"
           }
         },
         "group": {
           "margin-bottom": {
-            "value": "{global.space.300}",
+            "value": "{semantic.spacing.around.component.2xl}",
             "type": "spacing"
           }
         },
         "error": {
           "padding-top": {
-            "value": "{global.space.35}",
+            "value": "{semantic.spacing.around.component.xs}",
             "type": "spacing"
+          }
+        },
+        "input": {
+          "padding-bottom": {
+            "value": "{semantic.spacing.around.component.md}",
+            "type": "spacing"
+          },
+          "padding-left": {
+            "value": "{semantic.spacing.around.component.md}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.around.component.md}",
+            "type": "spacing"
+          },
+          "padding-top": {
+            "value": "{semantic.spacing.around.component.md}",
+            "type": "spacing",
+            "description": "Padding of component label, like the label on a checkbox"
           }
         }
       },

@@ -1283,6 +1283,10 @@
         "value": "{global.space.base} * 1.5",
         "type": "spacing"
       },
+      "175": {
+        "value": "{global.space.base} * 1.75",
+        "type": "spacing"
+      },
       "200": {
         "value": "{global.space.base} * 2",
         "type": "spacing"

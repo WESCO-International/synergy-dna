@@ -582,7 +582,7 @@
       "around": {
         "component": {
           "xs": {
-            "value": "{global.space.50}",
+            "value": "{global.space.35}",
             "type": "spacing"
           },
           "sm": {

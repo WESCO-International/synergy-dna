@@ -1,7 +1,7 @@
-@import "../system/mixins";
+@import '../system/mixins';
 
 @define-mixin border {
-    border: 1px solid hsla(203, 50%, 30%, 0.2);
+    border: 1px solid hsl(203deg 50% 30% / 20%);
     border-radius: 4px;
     box-shadow: rgb(0 0 0 / 10%) 0 1px 3px 0;
 }
@@ -12,12 +12,11 @@ body {
 
 code {
     width: auto;
-    font-family: ui-monospace,Menlo,Monaco,"Roboto Mono","Oxygen Mono","Ubuntu Monospace","Source Code Pro","Droid Sans Mono","Courier New",monospace;
+    font-family: ui-monospace,Menlo,Monaco,'Roboto Mono','Oxygen Mono','Ubuntu Monospace','Source Code Pro','Droid Sans Mono','Courier New',monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     vertical-align: baseline;
-    color: inherit;
     line-height: 1;
     margin: 0 2px;
     padding: 3px 5px;
@@ -25,7 +24,7 @@ code {
     border-radius: 3px;
     font-size: 13px;
     border: 1px solid #ECF4F9;
-    color: rgba(46,52,56,0.9);
+    color: rgb(46 52 56 / 90%);
     background-color: #F7FAFC;
     margin-right: 10px;
     cursor: pointer;
@@ -33,6 +32,7 @@ code {
 
 .story {
     @mixin border;
+
     padding: 20px;
     margin: 25px 0 40px;
 }
@@ -42,16 +42,18 @@ code {
     
     & > div {
         @mixin padding md;
+
         display: grid;
         grid-template-rows: auto;
         grid-auto-columns: minmax(0, 1fr);
         grid-auto-flow: column;
-        border-bottom: 1px solid hsla(203, 50%, 30%, 0.2);
-        border-right: 1px solid hsla(203, 50%, 30%, 0.2);
+        border-bottom: 1px solid hsl(203deg 50% 30% / 20%);
+        border-right: 1px solid hsl(203deg 50% 30% / 20%);
         align-items: center;
 
         &:first-of-type {
             @mixin h3;
+
             margin-bottom: 0;
         }
 
@@ -79,16 +81,18 @@ code {
 .space {
     display: flex;
     flex-direction: row;
+
     @mixin margin-bottom lg;
 
     & > div:first-of-type {
-        @mixin h4;
-        width: 40px;
+        @mixin body-text;
+
+        width: 80px;
     }
 
     & span {
-        background-color:var(--sds-semantic-color-primary-base);
-        height:20px;
+        background-color: var(--sds-semantic-color-primary-base);
+        height: 20px;
         display: inline-block;
     }
 }
@@ -163,9 +167,12 @@ code {
     & > div {
         @mixin grid-cols 12;
         @mixin gap xs;
+
         display: grid;
+
         & > div {
             @mixin layer-1;
+
             text-align: center;
         }
     }
@@ -175,9 +182,12 @@ code {
     & > div {
         @mixin grid-cols 2;
         @mixin gap xs;
+
         display: grid;
+
         & > div {
             @mixin layer-1;
+
             text-align: center;
         }
     }
@@ -188,8 +198,10 @@ code {
         display: grid;
         @mixin grid-cols 12;
         @mixin gap xs;
+
         & > div {
             @mixin layer-1;
+
             text-align: center;
 
             &:nth-child(even) {
@@ -208,8 +220,10 @@ code {
         display: grid;
         @mixin grid-cols 12;
         @mixin gap xs;
+
         & > div {
             @mixin layer-1;
+
             text-align: center;
 
             &:first-of-type {
@@ -228,8 +242,10 @@ code {
         display: grid;
         @mixin grid-cols 4;
         @mixin gap 2xl;
+
         & > div {
             @mixin layer-1;
+
             text-align: center;
         }
     }
@@ -241,8 +257,10 @@ code {
         display: grid;
         @mixin grid-cols 4;
         @mixin gap-x 2xl;
+
         & > div {
             @mixin layer-1;
+
             text-align: center;
         }
     }
@@ -254,8 +272,10 @@ code {
         display: grid;
         @mixin grid-cols 4;
         @mixin gap-y 2xl;
+
         & > div {
             @mixin layer-1;
+
             text-align: center;
         }
     }
@@ -270,8 +290,10 @@ code {
         @mixin grid-md-cols 4;
         @mixin grid-lg-cols 8;
         @mixin gap xs;
+
         & > div {
             @mixin layer-1;
+
             text-align: center;
         }
     }

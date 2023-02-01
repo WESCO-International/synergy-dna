@@ -47,25 +47,3 @@ jobs:
           git add .
           git commit -m "Design System Update"
           git push origin main
-  storybook:
-    needs: release
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-    - run: npm install
-    - run: npm run build-storybook
-      env:
-        CI: true
-    - name: setup git config
-      run: |
-        git config user.name GitHub-Actions[bot]
-        git config user.email github-actions[bot]@users.noreply.github.com # Config user name and email for lerna publish commit
-    - name: commit
-      run: |
-        git add .
-        git commit -m "chore: Storybook Update"
-        git push origin main

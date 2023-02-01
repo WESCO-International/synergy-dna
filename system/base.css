@@ -81,3 +81,8 @@ img {
 	width: auto;
 	height: auto;
 }
+
+ul {
+	list-style-position: inside;
+	margin-bottom: var(--sds-semantic-spacing-typography-body-margin-bottom);
+}

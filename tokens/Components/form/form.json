@@ -253,6 +253,14 @@
             "value": "{semantic.color.success.default}",
             "type": "color"
           }
+        },
+        "background-color": {
+          "input": {
+            "default": {
+              "value": "{semantic.color.background.base}",
+              "type": "color"
+            }
+          }
         }
       },
       "border-width": {

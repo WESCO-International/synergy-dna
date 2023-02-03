@@ -367,7 +367,7 @@
           "type": "color"
         },
         "input": {
-          "value": "{semantic.color.transparent}",
+          "value": "{global.color.static.white}",
           "type": "color"
         },
         "modal": {

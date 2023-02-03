@@ -5,6 +5,10 @@
         "value": "0%",
         "type": "letterSpacing"
       },
+      "icon": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
       "display": {
         "value": "-1%",
         "type": "letterSpacing"
@@ -162,6 +166,10 @@
           "value": "{global.font-size.lg}",
           "type": "fontSizes"
         }
+      },
+      "icon": {
+        "value": "{global.font-size.xl}",
+        "type": "fontSizes"
       },
       "caption": {
         "value": "{global.font-size.sm}",
@@ -781,6 +789,10 @@
         "value": "150%",
         "type": "lineHeights"
       },
+      "icon": {
+        "value": "150%",
+        "type": "lineHeights"
+      },
       "eyebrow": {
         "value": "110%",
         "type": "lineHeights"
@@ -913,6 +925,10 @@
         "regular": {
           "value": "{semantic.font-weight.normal}",
           "type": "fontWeights"
+        },
+        "bold": {
+          "value": "{semantic.font-weight.black}",
+          "type": "fontWeights"
         }
       }
     },
@@ -983,6 +999,19 @@
           },
           "type": "typography"
         }
+      },
+      "icon": {
+        "value": {
+          "fontFamily": "{semantic.font-family.icon}",
+          "fontWeight": "{semantic.font-weight.icon.bold}",
+          "lineHeight": "{semantic.line-height.icon}",
+          "fontSize": "{semantic.font-size.icon}",
+          "paragraphSpacing": "{semantic.paragraph-spacing.icon}",
+          "letterSpacing": "{semantic.letter-spacing.icon}",
+          "textDecoration": "{semantic.text-decoration.icon}",
+          "textCase": "{semantic.text-case.icon}"
+        },
+        "type": "typography"
       },
       "caption": {
         "value": {
@@ -1296,6 +1325,10 @@
         "value": "none",
         "type": "textCase"
       },
+      "icon": {
+        "value": "none",
+        "type": "textCase"
+      },
       "caption": {
         "value": "none",
         "type": "textCase"
@@ -1338,6 +1371,10 @@
         "value": "none",
         "type": "textDecoration"
       },
+      "icon": {
+        "value": "none",
+        "type": "textDecoration"
+      },
       "caption": {
         "value": "none",
         "type": "textDecoration"
@@ -1365,6 +1402,10 @@
         "type": "paragraphSpacing"
       },
       "body": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      },
+      "icon": {
         "value": "0",
         "type": "paragraphSpacing"
       },

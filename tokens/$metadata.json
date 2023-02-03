@@ -29,6 +29,7 @@
     "Brands/Wesco/Patterns/footer",
     "Brands/WPD/light-theme",
     "Brands/WPD/dark-theme",
-    "Brands/EECOL/dark-theme"
+    "Brands/EECOL/dark-theme",
+    "Components/form/uploader"
   ]
 }

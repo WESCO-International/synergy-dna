@@ -1,0 +1,14 @@
+{
+  "Components": {
+    "form": {
+      "uploader": {
+        "value": {
+          "color": "{component.form.color.border.default}",
+          "width": "{component.button.border-width.primary.default}",
+          "style": "dashed"
+        },
+        "type": "border"
+      }
+    }
+  }
+}

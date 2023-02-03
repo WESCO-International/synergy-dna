@@ -284,6 +284,16 @@
               "value": "{semantic.color.warning.default}",
               "type": "color"
             }
+          },
+          "link": {
+            "default": {
+              "value": "{semantic.color.link.base}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{global.color.brand.eecol.primary.base}",
+              "type": "color"
+            }
           }
         },
         "border": {

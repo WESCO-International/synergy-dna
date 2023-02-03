@@ -61,7 +61,7 @@
           "type": "fontWeights"
         },
         "placeholder": {
-          "value": "{semantic.font-weight.medium}",
+          "value": "{semantic.font-weight.body.regular}",
           "type": "fontWeights"
         },
         "help": {

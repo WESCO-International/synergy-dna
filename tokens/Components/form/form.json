@@ -13,6 +13,10 @@
         "help": {
           "value": "{global.font-size.sm}",
           "type": "fontSizes"
+        },
+        "icon": {
+          "value": "{global.font-size.sm}",
+          "type": "fontSizes"
         }
       },
       "font-family": {
@@ -27,6 +31,10 @@
         "help": {
           "value": "{semantic.font-family.body}",
           "type": "fontFamilies"
+        },
+        "icon": {
+          "value": "{semantic.font-family.icon}",
+          "type": "fontFamilies"
         }
       },
       "line-height": {
@@ -39,6 +47,10 @@
           "type": "lineHeights"
         },
         "help": {
+          "value": "125%",
+          "type": "lineHeights"
+        },
+        "icon": {
           "value": "125%",
           "type": "lineHeights"
         }
@@ -55,6 +67,10 @@
         "help": {
           "value": "{semantic.font-weight.normal}",
           "type": "fontWeights"
+        },
+        "icon": {
+          "value": "{semantic.font-weight.body.bold}",
+          "type": "fontWeights"
         }
       },
       "text-case": {
@@ -69,6 +85,10 @@
         "help": {
           "value": "{semantic.text-case.none}",
           "type": "textCase"
+        },
+        "icon": {
+          "value": "{semantic.text-case.none}",
+          "type": "textCase"
         }
       },
       "letter-spacing": {
@@ -81,6 +101,10 @@
           "type": "letterSpacing"
         },
         "help": {
+          "value": "{semantic.letter-spacing.default}",
+          "type": "letterSpacing"
+        },
+        "icon": {
           "value": "{semantic.letter-spacing.default}",
           "type": "letterSpacing"
         }
@@ -121,6 +145,18 @@
             "textCase": "{component.form.text-case.help}"
           },
           "type": "typography"
+        },
+        "icon": {
+          "value": {
+            "fontFamily": "{component.form.font-family.icon}",
+            "fontWeight": "{component.form.font-weight.icon}",
+            "lineHeight": "{component.form.line-height.icon}",
+            "fontSize": "{component.form.font-size.icon}",
+            "letterSpacing": "{component.form.letter-spacing.icon}",
+            "textDecoration": "{component.form.text-decoration.icon}",
+            "textCase": "{component.form.text-case.icon}"
+          },
+          "type": "typography"
         }
       },
       "text-decoration": {
@@ -133,6 +169,10 @@
           "type": "textDecoration"
         },
         "help": {
+          "value": "{semantic.text-decoration.none}",
+          "type": "textDecoration"
+        },
+        "icon": {
           "value": "{semantic.text-decoration.none}",
           "type": "textDecoration"
         }
@@ -224,6 +264,12 @@
             },
             "disable": {
               "value": "{global.color.static.gray.800}",
+              "type": "color"
+            }
+          },
+          "sucess": {
+            "default": {
+              "value": "{semantic.color.success.default}",
               "type": "color"
             }
           }

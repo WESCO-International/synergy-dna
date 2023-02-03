@@ -15,7 +15,7 @@
           "type": "fontSizes"
         },
         "icon": {
-          "value": "{global.font-size.sm}",
+          "value": "{global.font-size.md}",
           "type": "fontSizes"
         }
       },
@@ -270,6 +270,18 @@
           "sucess": {
             "default": {
               "value": "{semantic.color.success.default}",
+              "type": "color"
+            }
+          },
+          "info": {
+            "default": {
+              "value": "{semantic.color.informative.default}",
+              "type": "color"
+            }
+          },
+          "warning": {
+            "default": {
+              "value": "{semantic.color.warning.default}",
               "type": "color"
             }
           }

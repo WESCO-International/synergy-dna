@@ -50,7 +50,7 @@
         "primary": {
           "default": {
             "background-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{global.color.brand.XpressConnect.primary.dark}",
               "type": "color"
             },
             "foreground-color": {
@@ -64,7 +64,7 @@
           },
           "hover": {
             "background-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{global.color.brand.XpressConnect.primary.base}",
               "type": "color"
             },
             "foreground-color": {

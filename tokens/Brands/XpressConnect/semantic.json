@@ -183,19 +183,19 @@
     "color": {
       "primary": {
         "light": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.XpressConnect.primary.dark}",
           "type": "color"
         },
         "base": {
-          "value": "{global.color.brand.eecol.primary.dark}",
+          "value": "{global.color.brand.XpressConnect.primary.base}",
           "type": "color"
         },
         "dark": {
-          "value": "{global.color.brand.eecol.primary.darker}",
+          "value": "{global.color.brand.XpressConnect.primary.dark}",
           "type": "color"
         },
         "darker": {
-          "value": "{global.color.brand.eecol.primary.darkest}",
+          "value": "{global.color.brand.XpressConnect.primary.base}",
           "type": "color"
         }
       },
@@ -250,7 +250,7 @@
             "type": "color"
           },
           "heading": {
-            "value": "{global.color.brand.eecol.primary.darkest}",
+            "value": "{global.color.brand.XpressConnect.primary.dark}",
             "type": "color"
           },
           "subtle": {

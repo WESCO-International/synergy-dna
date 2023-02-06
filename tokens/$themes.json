@@ -16,7 +16,9 @@
       "Patterns/header": "enabled",
       "Patterns/footer": "enabled",
       "Patterns/modal": "enabled",
-      "light": "enabled"
+      "light": "enabled",
+      "Brands/XpressConnect/Components/buttons": "disabled",
+      "Brands/XpressConnect/semantic": "disabled"
     },
     "$figmaStyleReferences": {
       "pattern.modal.color.overlay": "S:f246b99037134cb88aaa22393a95deb9ed1dbf96,",
@@ -461,9 +463,8 @@
       "Patterns/header": "enabled",
       "Patterns/footer": "enabled",
       "Patterns/modal": "enabled",
-      "Brands/XpressConnect/semantic": "enabled",
       "Brands/XpressConnect/Components/buttons": "enabled",
-      "Brands/XpressConnect/light": "enabled"
+      "Brands/XpressConnect/semantic": "enabled"
     },
     "$figmaStyleReferences": {}
   }

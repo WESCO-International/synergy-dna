@@ -12,16 +12,14 @@
     "Components/form/switch",
     "Components/form/checkbox",
     "Components/form/radio",
+    "Components/form/uploader",
     "Patterns/header",
     "Patterns/footer",
     "Patterns/modal",
     "Brands/XpressConnect/semantic",
     "Brands/XpressConnect/Components/buttons",
-    "Brands/XpressConnect/light",
     "Brands/SDS/Components/buttons",
     "Brands/SDS/semantic",
-    "Brands/XpressConnect/Patterns/header",
-    "Brands/XpressConnect/Patterns/footer",
     "Brands/Wesco/Components/buttons",
     "Brands/Wesco/semantic",
     "Brands/Wesco/light",
@@ -29,7 +27,6 @@
     "Brands/Wesco/Patterns/footer",
     "Brands/WPD/light-theme",
     "Brands/WPD/dark-theme",
-    "Brands/EECOL/dark-theme",
-    "Components/form/uploader"
+    "Brands/EECOL/dark-theme"
   ]
 }

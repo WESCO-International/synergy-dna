@@ -9,7 +9,7 @@
       },
       "font-family": {
         "label": {
-          "value": "Source Sans Pro",
+          "value": "{semantic.font-family.body}",
           "type": "fontFamilies"
         }
       },
@@ -21,7 +21,7 @@
       },
       "font-weight": {
         "label": {
-          "value": "{semantic.font-weight.body.bold}",
+          "value": "{semantic.font-weight.body.regular}",
           "type": "fontWeights"
         }
       },
@@ -50,7 +50,7 @@
         "primary": {
           "default": {
             "background-color": {
-              "value": "{semantic.color.primary.base}",
+              "value": "{global.color.brand.eecol.primary.darkest}",
               "type": "color"
             },
             "foreground-color": {
@@ -64,7 +64,7 @@
           },
           "hover": {
             "background-color": {
-              "value": "{semantic.color.primary.light}",
+              "value": "{global.color.brand.eecol.primary.dark}",
               "type": "color"
             },
             "foreground-color": {

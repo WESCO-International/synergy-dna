@@ -6,8 +6,6 @@
       "global": "source",
       "light": "enabled",
       "semantic": "enabled",
-      "Components": "enabled",
-      "Components/buttons": "enabled",
       "Components/form/form": "enabled",
       "Components/form/text-field": "enabled",
       "Components/form/select": "enabled",
@@ -18,7 +16,8 @@
       "Patterns/footer": "enabled",
       "Patterns/modal": "enabled",
       "Brands/XpressConnect/Components/buttons": "enabled",
-      "Brands/XpressConnect/semantic": "enabled"
+      "Brands/XpressConnect/semantic": "enabled",
+      "Components/buttons": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -28,8 +27,6 @@
     "selectedTokenSets": {
       "global": "source",
       "semantic": "enabled",
-      "Components": "enabled",
-      "Components/buttons": "enabled",
       "Components/form/form": "enabled",
       "Components/form/text-field": "enabled",
       "Components/form/select": "enabled",
@@ -40,7 +37,8 @@
       "Patterns/footer": "enabled",
       "Patterns/modal": "enabled",
       "light": "enabled",
-      "Components/form/uploader": "enabled"
+      "Components/form/uploader": "enabled",
+      "Components/buttons": "enabled"
     },
     "$figmaStyleReferences": {
       "pattern.modal.color.overlay": "S:f246b99037134cb88aaa22393a95deb9ed1dbf96,",

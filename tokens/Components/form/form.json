@@ -265,6 +265,10 @@
             "disable": {
               "value": "{global.color.static.gray.800}",
               "type": "color"
+            },
+            "active": {
+              "value": "{global.color.static.black}",
+              "type": "color"
             }
           },
           "sucess": {

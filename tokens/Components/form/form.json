@@ -295,7 +295,7 @@
               "type": "color"
             },
             "hover": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{semantic.color.primary.light}",
               "type": "color"
             }
           }
@@ -318,7 +318,7 @@
             "type": "color"
           },
           "key-focus": {
-            "value": "{global.color.brand.eecol.primary.base}",
+            "value": "{semantic.color.primary.light}",
             "type": "color"
           },
           "sucess": {

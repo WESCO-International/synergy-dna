@@ -517,7 +517,7 @@
           "type": "color"
         },
         "key-focus": {
-          "value": "{global.color.brand.eecol.primary.darker}",
+          "value": "{global.color.brand.eecol.primary.base}",
           "type": "color"
         },
         "disabled": {

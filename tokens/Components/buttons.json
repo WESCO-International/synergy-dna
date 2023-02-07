@@ -50,7 +50,7 @@
         "primary": {
           "default": {
             "background-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{semantic.color.primary.darker}",
               "type": "color"
             },
             "foreground-color": {
@@ -92,7 +92,7 @@
           },
           "key-focus": {
             "background-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{semantic.color.primary.darker}",
               "type": "color"
             },
             "foreground-color": {
@@ -126,11 +126,11 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{semantic.color.primary.darker}",
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{semantic.color.primary.darker}",
               "type": "color"
             }
           },

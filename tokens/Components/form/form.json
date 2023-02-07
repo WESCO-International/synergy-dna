@@ -335,6 +335,10 @@
             "disabled": {
               "value": "{semantic.color.background.disabled}",
               "type": "color"
+            },
+            "selected": {
+              "value": "{semantic.color.background.disabled}",
+              "type": "color"
             }
           }
         }

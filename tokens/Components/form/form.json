@@ -331,6 +331,10 @@
             "default": {
               "value": "{semantic.color.background.base}",
               "type": "color"
+            },
+            "disabled": {
+              "value": "{theme.color.gray.200}",
+              "type": "color"
             }
           }
         }

@@ -21,7 +21,7 @@
       },
       "font-weight": {
         "label": {
-          "value": "{semantic.font-weight.body.regular}",
+          "value": "{semantic.font-weight.body.semi-bold}",
           "type": "fontWeights"
         }
       },

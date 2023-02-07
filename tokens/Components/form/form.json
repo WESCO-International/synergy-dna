@@ -3,7 +3,7 @@
     "form": {
       "font-size": {
         "label": {
-          "value": "{global.font-size.sm}",
+          "value": "{semantic.font-size.body.xs}",
           "type": "fontSizes"
         },
         "placeholder": {
@@ -11,11 +11,11 @@
           "type": "fontSizes"
         },
         "help": {
-          "value": "{global.font-size.sm}",
+          "value": "{semantic.font-size.body.xs}",
           "type": "fontSizes"
         },
         "icon": {
-          "value": "{global.font-size.lg}",
+          "value": "{semantic.font-size.icon}",
           "type": "fontSizes"
         }
       },
@@ -179,11 +179,11 @@
       },
       "sizing": {
         "input-min-width": {
-          "value": "{global.size.1000}",
+          "value": "{semantic.size.input.min-width}",
           "type": "sizing"
         },
         "input-min-height": {
-          "value": "{global.size.550}",
+          "value": "{semantic.size.input.min-height}",
           "type": "sizing"
         }
       },
@@ -241,13 +241,13 @@
         "foreground-color": {
           "label": {
             "default": {
-              "value": "{global.color.static.gray.800}",
+              "value": "{semantic.color.foreground.on-base.default}",
               "type": "color"
             }
           },
           "help": {
             "default": {
-              "value": "{global.color.static.gray.800}",
+              "value": "{semantic.color.foreground.on-base.default}",
               "type": "color"
             }
           },
@@ -259,15 +259,15 @@
           },
           "placeholder": {
             "default": {
-              "value": "{global.color.static.gray.800}",
+              "value": "{semantic.color.foreground.on-base.default}",
               "type": "color"
             },
             "disable": {
-              "value": "{global.color.static.gray.800}",
+              "value": "{semantic.color.foreground.on-base.default}",
               "type": "color"
             },
             "active": {
-              "value": "{global.color.static.black}",
+              "value": "{semantic.color.primary.darker}",
               "type": "color"
             }
           },
@@ -306,7 +306,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "{global.color.static.gray.800}",
+            "value": "{semantic.color.foreground.on-base.default}",
             "type": "color"
           },
           "disable": {
@@ -329,11 +329,11 @@
         "background-color": {
           "input": {
             "default": {
-              "value": "{semantic.color.background.base}",
+              "value": "{semantic.color.background.input}",
               "type": "color"
             },
             "disabled": {
-              "value": "{theme.color.gray.200}",
+              "value": "{semantic.color.background.disabled}",
               "type": "color"
             }
           }

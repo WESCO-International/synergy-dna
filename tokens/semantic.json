@@ -318,6 +318,16 @@
           "value": "{global.size.300}",
           "type": "sizing"
         }
+      },
+      "input": {
+        "min-width": {
+          "value": "{global.size.1000}",
+          "type": "sizing"
+        },
+        "min-height": {
+          "value": "{global.size.550}",
+          "type": "sizing"
+        }
       }
     },
     "color": {
@@ -371,7 +381,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "#D1D3D5",
+          "value": "{theme.color.gray.200}",
           "type": "color"
         },
         "input": {

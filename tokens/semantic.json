@@ -515,7 +515,7 @@
       },
       "border": {
         "base": {
-          "value": "{global.color.static.gray.200}",
+          "value": "{global.color.static.gray.600}",
           "type": "color"
         },
         "hover": {
@@ -558,11 +558,11 @@
     },
     "border-radius": {
       "xs": {
-        "value": "{global.radii.50}",
+        "value": "{global.radii.25}",
         "type": "borderRadius"
       },
       "sm": {
-        "value": "{global.radii.25}",
+        "value": "{global.radii.50}",
         "type": "borderRadius"
       },
       "md": {

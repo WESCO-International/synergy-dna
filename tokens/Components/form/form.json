@@ -7,7 +7,7 @@
           "type": "fontSizes"
         },
         "placeholder": {
-          "value": "{global.font-size._base}",
+          "value": "{semantic.font-size.body.md}",
           "type": "fontSizes"
         },
         "help": {
@@ -302,7 +302,7 @@
         },
         "border": {
           "default": {
-            "value": "{global.color.static.gray.600}",
+            "value": "{semantic.color.border.base}",
             "type": "color"
           },
           "hover": {
@@ -310,7 +310,7 @@
             "type": "color"
           },
           "disable": {
-            "value": "{global.color.static.gray.400}",
+            "value": "{semantic.color.border.disabled}",
             "type": "color"
           },
           "error": {
@@ -341,19 +341,19 @@
       },
       "border-width": {
         "default": {
-          "value": "{global.border-width.100}",
+          "value": "{semantic.border-width.sm}",
           "type": "borderWidth"
         },
         "hover": {
-          "value": "{global.border-width.100}",
+          "value": "{semantic.border-width.sm}",
           "type": "borderWidth"
         },
         "key-focus": {
-          "value": "{global.border-width.200}",
+          "value": "{semantic.border-width.md}",
           "type": "borderWidth"
         },
         "error": {
-          "value": "{global.border-width.200}",
+          "value": "{semantic.border-width.md}",
           "type": "borderWidth"
         }
       },

@@ -101,7 +101,7 @@
       },
       "spacing": {
         "space-between": {
-          "value": "{semantic.spacing.gap.component.xs}",
+          "value": "{semantic.spacing.gap.component.sm}",
           "type": "spacing"
         }
       },

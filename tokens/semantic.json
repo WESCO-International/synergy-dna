@@ -787,6 +787,10 @@
         "value": "125%",
         "type": "lineHeights"
       },
+      "form": {
+        "value": "125%",
+        "type": "lineHeights"
+      },
       "subtitle": {
         "value": "100%",
         "type": "lineHeights"

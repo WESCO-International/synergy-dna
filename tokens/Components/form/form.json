@@ -39,19 +39,19 @@
       },
       "line-height": {
         "label": {
-          "value": "125%",
+          "value": "{semantic.line-height.form}",
           "type": "lineHeights"
         },
         "placeholder": {
-          "value": "125%",
+          "value": "{semantic.line-height.form}",
           "type": "lineHeights"
         },
         "help": {
-          "value": "125%",
+          "value": "{semantic.line-height.form}",
           "type": "lineHeights"
         },
         "icon": {
-          "value": "125%",
+          "value": "{semantic.line-height.form}",
           "type": "lineHeights"
         }
       },

@@ -97,7 +97,7 @@
       },
       "border-width": {
         "default": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{component.form.border-width.default}",
           "type": "borderWidth"
         },
         "hover": {
@@ -125,25 +125,25 @@
       },
       "font-size": {
         "label": {
-          "value": "{global.font-size.sm}",
+          "value": "{component.form.font-size.label}",
           "type": "fontSizes"
         }
       },
       "font-family": {
         "label": {
-          "value": "{semantic.font-family.body}",
+          "value": "{component.form.font-family.label}",
           "type": "fontFamilies"
         }
       },
       "line-height": {
         "label": {
-          "value": "{semantic.line-height.body}",
+          "value": "{component.form.line-height.label}",
           "type": "lineHeights"
         }
       },
       "font-weight": {
         "label": {
-          "value": "{semantic.font-weight.normal}",
+          "value": "{component.form.font-weight.label}",
           "type": "fontWeights"
         }
       },

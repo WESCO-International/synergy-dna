@@ -15,7 +15,7 @@
           "type": "fontSizes"
         },
         "icon": {
-          "value": "{global.font-size.md}",
+          "value": "{global.font-size.lg}",
           "type": "fontSizes"
         }
       },

@@ -168,7 +168,7 @@
         }
       },
       "icon": {
-        "value": "{global.font-size.xl}",
+        "value": "{global.font-size.lg}",
         "type": "fontSizes"
       },
       "caption": {
@@ -927,7 +927,7 @@
           "type": "fontWeights"
         },
         "bold": {
-          "value": "{semantic.font-weight.black}",
+          "value": "{semantic.font-weight.body.bold}",
           "type": "fontWeights"
         }
       }

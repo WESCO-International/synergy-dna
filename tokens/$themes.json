@@ -17,7 +17,8 @@
       "Patterns/modal": "enabled",
       "Brands/XpressConnect/Components/buttons": "enabled",
       "Brands/XpressConnect/semantic": "enabled",
-      "Components/buttons": "enabled"
+      "Components/buttons": "enabled",
+      "Components/chips": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -37,8 +38,8 @@
       "Patterns/footer": "enabled",
       "Patterns/modal": "enabled",
       "light": "enabled",
-      "Components/form/uploader": "enabled",
-      "Components/buttons": "enabled"
+      "Components/buttons": "enabled",
+      "Components/chips": "disabled"
     },
     "$figmaStyleReferences": {
       "pattern.modal.color.overlay": "S:f246b99037134cb88aaa22393a95deb9ed1dbf96,",

@@ -364,5 +364,17 @@
         }
       }
     }
+  },
+  "Components": {
+    "form": {
+      "uploader": {
+        "value": {
+          "color": "{component.form.color.border.default}",
+          "width": "{component.form.border-width.default}",
+          "style": "dashed"
+        },
+        "type": "border"
+      }
+    }
   }
 }

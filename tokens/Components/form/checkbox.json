@@ -149,7 +149,7 @@
       },
       "letter-spacing": {
         "label": {
-          "value": "{semantic.letter-spacing.default}",
+          "value": "{component.form.letter-spacing.label}",
           "type": "letterSpacing"
         }
       },
@@ -183,11 +183,11 @@
       "sizing": {
         "background": {
           "width": {
-            "value": "{global.size.250}",
+            "value": "{semantic.spacing.around.component.xl}",
             "type": "sizing"
           },
           "height": {
-            "value": "{global.size.250}",
+            "value": "{semantic.spacing.around.component.xl}",
             "type": "sizing"
           }
         }

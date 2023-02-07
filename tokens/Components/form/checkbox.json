@@ -72,6 +72,20 @@
             "type": "color"
           }
         },
+        "error": {
+          "background-color": {
+            "value": "{semantic.color.background.base}",
+            "type": "color"
+          },
+          "foreground-color": {
+            "value": "{semantic.color.foreground.on-disabled.default}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{component.form.color.border.error}",
+            "type": "color"
+          }
+        },
         "label": {
           "value": "{semantic.color.foreground.on-base.default}",
           "type": "color"
@@ -91,6 +105,10 @@
           "type": "borderWidth"
         },
         "key-focus": {
+          "value": "{semantic.border-width.md}",
+          "type": "borderWidth"
+        },
+        "error": {
           "value": "{semantic.border-width.md}",
           "type": "borderWidth"
         },

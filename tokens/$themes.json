@@ -455,14 +455,14 @@
       "semantic.inner-shadow.sm": "S:a4f559269beea7f1504b4e7037f6e62f097ecc89,",
       "semantic.typography.body.xs": "S:2df0a13cb5a397d0e85837c7a56c66c2fb943192,",
       "semantic.typography.body.sm": "S:e98ddf6bdd3c91b1cfe716f6c4e004e5244978af,",
-      "semantic.typography.body.base": "S:143ccdecbbe85d297becf1ecf3ac11bc90771c3e,",
       "semantic.color.border.key-focus": "S:a1b21d69ee71b13354339f8bda3949eff2eddb25,",
       "component.form.color.tyography.placeholder.default": "S:98bf2747caa5d3d577fcd254ce67fd24a28fb624,",
       "component.form.color.tyography.placeholder.key-focus": "S:7beb88b0e3350d2a9c07c3463739a815da9bd047,",
       "component.form.color.tyography.placeholder.disable": "S:95fb165ea1803868358a110a6fd6a70ae7868d77,",
       "component.form.typography.placeholder": "S:59912ccc3c0803536e5e3456f66e4eafc38ff53e,",
       "semantic.typography.body.lg": "S:4f2c1b737a20614370a75b84a7974dedbd7c5dea,",
-      "semantic.typography.body.xxs": "S:8d4b62d361e50ca842f37334fae4d824c9b3ff73,"
+      "semantic.typography.body.xxs": "S:8d4b62d361e50ca842f37334fae4d824c9b3ff73,",
+      "semantic.typography.body.md": "S:143ccdecbbe85d297becf1ecf3ac11bc90771c3e,"
     }
   }
 ]

@@ -183,11 +183,11 @@
       "sizing": {
         "background": {
           "width": {
-            "value": "{semantic.spacing.around.component.xl}",
+            "value": "{component.checkbox.sizing.width}",
             "type": "sizing"
           },
           "height": {
-            "value": "{semantic.spacing.around.component.xl}",
+            "value": "{component.checkbox.sizing.height}",
             "type": "sizing"
           }
         }

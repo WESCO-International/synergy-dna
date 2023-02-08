@@ -379,6 +379,18 @@
           "type": "sizing"
         }
       }
+    },
+    "checkbox": {
+      "sizing": {
+        "width": {
+          "value": "{semantic.size.checkbox.width}",
+          "type": "sizing"
+        },
+        "height": {
+          "value": "{semantic.size.checkbox.height}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "Components": {

@@ -78,7 +78,7 @@
         }
       },
       "border-radius": {
-        "value": "{semantic.border-radius.round}",
+        "value": "{component.form.border-radius.round}",
         "type": "borderRadius"
       },
       "border-width": {

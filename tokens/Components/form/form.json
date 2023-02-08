@@ -348,6 +348,10 @@
           "value": "{semantic.border-width.sm}",
           "type": "borderWidth"
         },
+        "disabled": {
+          "value": "{semantic.border-width.sm}",
+          "type": "borderWidth"
+        },
         "key-focus": {
           "value": "{semantic.border-width.md}",
           "type": "borderWidth"

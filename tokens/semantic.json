@@ -1105,7 +1105,7 @@
       },
       "icon": {
         "solid": {
-          "value": "900",
+          "value": "700",
           "type": "fontWeights"
         },
         "regular": {

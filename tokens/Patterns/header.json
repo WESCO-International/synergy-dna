@@ -3,12 +3,16 @@
     "header": {
       "color": {
         "background": {
-          "base": {
+          "main": {
             "value": "{semantic.color.background.base}",
             "type": "color"
           },
-          "darker": {
+          "topnav": {
             "value": "{semantic.color.background.layer-2}",
+            "type": "color"
+          },
+          "navbar": {
+            "value": "{semantic.color.background.layer-1}",
             "type": "color"
           }
         }
@@ -53,6 +57,34 @@
             "value": "block",
             "type": "other"
           }
+        }
+      },
+      "font-size": {
+        "top": {
+          "value": "{semantic.font-size.body.sm}",
+          "type": "fontSizes"
+        },
+        "middle": {
+          "value": "{semantic.font-size.body.sm}",
+          "type": "fontSizes"
+        },
+        "bottom": {
+          "value": "{semantic.font-size.body.md}",
+          "type": "fontSizes"
+        }
+      },
+      "spacing": {
+        "top": {
+          "value": "{semantic.spacing.around.component.5xl}}",
+          "type": "spacing"
+        },
+        "middle": {
+          "value": "{semantic.spacing.around.component.5xl}}",
+          "type": "spacing"
+        },
+        "bottom": {
+          "value": "{semantic.spacing.around.component.5xl}}",
+          "type": "spacing"
         }
       }
     },

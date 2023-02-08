@@ -45,7 +45,6 @@
       "pattern.footer.color.background.base": "S:dc3957f8f3b2f81abc3419118a5ae20c341bea05,",
       "pattern.footer.color.foreground.on-base": "S:9f2741fe465d9ae19c4bd430ddd22b7edfc6ebda,",
       "pattern.footer.color.seperator.on-base": "S:23b1bce795f09b9b32322ba6e5f3ee68cda2c746,",
-      "pattern.header.color.background.base": "S:5d00af48af0fcdf68cba2c94f18d089d3171a586,",
       "component.radio.color.default.background-color": "S:e54e94e3d46460f3a002c0f296a7f64a65170634,",
       "component.radio.color.default.foreground-color": "S:d3c23b237ac290ce672b48bfe20f669fd861ecfd,",
       "component.radio.color.default.border-color": "S:78933b97d18e0d8b8f698f94ae33eef03763b7e9,",
@@ -462,7 +461,8 @@
       "component.form.typography.placeholder": "S:59912ccc3c0803536e5e3456f66e4eafc38ff53e,",
       "semantic.typography.body.lg": "S:4f2c1b737a20614370a75b84a7974dedbd7c5dea,",
       "semantic.typography.body.xxs": "S:8d4b62d361e50ca842f37334fae4d824c9b3ff73,",
-      "semantic.typography.body.md": "S:143ccdecbbe85d297becf1ecf3ac11bc90771c3e,"
+      "semantic.typography.body.md": "S:143ccdecbbe85d297becf1ecf3ac11bc90771c3e,",
+      "pattern.header.color.background.main": "S:5d00af48af0fcdf68cba2c94f18d089d3171a586,"
     }
   }
 ]

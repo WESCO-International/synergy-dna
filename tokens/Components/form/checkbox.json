@@ -131,7 +131,7 @@
       },
       "font-family": {
         "label": {
-          "value": "{semantic.font-family.body}",
+          "value": "{component.form.font-family.label}",
           "type": "fontFamilies"
         }
       },

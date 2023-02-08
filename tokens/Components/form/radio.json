@@ -4,7 +4,7 @@
       "color": {
         "default": {
           "background-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{component.form.color.background-color.input.default}",
             "type": "color"
           },
           "foreground-color": {
@@ -12,7 +12,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{semantic.color.border.base}",
+            "value": "{component.form.color.border.default}",
             "type": "color"
           }
         },
@@ -22,31 +22,31 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{global.color.static.white}",
             "type": "color"
           },
           "border-color": {
-            "value": "{semantic.color.border.base}",
+            "value": "{component.form.color.border.default}",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
-            "value": "{semantic.color.background.base}",
-            "type": "color"
-          },
-          "foreground-color": {
             "value": "{semantic.color.primary.base}",
             "type": "color"
           },
+          "foreground-color": {
+            "value": "{semantic.color.background.base}",
+            "type": "color"
+          },
           "border-color": {
-            "value": "{semantic.color.border.hover}",
+            "value": "{component.form.color.border.default}",
             "type": "color"
           }
         },
         "key-focus": {
           "background-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{component.form.color.background-color.input.default}",
             "type": "color"
           },
           "foreground-color": {
@@ -54,13 +54,13 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{semantic.color.border.key-focus}",
+            "value": "{component.form.color.border.key-focus}",
             "type": "color"
           }
         },
         "disabled": {
           "background-color": {
-            "value": "{semantic.color.background.disabled}",
+            "value": "{component.form.color.background-color.input.disabled}",
             "type": "color"
           },
           "foreground-color": {
@@ -68,7 +68,21 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{semantic.color.border.disabled}",
+            "value": "{component.form.color.border.disable}",
+            "type": "color"
+          }
+        },
+        "error": {
+          "background-color": {
+            "value": "{component.form.color.background-color.input.default}",
+            "type": "color"
+          },
+          "foreground-color": {
+            "value": "{semantic.color.foreground.on-disabled.default}",
+            "type": "color"
+          },
+          "border-color": {
+            "value": "{component.form.color.border.error}",
             "type": "color"
           }
         },
@@ -78,7 +92,7 @@
         }
       },
       "border-radius": {
-        "value": "{semantic.border-radius.round}",
+        "value": "{component.form.border-radius.round}",
         "type": "borderRadius"
       },
       "border-width": {
@@ -94,6 +108,10 @@
           "value": "{semantic.border-width.md}",
           "type": "borderWidth"
         },
+        "error": {
+          "value": "{semantic.border-width.md}",
+          "type": "borderWidth"
+        },
         "disabled": {
           "value": "{semantic.border-width.sm}",
           "type": "borderWidth"
@@ -101,13 +119,13 @@
       },
       "spacing": {
         "space-between": {
-          "value": "{semantic.spacing.gap.component.xs}",
+          "value": "{semantic.spacing.gap.component.sm}",
           "type": "spacing"
         }
       },
       "font-size": {
         "label": {
-          "value": "{global.font-size.sm}",
+          "value": "{component.form.font-size.placeholder}",
           "type": "fontSizes"
         }
       },
@@ -119,19 +137,19 @@
       },
       "line-height": {
         "label": {
-          "value": "{semantic.line-height.body}",
+          "value": "{component.form.line-height.label}",
           "type": "lineHeights"
         }
       },
       "font-weight": {
         "label": {
-          "value": "{semantic.font-weight.normal}",
+          "value": "{component.form.font-weight.placeholder}",
           "type": "fontWeights"
         }
       },
       "letter-spacing": {
         "label": {
-          "value": "{semantic.letter-spacing.default}",
+          "value": "{component.form.letter-spacing.label}",
           "type": "letterSpacing"
         }
       },
@@ -165,21 +183,11 @@
       "sizing": {
         "background": {
           "width": {
-            "value": "{global.size.250}",
+            "value": "{semantic.spacing.around.component.xl}",
             "type": "sizing"
           },
           "height": {
-            "value": "{global.size.250}",
-            "type": "sizing"
-          }
-        },
-        "toggle": {
-          "width": {
-            "value": "{global.size.125}",
-            "type": "sizing"
-          },
-          "height": {
-            "value": "{global.size.125}",
+            "value": "{semantic.spacing.around.component.xl}",
             "type": "sizing"
           }
         }

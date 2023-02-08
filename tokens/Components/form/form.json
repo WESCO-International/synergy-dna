@@ -365,6 +365,10 @@
         "default": {
           "value": "{semantic.border-radius.xs}",
           "type": "borderRadius"
+        },
+        "round": {
+          "value": "{semantic.border-radius.round}",
+          "type": "borderRadius"
         }
       }
     }

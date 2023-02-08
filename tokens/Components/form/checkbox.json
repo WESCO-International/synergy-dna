@@ -125,7 +125,7 @@
       },
       "font-size": {
         "label": {
-          "value": "{component.form.font-size.label}",
+          "value": "{component.form.font-size.placeholder}",
           "type": "fontSizes"
         }
       },
@@ -143,7 +143,7 @@
       },
       "font-weight": {
         "label": {
-          "value": "{component.form.font-weight.label}",
+          "value": "{component.form.font-weight.placeholder}",
           "type": "fontWeights"
         }
       },

@@ -175,11 +175,11 @@
         },
         "toggle": {
           "width": {
-            "value": "{global.size.175}",
+            "value": "{component.switch.sizing.width}",
             "type": "sizing"
           },
           "height": {
-            "value": "{global.size.175}",
+            "value": "{component.switch.sizing.background.height}",
             "type": "sizing"
           }
         }

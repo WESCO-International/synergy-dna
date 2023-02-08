@@ -335,10 +335,6 @@
             "disabled": {
               "value": "{semantic.color.background.disabled}",
               "type": "color"
-            },
-            "selected": {
-              "value": "{semantic.color.background.disabled}",
-              "type": "color"
             }
           }
         }
@@ -369,6 +365,18 @@
         "round": {
           "value": "{semantic.border-radius.round}",
           "type": "borderRadius"
+        }
+      }
+    },
+    "switch": {
+      "sizing": {
+        "width": {
+          "value": "{semantic.size.switch.width}",
+          "type": "sizing"
+        },
+        "height": {
+          "value": "{semantic.size.switch.height}",
+          "type": "sizing"
         }
       }
     }

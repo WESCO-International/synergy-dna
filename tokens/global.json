@@ -1177,6 +1177,10 @@
         "value": "48",
         "type": "sizing"
       },
+      "650": {
+        "value": "50",
+        "type": "sizing"
+      },
       "700": {
         "value": "56",
         "type": "sizing"

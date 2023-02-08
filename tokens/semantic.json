@@ -328,6 +328,16 @@
           "value": "{global.size.550}",
           "type": "sizing"
         }
+      },
+      "switch": {
+        "width": {
+          "value": "{global.size.650}",
+          "type": "sizing"
+        },
+        "height": {
+          "value": "{global.size.250}",
+          "type": "sizing"
+        }
       }
     },
     "color": {

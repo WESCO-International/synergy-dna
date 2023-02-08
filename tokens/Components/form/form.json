@@ -335,16 +335,16 @@
             "disabled": {
               "value": "{semantic.color.background.disabled}",
               "type": "color"
+            },
+            "selected": {
+              "value": "{semantic.color.background.disabled}",
+              "type": "color"
             }
           }
         }
       },
       "border-width": {
         "default": {
-          "value": "{semantic.border-width.sm}",
-          "type": "borderWidth"
-        },
-        "disabled": {
           "value": "{semantic.border-width.sm}",
           "type": "borderWidth"
         },
@@ -363,7 +363,7 @@
       },
       "border-radius": {
         "default": {
-          "value": "{semantic.border-radius.sm}",
+          "value": "{semantic.border-radius.xs}",
           "type": "borderRadius"
         }
       }

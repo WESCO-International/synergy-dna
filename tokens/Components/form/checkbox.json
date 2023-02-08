@@ -12,7 +12,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{component.text-field.color.default.border-color}",
+            "value": "{component.form.color.border.default}",
             "type": "color"
           }
         },
@@ -26,7 +26,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{component.text-field.color.default.border-color}",
+            "value": "{component.form.color.border.default}",
             "type": "color"
           }
         },
@@ -36,11 +36,11 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{component.form.color.background-color.input.default}",
+            "value": "{semantic.color.background.base}",
             "type": "color"
           },
           "border-color": {
-            "value": "{component.text-field.color.default.border-color}",
+            "value": "{component.form.color.border.default}",
             "type": "color"
           }
         },
@@ -68,7 +68,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{semantic.color.border.disabled}",
+            "value": "{component.form.color.border.disable}",
             "type": "color"
           }
         },
@@ -87,7 +87,7 @@
           }
         },
         "label": {
-          "value": "{component.form.color.foreground-color.label.default}",
+          "value": "{semantic.color.foreground.on-base.default}",
           "type": "color"
         }
       },
@@ -97,29 +97,29 @@
       },
       "border-width": {
         "default": {
-          "value": "{component.form.border-width.default}",
+          "value": "{semantic.border-width.sm}",
           "type": "borderWidth"
         },
         "hover": {
-          "value": "{component.form.border-width.hover}",
+          "value": "{semantic.border-width.sm}",
           "type": "borderWidth"
         },
         "key-focus": {
-          "value": "{component.form.border-width.key-focus}",
+          "value": "{semantic.border-width.md}",
           "type": "borderWidth"
         },
         "error": {
-          "value": "{component.form.border-width.error}",
+          "value": "{semantic.border-width.md}",
           "type": "borderWidth"
         },
         "disabled": {
-          "value": "{component.form.border-width.disabled}",
+          "value": "{semantic.border-width.sm}",
           "type": "borderWidth"
         }
       },
       "spacing": {
         "space-between": {
-          "value": "{component.form.spacing.input.padding-right}",
+          "value": "{semantic.spacing.gap.component.sm}",
           "type": "spacing"
         }
       },
@@ -131,7 +131,7 @@
       },
       "font-family": {
         "label": {
-          "value": "{component.form.font-family.label}",
+          "value": "{semantic.font-family.body}",
           "type": "fontFamilies"
         }
       },

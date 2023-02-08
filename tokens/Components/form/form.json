@@ -336,6 +336,10 @@
               "value": "{semantic.color.background.layer-3}",
               "type": "color"
             },
+            "error": {
+              "value": "{semantic.color.error.default}",
+              "type": "color"
+            },
             "disabled": {
               "value": "{semantic.color.background.disabled}",
               "type": "color"

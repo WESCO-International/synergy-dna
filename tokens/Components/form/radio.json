@@ -74,11 +74,11 @@
         },
         "error": {
           "background-color": {
-            "value": "{component.form.color.background-color.input.default}",
+            "value": "{component.form.color.background-color.input.error}",
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.foreground.on-disabled.default}",
+            "value": "{component.form.color.background-color.input.error}",
             "type": "color"
           },
           "border-color": {

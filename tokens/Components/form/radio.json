@@ -101,15 +101,15 @@
           "type": "borderWidth"
         },
         "hover": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{component.form.border-width.hover}",
           "type": "borderWidth"
         },
         "key-focus": {
-          "value": "{semantic.border-width.md}",
+          "value": "{component.form.border-width.key-focus}",
           "type": "borderWidth"
         },
         "error": {
-          "value": "{semantic.border-width.md}",
+          "value": "{component.form.border-width.error}",
           "type": "borderWidth"
         },
         "disabled": {

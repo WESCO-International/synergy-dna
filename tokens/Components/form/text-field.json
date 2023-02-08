@@ -101,7 +101,7 @@
           "type": "borderWidth"
         },
         "error": {
-          "value": "{semantic.border-width.md}",
+          "value": "{component.form.border-width.error}",
           "type": "borderWidth"
         },
         "hover": {

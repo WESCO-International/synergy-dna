@@ -109,11 +109,11 @@
           "type": "borderWidth"
         },
         "key-focus": {
-          "value": "{semantic.border-width.md}",
+          "value": "{component.radio.border-width.key-focus}",
           "type": "borderWidth"
         },
         "disabled": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{component.form.border-width.disabled}",
           "type": "borderWidth"
         }
       },

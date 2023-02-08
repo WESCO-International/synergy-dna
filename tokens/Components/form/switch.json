@@ -95,7 +95,7 @@
           "type": "borderWidth"
         },
         "disabled": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{component.checkbox.border-width.disabled}",
           "type": "borderWidth"
         }
       },

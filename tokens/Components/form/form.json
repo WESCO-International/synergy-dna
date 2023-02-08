@@ -15,7 +15,7 @@
           "type": "fontSizes"
         },
         "icon": {
-          "value": "{semantic.font-size.icon}",
+          "value": "{semantic.font-size.body.sm}",
           "type": "fontSizes"
         }
       },

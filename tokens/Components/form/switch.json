@@ -101,13 +101,13 @@
       },
       "spacing": {
         "space-between": {
-          "value": "{semantic.spacing.gap.component.xs}",
+          "value": "{semantic.spacing.gap.component.sm}",
           "type": "spacing"
         }
       },
       "font-size": {
         "label": {
-          "value": "{global.font-size.xs}",
+          "value": "{component.form.font-size.placeholder}",
           "type": "fontSizes"
         }
       },
@@ -119,19 +119,19 @@
       },
       "line-height": {
         "label": {
-          "value": "{semantic.line-height.body}",
+          "value": "{component.form.line-height.label}",
           "type": "lineHeights"
         }
       },
       "font-weight": {
         "label": {
-          "value": "{semantic.font-weight.normal}",
+          "value": "{component.form.font-weight.placeholder}",
           "type": "fontWeights"
         }
       },
       "letter-spacing": {
         "label": {
-          "value": "{semantic.letter-spacing.default}",
+          "value": "{component.form.letter-spacing.label}",
           "type": "letterSpacing"
         }
       },
@@ -158,18 +158,18 @@
       },
       "text-case": {
         "label": {
-          "value": "uppercase",
+          "value": "none",
           "type": "textCase"
         }
       },
       "sizing": {
         "background": {
           "width": {
-            "value": "{global.size.475}",
+            "value": "{semantic.spacing.around.component.xl}",
             "type": "sizing"
           },
           "height": {
-            "value": "{global.size.250}",
+            "value": "{semantic.spacing.around.component.xl}",
             "type": "sizing"
           }
         },

@@ -1,7 +1,7 @@
 import { Meta, Story } from '@storybook/blocks';
 import theme from '@sds-theme/EECOL/theme.json';
 import { TokenList, Code } from '@sds-stories/util';
-import * as TypographyStories from '@sds-stories/typography/typography.stories.js';
+import * as TypographyStories from '../../stories/typography/typography.stories.js';
 
 <Meta title="Docs/Developers/Mixins/Typography"/>
 
@@ -52,7 +52,7 @@ The mixins below allow you to easily customize type in CSS for any element on th
     </div>
     <div>
         <div>`size`</div>
-        <div>{ Object.entries(theme.semantic['font-size'].body).map(([k, v]) => <Code k={k} value={v} url="/?path=/docs/synergy-design-system-developer-docs-tokens-typography--docs#static-typography"/>) }</div>
+        <div>{ Object.entries(theme.semantic['font-size'].body).map(([k, v]) => <Code k={k} value={v} url="/?path=/docs/docs-developers-tokens-typography--docs"/>) }</div>
         <div>`md`</div>
     </div>
 </div>

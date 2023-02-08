@@ -1716,6 +1716,66 @@
         "value": "fa-solid fa-file-arrow-up",
         "type": "icon",
         "description": "file-arrow-up"
+      },
+      "file-invoice": {
+        "value": "fa-solid fa-file-invoice",
+        "type": "icon",
+        "description": "file-invoice"
+      },
+      "address-book": {
+        "value": "fa-solid fa-address-book",
+        "type": "icon",
+        "description": "address-book"
+      },
+      "clipboard-list": {
+        "value": "fa-solid fa-clipboard-list",
+        "type": "icon",
+        "description": "clipboard-list"
+      },
+      "bars": {
+        "value": "fa-solid fa-bars",
+        "type": "icon",
+        "description": "bars"
+      },
+      "lock": {
+        "value": "fa-solid fa-lock",
+        "type": "icon",
+        "description": "lock"
+      },
+      "unlock": {
+        "value": "fa-solid fa-unlock",
+        "type": "icon",
+        "description": "unlock"
+      },
+      "circle-info": {
+        "value": "fa-solid fa-circle-info",
+        "type": "icon",
+        "description": "circle-info"
+      },
+      "circle-check": {
+        "value": "fa-solid fa-circle-check",
+        "type": "icon",
+        "description": "circle-check"
+      },
+      "circle-xmark": {
+        "value": "fa-solid fa-circle-xmark",
+        "type": "icon",
+        "description": "circle-xmark"
+      },
+      "circle-exclamation": {
+        "value": "fa-solid fa-circle-exclamation",
+        "type": "icon",
+        "description": "circle-exclamation"
+      },
+      "circle-minus": {
+        "value": "fa-solid fa-circle-minus",
+        "type": "icon",
+        "description": "circle-minus"
+      },
+      "xmark": {
+        "value": "fa-solid fa-xmark",
+        "type": "icon",
+        "description": "xmark"
       }
     }
   }

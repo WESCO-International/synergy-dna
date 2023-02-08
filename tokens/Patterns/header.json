@@ -55,6 +55,16 @@
           }
         }
       }
+    },
+    "header-copy": {
+      "logo": {
+        "text": {
+          "display": {
+            "value": "block",
+            "type": "other"
+          }
+        }
+      }
     }
   }
 }

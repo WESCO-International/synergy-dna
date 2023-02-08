@@ -4,7 +4,7 @@
       "color": {
         "default": {
           "background-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{semantic.color.background.input}",
             "type": "color"
           },
           "foreground-color": {
@@ -89,6 +89,10 @@
         "label": {
           "value": "{semantic.color.foreground.on-base.default}",
           "type": "color"
+        },
+        "knob": {
+          "value": "{semantic.color.foreground.on-layer-2.default}",
+          "type": "color"
         }
       },
       "border-radius": {
@@ -106,6 +110,10 @@
         },
         "key-focus": {
           "value": "{component.form.border-width.key-focus}",
+          "type": "borderWidth"
+        },
+        "error": {
+          "value": "{component.form.border-width.error}",
           "type": "borderWidth"
         },
         "disabled": {

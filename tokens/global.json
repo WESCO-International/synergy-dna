@@ -1916,6 +1916,21 @@
         "value": "fa-solid fa-square-twitter",
         "type": "icon",
         "description": "square-twitter"
+      },
+      "canada": {
+        "value": "canada flag",
+        "type": "icon",
+        "description": "canadain flag round"
+      },
+      "france": {
+        "value": "france flag",
+        "type": "icon",
+        "description": "france flag round"
+      },
+      "usa": {
+        "value": "usa flag",
+        "type": "icon",
+        "description": "usa flag round"
       }
     }
   }

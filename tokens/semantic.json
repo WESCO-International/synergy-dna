@@ -1055,7 +1055,19 @@
       },
       "icon": {
         "solid": {
-          "value": "solid",
+          "value": "700",
+          "type": "fontWeights"
+        },
+        "regular": {
+          "value": "400",
+          "type": "fontWeights"
+        },
+        "light": {
+          "value": "300",
+          "type": "fontWeights"
+        },
+        "thin": {
+          "value": "100",
           "type": "fontWeights"
         }
       }

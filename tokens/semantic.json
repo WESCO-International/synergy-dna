@@ -400,6 +400,10 @@
           "value": "{global.color.brand.eecol.primary.darkest}",
           "type": "color"
         },
+        "layer-3": {
+          "value": "{global.color.brand.eecol.primary.dark}",
+          "type": "color"
+        },
         "disabled": {
           "value": "{theme.color.gray.200}",
           "type": "color"

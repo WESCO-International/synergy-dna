@@ -332,6 +332,10 @@
               "value": "{semantic.color.background.input}",
               "type": "color"
             },
+            "dark": {
+              "value": "{semantic.color.background.layer-3}",
+              "type": "color"
+            },
             "disabled": {
               "value": "{semantic.color.background.disabled}",
               "type": "color"

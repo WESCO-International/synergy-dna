@@ -8,7 +8,7 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.primary.base}",
+            "value": "{component.form.color.foreground-color.link.default}",
             "type": "color"
           },
           "border-color": {
@@ -18,7 +18,7 @@
         },
         "checked": {
           "background-color": {
-            "value": "{semantic.color.primary.base}",
+            "value": "{component.form.color.foreground-color.link.default}",
             "type": "color"
           },
           "foreground-color": {
@@ -32,7 +32,7 @@
         },
         "hover": {
           "background-color": {
-            "value": "{semantic.color.primary.base}",
+            "value": "{component.form.color.foreground-color.link.default}",
             "type": "color"
           },
           "foreground-color": {
@@ -50,7 +50,7 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.primary.base}",
+            "value": "{component.form.color.foreground-color.link.default}",
             "type": "color"
           },
           "border-color": {

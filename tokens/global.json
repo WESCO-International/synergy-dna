@@ -1601,6 +1601,56 @@
         "value": "fa-solid fa-angle-down",
         "type": "icon",
         "description": "angle-down"
+      },
+      "angle-left": {
+        "value": "fa-solid fa-angle-left",
+        "type": "icon",
+        "description": "angle-left"
+      },
+      "angle-right": {
+        "value": "fa-solid fa-angle-right",
+        "type": "icon",
+        "description": "angle-right"
+      },
+      "angle-up": {
+        "value": "fa-solid fa-angle-up",
+        "type": "icon",
+        "description": "angle-up"
+      },
+      "thumbs-down": {
+        "value": "fa-solid fa-thumbs-down",
+        "type": "icon",
+        "description": "thumbs-down"
+      },
+      "thumbs-up": {
+        "value": "fa-solid fa-thumbs-up",
+        "type": "icon",
+        "description": "thumbs-up"
+      },
+      "arrow-down": {
+        "value": "fa-solid fa-arrow-down",
+        "type": "icon",
+        "description": "arrow-down"
+      },
+      "arrow-left": {
+        "value": "fa-solid fa-arrow-left",
+        "type": "icon",
+        "description": "arrow-left"
+      },
+      "arrow-right": {
+        "value": "fa-solid fa-arrow-right",
+        "type": "icon",
+        "description": "arrow-right"
+      },
+      "arrow-up": {
+        "value": "fa-solid fa-arrow-up",
+        "type": "icon",
+        "description": "arrow-up"
+      },
+      "eye": {
+        "value": "fa-solid fa-eye",
+        "type": "icon",
+        "description": "eye"
       }
     }
   }

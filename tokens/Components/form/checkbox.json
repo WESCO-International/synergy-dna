@@ -4,7 +4,7 @@
       "color": {
         "default": {
           "background-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{component.form.color.background-color.input.default}",
             "type": "color"
           },
           "foreground-color": {
@@ -12,7 +12,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{component.form.color.border.default}",
+            "value": "{component.text-field.color.default.border-color}",
             "type": "color"
           }
         },
@@ -26,7 +26,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{component.form.color.border.default}",
+            "value": "{component.text-field.color.default.border-color}",
             "type": "color"
           }
         },
@@ -36,17 +36,17 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{component.form.color.background-color.input.default}",
             "type": "color"
           },
           "border-color": {
-            "value": "{component.form.color.border.default}",
+            "value": "{component.text-field.color.default.border-color}",
             "type": "color"
           }
         },
         "key-focus": {
           "background-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{component.form.color.background-color.input.default}",
             "type": "color"
           },
           "foreground-color": {
@@ -60,7 +60,7 @@
         },
         "disabled": {
           "background-color": {
-            "value": "{semantic.color.background.disabled}",
+            "value": "{component.form.color.background-color.input.disabled}",
             "type": "color"
           },
           "foreground-color": {
@@ -74,7 +74,7 @@
         },
         "error": {
           "background-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{component.form.color.background-color.input.default}",
             "type": "color"
           },
           "foreground-color": {
@@ -87,7 +87,7 @@
           }
         },
         "label": {
-          "value": "{semantic.color.foreground.on-base.default}",
+          "value": "{component.form.color.foreground-color.label.default}",
           "type": "color"
         }
       },
@@ -101,25 +101,25 @@
           "type": "borderWidth"
         },
         "hover": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{component.form.border-width.hover}",
           "type": "borderWidth"
         },
         "key-focus": {
-          "value": "{semantic.border-width.md}",
+          "value": "{component.form.border-width.key-focus}",
           "type": "borderWidth"
         },
         "error": {
-          "value": "{semantic.border-width.md}",
+          "value": "{component.form.border-width.error}",
           "type": "borderWidth"
         },
         "disabled": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{component.form.border-width.disabled}",
           "type": "borderWidth"
         }
       },
       "spacing": {
         "space-between": {
-          "value": "{semantic.spacing.gap.component.sm}",
+          "value": "{component.form.spacing.input.padding-right}",
           "type": "spacing"
         }
       },

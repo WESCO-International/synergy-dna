@@ -2,13 +2,29 @@
   "pattern": {
     "header": {
       "color": {
-        "background": {
+        "background-color": {
+          "top": {
+            "value": "{semantic.color.background.layer-2}",
+            "type": "color"
+          },
           "middle": {
             "value": "{semantic.color.background.base}",
             "type": "color"
           },
+          "bottom": {
+            "value": "{semantic.color.background.layer-1}",
+            "type": "color"
+          }
+        },
+        "foreground-color": {
           "top": {
-            "value": "{semantic.color.background.layer-2}",
+            "text": {
+              "value": "{semantic.color.foreground.on-layer-2.heading}",
+              "type": "color"
+            }
+          },
+          "middle": {
+            "value": "{semantic.color.background.base}",
             "type": "color"
           },
           "bottom": {
@@ -48,6 +64,22 @@
               "value": "{global.size.400}",
               "type": "sizing"
             }
+          }
+        },
+        "icon": {
+          "country-icon": {
+            "width": {
+              "value": "{global.size.200}",
+              "type": "sizing"
+            },
+            "height": {
+              "value": "{global.size.200}",
+              "type": "sizing"
+            }
+          },
+          "height": {
+            "value": "{global.size.1800}",
+            "type": "sizing"
           }
         }
       },
@@ -179,7 +211,7 @@
             "lineHeight": "{pattern.header.line-height.top}",
             "fontSize": "{pattern.header.font-size.top}",
             "letterSpacing": "{pattern.header.letter-spacing.top}",
-            "paragraphSpacing": "{{pattern.header.paragraph-spacing.top}",
+            "paragraphSpacing": "{pattern.header.paragraph-spacing.top}",
             "paragraphIndent": "",
             "textDecoration": "{pattern.header.text-decoration.top}",
             "textCase": "{pattern.header.text-case.top}"
@@ -193,7 +225,7 @@
             "lineHeight": "{pattern.header.line-height.middle}",
             "fontSize": "{pattern.header.font-size.middle}",
             "letterSpacing": "{pattern.header.letter-spacing.middle}",
-            "paragraphSpacing": "{{pattern.header.paragraph-spacing.middle}",
+            "paragraphSpacing": "{pattern.header.paragraph-spacing.middle}",
             "paragraphIndent": "",
             "textDecoration": "{pattern.header.text-decoration.middle}",
             "textCase": "{pattern.header.text-case.middle}"
@@ -207,7 +239,7 @@
             "lineHeight": "{pattern.header.line-height.bottom}",
             "fontSize": "{pattern.header.font-size.bottom}",
             "letterSpacing": "{pattern.header.letter-spacing.bottom}",
-            "paragraphSpacing": "{{pattern.header.paragraph-spacing.bottom}",
+            "paragraphSpacing": "{pattern.header.paragraph-spacing.bottom}",
             "paragraphIndent": "",
             "textDecoration": "{pattern.header.text-decoration.bottom}",
             "textCase": "{pattern.header.text-case.bottom}"
@@ -254,21 +286,7 @@
           },
           "type": "border"
         }
-      }
-    },
-    "header-copy": {
-      "logo": {
-        "text": {
-          "display": {
-            "value": "block",
-            "type": "other"
-          }
-        }
-      }
-    }
-  },
-  "{pattern": {
-    "header": {
+      },
       "paragraph-spacing": {
         "top": {
           "value": "{semantic.paragraph-spacing.body}",
@@ -281,6 +299,16 @@
         "bottom": {
           "value": "{semantic.paragraph-spacing.body}",
           "type": "paragraphSpacing"
+        }
+      }
+    },
+    "header-copy": {
+      "logo": {
+        "text": {
+          "display": {
+            "value": "block",
+            "type": "other"
+          }
         }
       }
     }

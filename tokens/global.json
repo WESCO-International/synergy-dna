@@ -1651,6 +1651,71 @@
         "value": "fa-solid fa-eye",
         "type": "icon",
         "description": "eye"
+      },
+      "eye-slash": {
+        "value": "fa-solid fa-slash",
+        "type": "icon",
+        "description": "eye-slash"
+      },
+      "caret-down": {
+        "value": "fa-solid fa-caret-down",
+        "type": "icon",
+        "description": "caret-down"
+      },
+      "caret-left": {
+        "value": "fa-solid fa-caret-left",
+        "type": "icon",
+        "description": "caret-left"
+      },
+      "caret-right": {
+        "value": "fa-solid fa-caret-right",
+        "type": "icon",
+        "description": "caret-right"
+      },
+      "caret-up": {
+        "value": "fa-solid fa-caret-up",
+        "type": "icon",
+        "description": "caret-up"
+      },
+      "arrow-down-to-line": {
+        "value": "fa-solid fa-arrow-down-to-line",
+        "type": "icon",
+        "description": "arrow-down-to-line"
+      },
+      "arrow-up-to-line-copy": {
+        "value": "fa-solid fa-arrow-up-to-line",
+        "type": "icon",
+        "description": "arrow-up-to-line"
+      },
+      "paperclip": {
+        "value": "fa-solid fa-paperclip",
+        "type": "icon",
+        "description": "paperclip"
+      },
+      "check": {
+        "value": "fa-solid fa-check",
+        "type": "icon",
+        "description": "check"
+      },
+      "comment": {
+        "value": "fa-solid fa-comment",
+        "type": "icon",
+        "description": "comment"
+      },
+      "pencil": {
+        "value": "fa-solid fa-pencil",
+        "type": "icon",
+        "description": "pencil"
+      },
+      "file-arrow-down": {
+        "value": "fa-solid fa-file-arrow-down",
+        "type": "icon",
+        "description": "file-arrow-down"
+      },
+      "file-arrow-up": {
+        "value": "fa-solid fa-file-arrow-up",
+        "type": "icon",
+        "description": "file-arrow-up"
       }
     }
   }

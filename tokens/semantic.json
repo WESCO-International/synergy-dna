@@ -348,6 +348,42 @@
           "value": "{global.size.250}",
           "type": "sizing"
         }
+      },
+      "header": {
+        "logo": {
+          "mobile": {
+            "width": {
+              "value": "{global.size.250}",
+              "type": "sizing"
+            },
+            "height": {
+              "value": "{global.size.250}",
+              "type": "sizing"
+            }
+          },
+          "desktop": {
+            "width": {
+              "value": "{global.size.250}",
+              "type": "sizing"
+            },
+            "height": {
+              "value": "{global.size.250}",
+              "type": "sizing"
+            }
+          }
+        },
+        "desktop": {
+          "height": {
+            "value": "{global.size.2100}",
+            "type": "sizing"
+          }
+        },
+        "mobile": {
+          "height": {
+            "value": "{global.size.2100}",
+            "type": "sizing"
+          }
+        }
       }
     },
     "color": {
@@ -961,11 +997,7 @@
       },
       "icon": {
         "regular": {
-          "value": "{semantic.font-weight.normal}",
-          "type": "fontWeights"
-        },
-        "bold": {
-          "value": "{semantic.font-weight.body.bold}",
+          "value": "400",
           "type": "fontWeights"
         }
       }

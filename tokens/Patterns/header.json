@@ -6,6 +6,10 @@
           "base": {
             "value": "{semantic.color.background.base}",
             "type": "color"
+          },
+          "darker": {
+            "value": "{semantic.color.background.layer-2}",
+            "type": "color"
           }
         }
       },

@@ -18,11 +18,11 @@
         },
         "checked": {
           "background-color": {
-            "value": "{semantic.color.primary.base}",
+            "value": "{global.color.static.white}",
             "type": "color"
           },
           "foreground-color": {
-            "value": "{global.color.static.white}",
+            "value": "{semantic.color.primary.base}",
             "type": "color"
           },
           "border-color": {

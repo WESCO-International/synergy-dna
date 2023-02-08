@@ -369,6 +369,56 @@
             "value": "{global.size.600}",
             "type": "sizing"
           }
+        },
+        "5xl": {
+          "width": {
+            "value": "{global.size.700}",
+            "type": "sizing"
+          },
+          "height": {
+            "value": "{global.size.700}",
+            "type": "sizing"
+          }
+        },
+        "6xl": {
+          "width": {
+            "value": "{global.size.800}",
+            "type": "sizing"
+          },
+          "height": {
+            "value": "{global.size.800}",
+            "type": "sizing"
+          }
+        },
+        "7xl": {
+          "width": {
+            "value": "{global.size.900}",
+            "type": "sizing"
+          },
+          "height": {
+            "value": "{global.size.900}",
+            "type": "sizing"
+          }
+        },
+        "8xl": {
+          "width": {
+            "value": "{global.size.1000}",
+            "type": "sizing"
+          },
+          "height": {
+            "value": "{global.size.1000}",
+            "type": "sizing"
+          }
+        },
+        "9xl": {
+          "width": {
+            "value": "{global.size.1200}",
+            "type": "sizing"
+          },
+          "height": {
+            "value": "{global.size.1200}",
+            "type": "sizing"
+          }
         }
       },
       "default-content-wrapper": {

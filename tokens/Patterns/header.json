@@ -3,15 +3,15 @@
     "header": {
       "color": {
         "background": {
-          "main": {
+          "middle": {
             "value": "{semantic.color.background.base}",
             "type": "color"
           },
-          "topnav": {
+          "top": {
             "value": "{semantic.color.background.layer-2}",
             "type": "color"
           },
-          "navbar": {
+          "bottom": {
             "value": "{semantic.color.background.layer-1}",
             "type": "color"
           }

@@ -64,7 +64,7 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.foreground.on-disabled.default}",
+            "value": "{semantic.color.background.disabled}",
             "type": "color"
           },
           "border-color": {

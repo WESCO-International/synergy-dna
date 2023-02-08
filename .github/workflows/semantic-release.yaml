@@ -5,6 +5,9 @@ on:
   push:
     branches:
       - "main"
+    paths:
+      - 'system/**'
+      - 'tokens/**'
 
 jobs:
   release:
@@ -14,7 +17,7 @@ jobs:
       packages: write
       contents: write
       issues: read
-    runs-on: [self-hosted, Linux, prod]
+    runs-on: [ubuntu-latest]
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
       - uses: actions/checkout@v3
@@ -42,8 +45,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - name: commit
-        run: |
-          git add .
-          git commit -m "Design System Update"
-          git push origin main

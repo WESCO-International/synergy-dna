@@ -1,3 +1,11 @@
+## [1.1.26](https://github.com/wesco-international/synergy-dna/compare/v1.1.25...v1.1.26) (2023-02-02)
+
+
+### Bug Fixes
+
+* change storybook build location ([ebdb501](https://github.com/wesco-international/synergy-dna/commit/ebdb501010c49c375d271b44a0ab9c065f5fb485))
+* remove build commit from workflow ([bd45624](https://github.com/wesco-international/synergy-dna/commit/bd45624b11da659f1e5f1468617fd12d3fc71d6d))
+
 ## [1.1.25](https://github.com/wesco-international/synergy-dna/compare/v1.1.24...v1.1.25) (2023-02-01)
 
 

@@ -83,7 +83,7 @@
       },
       "border-width": {
         "default": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{component.form.border-width.default}",
           "type": "borderWidth"
         },
         "hover": {

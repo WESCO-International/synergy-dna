@@ -97,7 +97,7 @@
       },
       "border-width": {
         "default": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{component.select.border-width.default}",
           "type": "borderWidth"
         },
         "error": {
@@ -105,7 +105,7 @@
           "type": "borderWidth"
         },
         "hover": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{component.form.border-width.hover}",
           "type": "borderWidth"
         },
         "key-focus": {

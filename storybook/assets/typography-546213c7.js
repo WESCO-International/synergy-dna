@@ -34,7 +34,7 @@ import{j as e}from"./jsx-runtime-fea6ae26.js";import{M as l,S as s}from"./index-
 `,e.jsx("div",{children:"Default"})]}),e.jsxs("div",{children:[e.jsx("div",{children:e.jsx(i.code,{children:"weight"})}),`
 `,e.jsxs("div",{children:[e.jsx(i.code,{children:"regular"})," ",e.jsx(i.code,{children:"bold"})," ",e.jsx(i.code,{children:"semi-bold"})]}),`
 `,e.jsx("div",{children:e.jsx(i.code,{children:"regular"})})]}),e.jsxs("div",{children:[e.jsx("div",{children:e.jsx(i.code,{children:"size"})}),`
-`,e.jsx("div",{children:Object.entries(c.semantic["font-size"].body).map(([r,h])=>e.jsx(o,{k:r,value:h,url:"/?path=/docs/synergy-design-system-developer-docs-tokens-typography--docs#static-typography"}))}),`
+`,e.jsx("div",{children:Object.entries(c.semantic["font-size"].body).map(([r,h])=>e.jsx(o,{k:r,value:h,url:"/?path=/docs/docs-developers-tokens-typography--docs"}))}),`
 `,e.jsx("div",{children:e.jsx(i.code,{children:"md"})})]})]}),`
 `,e.jsx(i.h2,{children:"CSS Utility Classes for Typography"}),`
 `,e.jsx(i.p,{children:"Synergy provides a set of CSS Utility Classes for working with type. These may come in handy if DOM elements are decorated using javascript. In most cases though the mixins should cover the majority of usecases."}),`
@@ -111,4 +111,4 @@ import{j as e}from"./jsx-runtime-fea6ae26.js";import{M as l,S as s}from"./index-
 `,e.jsx("div",{children:"Left aligned text"})]}),e.jsxs("div",{className:"row",children:[e.jsx("div",{children:".text-align-center"}),`
 `,e.jsx("div",{children:"Center aligned text"})]}),e.jsxs("div",{className:"row",children:[e.jsx("div",{children:".text-align-right"}),`
 `,e.jsx("div",{children:"Right aligned text"})]})]})]})}function H(n={}){const{wrapper:i}=Object.assign({},t(),n.components);return i?e.jsx(i,Object.assign({},n,{children:e.jsx(d,n)})):d(n)}export{H as default};
-//# sourceMappingURL=typography-d245418d.js.map
+//# sourceMappingURL=typography-546213c7.js.map

@@ -721,6 +721,10 @@
         "on-layer-1": {
           "value": "{global.color.static.gray.300}",
           "type": "color"
+        },
+        "on-layer-2": {
+          "value": "{global.color.static.gray.800}",
+          "type": "color"
         }
       }
     },
@@ -969,6 +973,10 @@
       },
       "body": {
         "value": "150%",
+        "type": "lineHeights"
+      },
+      "footerlinks": {
+        "value": "200%",
         "type": "lineHeights"
       },
       "icon": {

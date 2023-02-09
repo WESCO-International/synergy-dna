@@ -24,12 +24,16 @@
             }
           },
           "middle": {
-            "value": "{semantic.color.background.base}",
-            "type": "color"
+            "text": {
+              "value": "{semantic.color.primary.dark}",
+              "type": "color"
+            }
           },
           "bottom": {
-            "value": "{semantic.color.background.layer-1}",
-            "type": "color"
+            "text": {
+              "value": "{semantic.color.primary.dark}",
+              "type": "color"
+            }
           }
         }
       },
@@ -57,11 +61,11 @@
           },
           "logo": {
             "width": {
-              "value": "{global.size.400}",
+              "value": "{global.size.1600}",
               "type": "sizing"
             },
             "height": {
-              "value": "{global.size.400}",
+              "value": "{global.size.500}",
               "type": "sizing"
             }
           }
@@ -192,6 +196,10 @@
       "text-decoration": {
         "top": {
           "value": "none",
+          "type": "textDecoration"
+        },
+        "top-link": {
+          "value": "underline",
           "type": "textDecoration"
         },
         "middle": {

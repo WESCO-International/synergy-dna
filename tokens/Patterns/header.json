@@ -88,11 +88,11 @@
             },
             "middle": {
               "width": {
-                "value": "{global.size.200}",
+                "value": "{global.size.300}",
                 "type": "sizing"
               },
               "height": {
-                "value": "{global.size.200}",
+                "value": "{global.size.300}",
                 "type": "sizing"
               }
             },
@@ -110,11 +110,11 @@
           "mobile": {
             "top": {
               "width": {
-                "value": "{global.size.200}",
+                "value": "{global.size.150}",
                 "type": "sizing"
               },
               "height": {
-                "value": "{global.size.200}",
+                "value": "{global.size.150}",
                 "type": "sizing"
               }
             },
@@ -130,11 +130,11 @@
             },
             "bottom": {
               "width": {
-                "value": "{global.size.200}",
+                "value": "{global.size.225}",
                 "type": "sizing"
               },
               "height": {
-                "value": "{global.size.200}",
+                "value": "{global.size.225}",
                 "type": "sizing"
               }
             }

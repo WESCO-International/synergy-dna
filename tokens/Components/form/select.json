@@ -139,7 +139,7 @@
       },
       "font-family": {
         "text": {
-          "value": "{component.form.font-family.label}",
+          "value": "{component.form-group.font-family.label}",
           "type": "fontFamilies"
         }
       },

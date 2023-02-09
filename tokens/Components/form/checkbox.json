@@ -131,13 +131,13 @@
       },
       "font-family": {
         "label": {
-          "value": "{component.form.font-family.label}",
+          "value": "{component.form-group.font-family.label}",
           "type": "fontFamilies"
         }
       },
       "line-height": {
         "label": {
-          "value": "{component.form.line-height.label}",
+          "value": "{component.form-group.line-height.label}",
           "type": "lineHeights"
         }
       },
@@ -149,7 +149,7 @@
       },
       "letter-spacing": {
         "label": {
-          "value": "{component.form.letter-spacing.label}",
+          "value": "{component.form-group.letter-spacing.label}",
           "type": "letterSpacing"
         }
       },

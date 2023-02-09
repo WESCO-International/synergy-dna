@@ -177,37 +177,6 @@
           "type": "textDecoration"
         }
       },
-      "sizing": {
-        "input-min-width": {
-          "value": "{semantic.size.input.min-width}",
-          "type": "sizing"
-        },
-        "input-min-height": {
-          "value": "{semantic.size.input.min-height}",
-          "type": "sizing"
-        }
-      },
-      "spacing": {
-        "input": {
-          "padding-bottom": {
-            "value": "{semantic.spacing.around.component.md}",
-            "type": "spacing"
-          },
-          "padding-left": {
-            "value": "{semantic.spacing.around.component.md}",
-            "type": "spacing"
-          },
-          "padding-right": {
-            "value": "{semantic.spacing.around.component.md}",
-            "type": "spacing"
-          },
-          "padding-top": {
-            "value": "{semantic.spacing.around.component.md}",
-            "type": "spacing",
-            "description": "Padding of component label, like the label on a checkbox"
-          }
-        }
-      },
       "color": {
         "foreground-color": {
           "label": {
@@ -351,27 +320,36 @@
         }
       }
     },
-    "switch": {
-      "sizing": {
-        "width": {
-          "value": "{semantic.size.switch.width}",
-          "type": "sizing"
+    "form-group": {
+      "spacing": {
+        "label": {
+          "padding-bottom": {
+            "value": "{semantic.spacing.around.component.xs}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.around.component.md}",
+            "type": "spacing",
+            "description": "Padding of component label, like the label on a checkbox"
+          }
         },
-        "height": {
-          "value": "{semantic.size.switch.height}",
-          "type": "sizing"
-        }
-      }
-    },
-    "checkbox": {
-      "sizing": {
-        "width": {
-          "value": "{semantic.size.checkbox.width}",
-          "type": "sizing"
+        "help": {
+          "padding-top": {
+            "value": "{semantic.spacing.around.component.xs}",
+            "type": "spacing"
+          }
         },
-        "height": {
-          "value": "{semantic.size.checkbox.height}",
-          "type": "sizing"
+        "group": {
+          "margin-bottom": {
+            "value": "{semantic.spacing.around.component.2xl}",
+            "type": "spacing"
+          }
+        },
+        "error": {
+          "padding-top": {
+            "value": "{semantic.spacing.around.component.xs}",
+            "type": "spacing"
+          }
         }
       }
     }

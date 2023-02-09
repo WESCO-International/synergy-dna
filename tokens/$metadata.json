@@ -7,6 +7,7 @@
     "Components/buttons",
     "Components/chips",
     "Components/form/form",
+    "Components/form/form-group",
     "Components/form/text-field",
     "Components/form/select",
     "Components/form/switch",

@@ -8,12 +8,40 @@
               "value": "{global.color.brand.eecol.primary.darkest}",
               "type": "color"
             }
+          },
+          "foreground": {
+            "base": {
+              "value": "{global.color.static.white}",
+              "type": "color"
+            }
           }
         },
-        "foreground": {
-          "on-base": {
-            "value": "{global.color.static.white}",
-            "type": "color"
+        "linksbar": {
+          "background": {
+            "base": {
+              "value": "{global.color.brand.eecol.primary.darkest}",
+              "type": "color"
+            }
+          },
+          "foreground": {
+            "base": {
+              "value": "{global.color.static.white}",
+              "type": "color"
+            }
+          }
+        },
+        "bottombar": {
+          "background": {
+            "base": {
+              "value": "{global.color.brand.eecol.primary.darkest}",
+              "type": "color"
+            }
+          },
+          "foreground": {
+            "base": {
+              "value": "{global.color.static.white}",
+              "type": "color"
+            }
           }
         },
         "seperator": {

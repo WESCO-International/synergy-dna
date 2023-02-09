@@ -25,6 +25,7 @@
     "build": "node scripts/transform.mjs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build -o storybook",
+    "test-storybook": "test-storybook",
     "postcss:dev": "gulp dev",
     "postcss:build": "gulp build"
   },
@@ -41,6 +42,8 @@
     "@storybook/builder-vite": "^7.0.0-beta.36",
     "@storybook/html": "7.0.0-beta.36",
     "@storybook/html-vite": "^7.0.0-beta.36",
+    "@storybook/jest": "0.0.10",
+    "@storybook/test-runner": "^0.9.4",
     "@storybook/testing-library": "0.0.14-next.1",
     "cssnano": "5.1.14",
     "cz-conventional-changelog": "3.3.0",

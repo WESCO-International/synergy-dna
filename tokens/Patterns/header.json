@@ -75,19 +75,69 @@
           }
         },
         "icon": {
-          "country-icon": {
-            "width": {
-              "value": "{global.size.200}",
-              "type": "sizing"
+          "desktop": {
+            "top": {
+              "width": {
+                "value": "{global.size.200}",
+                "type": "sizing"
+              },
+              "height": {
+                "value": "{global.size.200}",
+                "type": "sizing"
+              }
             },
-            "height": {
-              "value": "{global.size.200}",
-              "type": "sizing"
+            "middle": {
+              "width": {
+                "value": "{global.size.200}",
+                "type": "sizing"
+              },
+              "height": {
+                "value": "{global.size.200}",
+                "type": "sizing"
+              }
+            },
+            "bottom": {
+              "width": {
+                "value": "{global.size.200}",
+                "type": "sizing"
+              },
+              "height": {
+                "value": "{global.size.200}",
+                "type": "sizing"
+              }
             }
           },
-          "height": {
-            "value": "{global.size.1800}",
-            "type": "sizing"
+          "mobile": {
+            "top": {
+              "width": {
+                "value": "{global.size.200}",
+                "type": "sizing"
+              },
+              "height": {
+                "value": "{global.size.200}",
+                "type": "sizing"
+              }
+            },
+            "middle": {
+              "width": {
+                "value": "{global.size.200}",
+                "type": "sizing"
+              },
+              "height": {
+                "value": "{global.size.200}",
+                "type": "sizing"
+              }
+            },
+            "bottom": {
+              "width": {
+                "value": "{global.size.200}",
+                "type": "sizing"
+              },
+              "height": {
+                "value": "{global.size.200}",
+                "type": "sizing"
+              }
+            }
           }
         }
       },

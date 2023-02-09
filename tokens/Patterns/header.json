@@ -33,6 +33,10 @@
             "text": {
               "value": "{semantic.color.primary.dark}",
               "type": "color"
+            },
+            "hover": {
+              "value": "{semantic.color.background.base}",
+              "type": "color"
             }
           }
         }
@@ -41,7 +45,7 @@
         "mobile": {
           "logo": {
             "width": {
-              "value": "{global.size.400}",
+              "value": "{global.size.1200}",
               "type": "sizing"
             },
             "height": {
@@ -50,7 +54,7 @@
             }
           },
           "height": {
-            "value": "{global.size.1800}",
+            "value": "{global.size.1650}",
             "type": "sizing"
           }
         },
@@ -61,7 +65,7 @@
           },
           "logo": {
             "width": {
-              "value": "{global.size.1600}",
+              "value": "{global.size.1650}",
               "type": "sizing"
             },
             "height": {

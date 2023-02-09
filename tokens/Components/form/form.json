@@ -110,18 +110,6 @@
         }
       },
       "typography": {
-        "label": {
-          "value": {
-            "fontFamily": "{component.form.font-family.label}",
-            "fontWeight": "{component.form.font-weight.label}",
-            "lineHeight": "{component.form.line-height.label}",
-            "fontSize": "{component.form.font-size.label}",
-            "letterSpacing": "{component.form.letter-spacing.label}",
-            "textDecoration": "{component.form.text-decoration.label}",
-            "textCase": "{component.form.text-case.label}"
-          },
-          "type": "typography"
-        },
         "placeholder": {
           "value": {
             "fontFamily": "{component.form.font-family.placeholder}",
@@ -131,18 +119,6 @@
             "letterSpacing": "{component.form.letter-spacing.placeholder}",
             "textDecoration": "{component.form.text-decoration.placeholder}",
             "textCase": "{component.form.text-case.placeholder}"
-          },
-          "type": "typography"
-        },
-        "help": {
-          "value": {
-            "fontFamily": "{component.form.font-family.help}",
-            "fontWeight": "{component.form.font-weight.help}",
-            "lineHeight": "{component.form.line-height.help}",
-            "fontSize": "{component.form.font-size.help}",
-            "letterSpacing": "{component.form.letter-spacing.help}",
-            "textDecoration": "{component.form.text-decoration.help}",
-            "textCase": "{component.form.text-case.help}"
           },
           "type": "typography"
         },
@@ -349,6 +325,16 @@
           "value": "{semantic.border-radius.round}",
           "type": "borderRadius"
         }
+      },
+      "border": {
+        "uploader": {
+          "value": {
+            "color": "{component.form.color.border.default}",
+            "width": "{component.form.border-width.default}",
+            "style": "dashed"
+          },
+          "type": "border"
+        }
       }
     },
     "switch": {
@@ -373,18 +359,6 @@
           "value": "{semantic.size.checkbox.height}",
           "type": "sizing"
         }
-      }
-    }
-  },
-  "Components": {
-    "form": {
-      "uploader": {
-        "value": {
-          "color": "{component.form.color.border.default}",
-          "width": "{component.form.border-width.default}",
-          "style": "dashed"
-        },
-        "type": "border"
       }
     }
   }

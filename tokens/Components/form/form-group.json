@@ -122,18 +122,6 @@
           },
           "type": "typography"
         },
-        "placeholder": {
-          "value": {
-            "fontFamily": "{component.form.font-family.placeholder}",
-            "fontWeight": "{component.form.font-weight.placeholder}",
-            "lineHeight": "{component.form.line-height.placeholder}",
-            "fontSize": "{component.form.font-size.placeholder}",
-            "letterSpacing": "{component.form.letter-spacing.placeholder}",
-            "textDecoration": "{component.form.text-decoration.placeholder}",
-            "textCase": "{component.form.text-case.placeholder}"
-          },
-          "type": "typography"
-        },
         "help": {
           "value": {
             "fontFamily": "{component.form.font-family.help}",
@@ -143,18 +131,6 @@
             "letterSpacing": "{component.form.letter-spacing.help}",
             "textDecoration": "{component.form.text-decoration.help}",
             "textCase": "{component.form.text-case.help}"
-          },
-          "type": "typography"
-        },
-        "icon": {
-          "value": {
-            "fontFamily": "{component.form.font-family.icon}",
-            "fontWeight": "{component.form.font-weight.icon}",
-            "lineHeight": "{component.form.line-height.icon}",
-            "fontSize": "{component.form.font-size.icon}",
-            "letterSpacing": "{component.form.letter-spacing.icon}",
-            "textDecoration": "{component.form.text-decoration.icon}",
-            "textCase": "{component.form.text-case.icon}"
           },
           "type": "typography"
         }
@@ -175,6 +151,39 @@
         "icon": {
           "value": "{semantic.text-decoration.none}",
           "type": "textDecoration"
+        }
+      }
+    },
+    "form-group": {
+      "spacing": {
+        "label": {
+          "padding-bottom": {
+            "value": "{semantic.spacing.around.component.xs}",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "{semantic.spacing.around.component.md}",
+            "type": "spacing",
+            "description": "Padding of component label, like the label on a checkbox"
+          }
+        },
+        "help": {
+          "padding-top": {
+            "value": "{semantic.spacing.around.component.xs}",
+            "type": "spacing"
+          }
+        },
+        "group": {
+          "margin-bottom": {
+            "value": "{semantic.spacing.around.component.2xl}",
+            "type": "spacing"
+          }
+        },
+        "error": {
+          "padding-top": {
+            "value": "{semantic.spacing.around.component.xs}",
+            "type": "spacing"
+          }
         }
       },
       "color": {
@@ -228,141 +237,8 @@
               "value": "{semantic.color.warning.default}",
               "type": "color"
             }
-          },
-          "link": {
-            "default": {
-              "value": "{semantic.color.link.base}",
-              "type": "color"
-            },
-            "hover": {
-              "value": "{semantic.color.primary.light}",
-              "type": "color"
-            }
-          }
-        },
-        "border": {
-          "default": {
-            "value": "{semantic.color.border.base}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{semantic.color.foreground.on-base.default}",
-            "type": "color"
-          },
-          "disable": {
-            "value": "{semantic.color.border.disabled}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{semantic.color.error.default}",
-            "type": "color"
-          },
-          "key-focus": {
-            "value": "{semantic.color.primary.light}",
-            "type": "color"
-          },
-          "sucess": {
-            "value": "{semantic.color.success.default}",
-            "type": "color"
-          }
-        },
-        "background-color": {
-          "input": {
-            "default": {
-              "value": "{semantic.color.background.input}",
-              "type": "color"
-            },
-            "dark": {
-              "value": "{semantic.color.background.layer-3}",
-              "type": "color"
-            },
-            "error": {
-              "value": "{semantic.color.error.default}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{semantic.color.background.disabled}",
-              "type": "color"
-            }
           }
         }
-      },
-      "border-width": {
-        "default": {
-          "value": "{semantic.border-width.sm}",
-          "type": "borderWidth"
-        },
-        "hover": {
-          "value": "{semantic.border-width.sm}",
-          "type": "borderWidth"
-        },
-        "disabled": {
-          "value": "{semantic.border-width.sm}",
-          "type": "borderWidth"
-        },
-        "key-focus": {
-          "value": "{semantic.border-width.md}",
-          "type": "borderWidth"
-        },
-        "error": {
-          "value": "{semantic.border-width.md}",
-          "type": "borderWidth"
-        }
-      },
-      "border-radius": {
-        "default": {
-          "value": "{semantic.border-radius.xs}",
-          "type": "borderRadius"
-        },
-        "round": {
-          "value": "{semantic.border-radius.round}",
-          "type": "borderRadius"
-        }
-      }
-    },
-    "form-group": {
-      "spacing": {
-        "label": {
-          "padding-bottom": {
-            "value": "{semantic.spacing.around.component.xs}",
-            "type": "spacing"
-          },
-          "padding-right": {
-            "value": "{semantic.spacing.around.component.md}",
-            "type": "spacing",
-            "description": "Padding of component label, like the label on a checkbox"
-          }
-        },
-        "help": {
-          "padding-top": {
-            "value": "{semantic.spacing.around.component.xs}",
-            "type": "spacing"
-          }
-        },
-        "group": {
-          "margin-bottom": {
-            "value": "{semantic.spacing.around.component.2xl}",
-            "type": "spacing"
-          }
-        },
-        "error": {
-          "padding-top": {
-            "value": "{semantic.spacing.around.component.xs}",
-            "type": "spacing"
-          }
-        }
-      }
-    }
-  },
-  "Components": {
-    "form": {
-      "uploader": {
-        "value": {
-          "color": "{component.form.color.border.default}",
-          "width": "{component.form.border-width.default}",
-          "style": "dashed"
-        },
-        "type": "border"
       }
     }
   }

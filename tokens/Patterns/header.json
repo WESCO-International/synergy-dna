@@ -102,6 +102,42 @@
                 "type": "color"
               }
             }
+          },
+          "level-3": {
+            "default": {
+              "background-color": {
+                "value": "{semantic.color.transparent}",
+                "type": "color"
+              },
+              "foregound-color": {
+                "value": "{semantic.color.primary.dark}",
+                "type": "color"
+              }
+            },
+            "hover": {
+              "background-color": {
+                "value": "{semantic.color.transparent}",
+                "type": "color"
+              },
+              "foregound-color": {
+                "value": "{semantic.color.primary.dark}",
+                "type": "color"
+              }
+            },
+            "key-focus": {
+              "background-color": {
+                "value": "{semantic.color.transparent}",
+                "type": "color"
+              },
+              "foregound-color": {
+                "value": "{semantic.color.primary.dark}",
+                "type": "color"
+              },
+              "border-color": {
+                "value": "{semantic.color.primary.dark}",
+                "type": "color"
+              }
+            }
           }
         }
       },

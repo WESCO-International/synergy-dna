@@ -19,13 +19,13 @@
         "toolbar": {
           "background-color": {
             "base": {
-              "value": "{semantic.color.primary.dark}",
+              "value": "{semantic.color.foreground.on-primary.default}",
               "type": "color"
             }
           },
           "foreground-color": {
             "base": {
-              "value": "{semantic.color.foreground.on-primary.default}",
+              "value": "{semantic.color.primary.dark}",
               "type": "color"
             }
           }

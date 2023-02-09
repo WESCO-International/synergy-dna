@@ -2,11 +2,21 @@
   "pattern": {
     "header": {
       "color": {
-        "background-color": {
-          "top": {
-            "value": "{semantic.color.primary.dark}",
-            "type": "color"
+        "topbar": {
+          "background-color": {
+            "base": {
+              "value": "{semantic.color.primary.dark}",
+              "type": "color"
+            }
           },
+          "foreground-color": {
+            "base": {
+              "value": "{semantic.color.foreground.on-primary.default}",
+              "type": "color"
+            }
+          }
+        },
+        "background-color": {
           "middle": {
             "value": "{semantic.color.background.base}",
             "type": "color"
@@ -17,19 +27,19 @@
           }
         },
         "foreground-color": {
-          "top": {
+          "topbar": {
             "text": {
               "value": "{semantic.color.foreground.on-layer-2.heading}",
               "type": "color"
             }
           },
-          "middle": {
+          "toolbar": {
             "text": {
               "value": "{semantic.color.primary.dark}",
               "type": "color"
             }
           },
-          "bottom": {
+          "nav": {
             "text": {
               "value": "{semantic.color.primary.dark}",
               "type": "color"

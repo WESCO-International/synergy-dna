@@ -429,7 +429,7 @@
       },
       "input": {
         "min-width": {
-          "value": "{global.size.1000}",
+          "value": "{global.size.3600}",
           "type": "sizing"
         },
         "min-height": {

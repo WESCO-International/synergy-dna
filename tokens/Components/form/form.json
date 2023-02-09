@@ -7,7 +7,7 @@
           "type": "fontSizes"
         },
         "icon": {
-          "value": "{semantic.font-size.body.sm}",
+          "value": "{semantic.font-size.body.md}",
           "type": "fontSizes"
         }
       },
@@ -278,30 +278,6 @@
             "style": "dashed"
           },
           "type": "border"
-        }
-      }
-    },
-    "switch": {
-      "sizing": {
-        "width": {
-          "value": "{semantic.size.switch.width}",
-          "type": "sizing"
-        },
-        "height": {
-          "value": "{semantic.size.switch.height}",
-          "type": "sizing"
-        }
-      }
-    },
-    "checkbox": {
-      "sizing": {
-        "width": {
-          "value": "{semantic.size.checkbox.width}",
-          "type": "sizing"
-        },
-        "height": {
-          "value": "{semantic.size.checkbox.height}",
-          "type": "sizing"
         }
       }
     }

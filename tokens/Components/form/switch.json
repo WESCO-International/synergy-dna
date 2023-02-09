@@ -197,11 +197,11 @@
         },
         "toggle": {
           "width": {
-            "value": "{component.switch.sizing.width}",
+            "value": "{semantic.size.switch.width}",
             "type": "sizing"
           },
           "height": {
-            "value": "{component.switch.sizing.background.height}",
+            "value": "{semantic.size.switch.height}",
             "type": "sizing"
           }
         }

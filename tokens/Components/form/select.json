@@ -99,6 +99,10 @@
         "value": "{component.form.border-radius.default}",
         "type": "borderRadius"
       },
+      "round": {
+        "value": "{component.form.border-radius.round}",
+        "type": "borderRadius"
+      },
       "border-width": {
         "default": {
           "value": "{component.form.border-width.default}",

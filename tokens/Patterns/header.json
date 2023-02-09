@@ -90,11 +90,11 @@
             },
             "key-focus": {
               "background-color": {
-                "value": "{global.color.brand.eecol.primary.dark}",
+                "value": "{semantic.color.background.layer-1}",
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.foreground.on-primary.default}",
+                "value": "{semantic.color.primary.dark}",
                 "type": "color"
               },
               "border-color": {

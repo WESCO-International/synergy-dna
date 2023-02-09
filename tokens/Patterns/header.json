@@ -4,7 +4,7 @@
       "color": {
         "background-color": {
           "top": {
-            "value": "{semantic.color.background.layer-2}",
+            "value": "{semantic.color.primary.dark}",
             "type": "color"
           },
           "middle": {
@@ -71,72 +71,6 @@
             "height": {
               "value": "{global.size.500}",
               "type": "sizing"
-            }
-          }
-        },
-        "icon": {
-          "desktop": {
-            "top": {
-              "width": {
-                "value": "{global.size.200}",
-                "type": "sizing"
-              },
-              "height": {
-                "value": "{global.size.200}",
-                "type": "sizing"
-              }
-            },
-            "middle": {
-              "width": {
-                "value": "{global.size.300}",
-                "type": "sizing"
-              },
-              "height": {
-                "value": "{global.size.300}",
-                "type": "sizing"
-              }
-            },
-            "bottom": {
-              "width": {
-                "value": "{global.size.200}",
-                "type": "sizing"
-              },
-              "height": {
-                "value": "{global.size.200}",
-                "type": "sizing"
-              }
-            }
-          },
-          "mobile": {
-            "top": {
-              "width": {
-                "value": "{global.size.150}",
-                "type": "sizing"
-              },
-              "height": {
-                "value": "{global.size.150}",
-                "type": "sizing"
-              }
-            },
-            "middle": {
-              "width": {
-                "value": "{global.size.200}",
-                "type": "sizing"
-              },
-              "height": {
-                "value": "{global.size.200}",
-                "type": "sizing"
-              }
-            },
-            "bottom": {
-              "width": {
-                "value": "{global.size.225}",
-                "type": "sizing"
-              },
-              "height": {
-                "value": "{global.size.225}",
-                "type": "sizing"
-              }
             }
           }
         }
@@ -309,20 +243,6 @@
             "value": "{semantic.paragraph-spacing.body}",
             "type": "paragraphSpacing"
           }
-        }
-      },
-      "spacing": {
-        "top": {
-          "value": "{semantic.spacing.around.component.5xl}}",
-          "type": "spacing"
-        },
-        "middle": {
-          "value": "{semantic.spacing.around.component.5xl}}",
-          "type": "spacing"
-        },
-        "bottom": {
-          "value": "{semantic.spacing.around.component.5xl}}",
-          "type": "spacing"
         }
       },
       "border-width": {

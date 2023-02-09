@@ -19,7 +19,7 @@
         "linksbar": {
           "background": {
             "base": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{global.color.brand.eecol.primary.darker}",
               "type": "color"
             }
           },
@@ -42,12 +42,6 @@
               "value": "{global.color.static.white}",
               "type": "color"
             }
-          }
-        },
-        "seperator": {
-          "on-base": {
-            "value": "#646464",
-            "type": "color"
           }
         }
       }

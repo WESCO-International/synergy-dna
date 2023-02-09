@@ -70,7 +70,7 @@
           "level-1": {
             "default": {
               "background-color": {
-                "value": "{semantic.color.transparent}",
+                "value": "{semantic.color.background.layer-1}",
                 "type": "color"
               },
               "foregound-color": {
@@ -80,7 +80,7 @@
             },
             "hover": {
               "background-color": {
-                "value": "{semantic.color.transparent}",
+                "value": "{global.color.brand.eecol.primary.dark}",
                 "type": "color"
               },
               "foregound-color": {
@@ -90,11 +90,11 @@
             },
             "key-focus": {
               "background-color": {
-                "value": "{semantic.color.transparent}",
+                "value": "{global.color.brand.eecol.primary.dark}",
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.foreground.on-primary.default}",
                 "type": "color"
               },
               "border-color": {

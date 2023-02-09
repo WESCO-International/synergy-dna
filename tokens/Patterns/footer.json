@@ -2,10 +2,12 @@
   "pattern": {
     "footer": {
       "color": {
-        "background": {
-          "base": {
-            "value": "{global.color.brand.eecol.primary.darkest}",
-            "type": "color"
+        "topbar": {
+          "background": {
+            "base": {
+              "value": "{global.color.brand.eecol.primary.darkest}",
+              "type": "color"
+            }
           }
         },
         "foreground": {

@@ -319,43 +319,43 @@
         "typography": {
           "top": {
             "value": {
-              "fontFamily": "{pattern.header.desktop.font-family.top}",
-              "fontWeight": "{pattern.header.desktop.font-weight.top}",
-              "lineHeight": "{pattern.header.desktop.line-height.top}",
-              "fontSize": "{pattern.header.desktop.font-size.top}",
-              "letterSpacing": "{pattern.header.desktop.letter-spacing.top}",
-              "paragraphSpacing": "{pattern.header.desktop.paragraph-spacing.top}",
+              "fontFamily": "{pattern.header.mobile.font-family.top}",
+              "fontWeight": "{pattern.header.mobile.font-weight.top}",
+              "lineHeight": "{pattern.header.mobile.line-height.top}",
+              "fontSize": "{pattern.header.mobile.font-size.top}",
+              "letterSpacing": "{pattern.header.mobile.letter-spacing.top}",
+              "paragraphSpacing": "{pattern.header.mobile.paragraph-spacing.top}",
               "paragraphIndent": "",
-              "textDecoration": "{pattern.header.desktop.text-decoration.top}",
-              "textCase": "{pattern.header.desktop.text-case.top}"
+              "textDecoration": "{pattern.header.mobile.text-decoration.top}",
+              "textCase": "{pattern.header.mobile.text-case.top}"
             },
             "type": "typography"
           },
           "middle": {
             "value": {
-              "fontFamily": "{pattern.header.desktop.font-family.middle}",
-              "fontWeight": "{pattern.header.desktop.font-weight.middle}",
-              "lineHeight": "{pattern.header.desktop.line-height.middle}",
-              "fontSize": "{pattern.header.desktop.font-size.middle}",
-              "letterSpacing": "{pattern.header.desktop.letter-spacing.middle}",
-              "paragraphSpacing": "{pattern.header.desktop.paragraph-spacing.middle}",
+              "fontFamily": "{pattern.header.mobile.font-family.middle}",
+              "fontWeight": "{pattern.header.mobile.font-weight.middle}",
+              "lineHeight": "{pattern.header.mobile.line-height.middle}",
+              "fontSize": "{pattern.header.mobile.font-size.middle}",
+              "letterSpacing": "{pattern.header.mobile.letter-spacing.middle}",
+              "paragraphSpacing": "{pattern.header.mobile.paragraph-spacing.middle}",
               "paragraphIndent": "",
-              "textDecoration": "{pattern.header.desktop.text-decoration.middle}",
-              "textCase": "{pattern.header.desktop.text-case.middle}"
+              "textDecoration": "{pattern.header.mobile.text-decoration.middle}",
+              "textCase": "{pattern.header.mobile.text-case.middle}"
             },
             "type": "typography"
           },
           "bottom": {
             "value": {
-              "fontFamily": "{pattern.header.desktop.font-family.bottom}",
-              "fontWeight": "{pattern.header.desktop.font-weight.bottom}",
-              "lineHeight": "{pattern.header.desktop.line-height.bottom}",
-              "fontSize": "{pattern.header.desktop.font-size.bottom}",
-              "letterSpacing": "{pattern.header.desktop.letter-spacing.bottom}",
-              "paragraphSpacing": "{pattern.header.desktop.paragraph-spacing.bottom}",
+              "fontFamily": "{pattern.header.mobile.font-family.bottom}",
+              "fontWeight": "{pattern.header.mobile.font-weight.bottom}",
+              "lineHeight": "{pattern.header.mobile.line-height.bottom}",
+              "fontSize": "{pattern.header.mobile.font-size.bottom}",
+              "letterSpacing": "{pattern.header.mobile.letter-spacing.bottom}",
+              "paragraphSpacing": "{pattern.header.mobile.paragraph-spacing.bottom}",
               "paragraphIndent": "",
-              "textDecoration": "{pattern.header.desktop.text-decoration.bottom}",
-              "textCase": "{pattern.header.desktop.text-case.bottom}"
+              "textDecoration": "{pattern.header.mobile.text-decoration.bottom}",
+              "textCase": "{pattern.header.mobile.text-case.bottom}"
             },
             "type": "typography"
           }
@@ -404,11 +404,11 @@
         },
         "font-size": {
           "top": {
-            "value": "{semantic.font-size.body.sm}",
+            "value": "{semantic.font-size.body.xs}",
             "type": "fontSizes"
           },
           "middle": {
-            "value": "{semantic.font-size.body.sm}",
+            "value": "{semantic.font-size.body.xs}",
             "type": "fontSizes"
           },
           "bottom": {

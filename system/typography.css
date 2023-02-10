@@ -1,25 +1,5 @@
 @import './mixins';
 
-@custom-selector :--heading h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5;
-@custom-selector :--display .display1, .display2, .display3;
-@custom-selector :--eyebrow
-  h1.eyebrow,
-  h2.eyebrow,
-  h3.eyebrow,
-  h4.eyebrow,
-  h5.eyebrow,
-  p.eyebrow,
-  .eyebrow;
-@custom-selector :--subtitle
-  h1.subtitle,
-  h2.subtitle,
-  h3.subtitle,
-  h4.subtitle,
-  h5.subtitle,
-  h6.subtitle,
-  p.subtitle,
-  .subtitle;
-
 .display1 {
   @mixin display1;
 }

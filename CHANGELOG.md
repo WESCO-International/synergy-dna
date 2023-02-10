@@ -1,3 +1,15 @@
+## [1.1.27](https://github.com/wesco-international/synergy-dna/compare/v1.1.26...v1.1.27) (2023-02-10)
+
+
+### Bug Fixes
+
+* add link to storybook in README ([14aa2a9](https://github.com/wesco-international/synergy-dna/commit/14aa2a96adf277b357e541182e1bea63dab83089))
+* add tests for form elements ([51d021a](https://github.com/wesco-international/synergy-dna/commit/51d021ab7cfd136beb8a006c3c3660e3b885691e))
+* add viewports ([6950434](https://github.com/wesco-international/synergy-dna/commit/6950434b1c995d0a4a8bb3b5886b07035788dad0))
+* broken storybook links ([6edf4ff](https://github.com/wesco-international/synergy-dna/commit/6edf4ff4d40551f56579f37aff8d1538d2c45631))
+* move custom selectors into mixins.css ([347efff](https://github.com/wesco-international/synergy-dna/commit/347efffe9625a7f2ba9798639e30a51756613ea7))
+* only create a release if design system is updated ([1e927e3](https://github.com/wesco-international/synergy-dna/commit/1e927e3ef4c076d3133401742d5bae1abcfa3947))
+
 ## [1.1.26](https://github.com/wesco-international/synergy-dna/compare/v1.1.25...v1.1.26) (2023-02-02)
 
 

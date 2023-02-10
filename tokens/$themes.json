@@ -38,7 +38,6 @@
       "Patterns/modal": "enabled",
       "light": "enabled",
       "Components/buttons": "enabled",
-      "Components/chips": "enabled",
       "Components/form/form-group": "enabled"
     },
     "$figmaStyleReferences": {

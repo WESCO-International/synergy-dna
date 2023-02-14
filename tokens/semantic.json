@@ -244,35 +244,35 @@
     },
     "size": {
       "breakpoints": {
-        "xs": {
+        "screen-xs": {
           "value": "{global.breakpoints.50}",
           "type": "sizing"
         },
-        "sm": {
+        "screen-sm": {
           "value": "{global.breakpoints.100}",
           "type": "sizing"
         },
-        "md": {
+        "screen-md": {
           "value": "{global.breakpoints.200}",
           "type": "sizing"
         },
-        "lg": {
+        "screen-lg": {
           "value": "{global.breakpoints.300}",
           "type": "sizing"
         },
-        "xl": {
+        "screen-xl": {
           "value": "{global.breakpoints.400}",
           "type": "sizing"
         },
-        "2xl": {
+        "screen-2xl": {
           "value": "{global.breakpoints.500}",
           "type": "sizing"
         },
-        "3xl": {
+        "screen-3xl": {
           "value": "{global.breakpoints.600}",
           "type": "sizing"
         },
-        "4xl": {
+        "screen-4xl": {
           "value": "{global.breakpoints.700}",
           "type": "sizing"
         }

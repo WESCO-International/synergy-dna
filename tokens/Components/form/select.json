@@ -4,7 +4,7 @@
       "color": {
         "default": {
           "background-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{component.form.color.background-color.input.default}",
             "type": "color"
           },
           "foreground-color": {
@@ -18,7 +18,7 @@
         },
         "hover": {
           "background-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{component.form.color.background-color.input.default}",
             "type": "color"
           },
           "foreground-color": {
@@ -32,7 +32,7 @@
         },
         "key-focus": {
           "background-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{component.form.color.background-color.input.default}",
             "type": "color"
           },
           "foreground-color": {
@@ -46,7 +46,7 @@
         },
         "success": {
           "background-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{component.form.color.background-color.input.default}",
             "type": "color"
           },
           "foreground-color": {
@@ -60,7 +60,7 @@
         },
         "error": {
           "background-color": {
-            "value": "{semantic.color.background.base}",
+            "value": "{component.form.color.background-color.input.default}",
             "type": "color"
           },
           "foreground-color": {
@@ -99,21 +99,25 @@
         "value": "{component.form.border-radius.default}",
         "type": "borderRadius"
       },
+      "round": {
+        "value": "{component.form.border-radius.round}",
+        "type": "borderRadius"
+      },
       "border-width": {
         "default": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{component.form.border-width.default}",
           "type": "borderWidth"
         },
         "hover": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{component.form.border-width.hover}",
           "type": "borderWidth"
         },
         "key-focus": {
-          "value": "{semantic.border-width.md}",
+          "value": "{component.form.border-width.key-focus}",
           "type": "borderWidth"
         },
         "disabled": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{component.form.border-width.disabled}",
           "type": "borderWidth"
         }
       },
@@ -139,7 +143,7 @@
       },
       "font-family": {
         "text": {
-          "value": "{semantic.font-family.body}",
+          "value": "{component.form-group.font-family.label}",
           "type": "fontFamilies"
         }
       },

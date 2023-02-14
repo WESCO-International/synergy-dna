@@ -1,27 +1,5 @@
 [
   {
-    "id": "ae8d914b3e12544c9c753d0a3f467cf423521fb5",
-    "name": "XPC",
-    "selectedTokenSets": {
-      "global": "source",
-      "light": "enabled",
-      "semantic": "enabled",
-      "Components/form/form": "enabled",
-      "Components/form/text-field": "enabled",
-      "Components/form/select": "enabled",
-      "Components/form/switch": "enabled",
-      "Components/form/checkbox": "enabled",
-      "Components/form/radio": "enabled",
-      "Patterns/header": "enabled",
-      "Patterns/footer": "enabled",
-      "Patterns/modal": "enabled",
-      "Brands/XpressConnect/Components/buttons": "enabled",
-      "Brands/XpressConnect/semantic": "enabled",
-      "Components/buttons": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
     "id": "d9f2cce4dc0eb4e39ef88b252536812858475d5c",
     "name": "EECOL",
     "selectedTokenSets": {

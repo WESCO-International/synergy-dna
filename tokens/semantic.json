@@ -745,6 +745,10 @@
         "value": "{global.radii.100}",
         "type": "borderRadius"
       },
+      "default": {
+        "value": "{global.radii.100}",
+        "type": "borderRadius"
+      },
       "round": {
         "value": "{global.radii.round}",
         "type": "borderRadius"

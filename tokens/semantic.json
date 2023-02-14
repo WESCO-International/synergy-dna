@@ -745,6 +745,10 @@
         "value": "{global.radii.100}",
         "type": "borderRadius"
       },
+      "default": {
+        "value": "{global.radii.100}",
+        "type": "borderRadius"
+      },
       "round": {
         "value": "{global.radii.round}",
         "type": "borderRadius"
@@ -1708,11 +1712,11 @@
         "value": "none",
         "type": "textCase"
       },
-      "display": {
+      "heading": {
         "value": "none",
         "type": "textCase"
       },
-      "heading": {
+      "display": {
         "value": "none",
         "type": "textCase"
       },

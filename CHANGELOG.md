@@ -1,3 +1,15 @@
+## [1.1.29](https://github.com/wesco-international/synergy-dna/compare/v1.1.28...v1.1.29) (2023-02-14)
+
+
+### Bug Fixes
+
+* add back default border radius ([b23db1c](https://github.com/wesco-international/synergy-dna/commit/b23db1cebb23ec46a758d2294ad3cfe9aab63223))
+* add validation tools ([3153944](https://github.com/wesco-international/synergy-dna/commit/3153944ca0e9b305eeb645aec1d5c342c9024e21))
+* breakpoint token ([6ad5e98](https://github.com/wesco-international/synergy-dna/commit/6ad5e9866dc11ae77bdda0d036717f3fb4321947))
+* made form source token ([cdc7d48](https://github.com/wesco-international/synergy-dna/commit/cdc7d48782bd78e49ecace408fbc879f0ed28cea))
+* ready for dev to use ([426e862](https://github.com/wesco-international/synergy-dna/commit/426e862627d562c4e8927ee750eef28e872a1ef9))
+* screen added back in ([0efad15](https://github.com/wesco-international/synergy-dna/commit/0efad15ad56243449b57e378fc418b2dbc8182e9))
+
 ## [1.1.28](https://github.com/wesco-international/synergy-dna/compare/v1.1.27...v1.1.28) (2023-02-14)
 
 

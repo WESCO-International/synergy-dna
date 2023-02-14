@@ -5,7 +5,7 @@
     "selectedTokenSets": {
       "global": "source",
       "semantic": "enabled",
-      "Components/form/form": "enabled",
+      "Components/form/form": "source",
       "Components/form/text-field": "enabled",
       "Components/form/select": "enabled",
       "Components/form/switch": "enabled",

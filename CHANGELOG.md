@@ -1,3 +1,10 @@
+## [1.1.30](https://github.com/wesco-international/synergy-dna/compare/v1.1.29...v1.1.30) (2023-02-14)
+
+
+### Bug Fixes
+
+* unresolved variables ([5dbfed4](https://github.com/wesco-international/synergy-dna/commit/5dbfed4aac266b9264c3333db7fdd07a49189ac1))
+
 ## [1.1.29](https://github.com/wesco-international/synergy-dna/compare/v1.1.28...v1.1.29) (2023-02-14)
 
 

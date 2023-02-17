@@ -23,7 +23,7 @@
 
   /* TODO: Finish Fluid */
   &.fluid {
-    max-width: var(--hlx-max-width-limit);
+    max-width: var(--sds-semantic-size-section-max-width);
   }
 
   &.full-width {
@@ -34,7 +34,7 @@
   }
 
   &.extra-padding {
-    @mixin padding xxxl;
+    @mixin padding 3xl;
   }
 
   &.left-align {

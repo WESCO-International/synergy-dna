@@ -5,9 +5,7 @@
     "selectedTokenSets": {
       "global": "source",
       "semantic": "enabled",
-      "Components": "enabled",
-      "Components/buttons": "enabled",
-      "Components/form/form": "enabled",
+      "Components/form/form": "source",
       "Components/form/text-field": "enabled",
       "Components/form/select": "enabled",
       "Components/form/switch": "enabled",
@@ -16,14 +14,15 @@
       "Patterns/header": "enabled",
       "Patterns/footer": "enabled",
       "Patterns/modal": "enabled",
-      "light": "enabled"
+      "light": "enabled",
+      "Components/buttons": "enabled",
+      "Components/form/form-group": "enabled"
     },
     "$figmaStyleReferences": {
       "pattern.modal.color.overlay": "S:f246b99037134cb88aaa22393a95deb9ed1dbf96,",
       "pattern.footer.color.background.base": "S:dc3957f8f3b2f81abc3419118a5ae20c341bea05,",
       "pattern.footer.color.foreground.on-base": "S:9f2741fe465d9ae19c4bd430ddd22b7edfc6ebda,",
       "pattern.footer.color.seperator.on-base": "S:23b1bce795f09b9b32322ba6e5f3ee68cda2c746,",
-      "pattern.header.color.background.base": "S:5d00af48af0fcdf68cba2c94f18d089d3171a586,",
       "component.radio.color.default.background-color": "S:e54e94e3d46460f3a002c0f296a7f64a65170634,",
       "component.radio.color.default.foreground-color": "S:d3c23b237ac290ce672b48bfe20f669fd861ecfd,",
       "component.radio.color.default.border-color": "S:78933b97d18e0d8b8f698f94ae33eef03763b7e9,",
@@ -401,8 +400,6 @@
       "component.switch.typography.label": "S:e3353708d73ddab06c9297b339ab0d77997e668f,",
       "component.select.typography.text": "S:cd8b20b34e9a879bbbe5a575fff3be3ea581b40b,",
       "component.text-field.typography.text": "S:ddaf5daa8b314613b441b922c0a8232c35de7934,",
-      "component.form.typography.label": "S:354b0f5a645955d0b9953f279f5e6c4ba4ae36bd,",
-      "component.form.typography.help": "S:02e8c9d696b9c717fef55c7feb5b87554d7bc41d,",
       "component.button.typography.label": "S:7733bf2caf40f76b27db9019991a54271d12f107,",
       "semantic.typography.caption": "S:aef30e412b0cb7063e06d9d654aef105baf7f21a,",
       "semantic.typography.source-code": "S:59ef306e21eec40cd07bd6033002607e083c08fc,",
@@ -433,38 +430,14 @@
       "semantic.inner-shadow.sm": "S:a4f559269beea7f1504b4e7037f6e62f097ecc89,",
       "semantic.typography.body.xs": "S:2df0a13cb5a397d0e85837c7a56c66c2fb943192,",
       "semantic.typography.body.sm": "S:e98ddf6bdd3c91b1cfe716f6c4e004e5244978af,",
-      "semantic.typography.body.base": "S:143ccdecbbe85d297becf1ecf3ac11bc90771c3e,",
       "semantic.color.border.key-focus": "S:a1b21d69ee71b13354339f8bda3949eff2eddb25,",
       "component.form.color.tyography.placeholder.default": "S:98bf2747caa5d3d577fcd254ce67fd24a28fb624,",
       "component.form.color.tyography.placeholder.key-focus": "S:7beb88b0e3350d2a9c07c3463739a815da9bd047,",
       "component.form.color.tyography.placeholder.disable": "S:95fb165ea1803868358a110a6fd6a70ae7868d77,",
-      "component.form.typography.placeholder": "S:59912ccc3c0803536e5e3456f66e4eafc38ff53e,",
       "semantic.typography.body.lg": "S:4f2c1b737a20614370a75b84a7974dedbd7c5dea,",
-      "semantic.typography.body.xxs": "S:8d4b62d361e50ca842f37334fae4d824c9b3ff73,"
+      "semantic.typography.body.xxs": "S:8d4b62d361e50ca842f37334fae4d824c9b3ff73,",
+      "semantic.typography.body.md": "S:143ccdecbbe85d297becf1ecf3ac11bc90771c3e,",
+      "pattern.header.color.background.middle": "S:5d00af48af0fcdf68cba2c94f18d089d3171a586,"
     }
-  },
-  {
-    "id": "ae8d914b3e12544c9c753d0a3f467cf423521fb5",
-    "name": "XPC",
-    "selectedTokenSets": {
-      "global": "source",
-      "light": "enabled",
-      "semantic": "enabled",
-      "Components": "enabled",
-      "Components/buttons": "enabled",
-      "Components/form/form": "enabled",
-      "Components/form/text-field": "enabled",
-      "Components/form/select": "enabled",
-      "Components/form/switch": "enabled",
-      "Components/form/checkbox": "enabled",
-      "Components/form/radio": "enabled",
-      "Patterns/header": "enabled",
-      "Patterns/footer": "enabled",
-      "Patterns/modal": "enabled",
-      "Brands/XpressConnect/semantic": "enabled",
-      "Brands/XpressConnect/Components/buttons": "enabled",
-      "Brands/XpressConnect/light": "enabled"
-    },
-    "$figmaStyleReferences": {}
   }
 ]

@@ -1177,6 +1177,10 @@
         "value": "48",
         "type": "sizing"
       },
+      "650": {
+        "value": "50",
+        "type": "sizing"
+      },
       "700": {
         "value": "56",
         "type": "sizing"
@@ -1201,8 +1205,8 @@
         "value": "112",
         "type": "sizing"
       },
-      "1600": {
-        "value": "128",
+      "1650": {
+        "value": "138",
         "type": "sizing"
       },
       "1800": {
@@ -1211,6 +1215,10 @@
       },
       "2000": {
         "value": "160",
+        "type": "sizing"
+      },
+      "2100": {
+        "value": "167",
         "type": "sizing"
       },
       "2200": {
@@ -1281,6 +1289,10 @@
       },
       "150": {
         "value": "{global.space.base} * 1.5",
+        "type": "spacing"
+      },
+      "175": {
+        "value": "{global.space.base} * 1.75",
         "type": "spacing"
       },
       "200": {
@@ -1580,6 +1592,345 @@
       "900": {
         "value": "900",
         "type": "fontWeights"
+      }
+    }
+  },
+  "icon": {
+    "ui": {
+      "dropdown": {
+        "value": "fa-solid fa-angle-down",
+        "type": "icon",
+        "description": "angle-down"
+      },
+      "angle-left": {
+        "value": "fa-solid fa-angle-left",
+        "type": "icon",
+        "description": "angle-left"
+      },
+      "angle-right": {
+        "value": "fa-solid fa-angle-right",
+        "type": "icon",
+        "description": "angle-right"
+      },
+      "angle-up": {
+        "value": "fa-solid fa-angle-up",
+        "type": "icon",
+        "description": "angle-up"
+      },
+      "thumbs-down": {
+        "value": "fa-solid fa-thumbs-down",
+        "type": "icon",
+        "description": "thumbs-down"
+      },
+      "thumbs-up": {
+        "value": "fa-solid fa-thumbs-up",
+        "type": "icon",
+        "description": "thumbs-up"
+      },
+      "arrow-down": {
+        "value": "fa-solid fa-arrow-down",
+        "type": "icon",
+        "description": "arrow-down"
+      },
+      "arrow-left": {
+        "value": "fa-solid fa-arrow-left",
+        "type": "icon",
+        "description": "arrow-left"
+      },
+      "arrow-right": {
+        "value": "fa-solid fa-arrow-right",
+        "type": "icon",
+        "description": "arrow-right"
+      },
+      "arrow-up": {
+        "value": "fa-solid fa-arrow-up",
+        "type": "icon",
+        "description": "arrow-up"
+      },
+      "eye": {
+        "value": "fa-solid fa-eye",
+        "type": "icon",
+        "description": "eye"
+      },
+      "eye-slash": {
+        "value": "fa-solid fa-slash",
+        "type": "icon",
+        "description": "eye-slash"
+      },
+      "caret-down": {
+        "value": "fa-solid fa-caret-down",
+        "type": "icon",
+        "description": "caret-down"
+      },
+      "caret-left": {
+        "value": "fa-solid fa-caret-left",
+        "type": "icon",
+        "description": "caret-left"
+      },
+      "caret-right": {
+        "value": "fa-solid fa-caret-right",
+        "type": "icon",
+        "description": "caret-right"
+      },
+      "caret-up": {
+        "value": "fa-solid fa-caret-up",
+        "type": "icon",
+        "description": "caret-up"
+      },
+      "arrow-down-to-line": {
+        "value": "fa-solid fa-arrow-down-to-line",
+        "type": "icon",
+        "description": "arrow-down-to-line"
+      },
+      "arrow-up-to-line-copy": {
+        "value": "fa-solid fa-arrow-up-to-line",
+        "type": "icon",
+        "description": "arrow-up-to-line"
+      },
+      "paperclip": {
+        "value": "fa-solid fa-paperclip",
+        "type": "icon",
+        "description": "paperclip"
+      },
+      "check": {
+        "value": "fa-solid fa-check",
+        "type": "icon",
+        "description": "check"
+      },
+      "comment": {
+        "value": "fa-solid fa-comment",
+        "type": "icon",
+        "description": "comment"
+      },
+      "pencil": {
+        "value": "fa-solid fa-pencil",
+        "type": "icon",
+        "description": "pencil"
+      },
+      "file-arrow-down": {
+        "value": "fa-solid fa-file-arrow-down",
+        "type": "icon",
+        "description": "file-arrow-down"
+      },
+      "file-arrow-up": {
+        "value": "fa-solid fa-file-arrow-up",
+        "type": "icon",
+        "description": "file-arrow-up"
+      },
+      "file-invoice": {
+        "value": "fa-solid fa-file-invoice",
+        "type": "icon",
+        "description": "file-invoice"
+      },
+      "address-book": {
+        "value": "fa-solid fa-address-book",
+        "type": "icon",
+        "description": "address-book"
+      },
+      "clipboard-list": {
+        "value": "fa-solid fa-clipboard-list",
+        "type": "icon",
+        "description": "clipboard-list"
+      },
+      "bars": {
+        "value": "fa-solid fa-bars",
+        "type": "icon",
+        "description": "bars"
+      },
+      "lock": {
+        "value": "fa-solid fa-lock",
+        "type": "icon",
+        "description": "lock"
+      },
+      "unlock": {
+        "value": "fa-solid fa-unlock",
+        "type": "icon",
+        "description": "unlock"
+      },
+      "circle-info": {
+        "value": "fa-solid fa-circle-info",
+        "type": "icon",
+        "description": "circle-info"
+      },
+      "circle-check": {
+        "value": "fa-solid fa-circle-check",
+        "type": "icon",
+        "description": "circle-check"
+      },
+      "circle-xmark": {
+        "value": "fa-solid fa-circle-xmark",
+        "type": "icon",
+        "description": "circle-xmark"
+      },
+      "circle-exclamation": {
+        "value": "fa-solid fa-circle-exclamation",
+        "type": "icon",
+        "description": "circle-exclamation"
+      },
+      "circle-minus": {
+        "value": "fa-solid fa-circle-minus",
+        "type": "icon",
+        "description": "circle-minus"
+      },
+      "xmark": {
+        "value": "fa-solid fa-xmark",
+        "type": "icon",
+        "description": "xmark"
+      },
+      "calendar-days": {
+        "value": "fa-solid fa-calendar-days",
+        "type": "icon",
+        "description": "calendar-days"
+      },
+      "square-list": {
+        "value": "fa-solid fa-square-list",
+        "type": "icon",
+        "description": "square-list"
+      },
+      "location-dot": {
+        "value": "fa-solid fa-location-dot",
+        "type": "icon",
+        "description": "location-dot"
+      },
+      "filter": {
+        "value": "fa-solid fa-filter",
+        "type": "icon",
+        "description": "filter"
+      },
+      "ellipsis-vertical": {
+        "value": "fa-solid fa-ellipsis-vertical",
+        "type": "icon",
+        "description": "ellipsis-vertical"
+      },
+      "ellipsis": {
+        "value": "fa-solid fa-ellipsis",
+        "type": "icon",
+        "description": "ellipsis"
+      },
+      "people-group": {
+        "value": "fa-solid fa-people-group",
+        "type": "icon",
+        "description": "people-group"
+      },
+      "user": {
+        "value": "fa-solid fa-user",
+        "type": "icon",
+        "description": "user"
+      },
+      "circle": {
+        "value": "fa-solid fa-circle",
+        "type": "icon",
+        "description": "circle"
+      },
+      "print": {
+        "value": "fa-solid fa-print",
+        "type": "icon",
+        "description": "print"
+      },
+      "minus": {
+        "value": "fa-solid fa-minus",
+        "type": "icon",
+        "description": "minus"
+      },
+      "plus": {
+        "value": "fa-solid fa-plus",
+        "type": "icon",
+        "description": "plus"
+      },
+      "play": {
+        "value": "fa-solid fa-play",
+        "type": "icon",
+        "description": "play"
+      },
+      "star": {
+        "value": "fa-solid fa-star",
+        "type": "icon",
+        "description": "star"
+      },
+      "share": {
+        "value": "fa-solid fa-share",
+        "type": "icon",
+        "description": "share"
+      },
+      "magnifying-glass": {
+        "value": "fa-solid fa-magnifying-glass",
+        "type": "icon",
+        "description": "magnifying-glass"
+      },
+      "cart-shopping": {
+        "value": "fa-solid fa-cart-shopping",
+        "type": "icon",
+        "description": "cart-shopping"
+      },
+      "box-open": {
+        "value": "fa-solid fa-box-open",
+        "type": "icon",
+        "description": "box-open"
+      },
+      "clock": {
+        "value": "fa-solid fa-clock",
+        "type": "icon",
+        "description": "clock"
+      },
+      "truck": {
+        "value": "fa-solid fa-truck",
+        "type": "icon",
+        "description": "truck"
+      },
+      "trash-can": {
+        "value": "fa-solid fa-trash-can",
+        "type": "icon",
+        "description": "trash-can"
+      },
+      "wave-pulse": {
+        "value": "fa-solid fa-wave-pulse",
+        "type": "icon",
+        "description": "wave-pulse"
+      },
+      "arrows-rotate": {
+        "value": "fa-solid fa-arrows-rotate",
+        "type": "icon",
+        "description": "arrows-rotate"
+      },
+      "triangle-exclamation": {
+        "value": "fa-solid fa-triangle-exclamation",
+        "type": "icon",
+        "description": "triangle-exclamation"
+      },
+      "square-facebook": {
+        "value": "fa-solid fa-square-facebook",
+        "type": "icon",
+        "description": "square-facebook"
+      },
+      "square-instagram": {
+        "value": "fa-solid fa-square-instagram",
+        "type": "icon",
+        "description": "square-instagram"
+      },
+      "linkedin": {
+        "value": "fa-solid fa-linkedin",
+        "type": "icon",
+        "description": "linkedin"
+      },
+      "square-twitter": {
+        "value": "fa-solid fa-square-twitter",
+        "type": "icon",
+        "description": "square-twitter"
+      },
+      "canada": {
+        "value": "canada flag",
+        "type": "icon",
+        "description": "canadain flag round"
+      },
+      "france": {
+        "value": "france flag",
+        "type": "icon",
+        "description": "france flag round"
+      },
+      "usa": {
+        "value": "usa flag",
+        "type": "icon",
+        "description": "usa flag round"
       }
     }
   }

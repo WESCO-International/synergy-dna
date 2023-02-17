@@ -40,11 +40,13 @@ export function TokenList({tokens, prefix}) {
     })
 }
 
-export function TokenRow({k, value, prefix}) {
+export function TokenRow({ k, value, prefix }) {
+  const isColor = prefix.match(/color/i);
   return(
       <div>
         <div>{prefix}</div>
         <div>{value}</div>
+        <div>{isColor && (<div class="color-demo" style={{ backgroundColor: `var(${prefix})` }}>&nbsp;</div>)}</div>
         <div><button className="button secondary small" onClick={() => navigator.clipboard.writeText(`${prefix}`)}>Copy Token</button></div>
       </div>
   ) 

@@ -509,11 +509,11 @@
           "type": "color"
         },
         "dark": {
-          "value": "{global.color.brand.eecol.primary.darker}",
+          "value": "{global.color.brand.XpressConnect.primary.darker}",
           "type": "color"
         },
         "darker": {
-          "value": "{global.color.brand.eecol.primary.darkest}",
+          "value": "{global.color.brand.XpressConnect.primary.darkest}",
           "type": "color"
         }
       },

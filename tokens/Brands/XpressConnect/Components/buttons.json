@@ -3,7 +3,7 @@
     "button": {
       "font-size": {
         "label": {
-          "value": "{global.font-size.lg}",
+          "value": "{semantic.font-size.body.lg}",
           "type": "fontSizes"
         }
       },
@@ -21,7 +21,7 @@
       },
       "font-weight": {
         "label": {
-          "value": "{semantic.font-weight.body.regular}",
+          "value": "{semantic.font-weight.body.semi-bold}",
           "type": "fontWeights"
         }
       },
@@ -50,7 +50,7 @@
         "primary": {
           "default": {
             "background-color": {
-              "value": "{global.color.brand.XpressConnect.primary.dark}",
+              "value": "{semantic.color.primary.darker}",
               "type": "color"
             },
             "foreground-color": {
@@ -64,7 +64,7 @@
           },
           "hover": {
             "background-color": {
-              "value": "{global.color.brand.XpressConnect.primary.base}",
+              "value": "{semantic.color.primary.base}",
               "type": "color"
             },
             "foreground-color": {
@@ -78,7 +78,7 @@
           },
           "down": {
             "background-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{semantic.color.primary.base}",
               "type": "color"
             },
             "foreground-color": {
@@ -92,7 +92,7 @@
           },
           "key-focus": {
             "background-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{semantic.color.primary.darker}",
               "type": "color"
             },
             "foreground-color": {
@@ -100,7 +100,7 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{semantic.color.primary.light}",
               "type": "color"
             }
           },
@@ -122,63 +122,63 @@
         "secondary": {
           "default": {
             "background-color": {
-              "value": "{global.color.static.white}",
+              "value": "{semantic.color.background.base}",
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{semantic.color.primary.darker}",
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.darkest}",
+              "value": "{semantic.color.primary.darker}",
               "type": "color"
             }
           },
           "hover": {
             "background-color": {
-              "value": "{global.color.static.white}",
+              "value": "{semantic.color.background.base}",
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{semantic.color.primary.base}",
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{semantic.color.primary.base}",
               "type": "color"
             }
           },
           "down": {
             "background-color": {
-              "value": "{global.color.static.white}",
+              "value": "{semantic.color.background.base}",
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{semantic.color.primary.base}",
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{semantic.color.primary.base}",
               "type": "color"
             }
           },
           "key-focus": {
             "background-color": {
-              "value": "{global.color.static.white}",
+              "value": "{semantic.color.background.base}",
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{semantic.color.primary.dark}",
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{semantic.color.primary.light}",
               "type": "color"
             }
           },
           "disabled": {
             "background-color": {
-              "value": "{global.color.static.white}",
+              "value": "{semantic.color.background.base}",
               "type": "color"
             },
             "foreground-color": {
@@ -198,7 +198,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.dark}",
+              "value": "{semantic.color.primary.dark}",
               "type": "color"
             },
             "border-color": {
@@ -212,7 +212,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{semantic.color.primary.base}",
               "type": "color"
             },
             "border-color": {
@@ -226,7 +226,7 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{semantic.color.primary.base}",
               "type": "color"
             },
             "border-color": {
@@ -240,11 +240,11 @@
               "type": "color"
             },
             "foreground-color": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{semantic.color.primary.base}",
               "type": "color"
             },
             "border-color": {
-              "value": "{global.color.brand.eecol.primary.base}",
+              "value": "{semantic.color.primary.light}",
               "type": "color"
             }
           },

@@ -439,5 +439,28 @@
       "semantic.typography.body.md": "S:143ccdecbbe85d297becf1ecf3ac11bc90771c3e,",
       "pattern.header.color.background.middle": "S:5d00af48af0fcdf68cba2c94f18d089d3171a586,"
     }
+  },
+  {
+    "id": "4b79b6e990de245d87a6bbb3fb4e57faaf921b3e",
+    "name": "XPC",
+    "selectedTokenSets": {
+      "global": "source",
+      "light": "enabled",
+      "semantic": "enabled",
+      "Components/buttons": "enabled",
+      "Components/form/form": "enabled",
+      "Components/form/form-group": "enabled",
+      "Components/form/text-field": "enabled",
+      "Components/form/select": "enabled",
+      "Components/form/switch": "enabled",
+      "Components/form/checkbox": "enabled",
+      "Components/form/radio": "enabled",
+      "Patterns/header": "enabled",
+      "Patterns/footer": "enabled",
+      "Patterns/modal": "enabled",
+      "Brands/XpressConnect/semantic": "enabled",
+      "Brands/XpressConnect/Components/buttons": "enabled"
+    },
+    "$figmaStyleReferences": {}
   }
 ]

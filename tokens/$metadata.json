@@ -5,6 +5,7 @@
     "dark",
     "semantic",
     "Components/buttons",
+    "Brands/XpressConnect/Components/buttons",
     "Components/form/form",
     "Components/form/form-group",
     "Components/form/text-field",
@@ -16,16 +17,11 @@
     "Patterns/footer",
     "Patterns/modal",
     "Brands/XpressConnect/semantic",
-    "Brands/XpressConnect/Components/buttons",
-    "Brands/SDS/Components/buttons",
-    "Brands/SDS/semantic",
     "Brands/Wesco/Components/buttons",
     "Brands/Wesco/semantic",
     "Brands/Wesco/light",
     "Brands/Wesco/Patterns/header",
     "Brands/Wesco/Patterns/footer",
-    "Brands/WPD/light-theme",
-    "Brands/WPD/dark-theme",
     "Brands/EECOL/dark-theme"
   ]
 }

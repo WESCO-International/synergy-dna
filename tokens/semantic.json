@@ -839,6 +839,10 @@
       },
       "gap": {
         "component": {
+          "2xs": {
+            "value": "{global.space.35}",
+            "type": "spacing"
+          },
           "xs": {
             "value": "{global.space.100}",
             "type": "spacing"

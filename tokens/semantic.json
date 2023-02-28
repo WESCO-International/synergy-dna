@@ -745,6 +745,18 @@
         "value": "{global.radii.100}",
         "type": "borderRadius"
       },
+      "lg": {
+        "value": "{global.radii.200}",
+        "type": "borderRadius"
+      },
+      "xl": {
+        "value": "{global.radii.300}",
+        "type": "borderRadius"
+      },
+      "2xl": {
+        "value": "{global.radii.400}",
+        "type": "borderRadius"
+      },
       "default": {
         "value": "{global.radii.100}",
         "type": "borderRadius"

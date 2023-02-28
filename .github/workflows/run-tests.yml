@@ -16,6 +16,7 @@ jobs:
         node-version: '18'
     - run: npm install
     - run: npm run lint:css
+    - run: npm run build-storybook
     - run: npm run test-storybook
       env:
         CI: true

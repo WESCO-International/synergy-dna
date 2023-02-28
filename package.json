@@ -69,6 +69,6 @@
     "stylelint-config-standard": "29.0.0",
     "token-transformer": "0.0.28",
     "vite": "^4.0.4",
-    "wait-on: "7.0.1"
+    "wait-on": "^7.0.1"
   }
 }

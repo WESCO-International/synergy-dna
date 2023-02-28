@@ -27,7 +27,8 @@
     "build-storybook": "storybook build -o storybook",
     "test-storybook": "test-storybook",
     "postcss:dev": "gulp dev",
-    "postcss:build": "gulp build"
+    "postcss:build": "gulp build",
+    "test-storybook:ci": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"npm run build-storybook --quiet && npx http-server storybook --port 6006 --silent\" \"wait-on tcp:6006 && npm run test-storybook\""
   },
   "devDependencies": {
     "@babel/preset-react": "^7.18.6",

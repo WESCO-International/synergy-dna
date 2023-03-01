@@ -7,6 +7,12 @@
 	border-radius: var(--sds-component-button-border-radius-$(type));
 	border-color: var(--sds-component-button-color-$(type)-$(state)-border-color);
 	margin: calc(var(--sds-component-button-border-width-$(type)-$(state)) * -1);
+
+	& .icon svg {
+		& path {
+			fill: var(--sds-component-button-color-$(type)-$(state)-foreground-color);	
+		}
+	}
 }
 
 @define-mixin button $type {
@@ -70,7 +76,8 @@
 	outline: none;
 }
 
-.button em {
+.button em,
+.button > em > strong {
 	display: flex;
 	gap: var(--sds-component-button-spacing-default-gap);
 	padding: var(--sds-component-button-spacing-default-padding-y) var(--sds-component-button-spacing-default-padding-x);

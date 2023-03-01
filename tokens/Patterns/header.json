@@ -11,7 +11,7 @@
           },
           "foreground-color": {
             "base": {
-              "value": "{semantic.color.foreground.on-primary.default}",
+              "value": "{semantic.color.foreground.primary.default}",
               "type": "color"
             }
           }
@@ -19,7 +19,7 @@
         "toolbar": {
           "background-color": {
             "base": {
-              "value": "{semantic.color.foreground.on-primary.default}",
+              "value": "{semantic.color.foreground.primary.default}",
               "type": "color"
             }
           },
@@ -48,7 +48,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.foreground.on-primary.default}",
+                "value": "{semantic.color.foreground.primary.default}",
                 "type": "color"
               }
             },
@@ -58,7 +58,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.foreground.on-primary.default}",
+                "value": "{semantic.color.foreground.primary.default}",
                 "type": "color"
               },
               "border-color": {

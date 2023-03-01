@@ -3,7 +3,7 @@
     "form-group": {
       "font-size": {
         "label": {
-          "value": "{semantic.font-size.body.xs}",
+          "value": "{semantic.font-size.body.sm}",
           "type": "fontSizes"
         },
         "help": {

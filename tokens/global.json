@@ -995,11 +995,11 @@
               "type": "color"
             },
             "darker": {
-              "value": "{global.color.static.transparent.white.50}",
+              "value": "#2B2C2D",
               "type": "color"
             },
             "darkest": {
-              "value": "{global.color.static.transparent.white.50}",
+              "value": "{global.color.static.black}",
               "type": "color"
             }
           },

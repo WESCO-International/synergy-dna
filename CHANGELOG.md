@@ -1,3 +1,20 @@
+## [1.1.31](https://github.com/wesco-international/synergy-dna/compare/v1.1.30...v1.1.31) (2023-03-01)
+
+
+### Bug Fixes
+
+* added 2xs gap ([f0a6914](https://github.com/wesco-international/synergy-dna/commit/f0a69147734ddd89a27d7a79dfc72c492a4d8d26))
+* added more border radius options ([33acad1](https://github.com/wesco-international/synergy-dna/commit/33acad17597999362bea6200ff9d7de1fbb7641e))
+* first one ([e3bfdae](https://github.com/wesco-international/synergy-dna/commit/e3bfdaed5b7cbd31ddde68f02f946d0da0009a97))
+* remove skip checkout ([b17b955](https://github.com/wesco-international/synergy-dna/commit/b17b9559408ff107b0202eb9972312e1a7f0e957))
+* skip checkout in auto commit CI step ([14050b9](https://github.com/wesco-international/synergy-dna/commit/14050b9b99b19d3cdca220d5581cfb30970c346c))
+* updated form label text token to 14px ([cbc9119](https://github.com/wesco-international/synergy-dna/commit/cbc9119487fbd0c5f711d84b24a232d45c4292f3))
+* xpc color update ([41bb625](https://github.com/wesco-international/synergy-dna/commit/41bb625bafd92c989bf93cc7812b46d4e7a1030a))
+* XPC theme ([aa8b1e6](https://github.com/wesco-international/synergy-dna/commit/aa8b1e6232fe394d1d0b4235079b7fb54f002ff1))
+* XPC theme added draft ([05a9e6c](https://github.com/wesco-international/synergy-dna/commit/05a9e6c69027a6570a82cb837169ef847eebcfbc))
+* XPC theme skeleton ([14305bd](https://github.com/wesco-international/synergy-dna/commit/14305bdf0e84744294eee809796c2b69c3cd159a))
+* xpc update ([644649e](https://github.com/wesco-international/synergy-dna/commit/644649e3fb10a3531b31f46596917451d476524d))
+
 ## [1.1.30](https://github.com/wesco-international/synergy-dna/compare/v1.1.29...v1.1.30) (2023-02-14)
 
 

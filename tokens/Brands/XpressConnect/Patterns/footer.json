@@ -1,0 +1,54 @@
+{
+  "pattern": {
+    "footer": {
+      "color": {
+        "topbar": {
+          "background": {
+            "base": {
+              "value": "{global.color.brand.XpressConnect.primary.darker}",
+              "type": "color"
+            }
+          },
+          "foreground": {
+            "base": {
+              "value": "{global.color.static.white}",
+              "type": "color"
+            }
+          }
+        },
+        "linksbar": {
+          "background": {
+            "base": {
+              "value": "{global.color.brand.XpressConnect.primary.darkest}",
+              "type": "color"
+            }
+          },
+          "foreground": {
+            "base": {
+              "value": "{global.color.static.white}",
+              "type": "color"
+            }
+          }
+        },
+        "bottombar": {
+          "background": {
+            "base": {
+              "value": "{global.color.brand.XpressConnect.primary.darker}",
+              "type": "color"
+            }
+          },
+          "foreground": {
+            "base": {
+              "value": "{global.color.static.white}",
+              "type": "color"
+            }
+          }
+        },
+        "seperator": {
+          "value": "{semantic.color.seperator.on-layer-2}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

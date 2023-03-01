@@ -1,0 +1,30 @@
+name: Build Design System
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'system/**'
+      - 'tokens/**'
+
+jobs:
+  build-system:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    - run: npm install
+    - run: npm run design-system:transform
+    - run: npm run design-system:build
+    #- run: npm run design-system:validate
+      env:
+        CI: true
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        # Optional. Commit message for the created commit.
+        # Defaults to "Apply automatic changes"
+        commit_message: Design System Build
+        skip_checkout: true

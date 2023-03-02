@@ -190,6 +190,16 @@
             "value": "{semantic.size.checkbox.height}",
             "type": "sizing"
           }
+        },
+        "Toggle": {
+          "width": {
+            "value": "{semantic.size.checkbox.width}",
+            "type": "sizing"
+          },
+          "height": {
+            "value": "{semantic.size.checkbox.height}",
+            "type": "sizing"
+          }
         }
       }
     }

@@ -1,3 +1,12 @@
+## [1.1.34](https://github.com/wesco-international/synergy-dna/compare/v1.1.33...v1.1.34) (2023-03-02)
+
+
+### Bug Fixes
+
+* enable system validation in CI ([78a0e6b](https://github.com/wesco-international/synergy-dna/commit/78a0e6b7df1a5c3bd8cacdffa93efc2260f29d20))
+* fixes ([dd4b5f6](https://github.com/wesco-international/synergy-dna/commit/dd4b5f63d1c5f57f4cb2ded046ca55016f665b57))
+* toggle width height ([b85a758](https://github.com/wesco-international/synergy-dna/commit/b85a758d4db0b7dce32d778a55b60e10ef8b2e31))
+
 ## [1.1.33](https://github.com/wesco-international/synergy-dna/compare/v1.1.32...v1.1.33) (2023-03-02)
 
 

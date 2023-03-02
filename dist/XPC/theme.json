@@ -1114,39 +1114,6 @@
         },
         "on-input": {
           "default": "#222222"
-        },
-        "base": {
-          "default": "#646464",
-          "heading": "#012139",
-          "subtle": "#6d6d6d",
-          "muted": "#909090"
-        },
-        "layer-1": {
-          "default": "#646464",
-          "heading": "#012139",
-          "subtle": "#6d6d6d",
-          "muted": "#909090"
-        },
-        "layer-2": {
-          "default": "#ffffff",
-          "heading": "#ffffff",
-          "subtle": "#6d6d6d",
-          "muted": "#909090"
-        },
-        "primary": {
-          "default": "#ffffff",
-          "subtle": "#e6e6e6",
-          "muted": "#b1b1b1"
-        },
-        "secondary": {
-          "default": "#ffffff"
-        },
-        "disabled": {
-          "default": "#646464",
-          "subtle": "#646464"
-        },
-        "input": {
-          "default": "#222222"
         }
       },
       "success": {

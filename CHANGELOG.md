@@ -1,3 +1,22 @@
+## [1.1.33](https://github.com/wesco-international/synergy-dna/compare/v1.1.32...v1.1.33) (2023-03-02)
+
+
+### Bug Fixes
+
+* add button stories, colors for WireExpress ([7a45ce7](https://github.com/wesco-international/synergy-dna/commit/7a45ce7e907c2a75c30d98b3df33086d7e3c8a0e))
+* color ([bcf1b8f](https://github.com/wesco-international/synergy-dna/commit/bcf1b8f795c878edfb07127945c24a8225f54542))
+* color form ([dfa11fe](https://github.com/wesco-international/synergy-dna/commit/dfa11fe1753803cd7c68ed4b97b40fdb995a8341))
+* color update to global ([908ae90](https://github.com/wesco-international/synergy-dna/commit/908ae90f9e1c202a806d85727c2a524447c1b413))
+* created brand to fix the on- issue with color ([c172fea](https://github.com/wesco-international/synergy-dna/commit/c172fea9fb3026a1c7b2627e09f48426128e68a0))
+* fixing stuff ([d3ee3d9](https://github.com/wesco-international/synergy-dna/commit/d3ee3d9756bd3e03c3155820870afa1e55f1c994))
+* form background input-text update ([606de74](https://github.com/wesco-international/synergy-dna/commit/606de74bb4ccfb8fac1e904acc0f7bcef89519ac))
+* form field ([57b32f4](https://github.com/wesco-international/synergy-dna/commit/57b32f4951419eff8c1169ee0b60ec7c4fb277c8))
+* hover ([673a3a6](https://github.com/wesco-international/synergy-dna/commit/673a3a6786bf11a9886fdffd318abdf65da769a3))
+* remove gulp util and gulp plumber ([164d0cb](https://github.com/wesco-international/synergy-dna/commit/164d0cbec6e4daa6e24cd7dae95d6566b672c16a))
+* removed -on in the semantic tokens reference [#101](https://github.com/wesco-international/synergy-dna/issues/101) ([6b3c736](https://github.com/wesco-international/synergy-dna/commit/6b3c7363328b4de2486422fc83c10bb061f220d1))
+* token updates ([788f774](https://github.com/wesco-international/synergy-dna/commit/788f77498c683bdfa8fb4e740726b56af4fcae90))
+* update on- back in ([67e9159](https://github.com/wesco-international/synergy-dna/commit/67e9159ce288ca5ec2135eee92a5e57a7c60cf33))
+
 ## [1.1.32](https://github.com/wesco-international/synergy-dna/compare/v1.1.31...v1.1.32) (2023-03-01)
 
 

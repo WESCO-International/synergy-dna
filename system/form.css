@@ -8,7 +8,7 @@ form .group {
 }
 
 form .group label {
-  color: var(--sds-component-form-color-foreground-color-label-default);
+  color: var(--sds-component-form-group-color-foreground-color-label-default);
   font-family: var(--sds-component-form-group-font-family-label);
   font-size: var(--sds-component-form-group-font-size-label);
   font-weight: var(--sds-component-form-group-font-weight-label);
@@ -24,7 +24,7 @@ form .group:has(input:required) > label::after,
 form .group:has(textarea:required) > label::after,
 form .group:has(select:required) > label::after {
   content:' *';
-  color: var(--sds-component-form-color-foreground-color-error-default);
+  color: var(--sds-component-form-group-color-foreground-color-error-default);
 }
 
 form .group span {
@@ -137,7 +137,7 @@ input[type='radio'] {
       content: '';
       position: absolute;
       left: 8px;
-      top: 4px;
+      top: 5px;
       width: 5px;
       height: 10px;
       border-color: var(--sds-component-checkbox-color-checked-foreground-color);
@@ -165,7 +165,7 @@ input[type='radio'] {
     z-index: 1;
 
     & + label {
-      padding-left: 47px;
+      padding-left: calc(50px + var(--sds-component-switch-spacing-space-between));
     }
 
     /* Default switch state */
@@ -174,9 +174,9 @@ input[type='radio'] {
       position: absolute;
       left: 0;
       top: 0;
-      width: var(--sds-component-switch-sizing-background-width);
-      height: var(--sds-component-switch-sizing-background-height);
-      border-radius: 11px;
+      width: var(--sds-component-switch-sizing-toggle-width);
+      height: var(--sds-component-switch-sizing-toggle-height);
+      border-radius: var(--sds-component-switch-border-radius);
     }
 
     /* Default switch toggle */
@@ -184,12 +184,13 @@ input[type='radio'] {
       content: '';
       display: block;
       position: absolute;
-      left: 3px;
-      top: 3px;
-      border-radius: 50%;
-      width: var(--sds-component-switch-sizing-toggle-width);
+      left: 0;
+      top: 0;
+      border-radius: var(--sds-component-switch-border-radius);
+      width: 20px;
       height: var(--sds-component-switch-sizing-toggle-height);
       background-color: var(--sds-component-switch-color-default-foreground-color);
+      border: 1px solid var(--sds-component-switch-color-default-border-color);
       transform: translateX(var(--x, 0));
     }
 
@@ -200,9 +201,9 @@ input[type='radio'] {
 
     /* Checked switch toggle */
     &:checked + label::after {
-      --x: 18px;
+      --x: 30px;
 
-      background-color: var(--sds-component-switch-color-checked-foreground-color);
+      background-color: #fff;
     }
 
     &:disabled + label::before {
@@ -234,8 +235,8 @@ input[type='radio'] {
     left: 5px;
     top: 5px;
     display: block;
-    width: var(--sds-component-radio-sizing-background-width);
-    height: var(--sds-component-radio-sizing-background-height);
+    width: var(--sds-component-radio-sizing-toggle-width);
+    height: var(--sds-component-radio-sizing-toggle-height);
     border-radius: 50%;
     background-color: var(--sds-component-radio-color-checked-foreground-color);
     opacity: 0;

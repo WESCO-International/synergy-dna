@@ -37,19 +37,19 @@
     @mixin form-element $type, disabled;
 
     &::placeholder {
-      color: var(--sds-component-form-color-foreground-color-placeholder-disable);
+      color: var(--sds-component-text-field-color-disabled-foreground-color);
     }
   }
 
   &::placeholder {
-    color: var(--sds-component-form-color-foreground-color-placeholder-default);
-    font-family: var(--sds-component-form-group-font-family-placeholder);
-    line-height: var(--sds-component-form-group-line-height-placeholder);
-    font-size: var(--sds-component-form-group-font-size-placeholder);
-    font-weight: var(--sds-component-form-font-weight-placeholder);
-    text-transform: var(--sds-component-form-text-case-placeholder);
-    letter-spacing: var(--sds-component-form-letter-spacing-placeholder);
-    text-decoration: var(--sds-component-form-text-decoration-placeholder);
+    color: var(--sds-component-text-field-color-placeholder);
+    font-family: var(--sds-component-text-field-font-family-text);
+    line-height: var(--sds-component-text-field-line-height-text);
+    font-size: var(--sds-component-text-field-font-size-text);
+    font-weight: var(--sds-component-text-field-font-weight-text);
+    text-transform: var(--sds-component-text-field-text-case-text);
+    letter-spacing: var(--sds-component-text-field-letter-spacing-text);
+    text-decoration: var(--sds-component-text-field-text-decoration-text);
   }
 
   &:optional {
@@ -60,7 +60,7 @@
     @mixin form-element $type, disabled;
 
     &::placeholder {
-      color: var(--sds-component-form-color-foreground-color-placeholder-disable);
+      color: var(--sds-component-text-field-color-disabled-foreground-color);
     }
   }
 

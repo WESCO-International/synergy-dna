@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 02 Mar 2023 20:35:33 GMT
+ * Generated on Thu, 02 Mar 2023 20:56:14 GMT
  */
 
 :root {
@@ -377,25 +377,6 @@
   --sds-semantic-color-warning-default: #EAAA00;
   --sds-semantic-color-error-default: #B91817;
   --sds-semantic-color-success-default: #2D7966;
-  --sds-semantic-color-foreground-input-default: #222222;
-  --sds-semantic-color-foreground-disabled-subtle: #646464;
-  --sds-semantic-color-foreground-disabled-default: #646464;
-  --sds-semantic-color-foreground-secondary-default: #ffffff;
-  --sds-semantic-color-foreground-primary-muted: #b1b1b1;
-  --sds-semantic-color-foreground-primary-subtle: #e6e6e6;
-  --sds-semantic-color-foreground-primary-default: #ffffff;
-  --sds-semantic-color-foreground-layer-2-muted: #909090;
-  --sds-semantic-color-foreground-layer-2-subtle: #6d6d6d;
-  --sds-semantic-color-foreground-layer-2-heading: #ffffff;
-  --sds-semantic-color-foreground-layer-2-default: #ffffff;
-  --sds-semantic-color-foreground-layer-1-muted: #909090;
-  --sds-semantic-color-foreground-layer-1-subtle: #6d6d6d;
-  --sds-semantic-color-foreground-layer-1-heading: #012139;
-  --sds-semantic-color-foreground-layer-1-default: #646464;
-  --sds-semantic-color-foreground-base-muted: #909090;
-  --sds-semantic-color-foreground-base-subtle: #6d6d6d;
-  --sds-semantic-color-foreground-base-heading: #012139;
-  --sds-semantic-color-foreground-base-default: #646464;
   --sds-semantic-color-foreground-on-input-default: #222222;
   --sds-semantic-color-foreground-on-disabled-subtle: #646464;
   --sds-semantic-color-foreground-on-disabled-default: #646464;

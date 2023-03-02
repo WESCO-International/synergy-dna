@@ -268,7 +268,7 @@
       },
       "border-radius": {
         "default": {
-          "value": "{semantic.border-radius.xs}",
+          "value": "{semantic.border-radius.default}",
           "type": "borderRadius"
         },
         "round": {

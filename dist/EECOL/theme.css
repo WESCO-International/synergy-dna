@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 01 Mar 2023 18:12:51 GMT
+ * Generated on Thu, 02 Mar 2023 20:57:25 GMT
  */
 
 :root {
@@ -377,7 +377,6 @@
   --sds-semantic-color-warning-default: #EAAA00;
   --sds-semantic-color-error-default: #B91817;
   --sds-semantic-color-success-default: #2D7966;
-  --sds-semantic-color-foreground-on-input-default: #222222;
   --sds-semantic-color-foreground-on-disabled-subtle: #646464;
   --sds-semantic-color-foreground-on-disabled-default: #646464;
   --sds-semantic-color-foreground-on-secondary-default: #ffffff;
@@ -625,7 +624,7 @@
   --sds-component-form-group-font-family-label: Source Sans Pro, Source Sans Pro-fallback, sans-serif;
   --sds-component-form-group-font-size-help: 0.75rem;
   --sds-component-form-group-font-size-label: 0.875rem;
-  --sds-component-text-field-border-radius: 1px;
+  --sds-component-text-field-border-radius: 4px;
   --sds-component-text-field-paragraph-spacing-text: 0;
   --sds-component-text-field-text-case-text: none;
   --sds-component-text-field-text-decoration-text: none;
@@ -636,8 +635,8 @@
   --sds-component-text-field-font-family-text: Source Sans Pro, Source Sans Pro-fallback, sans-serif;
   --sds-component-text-field-font-size-text: 1rem;
   --sds-component-text-field-spacing-space-between: 8px;
-  --sds-component-text-field-spacing-padding-y: 6px;
-  --sds-component-text-field-spacing-padding-x: 10px;
+  --sds-component-text-field-spacing-padding-y: 12px;
+  --sds-component-text-field-spacing-padding-x: 12px;
   --sds-component-text-field-border-width-disabled: 1px;
   --sds-component-text-field-border-width-key-focus: 2px;
   --sds-component-text-field-border-width-hover: 1px;
@@ -652,16 +651,16 @@
   --sds-component-text-field-color-error-foreground-color: #B91817;
   --sds-component-text-field-color-error-background-color: #ffffff;
   --sds-component-text-field-color-success-border-color: #2D7966;
-  --sds-component-text-field-color-success-foreground-color: #0670a0;
+  --sds-component-text-field-color-success-foreground-color: #2D7966;
   --sds-component-text-field-color-success-background-color: #ffffff;
   --sds-component-text-field-color-key-focus-border-color: #0099d8;
-  --sds-component-text-field-color-key-focus-foreground-color: #0670a0;
+  --sds-component-text-field-color-key-focus-foreground-color: #9fa09f;
   --sds-component-text-field-color-key-focus-background-color: #ffffff;
   --sds-component-text-field-color-hover-border-color: #646464;
-  --sds-component-text-field-color-hover-foreground-color: #0099d8;
+  --sds-component-text-field-color-hover-foreground-color: #9fa09f;
   --sds-component-text-field-color-hover-background-color: #ffffff;
   --sds-component-text-field-color-default-border-color: #8b8b8b;
-  --sds-component-text-field-color-default-foreground-color: #0670a0;
+  --sds-component-text-field-color-default-foreground-color: #9fa09f;
   --sds-component-text-field-color-default-background-color: #ffffff;
   --sds-component-select-paragraph-spacing-text: 0;
   --sds-component-select-text-case-text: none;
@@ -680,7 +679,7 @@
   --sds-component-select-border-width-hover: 1px;
   --sds-component-select-border-width-default: 1px;
   --sds-component-select-round: 9999px;
-  --sds-component-select-border-radius: 1px;
+  --sds-component-select-border-radius: 4px;
   --sds-component-select-color-icon: #8b8b8b;
   --sds-component-select-color-placeholder: #909090;
   --sds-component-select-color-disabled-border-color: #b3b5b4;
@@ -699,7 +698,7 @@
   --sds-component-select-color-hover-foreground-color: #0099d8;
   --sds-component-select-color-hover-background-color: #ffffff;
   --sds-component-select-color-default-border-color: #8b8b8b;
-  --sds-component-select-color-default-foreground-color: #0670a0;
+  --sds-component-select-color-default-foreground-color: #9fa09f;
   --sds-component-select-color-default-background-color: #ffffff;
   --sds-component-switch-sizing-toggle-height: 20px;
   --sds-component-switch-sizing-toggle-width: 50px;
@@ -754,7 +753,7 @@
   --sds-component-checkbox-border-width-key-focus: 2px;
   --sds-component-checkbox-border-width-hover: 1px;
   --sds-component-checkbox-border-width-default: 1px;
-  --sds-component-checkbox-border-radius: 1px;
+  --sds-component-checkbox-border-radius: 4px;
   --sds-component-checkbox-color-label: #646464;
   --sds-component-checkbox-color-error-border-color: #B91817;
   --sds-component-checkbox-color-error-foreground-color: #646464;

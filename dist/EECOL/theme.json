@@ -310,7 +310,7 @@
         },
         "label": "#646464"
       },
-      "border-radius": "1px",
+      "border-radius": "4px",
       "border-width": {
         "default": "1px",
         "hover": "1px",
@@ -455,7 +455,7 @@
       "color": {
         "default": {
           "background-color": "#ffffff",
-          "foreground-color": "#0670a0",
+          "foreground-color": "#9fa09f",
           "border-color": "#8b8b8b"
         },
         "hover": {
@@ -486,7 +486,7 @@
         "placeholder": "#909090",
         "icon": "#8b8b8b"
       },
-      "border-radius": "1px",
+      "border-radius": "4px",
       "round": "9999px",
       "border-width": {
         "default": "1px",
@@ -541,22 +541,22 @@
       "color": {
         "default": {
           "background-color": "#ffffff",
-          "foreground-color": "#0670a0",
+          "foreground-color": "#9fa09f",
           "border-color": "#8b8b8b"
         },
         "hover": {
           "background-color": "#ffffff",
-          "foreground-color": "#0099d8",
+          "foreground-color": "#9fa09f",
           "border-color": "#646464"
         },
         "key-focus": {
           "background-color": "#ffffff",
-          "foreground-color": "#0670a0",
+          "foreground-color": "#9fa09f",
           "border-color": "#0099d8"
         },
         "success": {
           "background-color": "#ffffff",
-          "foreground-color": "#0670a0",
+          "foreground-color": "#2D7966",
           "border-color": "#2D7966"
         },
         "error": {
@@ -580,8 +580,8 @@
         "disabled": "1px"
       },
       "spacing": {
-        "padding-x": "10px",
-        "padding-y": "6px",
+        "padding-x": "12px",
+        "padding-y": "12px",
         "space-between": "8px"
       },
       "font-size": {
@@ -621,7 +621,7 @@
       "paragraph-spacing": {
         "text": 0
       },
-      "border-radius": "1px"
+      "border-radius": "4px"
     },
     "form-group": {
       "font-size": {
@@ -1111,9 +1111,6 @@
         "on-disabled": {
           "default": "#646464",
           "subtle": "#646464"
-        },
-        "on-input": {
-          "default": "#222222"
         }
       },
       "success": {

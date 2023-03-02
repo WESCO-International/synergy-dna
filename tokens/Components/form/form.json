@@ -189,6 +189,12 @@
               "value": "{semantic.color.primary.light}",
               "type": "color"
             }
+          },
+          "text": {
+            "default": {
+              "value": "{global.color.static.gray.500}",
+              "type": "color"
+            }
           }
         },
         "border": {
@@ -262,7 +268,7 @@
       },
       "border-radius": {
         "default": {
-          "value": "{semantic.border-radius.xs}",
+          "value": "{semantic.border-radius.default}",
           "type": "borderRadius"
         },
         "round": {

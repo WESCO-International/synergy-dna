@@ -649,12 +649,6 @@
             "value": "{global.color.static.gray.800}",
             "type": "color"
           }
-        },
-        "on-input": {
-          "default": {
-            "value": "{theme.color.gray.800}",
-            "type": "color"
-          }
         }
       },
       "success": {

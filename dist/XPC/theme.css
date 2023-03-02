@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 01 Mar 2023 18:12:51 GMT
+ * Generated on Thu, 02 Mar 2023 20:57:25 GMT
  */
 
 :root {
@@ -518,54 +518,6 @@
   --sds-semantic-letter-spacing-display: -1%;
   --sds-semantic-letter-spacing-icon: 0%;
   --sds-semantic-letter-spacing-default: 0%;
-  --sds-component-form-border-radius-round: 9999px;
-  --sds-component-form-border-radius-default: 1px;
-  --sds-component-form-border-width-error: 2px;
-  --sds-component-form-border-width-key-focus: 2px;
-  --sds-component-form-border-width-disabled: 1px;
-  --sds-component-form-border-width-hover: 1px;
-  --sds-component-form-border-width-default: 1px;
-  --sds-component-form-color-background-color-input-disabled: #e6e6e6;
-  --sds-component-form-color-background-color-input-error: #B91817;
-  --sds-component-form-color-background-color-input-dark: #0670a0;
-  --sds-component-form-color-background-color-input-default: #ffffff;
-  --sds-component-form-color-border-sucess: #2D7966;
-  --sds-component-form-color-border-key-focus: #f28b00;
-  --sds-component-form-color-border-error: #B91817;
-  --sds-component-form-color-border-disable: #b3b5b4;
-  --sds-component-form-color-border-hover: #646464;
-  --sds-component-form-color-border-default: #8b8b8b;
-  --sds-component-form-color-foreground-color-link-hover: #f28b00;
-  --sds-component-form-color-foreground-color-link-default: #0670a0;
-  --sds-component-form-color-foreground-color-warning-default: #EAAA00;
-  --sds-component-form-color-foreground-color-info-default: #035F98;
-  --sds-component-form-color-foreground-color-sucess-default: #2D7966;
-  --sds-component-form-color-foreground-color-placeholder-active: #000000;
-  --sds-component-form-color-foreground-color-placeholder-disable: #646464;
-  --sds-component-form-color-foreground-color-placeholder-default: #646464;
-  --sds-component-form-color-foreground-color-error-default: #B91817;
-  --sds-component-form-color-foreground-color-help-default: #646464;
-  --sds-component-form-color-foreground-color-label-default: #646464;
-  --sds-component-form-spacing-input-padding-top: 12px;
-  --sds-component-form-spacing-input-padding-right: 12px;
-  --sds-component-form-spacing-input-padding-left: 12px;
-  --sds-component-form-spacing-input-padding-bottom: 12px;
-  --sds-component-form-sizing-input-min-height: 44px;
-  --sds-component-form-sizing-input-min-width: 320px;
-  --sds-component-form-text-decoration-icon: none;
-  --sds-component-form-text-decoration-placeholder: none;
-  --sds-component-form-letter-spacing-icon: 0%;
-  --sds-component-form-letter-spacing-placeholder: 0%;
-  --sds-component-form-text-case-icon: none;
-  --sds-component-form-text-case-placeholder: none;
-  --sds-component-form-font-weight-icon: 700;
-  --sds-component-form-font-weight-placeholder: 400;
-  --sds-component-form-line-height-icon: 125%;
-  --sds-component-form-line-height-placeholder: 125%;
-  --sds-component-form-font-family-icon: Font Awesome 6 Pro;
-  --sds-component-form-font-family-placeholder: Source Sans Pro, Source Sans Pro-fallback, sans-serif;
-  --sds-component-form-font-size-icon: 1rem;
-  --sds-component-form-font-size-placeholder: 1rem;
   --sds-component-form-group-color-foreground-color-warning-default: #EAAA00;
   --sds-component-form-group-color-foreground-color-info-default: #035F98;
   --sds-component-form-group-color-foreground-color-sucess-default: #2D7966;
@@ -594,7 +546,7 @@
   --sds-component-form-group-font-family-label: Source Sans Pro, Source Sans Pro-fallback, sans-serif;
   --sds-component-form-group-font-size-help: 0.75rem;
   --sds-component-form-group-font-size-label: 0.875rem;
-  --sds-component-text-field-border-radius: 1px;
+  --sds-component-text-field-border-radius: 4px;
   --sds-component-text-field-paragraph-spacing-text: 0;
   --sds-component-text-field-text-case-text: none;
   --sds-component-text-field-text-decoration-text: none;
@@ -605,8 +557,8 @@
   --sds-component-text-field-font-family-text: Source Sans Pro, Source Sans Pro-fallback, sans-serif;
   --sds-component-text-field-font-size-text: 1rem;
   --sds-component-text-field-spacing-space-between: 8px;
-  --sds-component-text-field-spacing-padding-y: 6px;
-  --sds-component-text-field-spacing-padding-x: 10px;
+  --sds-component-text-field-spacing-padding-y: 12px;
+  --sds-component-text-field-spacing-padding-x: 12px;
   --sds-component-text-field-border-width-disabled: 1px;
   --sds-component-text-field-border-width-key-focus: 2px;
   --sds-component-text-field-border-width-hover: 1px;
@@ -621,16 +573,16 @@
   --sds-component-text-field-color-error-foreground-color: #B91817;
   --sds-component-text-field-color-error-background-color: #ffffff;
   --sds-component-text-field-color-success-border-color: #2D7966;
-  --sds-component-text-field-color-success-foreground-color: #db6b30;
+  --sds-component-text-field-color-success-foreground-color: #2D7966;
   --sds-component-text-field-color-success-background-color: #ffffff;
   --sds-component-text-field-color-key-focus-border-color: #f28b00;
-  --sds-component-text-field-color-key-focus-foreground-color: #db6b30;
+  --sds-component-text-field-color-key-focus-foreground-color: #9fa09f;
   --sds-component-text-field-color-key-focus-background-color: #ffffff;
   --sds-component-text-field-color-hover-border-color: #646464;
-  --sds-component-text-field-color-hover-foreground-color: #f28b00;
+  --sds-component-text-field-color-hover-foreground-color: #9fa09f;
   --sds-component-text-field-color-hover-background-color: #ffffff;
   --sds-component-text-field-color-default-border-color: #8b8b8b;
-  --sds-component-text-field-color-default-foreground-color: #db6b30;
+  --sds-component-text-field-color-default-foreground-color: #9fa09f;
   --sds-component-text-field-color-default-background-color: #ffffff;
   --sds-component-select-paragraph-spacing-text: 0;
   --sds-component-select-text-case-text: none;
@@ -649,7 +601,7 @@
   --sds-component-select-border-width-hover: 1px;
   --sds-component-select-border-width-default: 1px;
   --sds-component-select-round: 9999px;
-  --sds-component-select-border-radius: 1px;
+  --sds-component-select-border-radius: 4px;
   --sds-component-select-color-icon: #8b8b8b;
   --sds-component-select-color-placeholder: #909090;
   --sds-component-select-color-disabled-border-color: #b3b5b4;
@@ -668,7 +620,7 @@
   --sds-component-select-color-hover-foreground-color: #f28b00;
   --sds-component-select-color-hover-background-color: #ffffff;
   --sds-component-select-color-default-border-color: #8b8b8b;
-  --sds-component-select-color-default-foreground-color: #db6b30;
+  --sds-component-select-color-default-foreground-color: #9fa09f;
   --sds-component-select-color-default-background-color: #ffffff;
   --sds-component-switch-sizing-toggle-height: 20px;
   --sds-component-switch-sizing-toggle-width: 50px;
@@ -723,7 +675,7 @@
   --sds-component-checkbox-border-width-key-focus: 2px;
   --sds-component-checkbox-border-width-hover: 1px;
   --sds-component-checkbox-border-width-default: 1px;
-  --sds-component-checkbox-border-radius: 1px;
+  --sds-component-checkbox-border-radius: 4px;
   --sds-component-checkbox-color-label: #646464;
   --sds-component-checkbox-color-error-border-color: #B91817;
   --sds-component-checkbox-color-error-foreground-color: #646464;

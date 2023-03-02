@@ -189,6 +189,12 @@
               "value": "{semantic.color.primary.light}",
               "type": "color"
             }
+          },
+          "text": {
+            "default": {
+              "value": "{global.color.static.gray.800}",
+              "type": "color"
+            }
           }
         },
         "border": {

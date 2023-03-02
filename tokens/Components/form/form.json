@@ -150,7 +150,7 @@
           },
           "placeholder": {
             "default": {
-              "value": "{semantic.color.foreground.base.default}",
+              "value": "{theme.color.gray.500}",
               "type": "color"
             },
             "disable": {

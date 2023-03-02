@@ -235,8 +235,8 @@ input[type='radio'] {
     left: 5px;
     top: 5px;
     display: block;
-    width: var(--sds-component-radio-sizing-toggle-width);
-    height: var(--sds-component-radio-sizing-toggle-height);
+    width: 50px;
+    height: 20px;
     border-radius: 50%;
     background-color: var(--sds-component-radio-color-checked-foreground-color);
     opacity: 0;

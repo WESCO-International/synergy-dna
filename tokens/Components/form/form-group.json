@@ -132,13 +132,13 @@
         "foreground-color": {
           "label": {
             "default": {
-              "value": "{semantic.color.foreground.base.default}",
+              "value": "{semantic.color.foreground.on-base.default}",
               "type": "color"
             }
           },
           "help": {
             "default": {
-              "value": "{semantic.color.foreground.base.default}",
+              "value": "{semantic.color.foreground.on-base.default}",
               "type": "color"
             }
           },
@@ -150,11 +150,11 @@
           },
           "placeholder": {
             "default": {
-              "value": "{semantic.color.foreground.base.default}",
+              "value": "{semantic.color.foreground.on-base.default}",
               "type": "color"
             },
             "disable": {
-              "value": "{semantic.color.foreground.base.default}",
+              "value": "{semantic.color.foreground.on-base.default}",
               "type": "color"
             },
             "active": {

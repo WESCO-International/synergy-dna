@@ -8,7 +8,7 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{global.color.static.gray.400}",
+            "value": "{global.color.static.white}",
             "type": "color"
           },
           "border-color": {
@@ -22,7 +22,7 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.primary.base}",
+            "value": "{semantic.color.background.base}",
             "type": "color"
           },
           "border-color": {
@@ -36,7 +36,7 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.primary.base}",
+            "value": "{global.color.static.white}",
             "type": "color"
           },
           "border-color": {
@@ -50,7 +50,7 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.primary.base}",
+            "value": "{global.color.static.white}",
             "type": "color"
           },
           "border-color": {
@@ -187,21 +187,21 @@
       "sizing": {
         "background": {
           "width": {
-            "value": "{semantic.spacing.around.component.xl}",
+            "value": "{global.size.650}",
             "type": "sizing"
           },
           "height": {
-            "value": "{semantic.spacing.around.component.xl}",
+            "value": "{global.size.250}",
             "type": "sizing"
           }
         },
         "toggle": {
           "width": {
-            "value": "{semantic.size.switch.width}",
+            "value": "{global.size.250}",
             "type": "sizing"
           },
           "height": {
-            "value": "{semantic.size.switch.height}",
+            "value": "{global.size.250}",
             "type": "sizing"
           }
         }

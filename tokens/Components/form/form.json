@@ -250,7 +250,7 @@
           "type": "borderWidth"
         },
         "hover": {
-          "value": "{semantic.border-width.sm}",
+          "value": "{semantic.border-width.md}",
           "type": "borderWidth"
         },
         "disabled": {

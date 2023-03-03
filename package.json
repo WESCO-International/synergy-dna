@@ -24,7 +24,7 @@
     "lint:fix": "stylelint --fix 'system/**/*.css' 'system/*.css'",
     "build": "node scripts/transform.mjs",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build -o storybook && node ./scripts/no-jekyll.js",
+    "build-storybook": "storybook build -o storybook",
     "test-storybook": "test-storybook",
     "postcss:dev": "gulp dev",
     "postcss:build": "gulp build",

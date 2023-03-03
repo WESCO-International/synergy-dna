@@ -358,6 +358,10 @@
         "background": {
           "width": "20px",
           "height": "20px"
+        },
+        "Toggle": {
+          "width": "20px",
+          "height": "20px"
         }
       }
     },
@@ -365,22 +369,22 @@
       "color": {
         "default": {
           "background-color": "#ffffff",
-          "foreground-color": "#b3b5b4",
+          "foreground-color": "#ffffff",
           "border-color": "#8b8b8b"
         },
         "checked": {
           "background-color": "#0670a0",
-          "foreground-color": "#0670a0",
+          "foreground-color": "#ffffff",
           "border-color": "#8b8b8b"
         },
         "hover": {
           "background-color": "#ffffff",
-          "foreground-color": "#0670a0",
+          "foreground-color": "#ffffff",
           "border-color": "#dee0df"
         },
         "key-focus": {
           "background-color": "#ffffff",
-          "foreground-color": "#0670a0",
+          "foreground-color": "#ffffff",
           "border-color": "#0099d8"
         },
         "disabled": {
@@ -442,11 +446,11 @@
       },
       "sizing": {
         "background": {
-          "width": "20px",
+          "width": "50px",
           "height": "20px"
         },
         "toggle": {
-          "width": "50px",
+          "width": "20px",
           "height": "20px"
         }
       }
@@ -837,7 +841,7 @@
         "secondary": {
           "default": "2px",
           "hover": "2px",
-          "down": "0px",
+          "down": "2px",
           "key-focus": "3px",
           "disabled": "2px"
         },

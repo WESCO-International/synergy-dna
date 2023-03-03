@@ -174,8 +174,8 @@ input[type='radio'] {
       position: absolute;
       left: 0;
       top: 0;
-      width: var(--sds-component-switch-sizing-toggle-width);
-      height: var(--sds-component-switch-sizing-toggle-height);
+      width: var(--sds-component-switch-sizing-background-width);
+      height: var(--sds-component-switch-sizing-background-height);
       border-radius: var(--sds-component-switch-border-radius);
     }
 
@@ -187,7 +187,7 @@ input[type='radio'] {
       left: 0;
       top: 0;
       border-radius: var(--sds-component-switch-border-radius);
-      width: 20px;
+      width: var(--sds-component-switch-sizing-toggle-width);
       height: var(--sds-component-switch-sizing-toggle-height);
       background-color: var(--sds-component-switch-color-default-foreground-color);
       border: 1px solid var(--sds-component-switch-color-default-border-color);
@@ -232,11 +232,11 @@ input[type='radio'] {
   & + label::after {
     content: '';
     position: absolute;
-    left: 5px;
-    top: 5px;
+    left: 3px;
+    top: 3px;
     display: block;
-    width: 50px;
-    height: 20px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background-color: var(--sds-component-radio-color-checked-foreground-color);
     opacity: 0;

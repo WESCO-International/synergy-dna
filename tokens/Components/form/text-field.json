@@ -87,11 +87,11 @@
           }
         },
         "placeholder": {
-          "value": "{semantic.color.foreground.on-layer-1.muted}",
+          "value": "{component.form.color.foreground-color.placeholder.default}",
           "type": "color"
         },
         "icon": {
-          "value": "{semantic.color.border.base}",
+          "value": "{component.text-field.color.default.foreground-color}",
           "type": "color"
         }
       },

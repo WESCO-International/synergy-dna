@@ -9,7 +9,7 @@ export function Code() {
   const rendered = channel?.data?.['storybook/docs/snippet-rendered']?.[1] || 'No code found';
   
   return (
-    <SyntaxHighlighter language="json" style={theme} showLineNumbers={true}>
+    <SyntaxHighlighter language="html" style={theme} showLineNumbers={true}>
       {rendered}
     </SyntaxHighlighter>
   );

@@ -42,12 +42,12 @@ export default {
   },
 };
 
-const Template = args => makeButton(args);
-
-export const Primary = Template.bind({});
-Primary.args = {
-  label: 'Button',
-  variant: 'primary',
+export const Primary = {
+  args: {
+    label: 'Button',
+    variant: 'primary',
+  },
+  render: args => makeButton(args),
 };
 
 export const PrimaryIcon = {
@@ -56,10 +56,12 @@ export const PrimaryIcon = {
   },
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'Button',
-  variant: 'secondary',
+export const Secondary = {
+  args: {
+    label: 'Button',
+    variant: 'secondary',
+  },
+  render: args => makeButton(args),
 };
 
 export const SecondaryIcon = {
@@ -68,10 +70,12 @@ export const SecondaryIcon = {
   },
 };
 
-export const Quite = Template.bind({});
-Quite.args = {
-  label: 'Button',
-  variant: 'quiet'
+export const Quite = {
+  args: {
+    label: 'Button',
+    variant: 'quiet',
+  },
+  render: args => makeButton(args),
 };
 
 export const QuietIcon = {

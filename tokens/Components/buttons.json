@@ -297,7 +297,7 @@
             "type": "borderWidth"
           },
           "down": {
-            "value": "{semantic.border-width.none}",
+            "value": "{semantic.border-width.md}",
             "type": "borderWidth"
           },
           "key-focus": {

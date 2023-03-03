@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 02 Mar 2023 21:42:36 GMT
+// Generated on Fri, 03 Mar 2023 00:42:25 GMT
 
 $sds-theme-color-shadow-400: #00000066;
 $sds-theme-color-shadow-300: #00000040;
@@ -579,7 +579,7 @@ $sds-component-button-border-width-quiet-hover: 0px;
 $sds-component-button-border-width-quiet-default: 0px;
 $sds-component-button-border-width-secondary-disabled: 2px;
 $sds-component-button-border-width-secondary-key-focus: 3px;
-$sds-component-button-border-width-secondary-down: 0px;
+$sds-component-button-border-width-secondary-down: 2px;
 $sds-component-button-border-width-secondary-hover: 2px;
 $sds-component-button-border-width-secondary-default: 2px;
 $sds-component-button-border-width-primary-disabled: 0px;
@@ -747,9 +747,9 @@ $sds-component-select-color-default-border-color: #8b8b8b;
 $sds-component-select-color-default-foreground-color: #9fa09f;
 $sds-component-select-color-default-background-color: #ffffff;
 $sds-component-switch-sizing-toggle-height: 20px;
-$sds-component-switch-sizing-toggle-width: 50px;
+$sds-component-switch-sizing-toggle-width: 20px;
 $sds-component-switch-sizing-background-height: 20px;
-$sds-component-switch-sizing-background-width: 20px;
+$sds-component-switch-sizing-background-width: 50px;
 $sds-component-switch-text-case-label: none;
 $sds-component-switch-text-decoration-label: none;
 $sds-component-switch-typography-label: [object Object];
@@ -774,17 +774,19 @@ $sds-component-switch-color-disabled-border-color: #b3b5b4;
 $sds-component-switch-color-disabled-foreground-color: #e6e6e6;
 $sds-component-switch-color-disabled-background-color: #e6e6e6;
 $sds-component-switch-color-key-focus-border-color: #0099d8;
-$sds-component-switch-color-key-focus-foreground-color: #0670a0;
+$sds-component-switch-color-key-focus-foreground-color: #ffffff;
 $sds-component-switch-color-key-focus-background-color: #ffffff;
 $sds-component-switch-color-hover-border-color: #dee0df;
-$sds-component-switch-color-hover-foreground-color: #0670a0;
+$sds-component-switch-color-hover-foreground-color: #ffffff;
 $sds-component-switch-color-hover-background-color: #ffffff;
 $sds-component-switch-color-checked-border-color: #8b8b8b;
-$sds-component-switch-color-checked-foreground-color: #0670a0;
+$sds-component-switch-color-checked-foreground-color: #ffffff;
 $sds-component-switch-color-checked-background-color: #0670a0;
 $sds-component-switch-color-default-border-color: #8b8b8b;
-$sds-component-switch-color-default-foreground-color: #b3b5b4;
+$sds-component-switch-color-default-foreground-color: #ffffff;
 $sds-component-switch-color-default-background-color: #ffffff;
+$sds-component-checkbox-sizing-toggle-height: 20px;
+$sds-component-checkbox-sizing-toggle-width: 20px;
 $sds-component-checkbox-sizing-background-height: 20px;
 $sds-component-checkbox-sizing-background-width: 20px;
 $sds-component-checkbox-text-case-label: none;

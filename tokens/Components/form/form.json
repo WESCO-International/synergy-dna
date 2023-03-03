@@ -192,7 +192,7 @@
           },
           "text": {
             "default": {
-              "value": "{global.color.static.gray.500}",
+              "value": "{global.color.static.gray.800}",
               "type": "color"
             }
           }

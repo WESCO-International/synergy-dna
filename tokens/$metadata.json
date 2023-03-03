@@ -1,29 +1,5 @@
 {
   "tokenSetOrder": [
-    "global",
-    "light",
-    "dark",
-    "semantic",
-    "Components/buttons",
-    "Components/form/form",
-    "Components/form/form-group",
-    "Components/form/text-field",
-    "Components/form/select",
-    "Components/form/switch",
-    "Components/form/checkbox",
-    "Components/form/radio",
-    "Patterns/header",
-    "Patterns/footer",
-    "Patterns/modal",
-    "Brands/XpressConnect/semantic",
-    "Brands/XpressConnect/Components/buttons",
-    "Brands/XpressConnect/Patterns/header",
-    "Brands/XpressConnect/Patterns/footer",
-    "Brands/Wesco/Components/buttons",
-    "Brands/Wesco/semantic",
-    "Brands/Wesco/light",
-    "Brands/Wesco/Patterns/header",
-    "Brands/Wesco/Patterns/footer",
-    "Brands/EECOL/dark-theme"
+    "global"
   ]
 }

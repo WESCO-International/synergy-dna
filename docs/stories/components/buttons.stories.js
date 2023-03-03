@@ -1,4 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies, no-unused-vars */
+import { makeButton } from '../../../components';
+
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
@@ -27,13 +29,25 @@ export default {
       },
     },
   },
+  argTypes: {
+    label: { control: 'text' },
+    variant: {
+      options: ['primary', 'secondary', 'quiet'],
+      control: { type: 'radio' },
+    },
+    classes: { control: 'text' },
+    href: { control: 'text' },
+    testid: { control: 'text' },
+    onClick: { control: 'text' }
+  },
 };
 
-export const Primary = {
-  render: (args, context) => {
-    const button = createButton('primary');
-    return button;
-  },
+const Template = args => makeButton(args);
+
+export const Primary = Template.bind({});
+Primary.args = {
+  label: 'Button',
+  variant: 'primary',
 };
 
 export const PrimaryIcon = {
@@ -42,10 +56,10 @@ export const PrimaryIcon = {
   },
 };
 
-export const Secondary = {
-  render: (args, context) => {
-    return createButton('secondary');
-  },
+export const Secondary = Template.bind({});
+Secondary.args = {
+  label: 'Button',
+  variant: 'secondary',
 };
 
 export const SecondaryIcon = {
@@ -54,10 +68,10 @@ export const SecondaryIcon = {
   },
 };
 
-export const Quiet = {
-  render: (args, context) => {
-    return createButton('quiet');
-  },
+export const Quite = Template.bind({});
+Quite.args = {
+  label: 'Button',
+  variant: 'quiet'
 };
 
 export const QuietIcon = {

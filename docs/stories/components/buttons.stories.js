@@ -1,4 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies, no-unused-vars */
+import { makeButton } from '../../../components';
+
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
@@ -27,13 +29,25 @@ export default {
       },
     },
   },
+  argTypes: {
+    label: { control: 'text' },
+    variant: {
+      options: ['primary', 'secondary', 'quiet'],
+      control: { type: 'radio' },
+    },
+    classes: { control: 'text' },
+    href: { control: 'text' },
+    testid: { control: 'text' },
+    onClick: { control: 'text' }
+  },
 };
 
 export const Primary = {
-  render: (args, context) => {
-    const button = createButton('primary');
-    return button;
+  args: {
+    label: 'Button',
+    variant: 'primary',
   },
+  render: args => makeButton(args),
 };
 
 export const PrimaryIcon = {
@@ -43,9 +57,11 @@ export const PrimaryIcon = {
 };
 
 export const Secondary = {
-  render: (args, context) => {
-    return createButton('secondary');
+  args: {
+    label: 'Button',
+    variant: 'secondary',
   },
+  render: args => makeButton(args),
 };
 
 export const SecondaryIcon = {
@@ -54,10 +70,12 @@ export const SecondaryIcon = {
   },
 };
 
-export const Quiet = {
-  render: (args, context) => {
-    return createButton('quiet');
+export const Quite = {
+  args: {
+    label: 'Button',
+    variant: 'quiet',
   },
+  render: args => makeButton(args),
 };
 
 export const QuietIcon = {

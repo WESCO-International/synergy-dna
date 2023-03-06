@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Mar 2023 00:42:25 GMT
+ * Generated on Fri, 03 Mar 2023 20:24:48 GMT
  */
 
 :root {
@@ -631,7 +631,7 @@
   --sds-component-text-field-min-width: 192px;
   --sds-component-text-field-letter-spacing-text: 0%;
   --sds-component-text-field-font-weight-text: 400;
-  --sds-component-text-field-line-height-text: 150%;
+  --sds-component-text-field-line-height-text: 125%;
   --sds-component-text-field-font-family-text: Source Sans Pro, Source Sans Pro-fallback, sans-serif;
   --sds-component-text-field-font-size-text: 1rem;
   --sds-component-text-field-spacing-space-between: 8px;
@@ -639,11 +639,11 @@
   --sds-component-text-field-spacing-padding-x: 12px;
   --sds-component-text-field-border-width-disabled: 1px;
   --sds-component-text-field-border-width-key-focus: 2px;
-  --sds-component-text-field-border-width-hover: 1px;
+  --sds-component-text-field-border-width-hover: 2px;
   --sds-component-text-field-border-width-error: 2px;
   --sds-component-text-field-border-width-default: 1px;
-  --sds-component-text-field-color-icon: #8b8b8b;
-  --sds-component-text-field-color-placeholder: #909090;
+  --sds-component-text-field-color-icon: #646464;
+  --sds-component-text-field-color-placeholder: #9fa09f;
   --sds-component-text-field-color-disabled-border-color: #b3b5b4;
   --sds-component-text-field-color-disabled-foreground-color: #646464;
   --sds-component-text-field-color-disabled-background-color: #e6e6e6;
@@ -654,13 +654,13 @@
   --sds-component-text-field-color-success-foreground-color: #2D7966;
   --sds-component-text-field-color-success-background-color: #ffffff;
   --sds-component-text-field-color-key-focus-border-color: #0099d8;
-  --sds-component-text-field-color-key-focus-foreground-color: #9fa09f;
+  --sds-component-text-field-color-key-focus-foreground-color: #646464;
   --sds-component-text-field-color-key-focus-background-color: #ffffff;
   --sds-component-text-field-color-hover-border-color: #646464;
-  --sds-component-text-field-color-hover-foreground-color: #9fa09f;
+  --sds-component-text-field-color-hover-foreground-color: #646464;
   --sds-component-text-field-color-hover-background-color: #ffffff;
   --sds-component-text-field-color-default-border-color: #8b8b8b;
-  --sds-component-text-field-color-default-foreground-color: #9fa09f;
+  --sds-component-text-field-color-default-foreground-color: #646464;
   --sds-component-text-field-color-default-background-color: #ffffff;
   --sds-component-select-paragraph-spacing-text: 0;
   --sds-component-select-text-case-text: none;
@@ -676,7 +676,7 @@
   --sds-component-select-spacing-padding-x: 10px;
   --sds-component-select-border-width-disabled: 1px;
   --sds-component-select-border-width-key-focus: 2px;
-  --sds-component-select-border-width-hover: 1px;
+  --sds-component-select-border-width-hover: 2px;
   --sds-component-select-border-width-default: 1px;
   --sds-component-select-round: 9999px;
   --sds-component-select-border-radius: 4px;
@@ -698,7 +698,7 @@
   --sds-component-select-color-hover-foreground-color: #0099d8;
   --sds-component-select-color-hover-background-color: #ffffff;
   --sds-component-select-color-default-border-color: #8b8b8b;
-  --sds-component-select-color-default-foreground-color: #9fa09f;
+  --sds-component-select-color-default-foreground-color: #646464;
   --sds-component-select-color-default-background-color: #ffffff;
   --sds-component-switch-sizing-toggle-height: 20px;
   --sds-component-switch-sizing-toggle-width: 20px;
@@ -715,7 +715,7 @@
   --sds-component-switch-border-width-disabled: 1px;
   --sds-component-switch-border-width-error: 2px;
   --sds-component-switch-border-width-key-focus: 2px;
-  --sds-component-switch-border-width-hover: 1px;
+  --sds-component-switch-border-width-hover: 2px;
   --sds-component-switch-border-width-default: 1px;
   --sds-component-switch-border-radius: 9999px;
   --sds-component-switch-color-knob: #ffffff;
@@ -729,7 +729,7 @@
   --sds-component-switch-color-key-focus-border-color: #0099d8;
   --sds-component-switch-color-key-focus-foreground-color: #ffffff;
   --sds-component-switch-color-key-focus-background-color: #ffffff;
-  --sds-component-switch-color-hover-border-color: #dee0df;
+  --sds-component-switch-color-hover-border-color: #0099d8;
   --sds-component-switch-color-hover-foreground-color: #ffffff;
   --sds-component-switch-color-hover-background-color: #ffffff;
   --sds-component-switch-color-checked-border-color: #8b8b8b;
@@ -753,7 +753,7 @@
   --sds-component-checkbox-border-width-disabled: 1px;
   --sds-component-checkbox-border-width-error: 2px;
   --sds-component-checkbox-border-width-key-focus: 2px;
-  --sds-component-checkbox-border-width-hover: 1px;
+  --sds-component-checkbox-border-width-hover: 2px;
   --sds-component-checkbox-border-width-default: 1px;
   --sds-component-checkbox-border-radius: 4px;
   --sds-component-checkbox-color-label: #646464;
@@ -766,7 +766,7 @@
   --sds-component-checkbox-color-key-focus-border-color: #0099d8;
   --sds-component-checkbox-color-key-focus-foreground-color: #0670a0;
   --sds-component-checkbox-color-key-focus-background-color: #ffffff;
-  --sds-component-checkbox-color-hover-border-color: #8b8b8b;
+  --sds-component-checkbox-color-hover-border-color: #0099d8;
   --sds-component-checkbox-color-hover-foreground-color: #ffffff;
   --sds-component-checkbox-color-hover-background-color: #0670a0;
   --sds-component-checkbox-color-checked-border-color: #8b8b8b;
@@ -788,7 +788,7 @@
   --sds-component-radio-border-width-disabled: 1px;
   --sds-component-radio-border-width-error: 2px;
   --sds-component-radio-border-width-key-focus: 2px;
-  --sds-component-radio-border-width-hover: 1px;
+  --sds-component-radio-border-width-hover: 2px;
   --sds-component-radio-border-width-default: 1px;
   --sds-component-radio-border-radius: 9999px;
   --sds-component-radio-color-label: #646464;
@@ -801,9 +801,9 @@
   --sds-component-radio-color-key-focus-border-color: #0099d8;
   --sds-component-radio-color-key-focus-foreground-color: #0670a0;
   --sds-component-radio-color-key-focus-background-color: #ffffff;
-  --sds-component-radio-color-hover-border-color: #8b8b8b;
+  --sds-component-radio-color-hover-border-color: #0099d8;
   --sds-component-radio-color-hover-foreground-color: #0670a0;
-  --sds-component-radio-color-hover-background-color: #0670a0;
+  --sds-component-radio-color-hover-background-color: #ffffff;
   --sds-component-radio-color-checked-border-color: #8b8b8b;
   --sds-component-radio-color-checked-foreground-color: #0670a0;
   --sds-component-radio-color-checked-background-color: #ffffff;

@@ -59,7 +59,7 @@
               "foregound-color": "#092a42"
             },
             "hover": {
-              "background-color": "#092a42",
+              "background-color": "#0670a0",
               "foregound-color": "#ffffff"
             },
             "key-focus": {
@@ -1065,16 +1065,16 @@
     },
     "color": {
       "primary": {
-        "light": "#0099d8",
-        "base": "#0670a0",
-        "dark": "#092a42",
-        "darker": "#012139"
+        "base": "#0099d8",
+        "dark": "#0670a0",
+        "darker": "#092a42",
+        "darkest": "#012139"
       },
       "secondary": {
-        "base": "global.color.static.transparent.white.50",
-        "light": "global.color.static.transparent.white.50",
-        "dark": "global.color.static.transparent.white.50",
-        "darker": "global.color.static.transparent.white.50"
+        "base": "#e53e3e",
+        "dark": "#e53e3e",
+        "darker": "#e53e3e",
+        "darkest": "#e53e3e"
       },
       "background": {
         "base": "#ffffff",

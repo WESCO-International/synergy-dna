@@ -1,3 +1,22 @@
+## [1.1.35](https://github.com/wesco-international/synergy-dna/compare/v1.1.34...v1.1.35) (2023-03-06)
+
+
+### Bug Fixes
+
+* changed placeholder color to static.color.gray.500 ([37f8793](https://github.com/wesco-international/synergy-dna/commit/37f8793eeeebf364594d4a4bc1d55353b0d36f9b))
+* complete ([ec96349](https://github.com/wesco-international/synergy-dna/commit/ec963492ffee0284e66f3b08ee8d598fd8da7e88))
+* deploy to storybook directory ([2787b72](https://github.com/wesco-international/synergy-dna/commit/2787b724765b48c0bb60e81d6e72ba9003ee9214))
+* form text line height changed from 150% to 125% ([4af7b21](https://github.com/wesco-international/synergy-dna/commit/4af7b21ac514790a41fb1f288a87131cf04dc72d))
+* key focus color ([bb27711](https://github.com/wesco-international/synergy-dna/commit/bb2771163cc811395ecf2458ecc9ef24ec604ada))
+* no jekyll ([f18077d](https://github.com/wesco-international/synergy-dna/commit/f18077d47c5a6794a475396e1b0c0d9809a1d64f))
+* radio color updates ([2233f40](https://github.com/wesco-international/synergy-dna/commit/2233f405fcf81a98701173653f5ce5d5c5b23a5f))
+* remove no jekyll ([aae22db](https://github.com/wesco-international/synergy-dna/commit/aae22db014662f6695e27450d002eeeb09c3b496))
+* rename TARGET_FOLDER ([d85e798](https://github.com/wesco-international/synergy-dna/commit/d85e798d98bcdf9b569f7a092c2b8d3821e1512f))
+* selector updates ([1a91c52](https://github.com/wesco-international/synergy-dna/commit/1a91c523288f89bb2cded20a973dd9ddc016f667))
+* switch issues ([c201585](https://github.com/wesco-international/synergy-dna/commit/c201585d87ad566c34d9b5864e47c8ede87c9ca0))
+* updated semantic form text color to .color.gray.800 ([70d2d33](https://github.com/wesco-international/synergy-dna/commit/70d2d33bc4bbf93546fce8fa162a3adee1d5e738))
+* updates ([510cb1d](https://github.com/wesco-international/synergy-dna/commit/510cb1d1752c50f1a4fdd29a25b3f55459dee0d5))
+
 ## [1.1.34](https://github.com/wesco-international/synergy-dna/compare/v1.1.33...v1.1.34) (2023-03-02)
 
 

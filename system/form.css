@@ -7,6 +7,7 @@ form .group {
   margin-bottom: var(--sds-component-form-group-spacing-group-margin-bottom);
 }
 
+/* Form group label */
 form .group label {
   color: var(--sds-component-form-group-color-foreground-color-label-default);
   font-family: var(--sds-component-form-group-font-family-label);
@@ -27,6 +28,7 @@ form .group:has(select:required) > label::after {
   color: var(--sds-component-form-group-color-foreground-color-error-default);
 }
 
+/* Help text */
 form .group span {
   color: var(--sds-component-form-group-color-foreground-color-help-default);
   font-family: var(--sds-component-form-group-font-family-help);
@@ -44,65 +46,9 @@ textarea {
   @mixin base-text-field text-field;
 }
 
-/* Checkbox */
-input[type='checkbox'],
-input[type='radio'] {
-  opacity: 0;
-  appearance: none;
-  outline: none;
-  display: none;
-  position: relative;
-  cursor: pointer;
-
-  /* Default */
-  & + label::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: var(--sds-component-checkbox-color-default-background-color);
-    border-width: var(--sds-component-checkbox-border-width-default);
-    border-color: var(--sds-component-checkbox-color-default-border-color);
-    border-radius: var(--sds-component-checkbox-border-radius);
-    border-style: solid;
-  }
-
-  /* Label */
-  & + label {
-    position: relative;
-    padding-left: 30px;
-    cursor: pointer;
-    display: inline-block;
-    user-select: none;
-    font-family: var(--sds-component-checkbox-font-family-label);
-    font-weight: var(--sds-component-checkbox-font-weight-label);
-    letter-spacing: var(--sds-component-checkbox-letter-spacing-label);
-    text-decoration: var(--sds-component-checkbox-text-decoration-label);
-    text-transform: var(--sds-component-checkbox-text-case-label);
-    color: var(--sds-component-checkbox-color-label);
-    line-height: var(--sds-component-checkbox-line-height-label);
-  }
-
-  /* Background hover */
-  &:hover + label::before {
-    border-style: solid;
-    border-width: var(--sds-component-checkbox-border-width-hover);
-    border-color: var(--sds-component-checkbox-color-hover-border-color);
-    background-color: var(--sds-component-checkbox-color-hover-background-color);
-  }
-
-  /* Background focus-visible */
-  &:focus-visible + label::before {
-    outline:
-      var(--sds-component-checkbox-border-width-key-focus)
-      solid
-      var(--sds-component-checkbox-color-key-focus-border-color);
-    border-color: rgb(0 0 0 / 0%);
-    background-color: var(--sds-component-checkbox-color-key-focus-background-color);
-  }
-}
-
 [type='checkbox'] {
+  @mixin radiocheck checkbox;
+
   &:not(.switch) {
     /* Default checkbox state */
     & + label::before {
@@ -194,6 +140,14 @@ input[type='radio'] {
       transform: translateX(var(--x, 0));
     }
 
+    /* Background hover */
+    &:hover + label::before {
+      border-style: solid;
+      border-width: var(--sds-component-switch-border-width-hover);
+      border-color: var(--sds-component-switch-color-hover-border-color);
+      background-color: var(--sds-component-switch-color-hover-background-color);
+    }
+
     /* Checked switch background */
     &:checked + label::before {
       background-color: var(--sds-component-switch-color-checked-background-color);
@@ -218,8 +172,7 @@ input[type='radio'] {
 }
 
 input[type='radio'] {
-  appearance: none;
-  position: relative;
+  @mixin radiocheck radio;
 
   /* Default radio background */
   & + label::before {

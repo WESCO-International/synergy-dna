@@ -14,6 +14,7 @@
   text-decoration: var(--sds-component-$(type)-text-decoration-text);
   text-transform: var(--sds-component-$(type)-text-case-text);
   letter-spacing: var(--sds-component-$(type)-letter-spacing-text);
+  line-height: var(--sds-component-$(type)-field-line-height-text);
   border-style: solid;
 
   @mixin form-element $type, default;
@@ -37,19 +38,19 @@
     @mixin form-element $type, disabled;
 
     &::placeholder {
-      color: var(--sds-component-text-field-color-disabled-foreground-color);
+      color: var(--sds-component-$(type)-color-disabled-foreground-color);
     }
   }
 
   &::placeholder {
-    color: var(--sds-component-text-field-color-placeholder);
-    font-family: var(--sds-component-text-field-font-family-text);
-    line-height: var(--sds-component-text-field-line-height-text);
-    font-size: var(--sds-component-text-field-font-size-text);
-    font-weight: var(--sds-component-text-field-font-weight-text);
-    text-transform: var(--sds-component-text-field-text-case-text);
-    letter-spacing: var(--sds-component-text-field-letter-spacing-text);
-    text-decoration: var(--sds-component-text-field-text-decoration-text);
+    color: var(--sds-component-$(type)-color-placeholder);
+    font-family: var(--sds-component-$(type)-font-family-text);
+    line-height: var(--sds-component-$(type)-line-height-text);
+    font-size: var(--sds-component-$(type)-font-size-text);
+    font-weight: var(--sds-component-$(type)-font-weight-text);
+    text-transform: var(--sds-component-$(type)-text-case-text);
+    letter-spacing: var(--sds-component-$(type)-letter-spacing-text);
+    text-decoration: var(--sds-component-$(type)-text-decoration-text);
   }
 
   &:optional {
@@ -60,7 +61,7 @@
     @mixin form-element $type, disabled;
 
     &::placeholder {
-      color: var(--sds-component-text-field-color-disabled-foreground-color);
+      color: var(--sds-component-$(type)-color-disabled-foreground-color);
     }
   }
 
@@ -74,5 +75,60 @@
     @mixin form-element $type, error;
 
     box-shadow: 0 0 0 var(--sds-component-$(type)-border-width-key-focus) var(--sds-component-$(type)-color-error-border-color);
+  }
+}
+
+@define-mixin radiocheck $type {
+  opacity: 0;
+  appearance: none;
+  outline: none;
+  display: none;
+  position: relative;
+  cursor: pointer;
+
+  & + label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--sds-component-$(type)-color-default-background-color);
+    border-width: var(--sds-component-$(type)-border-width-default);
+    border-color: var(--sds-component-$(type)-color-default-border-color);
+    border-radius: var(--sds-component-$(type)-border-radius);
+    border-style: solid;
+  }
+
+  /* Label */
+  & + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    display: inline-block;
+    user-select: none;
+    font-family: var(--sds-component-$(type)-font-family-label);
+    font-weight: var(--sds-component-$(type)-font-weight-label);
+    letter-spacing: var(--sds-component-$(type)-letter-spacing-label);
+    text-decoration: var(--sds-component-$(type)-text-decoration-label);
+    text-transform: var(--sds-component-$(type)-text-case-label);
+    color: var(--sds-component-$(type)-color-label);
+    line-height: var(--sds-component-$(type)-line-height-label);
+  }
+
+  /* Background hover */
+  &:hover + label::before {
+    border-style: solid;
+    border-width: var(--sds-component-$(type)-border-width-hover);
+    border-color: var(--sds-component-$(type)-color-hover-border-color);
+    background-color: var(--sds-component-$(type)-color-hover-background-color);
+  }
+
+  /* Background focus-visible */
+  &:focus-visible + label::before {
+    outline:
+      var(--sds-component-$(type)-border-width-key-focus)
+      solid
+      var(--sds-component-$(type)-color-key-focus-border-color);
+    border-color: rgb(0 0 0 / 0%);
+    background-color: var(--sds-component-$(type)-color-key-focus-background-color);
   }
 }

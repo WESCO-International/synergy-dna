@@ -44,7 +44,7 @@
             },
             "hover": {
               "background-color": {
-                "value": "{semantic.color.primary.darker}",
+                "value": "{semantic.color.primary.dark}",
                 "type": "color"
               },
               "foregound-color": {

@@ -24,8 +24,8 @@
 }
 
 @define-mixin border-radius-bottom $size {
-  border-top-left-radius: var(--sds-semantic-border-radius-$(size));
-  border-top-right-radius: var(--sds-semantic-border-radius-$(size));
+  border-bottom-left-radius: var(--sds-semantic-border-radius-$(size));
+  border-bottom-right-radius: var(--sds-semantic-border-radius-$(size));
 }
 
 @define-mixin border-radius-left $size {

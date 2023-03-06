@@ -100,8 +100,9 @@
 
   /* Label */
   & + label {
+    @mixin padding-left 3xl;
+    
     position: relative;
-    padding-left: 30px;
     cursor: pointer;
     display: inline-block;
     user-select: none;

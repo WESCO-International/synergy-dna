@@ -14,7 +14,7 @@
   text-decoration: var(--sds-component-$(type)-text-decoration-text);
   text-transform: var(--sds-component-$(type)-text-case-text);
   letter-spacing: var(--sds-component-$(type)-letter-spacing-text);
-  line-height: var(--sds-component-$(type)-field-line-height-text);
+  line-height: var(--sds-component-$(type)-line-height-text);
   border-style: solid;
 
   @mixin form-element $type, default;

@@ -36,23 +36,23 @@
         "type": "fontFamilies"
       },
       "eyebrow": {
-        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
+        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "subtitle": {
-        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
+        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "caption": {
-        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
+        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "mono": {
-        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
+        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
+        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "icon": {

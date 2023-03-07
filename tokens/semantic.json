@@ -711,7 +711,7 @@
           "type": "color"
         }
       },
-      "seperator": {
+      "separator": {
         "on-base": {
           "value": "{global.color.static.gray.200}",
           "type": "color"

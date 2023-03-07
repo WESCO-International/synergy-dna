@@ -162,7 +162,7 @@
               "type": "color"
             }
           },
-          "sucess": {
+          "success": {
             "default": {
               "value": "{semantic.color.success.default}",
               "type": "color"
@@ -195,6 +195,12 @@
               "value": "{global.color.static.gray.800}",
               "type": "color"
             }
+          },
+          "input": {
+            "default": {
+              "value": "{global.color.static.white}",
+              "type": "color"
+            }
           }
         },
         "border": {
@@ -218,7 +224,7 @@
             "value": "{semantic.color.primary.base}",
             "type": "color"
           },
-          "sucess": {
+          "success": {
             "value": "{semantic.color.success.default}",
             "type": "color"
           }
@@ -227,14 +233,6 @@
           "input": {
             "default": {
               "value": "{semantic.color.background.input}",
-              "type": "color"
-            },
-            "dark": {
-              "value": "{semantic.color.background.layer-3}",
-              "type": "color"
-            },
-            "error": {
-              "value": "{semantic.color.error.default}",
               "type": "color"
             },
             "disabled": {

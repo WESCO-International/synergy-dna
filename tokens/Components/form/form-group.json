@@ -162,7 +162,7 @@
               "type": "color"
             }
           },
-          "sucess": {
+          "success": {
             "default": {
               "value": "{semantic.color.success.default}",
               "type": "color"

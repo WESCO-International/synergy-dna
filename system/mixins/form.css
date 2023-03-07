@@ -1,29 +1,29 @@
 @define-mixin form-element $type, $state {
-  color: var(--sds-component-$(type)-color-$(state)-foreground-color);
   border-radius: var(--sds-component-$(type)-border-radius);
+  color: var(--sds-component-$(type)-color-$(state)-foreground-color);
   border-color: var(--sds-component-$(type)-color-$(state)-border-color);
   background-color: var(--sds-component-$(type)-color-$(state)-background-color);
 }
 
 @define-mixin base-text-field $type {
-  padding: var(--sds-component-$(type)-spacing-padding-y) var(--sds-component-$(type)-spacing-padding-x);
-  font-family: var(--sds-component-$(type)-font-family-text);
+  border-style: solid;
   min-width: var(--sds-component-$(type)-min-width);
   font-size: var(--sds-component-$(type)-font-size-text);
+  font-family: var(--sds-component-$(type)-font-family-text);
   font-weight: var(--sds-component-$(type)-font-weight-text);
-  text-decoration: var(--sds-component-$(type)-text-decoration-text);
+  line-height: var(--sds-component-$(type)-line-height-text);
   text-transform: var(--sds-component-$(type)-text-case-text);
+  border-width: var(--sds-component-$(type)-border-width-default);
   letter-spacing: var(--sds-component-$(type)-letter-spacing-text);
-  border-style: solid;
+  text-decoration: var(--sds-component-$(type)-text-decoration-text);
+  padding: var(--sds-component-$(type)-spacing-padding-y) var(--sds-component-$(type)-spacing-padding-x);
 
   @mixin form-element $type, default;
-
-  border-width: var(--sds-component-$(type)-border-width-default);
 
   &:hover {
     @mixin form-element $type, hover;
 
-    border-width: var(--sds-component-$(type)-border-width-hover);
+    outline: var(--sds-component-$(type)-border-width-hover) solid var(--sds-component-$(type)-color-hover-border-color);
   }
 
   &:focus {
@@ -37,19 +37,19 @@
     @mixin form-element $type, disabled;
 
     &::placeholder {
-      color: var(--sds-component-text-field-color-disabled-foreground-color);
+      color: var(--sds-component-$(type)-color-disabled-foreground-color);
     }
   }
 
   &::placeholder {
-    color: var(--sds-component-text-field-color-placeholder);
-    font-family: var(--sds-component-text-field-font-family-text);
-    line-height: var(--sds-component-text-field-line-height-text);
-    font-size: var(--sds-component-text-field-font-size-text);
-    font-weight: var(--sds-component-text-field-font-weight-text);
-    text-transform: var(--sds-component-text-field-text-case-text);
-    letter-spacing: var(--sds-component-text-field-letter-spacing-text);
-    text-decoration: var(--sds-component-text-field-text-decoration-text);
+    color: var(--sds-component-$(type)-color-placeholder);
+    font-size: var(--sds-component-$(type)-font-size-text);
+    font-family: var(--sds-component-$(type)-font-family-text);
+    line-height: var(--sds-component-$(type)-line-height-text);
+    font-weight: var(--sds-component-$(type)-font-weight-text);
+    text-transform: var(--sds-component-$(type)-text-case-text);
+    letter-spacing: var(--sds-component-$(type)-letter-spacing-text);
+    text-decoration: var(--sds-component-$(type)-text-decoration-text);
   }
 
   &:optional {
@@ -60,7 +60,7 @@
     @mixin form-element $type, disabled;
 
     &::placeholder {
-      color: var(--sds-component-text-field-color-disabled-foreground-color);
+      color: var(--sds-component-$(type)-color-disabled-foreground-color);
     }
   }
 
@@ -74,5 +74,61 @@
     @mixin form-element $type, error;
 
     box-shadow: 0 0 0 var(--sds-component-$(type)-border-width-key-focus) var(--sds-component-$(type)-color-error-border-color);
+  }
+}
+
+@define-mixin radiocheck $type {
+  opacity: 0;
+  outline: none;
+  display: none;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+
+  & + label::before {
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-radius: var(--sds-component-$(type)-border-radius);
+    border-width: var(--sds-component-$(type)-border-width-default);
+    border-color: var(--sds-component-$(type)-color-default-border-color);
+    background-color: var(--sds-component-$(type)-color-default-background-color);
+  }
+
+  /* Label */
+  & + label {
+    @mixin padding-left 3xl;
+    @mixin margin-right lg;
+
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    display: inline-block;
+    color: var(--sds-component-$(type)-color-label);
+    font-family: var(--sds-component-$(type)-font-family-label);
+    font-weight: var(--sds-component-$(type)-font-weight-label);
+    line-height: var(--sds-component-$(type)-line-height-label);
+    text-transform: var(--sds-component-$(type)-text-case-label);
+    letter-spacing: var(--sds-component-$(type)-letter-spacing-label);
+    text-decoration: var(--sds-component-$(type)-text-decoration-label);
+  }
+
+  &:not(.switch) {
+    /* Background hover */
+    &:hover + label::before {
+      border-style: solid;
+      border-width: var(--sds-component-$(type)-border-width-hover);
+      border-color: var(--sds-component-$(type)-color-hover-border-color);
+      background-color: var(--sds-component-$(type)-color-hover-background-color);
+    }
+  }
+
+  /* Background focus-visible */
+  &:focus-visible + label::before {
+    border-color: rgb(0 0 0 / 0%);
+    background-color: var(--sds-component-$(type)-color-key-focus-background-color);
+    outline: var(--sds-component-$(type)-border-width-key-focus) solid var(--sds-component-$(type)-color-key-focus-border-color);
   }
 }

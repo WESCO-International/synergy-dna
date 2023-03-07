@@ -5,7 +5,7 @@
         "topbar": {
           "background": {
             "base": {
-              "value": "{global.color.brand.xpressconnect.primary.darker}",
+              "value": "{global.color.brand.eecol.primary.darkest}",
               "type": "color"
             }
           },
@@ -19,7 +19,7 @@
         "linksbar": {
           "background": {
             "base": {
-              "value": "{global.color.brand.xpressconnect.primary.darkest}",
+              "value": "{global.color.brand.eecol.primary.darker}",
               "type": "color"
             }
           },
@@ -33,7 +33,7 @@
         "bottombar": {
           "background": {
             "base": {
-              "value": "{global.color.brand.xpressconnect.primary.darker}",
+              "value": "{global.color.brand.eecol.primary.darkest}",
               "type": "color"
             }
           },
@@ -44,7 +44,7 @@
             }
           }
         },
-        "seperator": {
+        "separator": {
           "value": "{semantic.color.separator.on-layer-2}",
           "type": "color"
         }

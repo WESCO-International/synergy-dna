@@ -519,19 +519,19 @@
       },
       "secondary": {
         "base": {
-          "value": "global.color.static.transparent.white.50",
+          "value": "{global.color.brand.XpressConnect.secondary.base}",
           "type": "color"
         },
         "light": {
-          "value": "global.color.static.transparent.white.50",
+          "value": "{global.color.brand.XpressConnect.secondary.dark}",
           "type": "color"
         },
         "dark": {
-          "value": "global.color.static.transparent.white.50",
+          "value": "{global.color.brand.XpressConnect.secondary.darker}",
           "type": "color"
         },
         "darker": {
-          "value": "global.color.static.transparent.white.50",
+          "value": "{global.color.brand.XpressConnect.secondary.darkest}",
           "type": "color"
         }
       },
@@ -545,11 +545,11 @@
           "type": "color"
         },
         "layer-2": {
-          "value": "{global.color.brand.eecol.primary.darkest}",
+          "value": "{global.color.brand.XpressConnect.primary.darkest}",
           "type": "color"
         },
         "layer-3": {
-          "value": "{global.color.brand.eecol.primary.dark}",
+          "value": "{global.color.brand.XpressConnect.primary.dark}",
           "type": "color"
         },
         "disabled": {
@@ -572,7 +572,7 @@
             "type": "color"
           },
           "heading": {
-            "value": "{global.color.brand.eecol.primary.darkest}",
+            "value": "{global.color.brand.XpressConnect.primary.darkest}",
             "type": "color"
           },
           "subtle": {
@@ -590,7 +590,7 @@
             "type": "color"
           },
           "heading": {
-            "value": "{global.color.brand.eecol.primary.darkest}",
+            "value": "{global.color.brand.XpressConnect.primary.darkest}",
             "type": "color"
           },
           "subtle": {
@@ -699,7 +699,7 @@
           "type": "color"
         },
         "key-focus": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.XpressConnect.primary.base}",
           "type": "color"
         },
         "disabled": {
@@ -709,11 +709,11 @@
       },
       "link": {
         "base": {
-          "value": "{global.color.brand.eecol.primary.dark}",
+          "value": "{global.color.brand.XpressConnect.primary.dark}",
           "type": "color"
         },
         "hover": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.XpressConnect.primary.base}",
           "type": "color"
         }
       },

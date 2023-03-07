@@ -158,7 +158,7 @@
               "type": "color"
             },
             "active": {
-              "value": "{semantic.color.primary.darker}",
+              "value": "{semantic.color.primary.darkest}",
               "type": "color"
             }
           },
@@ -186,7 +186,7 @@
               "type": "color"
             },
             "hover": {
-              "value": "{semantic.color.primary.light}",
+              "value": "{semantic.color.primary.base}",
               "type": "color"
             }
           },
@@ -215,7 +215,7 @@
             "type": "color"
           },
           "key-focus": {
-            "value": "{semantic.color.primary.light}",
+            "value": "{semantic.color.primary.base}",
             "type": "color"
           },
           "sucess": {

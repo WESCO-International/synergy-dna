@@ -5,7 +5,7 @@
         "topbar": {
           "background-color": {
             "base": {
-              "value": "{semantic.color.primary.dark}",
+              "value": "{semantic.color.primary.darker}",
               "type": "color"
             }
           },
@@ -25,7 +25,7 @@
           },
           "foreground-color": {
             "base": {
-              "value": "{semantic.color.primary.dark}",
+              "value": "{semantic.color.primary.darker}",
               "type": "color"
             }
           }
@@ -38,7 +38,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               }
             },
@@ -54,7 +54,7 @@
             },
             "key-focus": {
               "background-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               },
               "foregound-color": {
@@ -62,7 +62,7 @@
                 "type": "color"
               },
               "border-color": {
-                "value": "{semantic.color.primary.light}",
+                "value": "{semantic.color.primary.base}",
                 "type": "color"
               }
             }
@@ -74,7 +74,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               }
             },
@@ -84,7 +84,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               }
             },
@@ -94,11 +94,11 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               },
               "border-color": {
-                "value": "{semantic.color.primary.light}",
+                "value": "{semantic.color.primary.base}",
                 "type": "color"
               }
             }
@@ -110,7 +110,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               }
             },
@@ -120,7 +120,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               }
             },
@@ -130,11 +130,11 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               },
               "border-color": {
-                "value": "{semantic.color.primary.light}",
+                "value": "{semantic.color.primary.base}",
                 "type": "color"
               }
             }
@@ -146,7 +146,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               }
             },
@@ -156,7 +156,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               }
             },
@@ -166,11 +166,11 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               },
               "border-color": {
-                "value": "{semantic.color.primary.light}",
+                "value": "{semantic.color.primary.base}",
                 "type": "color"
               }
             }
@@ -182,7 +182,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               }
             },
@@ -192,7 +192,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               }
             },
@@ -202,11 +202,11 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               },
               "border-color": {
-                "value": "{semantic.color.primary.light}",
+                "value": "{semantic.color.primary.base}",
                 "type": "color"
               }
             }
@@ -218,7 +218,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               }
             },
@@ -228,7 +228,7 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               }
             },
@@ -238,11 +238,11 @@
                 "type": "color"
               },
               "foregound-color": {
-                "value": "{semantic.color.primary.dark}",
+                "value": "{semantic.color.primary.darker}",
                 "type": "color"
               },
               "border-color": {
-                "value": "{semantic.color.primary.light}",
+                "value": "{semantic.color.primary.base}",
                 "type": "color"
               }
             }

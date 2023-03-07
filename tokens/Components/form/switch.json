@@ -18,7 +18,7 @@
         },
         "checked": {
           "background-color": {
-            "value": "{semantic.color.primary.base}",
+            "value": "{semantic.color.primary.dark}",
             "type": "color"
           },
           "foreground-color": {

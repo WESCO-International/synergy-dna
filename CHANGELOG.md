@@ -1,3 +1,13 @@
+## [1.1.36](https://github.com/wesco-international/synergy-dna/compare/v1.1.35...v1.1.36) (2023-03-07)
+
+
+### Bug Fixes
+
+* form-group stacking ([5452392](https://github.com/wesco-international/synergy-dna/commit/5452392523d77d22e04e723af4f973e374739806))
+* global color change and XPC semantic change ([db05b55](https://github.com/wesco-international/synergy-dna/commit/db05b55983f24b7e7ec961793a82f1721be33d6d))
+* header hover issue ([abff9d2](https://github.com/wesco-international/synergy-dna/commit/abff9d2dbfbece495686ee00e7ed52e336261898))
+* yellow global update ([ad4097d](https://github.com/wesco-international/synergy-dna/commit/ad4097d211066aa7774d3aed5786d41b140ff918))
+
 ## [1.1.35](https://github.com/wesco-international/synergy-dna/compare/v1.1.34...v1.1.35) (2023-03-06)
 
 

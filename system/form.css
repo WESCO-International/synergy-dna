@@ -8,7 +8,7 @@ form .group {
 }
 
 /* Form group label */
-form .group label {
+form .group > label {
   padding-right: 20px;
   font-size: var(--sds-component-form-group-font-size-label);
   font-family: var(--sds-component-form-group-font-family-label);

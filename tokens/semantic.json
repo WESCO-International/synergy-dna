@@ -568,7 +568,7 @@
       "foreground": {
         "on-base": {
           "default": {
-            "value": "{global.color.static.gray.800}",
+            "value": "{global.color.brand.sds.secondary.base}",
             "type": "color"
           },
           "heading": {
@@ -586,7 +586,7 @@
         },
         "on-layer-1": {
           "default": {
-            "value": "{global.color.static.gray.800}",
+            "value": "{global.color.brand.sds.secondary.base}",
             "type": "color"
           },
           "heading": {

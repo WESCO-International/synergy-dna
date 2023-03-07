@@ -67,9 +67,6 @@
       "Patterns/header": "enabled",
       "Patterns/footer": "enabled",
       "Patterns/modal": "enabled",
-      "Brands/XpressConnect/Components/buttons": "enabled",
-      "Brands/XpressConnect/Patterns/header": "enabled",
-      "Brands/XpressConnect/Patterns/footer": "enabled",
       "Brands/XpressConnect/semantic": "enabled"
     },
     "$figmaStyleReferences": {}

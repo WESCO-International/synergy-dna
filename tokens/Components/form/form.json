@@ -209,7 +209,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "{semantic.color.foreground.on-base.default}",
+            "value": "{semantic.color.border.hover}",
             "type": "color"
           },
           "disable": {

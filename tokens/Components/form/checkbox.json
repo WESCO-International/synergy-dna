@@ -40,7 +40,7 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{component.form.color.border.key-focus}",
+            "value": "{component.form.color.border.hover}",
             "type": "color"
           }
         },

@@ -15,19 +15,17 @@
     "Patterns/header",
     "Patterns/footer",
     "Patterns/modal",
+    "Brands/Wesco/semantic",
+    "Brands/Wesco/Components/buttons",
+    "Brands/Wesco/Patterns/header",
+    "Brands/Wesco/Patterns/footer",
     "Brands/EECOL/semantic",
-    "Brands/XpressConnect/semantic",
     "Brands/EECOL/Components/buttons",
     "Brands/EECOL/Patterns/header",
     "Brands/EECOL/Patterns/footer",
-    "Brands/EECOL/dark-theme",
+    "Brands/XpressConnect/semantic",
     "Brands/XpressConnect/Components/buttons",
     "Brands/XpressConnect/Patterns/header",
-    "Brands/XpressConnect/Patterns/footer",
-    "Brands/Wesco/Components/buttons",
-    "Brands/Wesco/semantic",
-    "Brands/Wesco/light",
-    "Brands/Wesco/Patterns/header",
-    "Brands/Wesco/Patterns/footer"
+    "Brands/XpressConnect/Patterns/footer"
   ]
 }

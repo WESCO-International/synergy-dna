@@ -2,23 +2,51 @@
   "pattern": {
     "footer": {
       "color": {
-        "background": {
-          "base": {
-            "value": "{global.color.brand.eecol.primary.darkest}",
-            "type": "color"
+        "topbar": {
+          "background": {
+            "base": {
+              "value": "{global.color.brand.sds.primary.darkest}",
+              "type": "color"
+            }
+          },
+          "foreground": {
+            "base": {
+              "value": "{global.color.static.white}",
+              "type": "color"
+            }
           }
         },
-        "foreground": {
-          "on-base": {
-            "value": "{global.color.static.white}",
-            "type": "color"
+        "linksbar": {
+          "background": {
+            "base": {
+              "value": "{global.color.brand.sds.primary.darker}",
+              "type": "color"
+            }
+          },
+          "foreground": {
+            "base": {
+              "value": "{global.color.static.white}",
+              "type": "color"
+            }
           }
         },
-        "seperator": {
-          "on-base": {
-            "value": "#646464",
-            "type": "color"
+        "bottombar": {
+          "background": {
+            "base": {
+              "value": "{global.color.brand.sds.primary.darkest}",
+              "type": "color"
+            }
+          },
+          "foreground": {
+            "base": {
+              "value": "{global.color.static.white}",
+              "type": "color"
+            }
           }
+        },
+        "separator": {
+          "value": "{semantic.color.separator.on-layer-2}",
+          "type": "color"
         }
       }
     }

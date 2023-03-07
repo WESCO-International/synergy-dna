@@ -929,37 +929,37 @@
         "wesco": {
           "primary": {
             "base": {
-              "value": "#4F758B",
+              "value": "#00AA13",
               "type": "color"
             },
             "dark": {
-              "value": "#1D252D",
+              "value": "#4F758B",
               "type": "color"
             },
             "darker": {
-              "value": "{global.color.static.transparent.white.50}",
+              "value": "#1D252D",
               "type": "color"
             },
             "darkest": {
-              "value": "{global.color.static.transparent.white.50}",
+              "value": "#222222",
               "type": "color"
             }
           },
           "secondary": {
             "base": {
-              "value": "#00AA13",
+              "value": "{global.color.static.red.600}",
               "type": "color"
             },
             "dark": {
-              "value": "{global.color.static.transparent.white.50}",
+              "value": "{global.color.static.red.600}",
               "type": "color"
             },
             "darker": {
-              "value": "{global.color.static.transparent.white.50}",
+              "value": "{global.color.static.red.600}",
               "type": "color"
             },
             "darkest": {
-              "value": "{global.color.static.transparent.white.50}",
+              "value": "{global.color.static.red.600}",
               "type": "color"
             }
           }

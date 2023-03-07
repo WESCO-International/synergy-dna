@@ -5,7 +5,7 @@
         "topbar": {
           "background": {
             "base": {
-              "value": "{global.color.brand.sds.primary.darkest}",
+              "value": "{global.color.brand.wesco.primary.darkest}",
               "type": "color"
             }
           },
@@ -19,7 +19,7 @@
         "linksbar": {
           "background": {
             "base": {
-              "value": "{global.color.brand.sds.primary.darker}",
+              "value": "{global.color.brand.wesco.primary.darker}",
               "type": "color"
             }
           },
@@ -33,7 +33,7 @@
         "bottombar": {
           "background": {
             "base": {
-              "value": "{global.color.brand.sds.primary.darkest}",
+              "value": "{global.color.brand.wesco.primary.darkest}",
               "type": "color"
             }
           },

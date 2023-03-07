@@ -16,8 +16,7 @@
       "Components/form/radio": "enabled",
       "Patterns/header": "enabled",
       "Patterns/footer": "enabled",
-      "Patterns/modal": "enabled",
-      "Brands/XpressConnect/semantic": "disabled"
+      "Patterns/modal": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -42,8 +41,7 @@
       "Brands/EECOL/semantic": "enabled",
       "Brands/EECOL/Components/buttons": "enabled",
       "Brands/EECOL/Patterns/header": "enabled",
-      "Brands/EECOL/Patterns/footer": "enabled",
-      "Brands/XpressConnect/semantic": "disabled"
+      "Brands/EECOL/Patterns/footer": "enabled"
     },
     "$figmaStyleReferences": {
       "semantic.typography.body.md": "S:143ccdecbbe85d297becf1ecf3ac11bc90771c3e,"

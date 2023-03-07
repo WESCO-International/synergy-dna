@@ -20,11 +20,7 @@
       "Brands/XpressConnect/semantic": "enabled",
       "Brands/XpressConnect/Components/buttons": "enabled",
       "Brands/XpressConnect/Patterns/header": "enabled",
-      "Brands/XpressConnect/Patterns/footer": "enabled",
-      "Brands/EECOL/semantic": "disabled",
-      "Brands/EECOL/Components/buttons": "disabled",
-      "Brands/EECOL/Patterns/header": "disabled",
-      "Brands/EECOL/Patterns/footer": "disabled"
+      "Brands/XpressConnect/Patterns/footer": "enabled"
     },
     "$figmaStyleReferences": {}
   },

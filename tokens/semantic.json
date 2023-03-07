@@ -28,31 +28,31 @@
     },
     "font-family": {
       "display": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "heading": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "eyebrow": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "subtitle": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "caption": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "mono": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "icon": {
@@ -545,11 +545,11 @@
           "type": "color"
         },
         "layer-2": {
-          "value": "{global.color.brand.eecol.primary.darkest}",
+          "value": "{global.color.brand.sds.primary.darkest}",
           "type": "color"
         },
         "layer-3": {
-          "value": "{global.color.brand.eecol.primary.dark}",
+          "value": "{global.color.brand.sds.primary.dark}",
           "type": "color"
         },
         "disabled": {
@@ -572,7 +572,7 @@
             "type": "color"
           },
           "heading": {
-            "value": "{global.color.brand.eecol.primary.darkest}",
+            "value": "{global.color.brand.sds.primary.darkest}",
             "type": "color"
           },
           "subtle": {
@@ -590,7 +590,7 @@
             "type": "color"
           },
           "heading": {
-            "value": "{global.color.brand.eecol.primary.darkest}",
+            "value": "{global.color.brand.sds.primary.darkest}",
             "type": "color"
           },
           "subtle": {
@@ -685,7 +685,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.sds.primary.base}",
           "type": "color"
         },
         "down": {
@@ -693,7 +693,7 @@
           "type": "color"
         },
         "key-focus": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.sds.primary.base}",
           "type": "color"
         },
         "disabled": {
@@ -703,11 +703,11 @@
       },
       "link": {
         "base": {
-          "value": "{global.color.brand.eecol.primary.dark}",
+          "value": "{global.color.brand.sds.primary.dark}",
           "type": "color"
         },
         "hover": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.sds.primary.base}",
           "type": "color"
         }
       },

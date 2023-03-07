@@ -48,28 +48,6 @@
     }
   },
   {
-    "id": "4b79b6e990de245d87a6bbb3fb4e57faaf921b3e",
-    "name": "XPC",
-    "selectedTokenSets": {
-      "global": "source",
-      "light": "enabled",
-      "semantic": "enabled",
-      "Components/buttons": "enabled",
-      "Components/form/form": "source",
-      "Components/form/form-group": "enabled",
-      "Components/form/text-field": "enabled",
-      "Components/form/select": "enabled",
-      "Components/form/switch": "enabled",
-      "Components/form/checkbox": "enabled",
-      "Components/form/radio": "enabled",
-      "Patterns/header": "enabled",
-      "Patterns/footer": "enabled",
-      "Patterns/modal": "enabled",
-      "Brands/XpressConnect/semantic": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
     "id": "ee61a446495e40685f2aa5584b7c410aa40376f7",
     "name": "Wesco",
     "selectedTokenSets": {
@@ -91,6 +69,31 @@
       "Brands/Wesco/semantic": "enabled",
       "Brands/Wesco/Patterns/header": "enabled",
       "Brands/Wesco/Patterns/footer": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "4b79b6e990de245d87a6bbb3fb4e57faaf921b3e",
+    "name": "XPC",
+    "selectedTokenSets": {
+      "global": "source",
+      "light": "enabled",
+      "semantic": "enabled",
+      "Components/buttons": "enabled",
+      "Components/form/form": "source",
+      "Components/form/form-group": "enabled",
+      "Components/form/text-field": "enabled",
+      "Components/form/select": "enabled",
+      "Components/form/switch": "enabled",
+      "Components/form/checkbox": "enabled",
+      "Components/form/radio": "enabled",
+      "Patterns/header": "enabled",
+      "Patterns/footer": "enabled",
+      "Patterns/modal": "enabled",
+      "Brands/XpressConnect/semantic": "enabled",
+      "Brands/XpressConnect/Components/buttons": "enabled",
+      "Brands/XpressConnect/Patterns/header": "enabled",
+      "Brands/XpressConnect/Patterns/footer": "enabled"
     },
     "$figmaStyleReferences": {}
   }

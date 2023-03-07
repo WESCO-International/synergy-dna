@@ -22,7 +22,7 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.primary.light}",
+            "value": "{semantic.color.primary.base}",
             "type": "color"
           },
           "border-color": {
@@ -36,7 +36,7 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.primary.base}",
+            "value": "{semantic.color.primary.dark}",
             "type": "color"
           },
           "border-color": {
@@ -50,7 +50,7 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{semantic.color.primary.base}",
+            "value": "{semantic.color.primary.dark}",
             "type": "color"
           },
           "border-color": {

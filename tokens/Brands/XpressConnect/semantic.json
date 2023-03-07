@@ -28,31 +28,31 @@
     },
     "font-family": {
       "display": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "heading": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "eyebrow": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "subtitle": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "caption": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "mono": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "icon": {
@@ -500,38 +500,38 @@
     },
     "color": {
       "primary": {
-        "light": {
-          "value": "{global.color.brand.xpressconnect.primary.base}",
-          "type": "color"
-        },
         "base": {
-          "value": "{global.color.brand.xpressconnect.primary.dark}",
+          "value": "{global.color.brand.sds.primary.base}",
           "type": "color"
         },
         "dark": {
-          "value": "{global.color.brand.xpressconnect.primary.darker}",
+          "value": "{global.color.brand.sds.primary.dark}",
           "type": "color"
         },
         "darker": {
-          "value": "{global.color.brand.xpressconnect.primary.darkest}",
+          "value": "{global.color.brand.sds.primary.darker}",
+          "type": "color"
+        },
+        "darkest": {
+          "value": "{global.color.brand.sds.primary.darkest}",
           "type": "color"
         }
       },
       "secondary": {
         "base": {
-          "value": "{global.color.brand.xpressconnect.secondary.base}",
-          "type": "color"
-        },
-        "light": {
-          "value": "{global.color.brand.xpressconnect.secondary.dark}",
+          "value": "{global.color.brand.sds.secondary.base}",
           "type": "color"
         },
         "dark": {
-          "value": "{global.color.brand.xpressconnect.secondary.darker}",
+          "value": "{global.color.brand.sds.secondary.dark}",
           "type": "color"
         },
         "darker": {
-          "value": "{global.color.brand.xpressconnect.secondary.darkest}",
+          "value": "{global.color.brand.sds.secondary.darker}",
+          "type": "color"
+        },
+        "darkest": {
+          "value": "{global.color.brand.sds.secondary.darkest}",
           "type": "color"
         }
       },
@@ -545,11 +545,11 @@
           "type": "color"
         },
         "layer-2": {
-          "value": "{global.color.brand.xpressconnect.primary.darkest}",
+          "value": "{global.color.brand.sds.primary.darkest}",
           "type": "color"
         },
         "layer-3": {
-          "value": "{global.color.brand.xpressconnect.primary.dark}",
+          "value": "{global.color.brand.sds.primary.dark}",
           "type": "color"
         },
         "disabled": {
@@ -572,7 +572,7 @@
             "type": "color"
           },
           "heading": {
-            "value": "{global.color.brand.xpressconnect.primary.darkest}",
+            "value": "{global.color.brand.sds.primary.darkest}",
             "type": "color"
           },
           "subtle": {
@@ -590,7 +590,7 @@
             "type": "color"
           },
           "heading": {
-            "value": "{global.color.brand.xpressconnect.primary.darkest}",
+            "value": "{global.color.brand.sds.primary.darkest}",
             "type": "color"
           },
           "subtle": {
@@ -649,12 +649,6 @@
             "value": "{global.color.static.gray.800}",
             "type": "color"
           }
-        },
-        "on-input": {
-          "default": {
-            "value": "{theme.color.gray.800}",
-            "type": "color"
-          }
         }
       },
       "success": {
@@ -691,7 +685,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{global.color.static.gray.200}",
+          "value": "{global.color.brand.sds.primary.base}",
           "type": "color"
         },
         "down": {
@@ -699,7 +693,7 @@
           "type": "color"
         },
         "key-focus": {
-          "value": "{global.color.brand.xpressconnect.primary.base}",
+          "value": "{global.color.brand.sds.primary.base}",
           "type": "color"
         },
         "disabled": {
@@ -709,15 +703,15 @@
       },
       "link": {
         "base": {
-          "value": "{global.color.brand.xpressconnect.primary.dark}",
+          "value": "{global.color.brand.sds.primary.dark}",
           "type": "color"
         },
         "hover": {
-          "value": "{global.color.brand.xpressconnect.primary.base}",
+          "value": "{global.color.brand.sds.primary.base}",
           "type": "color"
         }
       },
-      "seperator": {
+      "separator": {
         "on-base": {
           "value": "{global.color.static.gray.200}",
           "type": "color"
@@ -743,6 +737,18 @@
       },
       "md": {
         "value": "{global.radii.100}",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": "{global.radii.200}",
+        "type": "borderRadius"
+      },
+      "xl": {
+        "value": "{global.radii.300}",
+        "type": "borderRadius"
+      },
+      "2xl": {
+        "value": "{global.radii.400}",
         "type": "borderRadius"
       },
       "default": {
@@ -839,6 +845,10 @@
       },
       "gap": {
         "component": {
+          "2xs": {
+            "value": "{global.space.35}",
+            "type": "spacing"
+          },
           "xs": {
             "value": "{global.space.100}",
             "type": "spacing"

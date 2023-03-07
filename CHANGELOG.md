@@ -1,3 +1,10 @@
+## [1.1.37](https://github.com/wesco-international/synergy-dna/compare/v1.1.36...v1.1.37) (2023-03-07)
+
+
+### Bug Fixes
+
+* add margin right to radio, fix element labels ([e4ab8a9](https://github.com/wesco-international/synergy-dna/commit/e4ab8a9c5364636a28702675e004db5ef924ad4a))
+
 ## [1.1.36](https://github.com/wesco-international/synergy-dna/compare/v1.1.35...v1.1.36) (2023-03-07)
 
 

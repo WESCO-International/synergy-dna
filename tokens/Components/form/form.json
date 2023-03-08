@@ -205,7 +205,7 @@
         },
         "border": {
           "default": {
-            "value": "{semantic.color.border.base}",
+            "value": "{global.color.static.gray.600}",
             "type": "color"
           },
           "hover": {

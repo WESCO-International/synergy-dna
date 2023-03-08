@@ -1,3 +1,11 @@
+## [1.1.40](https://github.com/wesco-international/synergy-dna/compare/v1.1.39...v1.1.40) (2023-03-08)
+
+
+### Bug Fixes
+
+* border color ([bfe9cf4](https://github.com/wesco-international/synergy-dna/commit/bfe9cf456b3c44b42b2a86738d6aff6254e80ad6))
+* other brands updated border color that was overiding previous fix ([29133b6](https://github.com/wesco-international/synergy-dna/commit/29133b6aac8865938e1c04f8b00eb25d36c237d5))
+
 ## [1.1.39](https://github.com/wesco-international/synergy-dna/compare/v1.1.38...v1.1.39) (2023-03-08)
 
 

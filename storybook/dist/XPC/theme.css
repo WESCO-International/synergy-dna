@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 Mar 2023 14:45:11 GMT
+ * Generated on Wed, 08 Mar 2023 20:30:54 GMT
  */
 
 :root {
@@ -352,7 +352,7 @@
   --sds-component-select-border-width-default: 1px;
   --sds-component-select-round: 9999px;
   --sds-component-select-border-radius: 4px;
-  --sds-component-select-color-icon: #8b8b8b;
+  --sds-component-select-color-icon: #dee0df;
   --sds-component-select-color-placeholder: #909090;
   --sds-component-select-color-disabled-border-color: #b3b5b4;
   --sds-component-select-color-disabled-foreground-color: #646464;
@@ -404,10 +404,10 @@
   --sds-component-switch-color-hover-border-color: #f28b00;
   --sds-component-switch-color-hover-foreground-color: #ffffff;
   --sds-component-switch-color-hover-background-color: #ffffff;
-  --sds-component-switch-color-checked-border-color: #8b8b8b;
+  --sds-component-switch-color-checked-border-color: #dee0df;
   --sds-component-switch-color-checked-foreground-color: #ffffff;
   --sds-component-switch-color-checked-background-color: #db6b30;
-  --sds-component-switch-color-default-border-color: #8b8b8b;
+  --sds-component-switch-color-default-border-color: #dee0df;
   --sds-component-switch-color-default-foreground-color: #ffffff;
   --sds-component-switch-color-default-background-color: #ffffff;
   --sds-component-checkbox-sizing-toggle-height: 20px;
@@ -835,7 +835,7 @@
   --sds-semantic-color-border-key-focus: #f28b00;
   --sds-semantic-color-border-down: #dee0df;
   --sds-semantic-color-border-hover: #f28b00;
-  --sds-semantic-color-border-base: #8b8b8b;
+  --sds-semantic-color-border-base: #dee0df;
   --sds-semantic-color-transparent: #00000000;
   --sds-semantic-color-informative-default: #035F98;
   --sds-semantic-color-warning-default: #EAAA00;

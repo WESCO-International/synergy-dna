@@ -1,3 +1,10 @@
+## [1.1.41](https://github.com/wesco-international/synergy-dna/compare/v1.1.40...v1.1.41) (2023-03-08)
+
+
+### Bug Fixes
+
+* switch and select border colors ([ae3b447](https://github.com/wesco-international/synergy-dna/commit/ae3b447e052c86c4edba422be910ef278dc43912))
+
 ## [1.1.40](https://github.com/wesco-international/synergy-dna/compare/v1.1.39...v1.1.40) (2023-03-08)
 
 

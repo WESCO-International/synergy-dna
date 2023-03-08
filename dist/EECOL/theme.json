@@ -535,12 +535,12 @@
         "default": {
           "background-color": "#ffffff",
           "foreground-color": "#ffffff",
-          "border-color": "#8b8b8b"
+          "border-color": "#dee0df"
         },
         "checked": {
           "background-color": "#0670a0",
           "foreground-color": "#ffffff",
-          "border-color": "#8b8b8b"
+          "border-color": "#dee0df"
         },
         "hover": {
           "background-color": "#ffffff",
@@ -653,7 +653,7 @@
           "border-color": "#b3b5b4"
         },
         "placeholder": "#909090",
-        "icon": "#8b8b8b"
+        "icon": "#dee0df"
       },
       "border-radius": "4px",
       "round": "9999px",
@@ -954,7 +954,7 @@
       },
       "transparent": "#00000000",
       "border": {
-        "base": "#8b8b8b",
+        "base": "#dee0df",
         "hover": "#0099d8",
         "down": "#dee0df",
         "key-focus": "#0099d8",

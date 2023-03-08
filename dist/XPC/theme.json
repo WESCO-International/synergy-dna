@@ -68,7 +68,7 @@
       },
       "transparent": "#00000000",
       "border": {
-        "base": "#8b8b8b",
+        "base": "#dee0df",
         "hover": "#f28b00",
         "down": "#dee0df",
         "key-focus": "#f28b00",
@@ -1338,12 +1338,12 @@
         "default": {
           "background-color": "#ffffff",
           "foreground-color": "#ffffff",
-          "border-color": "#8b8b8b"
+          "border-color": "#dee0df"
         },
         "checked": {
           "background-color": "#db6b30",
           "foreground-color": "#ffffff",
-          "border-color": "#8b8b8b"
+          "border-color": "#dee0df"
         },
         "hover": {
           "background-color": "#ffffff",
@@ -1456,7 +1456,7 @@
           "border-color": "#b3b5b4"
         },
         "placeholder": "#909090",
-        "icon": "#8b8b8b"
+        "icon": "#dee0df"
       },
       "border-radius": "4px",
       "round": "9999px",

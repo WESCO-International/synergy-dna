@@ -6,7 +6,6 @@
 	border-width: var(--sds-component-button-border-width-$(type)-$(state));
 	border-radius: var(--sds-component-button-border-radius-$(type));
 	border-color: var(--sds-component-button-color-$(type)-$(state)-border-color);
-	margin: calc(var(--sds-component-button-border-width-$(type)-$(state)) * -1);
 
 	& .icon svg {
 		& path {

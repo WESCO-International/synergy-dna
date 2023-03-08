@@ -1433,7 +1433,7 @@
         "hover": {
           "background-color": "#ffffff",
           "foreground-color": "#646464",
-          "border-color": "#8b8b8b"
+          "border-color": "#f28b00"
         },
         "key-focus": {
           "background-color": "#ffffff",

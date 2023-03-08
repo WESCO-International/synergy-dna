@@ -83,3 +83,22 @@ export const QuietIcon = {
     return createButton('quiet', true);
   },
 };
+
+export const ButtonGroup = {
+  render: (args, context) => {
+    const container = document.createElement('div');
+
+    
+    const buttonGroup1 = document.createElement('div');
+    buttonGroup1.append(createButton('primary', true));
+    buttonGroup1.append(createButton('secondary', true));
+
+    const buttonGroup2 = document.createElement('div');
+    buttonGroup2.append(createButton('primary', true));
+    buttonGroup2.append(createButton('secondary', true));
+
+    container.append(buttonGroup1);
+    container.append(buttonGroup2);
+    return container;
+  },
+};

@@ -140,9 +140,8 @@ textarea {
 
     /* Background hover */
     &:hover + label::before {
-      border-style: solid;
-      border-width: var(--sds-component-switch-border-width-hover);
-      border-color: var(--sds-component-switch-color-hover-border-color);
+      border-width: 0;
+      outline: var(--sds-component-switch-border-width-hover) solid var(--sds-component-switch-color-hover-border-color);
       background-color: var(--sds-component-switch-color-hover-background-color);
     }
 

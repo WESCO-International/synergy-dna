@@ -630,7 +630,7 @@
         "hover": {
           "background-color": "#ffffff",
           "foreground-color": "#646464",
-          "border-color": "#8b8b8b"
+          "border-color": "#0099d8"
         },
         "key-focus": {
           "background-color": "#ffffff",

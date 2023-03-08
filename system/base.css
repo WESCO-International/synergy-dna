@@ -47,7 +47,7 @@ hr {
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 	border: 0;
-	border-bottom: 1px solid var(--sds-semantic-color-seperator-on-base);
+	border-bottom: 1px solid var(--sds-semantic-color-separator-on-base);
 }
 
 .default-content-wrapper {

@@ -28,31 +28,31 @@
     },
     "font-family": {
       "display": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "heading": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "eyebrow": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "subtitle": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "caption": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "mono": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Source Sans Pro, Source Sans Pro-fallback, sans-serif",
+        "value": "Roboto Serif, Roboto Serif-fallback, sans-serif",
         "type": "fontFamilies"
       },
       "icon": {
@@ -501,37 +501,37 @@
     "color": {
       "primary": {
         "base": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.sds.primary.base}",
           "type": "color"
         },
         "dark": {
-          "value": "{global.color.brand.eecol.primary.dark}",
+          "value": "{global.color.brand.sds.primary.dark}",
           "type": "color"
         },
         "darker": {
-          "value": "{global.color.brand.eecol.primary.darker}",
+          "value": "{global.color.brand.sds.primary.darker}",
           "type": "color"
         },
         "darkest": {
-          "value": "{global.color.brand.eecol.primary.darkest}",
+          "value": "{global.color.brand.sds.primary.darkest}",
           "type": "color"
         }
       },
       "secondary": {
         "base": {
-          "value": "{global.color.brand.eecol.secondary.base}",
+          "value": "{global.color.brand.sds.secondary.base}",
           "type": "color"
         },
         "dark": {
-          "value": "{global.color.brand.eecol.secondary.dark}",
+          "value": "{global.color.brand.sds.secondary.dark}",
           "type": "color"
         },
         "darker": {
-          "value": "{global.color.brand.eecol.secondary.darker}",
+          "value": "{global.color.brand.sds.secondary.darker}",
           "type": "color"
         },
         "darkest": {
-          "value": "{global.color.brand.eecol.secondary.darkest}",
+          "value": "{global.color.brand.sds.secondary.darkest}",
           "type": "color"
         }
       },
@@ -545,11 +545,11 @@
           "type": "color"
         },
         "layer-2": {
-          "value": "{global.color.brand.eecol.primary.darkest}",
+          "value": "{global.color.brand.sds.primary.darkest}",
           "type": "color"
         },
         "layer-3": {
-          "value": "{global.color.brand.eecol.primary.dark}",
+          "value": "{global.color.brand.sds.primary.dark}",
           "type": "color"
         },
         "disabled": {
@@ -568,11 +568,11 @@
       "foreground": {
         "on-base": {
           "default": {
-            "value": "{global.color.static.gray.800}",
+            "value": "{global.color.brand.sds.secondary.base}",
             "type": "color"
           },
           "heading": {
-            "value": "{global.color.brand.eecol.primary.darkest}",
+            "value": "{global.color.brand.sds.primary.darkest}",
             "type": "color"
           },
           "subtle": {
@@ -586,11 +586,11 @@
         },
         "on-layer-1": {
           "default": {
-            "value": "{global.color.static.gray.800}",
+            "value": "{global.color.brand.sds.secondary.base}",
             "type": "color"
           },
           "heading": {
-            "value": "{global.color.brand.eecol.primary.darkest}",
+            "value": "{global.color.brand.sds.primary.darkest}",
             "type": "color"
           },
           "subtle": {
@@ -685,7 +685,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{global.color.static.gray.200}",
+          "value": "{global.color.brand.sds.primary.base}",
           "type": "color"
         },
         "down": {
@@ -693,7 +693,7 @@
           "type": "color"
         },
         "key-focus": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.sds.primary.base}",
           "type": "color"
         },
         "disabled": {
@@ -703,15 +703,15 @@
       },
       "link": {
         "base": {
-          "value": "{global.color.brand.eecol.primary.dark}",
+          "value": "{global.color.brand.sds.primary.dark}",
           "type": "color"
         },
         "hover": {
-          "value": "{global.color.brand.eecol.primary.base}",
+          "value": "{global.color.brand.sds.primary.base}",
           "type": "color"
         }
       },
-      "seperator": {
+      "separator": {
         "on-base": {
           "value": "{global.color.static.gray.200}",
           "type": "color"

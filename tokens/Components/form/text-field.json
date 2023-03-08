@@ -50,11 +50,11 @@
             "type": "color"
           },
           "foreground-color": {
-            "value": "{component.form.color.foreground-color.sucess.default}",
+            "value": "{component.form.color.foreground-color.success.default}",
             "type": "color"
           },
           "border-color": {
-            "value": "{component.form.color.border.sucess}",
+            "value": "{component.form.color.border.success}",
             "type": "color"
           }
         },

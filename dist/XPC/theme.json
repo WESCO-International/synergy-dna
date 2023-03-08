@@ -1338,12 +1338,12 @@
         "default": {
           "background-color": "#ffffff",
           "foreground-color": "#ffffff",
-          "border-color": "#dee0df"
+          "border-color": "#8b8b8b"
         },
         "checked": {
           "background-color": "#db6b30",
           "foreground-color": "#ffffff",
-          "border-color": "#dee0df"
+          "border-color": "#8b8b8b"
         },
         "hover": {
           "background-color": "#ffffff",
@@ -1456,7 +1456,7 @@
           "border-color": "#b3b5b4"
         },
         "placeholder": "#909090",
-        "icon": "#dee0df"
+        "icon": "#646464"
       },
       "border-radius": "4px",
       "round": "9999px",

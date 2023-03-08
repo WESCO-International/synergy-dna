@@ -70,7 +70,7 @@ export const SecondaryIcon = {
   },
 };
 
-export const Quite = {
+export const Quiet = {
   args: {
     label: 'Button',
     variant: 'quiet',

@@ -1,4 +1,4 @@
-export function makeButton({ testid, label = 'GO', href, onClick, classes, variant }) {
+export function makeButton({ testid, label = 'GO', href, onClick, classes, variant='primary' }) {
 
   const el = document.createElement(href ? 'a' : 'button');
   el.classList.add('button');

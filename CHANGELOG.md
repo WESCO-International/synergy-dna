@@ -1,3 +1,27 @@
+## [1.1.38](https://github.com/wesco-international/synergy-dna/compare/v1.1.37...v1.1.38) (2023-03-08)
+
+
+### Bug Fixes
+
+* added SDS and changed EECOL theme ([a024d34](https://github.com/wesco-international/synergy-dna/commit/a024d34cd9a9653042f85a3bbc8e69c98f957d75))
+* added wesco theme ([6a27770](https://github.com/wesco-international/synergy-dna/commit/6a277702c3113ad75cf667fa2baea006d8e223c7))
+* checkbox fixes ([f2687c3](https://github.com/wesco-international/synergy-dna/commit/f2687c33375f2d19c21730796b467cf78ca8bedd))
+* checkbox updates ([2225486](https://github.com/wesco-international/synergy-dna/commit/222548629cd859985285a638c1dea309ccd335ea))
+* color ([f768c07](https://github.com/wesco-international/synergy-dna/commit/f768c0779c1fa213b1a35a2bca9fa5c77d5c163f))
+* eecol type fix ([66f1d9a](https://github.com/wesco-international/synergy-dna/commit/66f1d9a6f826277e649e5677164528d7b5c9493a))
+* radio fixes ([89c5baf](https://github.com/wesco-international/synergy-dna/commit/89c5bafad670a2509120b040766d5afac1d91ebb))
+* sdjfl ([7fa161f](https://github.com/wesco-international/synergy-dna/commit/7fa161f20c63c39615e7f6d24f77b59f2fef08bc))
+* SDS theme updates ([d27ee91](https://github.com/wesco-international/synergy-dna/commit/d27ee916853e96f37014c9d50c16e7eef645640f))
+* SDS update ([4a38203](https://github.com/wesco-international/synergy-dna/commit/4a38203220636ffc22816d924f15023945596fc4))
+* separator token ([6b6e119](https://github.com/wesco-international/synergy-dna/commit/6b6e1191e386523ea35d68325bbb50fd099c2e85))
+* spelling and radio fixes ([ba310ac](https://github.com/wesco-international/synergy-dna/commit/ba310ac01544b2e385db3781335661a279d7015c))
+* switch background ([08c65e6](https://github.com/wesco-international/synergy-dna/commit/08c65e6596d4c2a60f463b45ae76ea08fd7f89ea))
+* system build ([b177eda](https://github.com/wesco-international/synergy-dna/commit/b177eda02c4ffe422167f2c836f3b12973d435dc))
+* wesco theme addition ([344fec8](https://github.com/wesco-international/synergy-dna/commit/344fec84a7320545946570276797730048fdca49))
+* wesco theme type update ([8c4d317](https://github.com/wesco-international/synergy-dna/commit/8c4d317b9ec54444448096c43272638053f95a8f))
+* XPC theme changes ([002df4c](https://github.com/wesco-international/synergy-dna/commit/002df4c96553cca2ffb2b68956272bd189fbf238))
+* XPC theme updates ([41dc089](https://github.com/wesco-international/synergy-dna/commit/41dc089f107ac72717e18be136748160f66e0586))
+
 ## [1.1.37](https://github.com/wesco-international/synergy-dna/compare/v1.1.36...v1.1.37) (2023-03-07)
 
 

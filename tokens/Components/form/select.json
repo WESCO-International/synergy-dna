@@ -91,7 +91,7 @@
           "type": "color"
         },
         "icon": {
-          "value": "{semantic.color.border.base}",
+          "value": "{component.select.color.default.foreground-color}",
           "type": "color"
         }
       },

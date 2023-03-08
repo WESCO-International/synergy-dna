@@ -1,3 +1,10 @@
+## [1.1.39](https://github.com/wesco-international/synergy-dna/compare/v1.1.38...v1.1.39) (2023-03-08)
+
+
+### Bug Fixes
+
+* form elements ([db4ade7](https://github.com/wesco-international/synergy-dna/commit/db4ade769f54feb12da18692ecbbf3e6a55b18be))
+
 ## [1.1.38](https://github.com/wesco-international/synergy-dna/compare/v1.1.37...v1.1.38) (2023-03-08)
 
 

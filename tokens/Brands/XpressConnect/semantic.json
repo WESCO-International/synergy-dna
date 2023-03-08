@@ -183,7 +183,7 @@
       },
       "border": {
         "base": {
-          "value": "{global.color.static.gray.600}",
+          "value": "{global.color.static.gray.200}",
           "type": "color"
         },
         "hover": {

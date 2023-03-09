@@ -80,7 +80,7 @@
             },
             "hover": {
               "background-color": {
-                "value": "{global.color.brand.eecol.primary.dark}",
+                "value": "{semantic.color.primary.base}",
                 "type": "color"
               },
               "foregound-color": {

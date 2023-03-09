@@ -7,7 +7,7 @@ module.exports = {
       presets: ['@babel/preset-react']
     };
   },
-  webpackFinal: async (config) => { // 👈 and add this here
+  webpackFinal: async (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
       '@sds-theme': path.resolve(__dirname, '../dist/'),

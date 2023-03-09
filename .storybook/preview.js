@@ -43,6 +43,27 @@ const customViewports = {
   },
 };
 
+const custonBrands = {
+  wesco: {
+    id: "wesco",
+    name: "WESCO",
+    active: true,
+    icon: './logos/wesco.svg'
+  },
+  eecol: {
+    id: "eecol",
+    name: "EECOL",
+    active: true,
+    icon: './logos/eecol.svg'
+  },
+  xpc: {
+    id: "xpc",
+    name: "Wire Express",
+    active: true,
+    icon: './logos/xpc.svg'
+  }
+}
+
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
@@ -61,4 +82,9 @@ export const parameters = {
       ...customViewports,
     },
   },
-}
+  brand: {
+    brands: {
+      ...custonBrands,
+    },
+  }
+};

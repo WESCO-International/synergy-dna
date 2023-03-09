@@ -149,7 +149,7 @@
       },
       "line-height": {
         "text": {
-          "value": "{semantic.line-height.body}",
+          "value": "{semantic.line-height.form}",
           "type": "lineHeights"
         }
       },

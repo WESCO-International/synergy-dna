@@ -1,37 +1,29 @@
 const path = require('path');
 module.exports = {
-  "stories": [
-    "../docs/**/*.mdx",
-    "../docs/**/*.stories.@(js|jsx|ts|tsx)"
-  ],
-  "addons": [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
-  ],
-  core: {
-    builder: '@storybook/builder-vite',
-  },
+  "stories": ["../docs/**/*.mdx", "../docs/**/*.stories.@(js|jsx|ts|tsx)"],
+  "addons": ["@dylandepass/franklin-storybook-addon", "@storybook/addon-links", "@storybook/addon-essentials", "@storybook/addon-interactions"],
   babel: async () => {
     return {
-      presets: ['@babel/preset-react'],
+      presets: ['@babel/preset-react']
     };
   },
-  viteFinal: async config => {
-    config.build = { ...(config.build ?? {}), target: 'esnext' };
+  webpackFinal: async (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
       '@sds-theme': path.resolve(__dirname, '../dist/'),
-      '@sds-stories': path.resolve(__dirname, '../docs/stories'),
+      '@sds-stories': path.resolve(__dirname, '../docs/stories')
     };
     return config;
   },
   "framework": {
-    "name": "@storybook/html-vite",
+    "name": "@storybook/html-webpack5",
     "options": {}
   },
   "docs": {
     "autodocs": "tag"
   },
-  "staticDirs": ['./', {from: '../dist', to: './dist'}],
-}
+  "staticDirs": ['./', {
+    from: '../dist',
+    to: '/dist'
+  }]
+};

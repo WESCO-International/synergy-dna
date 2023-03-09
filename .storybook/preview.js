@@ -48,7 +48,7 @@ const customViewports = {
 const custonBrands = {
   wesco: {
     id: "wesco",
-    name: "WESCO",
+    name: "Wesco",
     active: true,
     icon: './logos/wesco.svg'
   },

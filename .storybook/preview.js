@@ -58,7 +58,7 @@ const custonBrands = {
   },
   xpc: {
     id: "xpc",
-    name: "Wire Express",
+    name: "XpressConnect",
     active: true,
     icon: './logos/xpc.svg'
   }

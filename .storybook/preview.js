@@ -1,3 +1,5 @@
+import { FranklinSourceDecorator } from '@dylandepass/franklin-storybook-addon';
+
 const customViewports = {
   xs: {
     name: "XS",
@@ -62,3 +64,7 @@ export const parameters = {
     },
   },
 }
+
+export const decorators = [
+  FranklinSourceDecorator,
+];

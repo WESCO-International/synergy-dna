@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 
 import { useParameter } from '@storybook/api';
-import { Icons, IconButton, WithTooltip, TooltipLinkList } from '@storybook/components';
+import { IconButton, WithTooltip, TooltipLinkList } from '@storybook/components';
 
 
 export const Brands = memo(() => {
@@ -60,7 +60,14 @@ export const Brands = memo(() => {
   );
 });
 
+const logos = {
+  EECOL: '/logos/eecol-long.png',
+  WESCO: '/logos/wesco-long.png',
+  XPC: '/logos/wesco-long.png',
+}
+
 function setBrand(brand) {
   const iframe = document.querySelector('#storybook-preview-iframe').contentDocument;
   iframe.head.querySelector('#brand-theme').href = `./dist/${brand}/theme.css`;
+  document.querySelector('.sidebar-header img').src = logos[brand];
 }

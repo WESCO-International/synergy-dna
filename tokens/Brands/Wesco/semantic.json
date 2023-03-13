@@ -559,10 +559,6 @@
         "input": {
           "value": "{global.color.static.white}",
           "type": "color"
-        },
-        "modal": {
-          "value": "{global.color.static.transparent.black.400}",
-          "type": "color"
         }
       },
       "foreground": {

@@ -557,7 +557,7 @@
           "type": "color"
         },
         "modal": {
-          "value": "{global.color.static.pink.600}",
+          "value": "{global.color.static.white}",
           "type": "color"
         }
       },
@@ -719,6 +719,22 @@
         "on-layer-2": {
           "value": "{global.color.brand.sds.secondary.darker}",
           "type": "color"
+        }
+      },
+      "overlay": {
+        "background": {
+          "image-light": {
+            "value": "{global.color.static.transparent.white.800}",
+            "type": "color"
+          },
+          "image-dark": {
+            "value": "{global.color.static.transparent.black.800}",
+            "type": "color"
+          },
+          "modal": {
+            "value": "{global.color.static.transparent.black.400}",
+            "type": "color"
+          }
         }
       }
     },

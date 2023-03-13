@@ -34,7 +34,7 @@
           "level-0": {
             "default": {
               "background-color": {
-                "value": "{global.color.static.pink.400}",
+                "value": "{semantic.color.background.base}",
                 "type": "color"
               },
               "foregound-color": {
@@ -70,7 +70,7 @@
           "level-1": {
             "default": {
               "background-color": {
-                "value": "{global.color.static.pink.400}",
+                "value": "{semantic.color.background.base}",
                 "type": "color"
               },
               "foregound-color": {
@@ -90,7 +90,7 @@
             },
             "key-focus": {
               "background-color": {
-                "value": "{global.color.static.pink.400}",
+                "value": "{semantic.color.background.base}",
                 "type": "color"
               },
               "foregound-color": {

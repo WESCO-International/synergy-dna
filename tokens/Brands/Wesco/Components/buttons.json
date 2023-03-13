@@ -27,7 +27,7 @@
       },
       "letter-spacing": {
         "label": {
-          "value": "{semantic.letter-spacing.default}",
+          "value": "{semantic.letter-spacing.body}",
           "type": "letterSpacing"
         }
       },

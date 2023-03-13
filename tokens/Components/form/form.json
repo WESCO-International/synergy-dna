@@ -53,11 +53,11 @@
       },
       "letter-spacing": {
         "placeholder": {
-          "value": "{semantic.letter-spacing.default}",
+          "value": "{semantic.letter-spacing.body}",
           "type": "letterSpacing"
         },
         "icon": {
-          "value": "{semantic.letter-spacing.default}",
+          "value": "{semantic.letter-spacing.body}",
           "type": "letterSpacing"
         }
       },

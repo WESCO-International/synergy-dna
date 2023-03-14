@@ -1,34 +1,10 @@
 {
   "component": {
     "button": {
-      "font-size": {
-        "label": {
-          "value": "{semantic.font-size.body.lg}",
-          "type": "fontSizes"
-        }
-      },
       "font-family": {
         "label": {
           "value": "{semantic.font-family.body}",
           "type": "fontFamilies"
-        }
-      },
-      "line-height": {
-        "label": {
-          "value": "{semantic.line-height.button}",
-          "type": "lineHeights"
-        }
-      },
-      "font-weight": {
-        "label": {
-          "value": "{semantic.font-weight.body.semi-bold}",
-          "type": "fontWeights"
-        }
-      },
-      "letter-spacing": {
-        "label": {
-          "value": "{semantic.letter-spacing.default}",
-          "type": "letterSpacing"
         }
       },
       "typography": {
@@ -58,7 +34,7 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.transparent}",
+              "value": "{semantic.color.primary.darkest}",
               "type": "color"
             }
           },
@@ -72,7 +48,7 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.transparent}",
+              "value": "{semantic.color.primary.dark}",
               "type": "color"
             }
           },
@@ -86,7 +62,7 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.transparent}",
+              "value": "{semantic.color.primary.dark}",
               "type": "color"
             }
           },
@@ -114,7 +90,7 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{semantic.color.transparent}",
+              "value": "{semantic.color.background.disabled}",
               "type": "color"
             }
           }
@@ -262,106 +238,6 @@
               "type": "color"
             }
           }
-        }
-      },
-      "border-width": {
-        "primary": {
-          "default": {
-            "value": "{semantic.border-width.none}",
-            "type": "borderWidth"
-          },
-          "hover": {
-            "value": "{semantic.border-width.none}",
-            "type": "borderWidth"
-          },
-          "down": {
-            "value": "{semantic.border-width.none}",
-            "type": "borderWidth"
-          },
-          "key-focus": {
-            "value": "{semantic.border-width.lg}",
-            "type": "borderWidth"
-          },
-          "disabled": {
-            "value": "{semantic.border-width.none}",
-            "type": "borderWidth"
-          }
-        },
-        "secondary": {
-          "default": {
-            "value": "{semantic.border-width.md}",
-            "type": "borderWidth"
-          },
-          "hover": {
-            "value": "{semantic.border-width.md}",
-            "type": "borderWidth"
-          },
-          "down": {
-            "value": "{semantic.border-width.md}",
-            "type": "borderWidth"
-          },
-          "key-focus": {
-            "value": "{semantic.border-width.lg}",
-            "type": "borderWidth"
-          },
-          "disabled": {
-            "value": "{semantic.border-width.md}",
-            "type": "borderWidth"
-          }
-        },
-        "quiet": {
-          "default": {
-            "value": "{semantic.border-width.none}",
-            "type": "borderWidth"
-          },
-          "hover": {
-            "value": "{semantic.border-width.none}",
-            "type": "borderWidth"
-          },
-          "down": {
-            "value": "{semantic.border-width.none}",
-            "type": "borderWidth"
-          },
-          "key-focus": {
-            "value": "{semantic.border-width.lg}",
-            "type": "borderWidth"
-          },
-          "disabled": {
-            "value": "{semantic.border-width.none}",
-            "type": "borderWidth"
-          }
-        }
-      },
-      "border-radius": {
-        "primary": {
-          "value": "{semantic.border-radius.md}",
-          "type": "borderRadius"
-        },
-        "secondary": {
-          "value": "{semantic.border-radius.md}",
-          "type": "borderRadius"
-        },
-        "quiet": {
-          "value": "{semantic.border-radius.md}",
-          "type": "borderRadius"
-        }
-      },
-      "paragraph-spacing": {
-        "label": {
-          "value": "0",
-          "type": "paragraphSpacing"
-        }
-      },
-      "text-decoration": {
-        "label": {
-          "value": "none",
-          "type": "textDecoration"
-        }
-      },
-      "text-case": {
-        "label": {
-          "value": "uppercase",
-          "type": "textCase"
         }
       },
       "spacing": {

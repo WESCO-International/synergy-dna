@@ -1,10 +1,5 @@
 {
   "pattern": {
-    "modal": {
-      "color": {
-        "overlay": "#0f172a66"
-      }
-    },
     "footer": {
       "color": {
         "topbar": {
@@ -31,7 +26,7 @@
             "base": "#ffffff"
           }
         },
-        "separator": "#646464"
+        "separator": "#00695E"
       }
     },
     "header": {
@@ -55,7 +50,7 @@
         "navbar": {
           "level-0": {
             "default": {
-              "background-color": "#F4F6F5",
+              "background-color": "#f687b3",
               "foregound-color": "#360036"
             },
             "hover": {
@@ -70,7 +65,7 @@
           },
           "level-1": {
             "default": {
-              "background-color": "#F4F6F5",
+              "background-color": "#f687b3",
               "foregound-color": "#360036"
             },
             "hover": {
@@ -78,7 +73,7 @@
               "foregound-color": "#360036"
             },
             "key-focus": {
-              "background-color": "#F4F6F5",
+              "background-color": "#f687b3",
               "foregound-color": "#360036",
               "border-color": "#800080"
             }
@@ -194,32 +189,32 @@
     "radio": {
       "color": {
         "default": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#ffffff",
           "border-color": "#8b8b8b"
         },
         "checked": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#5A015A",
           "border-color": "#8b8b8b"
         },
         "hover": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#ffffff",
           "border-color": "#800080"
         },
         "key-focus": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#ffffff",
           "border-color": "#800080"
         },
         "disabled": {
-          "background-color": "#e6e6e6",
+          "background-color": "#f687b3",
           "foreground-color": "#646464",
-          "border-color": "#b3b5b4"
+          "border-color": "#004D40"
         },
         "error": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#ffffff",
           "border-color": "#B91817"
         },
@@ -279,32 +274,32 @@
     "checkbox": {
       "color": {
         "default": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#ffffff",
           "border-color": "#8b8b8b"
         },
         "checked": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#5A015A",
           "border-color": "#8b8b8b"
         },
         "hover": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#ffffff",
           "border-color": "#800080"
         },
         "key-focus": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#ffffff",
           "border-color": "#800080"
         },
         "disabled": {
-          "background-color": "#e6e6e6",
+          "background-color": "#f687b3",
           "foreground-color": "#646464",
-          "border-color": "#b3b5b4"
+          "border-color": "#004D40"
         },
         "error": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#ffffff",
           "border-color": "#B91817"
         },
@@ -368,7 +363,7 @@
     "switch": {
       "color": {
         "default": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#ffffff",
           "border-color": "#8b8b8b"
         },
@@ -388,9 +383,9 @@
           "border-color": "#800080"
         },
         "disabled": {
-          "background-color": "#e6e6e6",
+          "background-color": "#f687b3",
           "foreground-color": "#646464",
-          "border-color": "#b3b5b4"
+          "border-color": "#004D40"
         },
         "error": {
           "background-color": "#ffffff",
@@ -398,7 +393,7 @@
           "border-color": "#B91817"
         },
         "label": "#00B7B1",
-        "knob": "#ffffff"
+        "knob": "#fff5f7"
       },
       "border-radius": "9999px",
       "border-width": {
@@ -458,36 +453,36 @@
     "select": {
       "color": {
         "default": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#646464",
           "border-color": "#8b8b8b"
         },
         "hover": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#646464",
           "border-color": "#800080"
         },
         "key-focus": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#5A015A",
           "border-color": "#800080"
         },
         "success": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#5A015A",
           "border-color": "#2D7966"
         },
         "error": {
-          "background-color": "#ffffff",
+          "background-color": "#fed7e2",
           "foreground-color": "#B91817",
           "border-color": "#B91817"
         },
         "disabled": {
-          "background-color": "#e6e6e6",
+          "background-color": "#f687b3",
           "foreground-color": "#646464",
-          "border-color": "#b3b5b4"
+          "border-color": "#004D40"
         },
-        "placeholder": "#909090",
+        "placeholder": "#97266d",
         "icon": "#646464"
       },
       "border-radius": "4px",
@@ -569,9 +564,9 @@
           "border-color": "#B91817"
         },
         "disabled": {
-          "background-color": "#e6e6e6",
+          "background-color": "#f687b3",
           "foreground-color": "#646464",
-          "border-color": "#b3b5b4"
+          "border-color": "#004D40"
         },
         "placeholder": "#9fa09f",
         "icon": "#646464"
@@ -752,17 +747,17 @@
           "default": {
             "background-color": "#1F001F",
             "foreground-color": "#ffffff",
-            "border-color": "#00000000"
+            "border-color": "#1F001F"
           },
           "hover": {
             "background-color": "#5A015A",
             "foreground-color": "#ffffff",
-            "border-color": "#00000000"
+            "border-color": "#5A015A"
           },
           "down": {
             "background-color": "#5A015A",
             "foreground-color": "#ffffff",
-            "border-color": "#00000000"
+            "border-color": "#5A015A"
           },
           "key-focus": {
             "background-color": "#1F001F",
@@ -770,9 +765,9 @@
             "border-color": "#800080"
           },
           "disabled": {
-            "background-color": "#e6e6e6",
+            "background-color": "#f687b3",
             "foreground-color": "#646464",
-            "border-color": "#00000000"
+            "border-color": "#f687b3"
           }
         },
         "secondary": {
@@ -832,11 +827,11 @@
       },
       "border-width": {
         "primary": {
-          "default": "0px",
-          "hover": "0px",
-          "down": "0px",
+          "default": "2px",
+          "hover": "2px",
+          "down": "2px",
           "key-focus": "3px",
-          "disabled": "0px"
+          "disabled": "2px"
         },
         "secondary": {
           "default": "2px",
@@ -887,7 +882,7 @@
   },
   "semantic": {
     "letter-spacing": {
-      "default": "0%",
+      "body": "0%",
       "icon": "0%",
       "display": "-1%",
       "heading": 0,
@@ -1078,31 +1073,31 @@
       },
       "background": {
         "base": "#ffffff",
-        "layer-1": "#F4F6F5",
+        "layer-1": "#e6e6e6",
         "layer-2": "#1F001F",
         "layer-3": "#5A015A",
-        "disabled": "#e6e6e6",
-        "input": "#ffffff",
-        "modal": "#00000066"
+        "disabled": "#f687b3",
+        "input": "#fed7e2",
+        "modal": "#ffffff"
       },
       "foreground": {
         "on-base": {
           "default": "#00B7B1",
           "heading": "#1F001F",
-          "subtle": "#6d6d6d",
-          "muted": "#909090"
+          "subtle": "#d53f8c",
+          "muted": "#97266d"
         },
         "on-layer-1": {
           "default": "#00B7B1",
           "heading": "#1F001F",
-          "subtle": "#6d6d6d",
-          "muted": "#909090"
+          "subtle": "#d53f8c",
+          "muted": "#97266d"
         },
         "on-layer-2": {
-          "default": "#ffffff",
-          "heading": "#ffffff",
-          "subtle": "#6d6d6d",
-          "muted": "#909090"
+          "default": "#fff5f7",
+          "heading": "#fff5f7",
+          "subtle": "#d53f8c",
+          "muted": "#97266d"
         },
         "on-primary": {
           "default": "#ffffff",
@@ -1131,20 +1126,27 @@
       },
       "transparent": "#00000000",
       "border": {
-        "base": "#dee0df",
+        "base": "#00B7B1",
         "hover": "#800080",
-        "down": "#dee0df",
+        "down": "#00958C",
         "key-focus": "#800080",
-        "disabled": "#b3b5b4"
+        "disabled": "#004D40"
       },
       "link": {
         "base": "#5A015A",
         "hover": "#800080"
       },
       "separator": {
-        "on-base": "#dee0df",
-        "on-layer-1": "#c9cac9",
-        "on-layer-2": "#646464"
+        "on-base": "#00B7B1",
+        "on-layer-1": "#00958C",
+        "on-layer-2": "#00695E"
+      },
+      "overlay": {
+        "background": {
+          "image-light": "#ffffffe6",
+          "image-dark": "#000000e6",
+          "modal": "#00000066"
+        }
       }
     },
     "border-radius": {
@@ -1849,6 +1851,15 @@
           "y": "2px",
           "blur": "4px",
           "spread": "0px"
+        }
+      }
+    }
+  },
+  "{global": {
+    "color": {
+      "static": {
+        "pink": {
+          "400}": "#F4F6F5"
         }
       }
     }

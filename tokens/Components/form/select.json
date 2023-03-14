@@ -161,7 +161,7 @@
       },
       "letter-spacing": {
         "text": {
-          "value": "{semantic.letter-spacing.default}",
+          "value": "{semantic.letter-spacing.body}",
           "type": "letterSpacing"
         }
       },

@@ -45,7 +45,7 @@
 
 .button-container {
 	display: block;
-	margin-right: 10px;
+	margin-right: var(--sds-semantic-spacing-around-component-md);
 
 	@media (--sds-screen-md) {
 		display: inline-block;

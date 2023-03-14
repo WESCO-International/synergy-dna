@@ -537,7 +537,11 @@
       },
       "background": {
         "base": {
-          "value": "{global.color.static.pink.100}",
+          "value": "{global.color.static.white}",
+          "type": "color"
+        },
+        "layer-1": {
+          "value": "{theme.color.gray.200}",
           "type": "color"
         },
         "layer-2": {

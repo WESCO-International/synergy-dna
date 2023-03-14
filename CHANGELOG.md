@@ -1,3 +1,31 @@
+# [1.2.0](https://github.com/wesco-international/synergy-dna/compare/v1.1.41...v1.2.0) (2023-03-14)
+
+
+### Bug Fixes
+
+* button token borders ([dd1ac01](https://github.com/wesco-international/synergy-dna/commit/dd1ac01770afa1ca9a9b5352a59bf68ed96966dc))
+* casing ([01e5247](https://github.com/wesco-international/synergy-dna/commit/01e5247b82a1e543ae06629f9ec397f1fc84195d))
+* cleanup comment ([881d58b](https://github.com/wesco-international/synergy-dna/commit/881d58b07b6712e0cff94843b71ed1fc83792465))
+* curly bracket issue ([5f730f2](https://github.com/wesco-international/synergy-dna/commit/5f730f2ba5d4d00a8151896f258226f0b62388de))
+* EECOL header colors ([1586704](https://github.com/wesco-international/synergy-dna/commit/15867045dd24c807828d662fbf32713ae60dd070))
+* I needed clear identifiers to show when tokens were applied so I updated a few of the SDS color assignments. ([3a055ee](https://github.com/wesco-international/synergy-dna/commit/3a055ee3f1cc4f542d88d3f199918c7aecb95d6e))
+* layer 1 background color ([f6e5686](https://github.com/wesco-international/synergy-dna/commit/f6e5686e84ede65fe55399c1663d5b2dda3e88e2))
+* letter spacing from default to body ([0a015e3](https://github.com/wesco-international/synergy-dna/commit/0a015e35ad4a9a2cf9a2b9b3e763cfb2326820f7))
+* load images from logos directory ([1048139](https://github.com/wesco-international/synergy-dna/commit/104813937bb94b9ec1caca70dcb22abec07cca94))
+* margin mixin ([8dd9c57](https://github.com/wesco-international/synergy-dna/commit/8dd9c5748100a4c8ab377aa70a83e0d824ef2acc))
+* re-added layer-1 ([c3831ea](https://github.com/wesco-international/synergy-dna/commit/c3831eabc8f22f2b70f40c0a8f9063e9d848cda1))
+* removed overrides ([4dfc876](https://github.com/wesco-international/synergy-dna/commit/4dfc87683a48c81ab510ab59234e5a4ba15a16a8))
+* use token for margin-right in `button-container` ([f9b2c31](https://github.com/wesco-international/synergy-dna/commit/f9b2c31862fe006f1976d3d56a31aecbd2a3ee57))
+* Wesco header colors ([a996a14](https://github.com/wesco-international/synergy-dna/commit/a996a14e660a28d9c54679e0acd16712ab2af0b0))
+* XPC ([18dfbb3](https://github.com/wesco-international/synergy-dna/commit/18dfbb3d26b3b8227cbb38fe4540dacf58fcee95))
+* XPC naming ([774fe7c](https://github.com/wesco-international/synergy-dna/commit/774fe7c8c1e4af03d29acaf06b308e705eb57b74))
+* Xpress Connect header colors ([4a82a97](https://github.com/wesco-international/synergy-dna/commit/4a82a97f9f94658738a23dfefd14aef1cc9c018f))
+
+
+### Features
+
+* use Franklin Storybook Addon for Code Preview ([1eecbef](https://github.com/wesco-international/synergy-dna/commit/1eecbefd98bf29f2154e348b72eb28307ce66980))
+
 ## [1.1.41](https://github.com/wesco-international/synergy-dna/compare/v1.1.40...v1.1.41) (2023-03-08)
 
 

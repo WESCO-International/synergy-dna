@@ -256,7 +256,7 @@
 
 /* margin */
 @define-mixin margin $size {
-  padding: var(--sds-semantic-spacing-around-component-$(size));
+  margin: var(--sds-semantic-spacing-around-component-$(size));
 }
 
 @define-mixin margin-top $size {
